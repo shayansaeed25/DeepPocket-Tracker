@@ -1,54 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "\u2018This dip could use a little orange\u2019: Michael Saylor\u2019s Strategy buys another 485 BTC for $33 million as bitcoin tumbles",
-  "link": "https://www.theblock.co/news/business/2026-11-16-this-dip-could-use-a-little-orange-michael-saylor-strategy-bitcoin-tumbles-440886",
-  "timestamp": 1794835835.4185786
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Hovers in $64,000 Range as 17% Monthly Plunge Keeps ETF Outflows Flowing - BigGo Finance",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xa0s0WmNMYkhWZnVwcmFiUWRfbzE1dTVwTUVocFo5WjRLZG9RU2kzMjF0RTRyZVp6bFRqZnpTcXBDcklzTkVRY2VQNGh0aFZrandNRlh1UXJ2R3VlQjNNZ2tKR2tRMFZqNFBXajBNYkt3TmxUY2c?oc=5",
-  "timestamp": 1794835836.921567
- },
- {
-  "coin": "SOL",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Solana price drops to four-month low as ETF outflows hit 6 weeks - Crypto News",
-  "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ZZ1VMQWRISnA1WlhkNTJ4eUtyUFRvUlk4S1RzbGtNZFRWVmdGS3ZueWVKYjExQkRxYXBCWXBtWlpuVXFoWWltU01WRWxWLXJ6UV9naVE3VFQzSXNsRVdiT0FYTEw2dk1DZy1Gb1pQenJBQkFMM053?oc=5",
-  "timestamp": 1794835837.475956
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Strategy buys $33M in Bitcoin, spends $228M on STRC buybacks",
-  "link": "https://cointelegraph.com/news/strategy-buy-485-bitcoin-228-million-strc-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-  "timestamp": 1794837637.8185952
- },
- {
-  "coin": "WLD",
-  "category": "Listing",
-  "impact": "Bullish",
-  "title": "Grayscale Files for WLD ETF, Targeting Nasdaq Listing - CoinMarketCap",
-  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdl9sR3JaMDd6Uk9ZZ05vQVlzU1dvQURNclc0bjhUd2I3VHROalp1c2tBSzBNd094SnM3amJMTC00a05NOVNfTGxndHdXbWRHVmpQek8tclZzWDNEak9ZcGk5X2NfRDMxakpWWXZ4cTY2R2VUVlVPRFMwWmhkalZlUmJaMy1XdjVvbUVUU3BLM1dCS1FhSEJvdUlR?oc=5",
-  "timestamp": 1794837639.137912
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Is Crypto in Trouble? The Fed, ETF Outflows, and US Politics - CryptoRank",
-  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNelpWcTU0aEotYU9uU2JJYjhJRTVlU29aaElmOGNISnptSEFiQW9FV0tjZ2RPeDNYQWhhRnQ2c2pDR3BBMUM5VjU0dmpGZmdnYUJ5Qmx5ZWNSTGo2S0dVRmZfV1VBSDYtcHp4dC1MVzU1Umg5S3lsX2d4WjAzX2lNazQ5RGZHS0JfV3NEdGtNTnhyZjBadEl1eWtvTWxfNDA?oc=5",
-  "timestamp": 1794837639.6853578
- },
- {
-  "coin": "BTC",
   "category": "Regulation",
   "impact": "Mixed",
   "title": "North Korea Stole $400 Million in Crypto Using Deepfake Video Calls, DOJ Says",
@@ -1182,5 +1134,13 @@
   "title": "Bitcoin Slides to $63,400 as ETF Outflows and Fed Rate-Hike Bets Erase Summer Gains - BigGo Finance",
   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zTzVLcmtDdVV1MDVsa1lVZTdOY1pjLWhVYXo3XzA5WUx4Sk5FNHlIVWlSbFNsS2VBRkQ4NWtYU0h0RzdvaDRkZ21ncENSRi1zblNWQXpWODkxNlJza0xCbFJJWkxnaDliamI0V0NtUW5ELVY4N0E?oc=5",
   "timestamp": 1795093339.5521119
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin holds above $63,750 as ETF outflows and Fed rate risks weigh on crypto - Traders Union",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRFNnYVRlNEdfOENQSzM0NEVjNkRjcjBEd1FJVW1lbVkweFJXemxFV2lTVEVJV3RwVG1xa0FHRXU1dFFPZl9mZUktWV9vdkpCR2xEaE9uOUZBZ1lmRGc5T0dsZ3UxYzNOYk5vUHd5aVB5RDY2UVpfT0ZSNlduOHl1b2tQdk1kQU4tMThUT2xid0FHVXBv?oc=5",
+  "timestamp": 1795096939.3862748
  }
 ]
