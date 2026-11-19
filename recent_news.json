@@ -2,14 +2,6 @@
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Harvard and Dartmouth Keep BlackRock Bitcoin ETF Stakes Steady as IBIT Gains 42% in Q3: 7 outlets compared - NewsCord",
-  "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaHJtdEMyQWtaWGRpUUhQTzNrSzRCa0Z5SU9pd29Xa0ZSUmFQRm9KQjN1UmlYU0R6YU9zTWYxdVZadkVqOFlTUmdidktfM0ViUFdWU3RKczV5cEhnMzhOOFVMekZfMnh6bFdHX2pTMS0zdm5zZ3FQMzFPTWtlajNGS1ZYS0I2My1FNE9JQ1pRYVlvQVM0OE5fZk9lbXVqNkFiU05XdHBmY1dTekxCbGIxUlY3NFVkVU5NNXNaWnQwZUFzX1Q3U3FRMHRSM29JMmdtcWF5bGtrOVM5UUNFNy1ObGhkd25abUFk?oc=5",
-  "timestamp": 1794830263.4313886
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
   "impact": "Bearish",
   "title": "Bitcoin Price Today: BTC Loses $65K Support: CZ Weighs Anthropic IPO and ETF Outflows - Brave New Coin",
   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaU5jNGhBX3JROGhteGxyWXVrRmp5NjB2YWhNUmdJLWNmZ0dyQl9YUGhURlhuUFJKbUdtSFZDUzBEQXd3Rm9lQk1UMEI2cHIxLXlBbGp6TjVNbWo4V3ZISTFCU3hodTBZUzJiZEFJSG9oNlN5bU1FWUdaemJYWDdKWWVvTldiWFNiOUx1V01XT2xyWmtPX1BUQnk2Z0lEbzBhYm9pSVJmRHJmT2s5QjRKd0Iza0NkeVk?oc=5",
@@ -1190,5 +1182,13 @@
   "title": "Binance unlocks 20x BlackRock IBIT ETF trades with a weekend catch - Cryptonews.net",
   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzanJZZDN2TWlPQmlFeXNUNTQyRDJicy13VjZMd2c5R1RJSzg3bjU4ZFdBVHBBNVhETkQyUlJBUHNxZHIycnhtRE9yM1lvQldQQ1hCdG9naw?oc=5",
   "timestamp": 1795087628.8194735
+ },
+ {
+  "coin": "SKY",
+  "category": "Hack / Exploit",
+  "impact": "Bearish",
+  "title": "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk",
+  "link": "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk",
+  "timestamp": 1795089737.9623876
  }
 ]
