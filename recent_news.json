@@ -3,30 +3,6 @@
   "coin": "BTC",
   "category": "Hack / Exploit",
   "impact": "Bearish",
-  "title": "Hackers Redirected Bitcoin Miner Rewards via AI Attack, Luxor CEO Says",
-  "link": "https://decrypt.co/383392/hackers-redirected-bitcoin-miner-rewards-ai-attack-luxor",
-  "timestamp": 1794864631.3653314
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Bitcoin Heading for $40K? Deribit Traders Sound the Alarm With $60K Put Bets",
-  "link": "https://cryptopotato.com/bitcoin-heading-for-40k-deribit-traders-sound-the-alarm-with-60k-put-bets/",
-  "timestamp": 1794866440.973973
- },
- {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
-  "title": "CFTC data shows 2,375 net long Bitcoin contracts for week ending November 10 - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNc1piS0h4eHU5V1hGTHlieHFiMDVDa0dBbVI0dVM4aVlHVzNNek4xR0NmcFUwSEJyclNYMGt1dUU0N01lZ1N5U1Zfb3dLa3JjQmh5cFh4R2FQV0NVSXhBZHFkUTdJVURsR1hMOVVfRXVOck91MHRVa1huZ2EtRXhpLUhDMU9lWnRwV2VMd1AzWFBKcVg2Z0lpS1pnQy12UGF4bi0xVHltWW1jdFBmVGhQMm0xLUV4STljZ1RoRjdCN2NaTm5sUWhqQnA1azdhci1mZlhwN3E1aGQ?oc=5",
-  "timestamp": 1794866442.610737
- },
- {
-  "coin": "BTC",
-  "category": "Hack / Exploit",
-  "impact": "Bearish",
   "title": "Bitcoin Wallet Maker Trezor Says Customer Data Was Exposed Again",
   "link": "https://decrypt.co/383397/bitcoin-wallet-trezor-third-party-breach-customer-data",
   "timestamp": 1794868232.119901
