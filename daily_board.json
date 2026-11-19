@@ -13,6 +13,19 @@
    "timeframe": "1h",
    "session": "LONDON_NY_OVERLAP",
    "time": "15:03"
+  },
+  {
+   "key": "NEARUSDT|SHORT|STRATEGY",
+   "symbol": "NEARUSDT",
+   "direction": "SHORT",
+   "source": "Consensus: Elite Trend, Quant Prime",
+   "score": 100.0,
+   "tier": "A",
+   "price": 3.274,
+   "stop": 3.347665,
+   "timeframe": "1h",
+   "session": "LONDON_NY_OVERLAP",
+   "time": "16:04"
   }
  ],
  "posted_slots": [

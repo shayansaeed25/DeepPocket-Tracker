@@ -1,21 +1,5 @@
 [
  {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin ETF Outflows and $3B in Liquidations Put Market Under Pressure - Coinpedia",
-  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb2kybWx2UmlrcVl6aUFOamwxNlpxOWdnanVSYnZCSWl6YjBSTzlIMmgtdG1KNWZEMjdmcmE1UG1NUW1Vb08xNE1LaTZzRDZjR1kyZUJxU2VBNzlxSDloLVBTVXBGOGpnaTRvSUUyRUF0cHFjU3RxdUxJdldYdnAxZ0s1dWdrSkJqanFVbm5JZGJXVklKazlaLVRrY1E2Z9IBowFBVV95cUxOVkQtTU5LYXE3R3FyRUhZSDFmWTNEUUtNLTRBVTdQUFJjaVdtM196akJqdkVTM2ZuNks1blVPbXZ1TFVrWERwNmhRU2tEd0VpcFpYX1hSNTA5UGxIS1FDWHI4NkNUbDVXVWhTY1JNT2dNcm1wQkZualEwWEEwdjFTWlk2OTZsTEI5djF2Z1MyQ3dQbEMzWDdnTV9DMzlhbHhzU0lz?oc=5",
-  "timestamp": 1794843034.620439
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Harvard, Dartmouth Hold Bitcoin ETF Stakes Steady as IBIT Gains 42% - CoinMarketCap",
-  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdWdBbFp3RFo5MmRDaFBmTXhlM2d2VlJ0dy1GR0hHVjM0MVlSNWdaZktjUkVOYU1meGpCZDB5Vl8ybUxhRjhpekRzdnBqQVdoek82bjA2MS00a21tWG9oX2dmYi1sckF4Qk9oQkhJY2FQYTQzQzVJUkxBbTBBSEViVl9lQ04xX3JObDFlOHB1dU4xUQ?oc=5",
-  "timestamp": 1794844841.6093829
- },
- {
   "coin": "XRP",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
@@ -1126,5 +1110,21 @@
   "title": "INSTITUTIONAL | Bitcoin ETF Outflows Cross $2.5 Billion in 2 - KuCoin",
   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yVDlrUGJ5S0ExNjFCUTZYTVk3TFlHcElQdkJ3cW9RS2JZMVBjcU1IQXZDeE5Xb052MmdZY2FvOEFrSHFiNU5VeS13b3RkeWZLWGJQUXNKbFBHZ2JlTmZKWFFvZWZRLW9Yai1xWFRTTzY5dw?oc=5",
   "timestamp": 1795100541.1336389
+ },
+ {
+  "coin": "BTC",
+  "category": "Regulation",
+  "impact": "Mixed",
+  "title": "Hill, Moreno blame delays for missed Clarity Act window but differ on reach of agency rulemaking",
+  "link": "https://www.theblock.co/news/regulation/2026-11-19-hill-moreno-blame-delays-missed-clarity-act-window-split-regulators-fill-gap-443615",
+  "timestamp": 1795104147.4913151
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "BlackRock: Bitcoin ETF to Grow as Tokenization Becomes Mainstream - Benzinga",
+  "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZmpiNTJIODBmRWhNMHdPTUx2Q3paQVV4b1pId0E5RklpbkUxUlFpUGVGVy1LQThmY3RYUGp2SzhoQzdvQi15ckZqNXRnOVRaNW9DX05rcThNTXZ3NFE0bUFUTk9UNlMxU3J3SEtGdUZLNVk4aDQxTUt5N0txcE90Z0oxMVBNVlBjNFNvS0dyd1JBU2RTSmFWYUFTRkpoMEpFVkRLVHNVX3I3bDVSaUJSb0h2NHVHZmhBOWZhYldUTUdZUkRF?oc=5",
+  "timestamp": 1795104148.46364
  }
 ]
