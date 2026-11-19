@@ -1,54 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "Macro / Fed / CPI",
-  "impact": "Mixed",
-  "title": "FOMC minutes, Nvidia earnings, Russia\u2019s retail crypto rules: Crypto Week Ahead",
-  "link": "https://www.coindesk.com/markets/2026/11/16/fomc-minutes-nvidia-earnings-russia-s-retail-crypto-rules-crypto-week-ahead",
-  "timestamp": 1794821430.6367545
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Harvard, Dartmouth Keep BlackRock Bitcoin ETF Stakes as Fund Gains 42% in Third Quarter - bloomingbit",
-  "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1JM2xtbjI2dlJCWVhOSXRtT2JhVnp2QXc0b05qbXZOaUpQQ21TenNsRlZQeF9WU2VmZDJVbmxqUF9DcDRIRXdBTHBma0RhdE5TWUxpOA?oc=5",
-  "timestamp": 1794821432.2716684
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Harvard, Dartmouth Hold BlackRock Bitcoin ETF Stakes; 42% Q3 Gain - BigGo Finance",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ubUw4WDdGSEw3UVV0THFnQmVYMlZBSUtEWjlqNUw5NlBZZ0Z0Tk9wUUYtV0MwcUpnVEsycWtJaWdKTV81X3hkaEVpYS1zNFlieW9RYXk0ZXhCeEg0dEZHeXRZZmhRUEJDTm92dHRrY3JCQ0tHU2c?oc=5",
-  "timestamp": 1794823241.0675242
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin slides to $64.3k as crypto sentiment dithers, ETF outflows persist - Investing.com",
-  "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYUx6RS1RSGwxWlk2NjlpUU9yLVYzQzNZVnVrTW8xbUxqdk5sckpVR1JpdV9sWS13bDdESW9UcHFfeDcwRVJQOC1xRUdRU0lBd2xrSHAxNGFOak5TLUR3YUtuX2NiWWljeDFWemh0Z21WQXdNMXZHWXpBRHhxcWVvc05sX3Q2UlRST083a1NhaEU3U19OTFg3VEZ3YVNwQWFXMml5bHQ5TDJqUU9icWVTaEJFdTdEaElKMjFiQjR4emxaTDZ6bVpxdUxWQzc?oc=5",
-  "timestamp": 1794825048.835086
- },
- {
-  "coin": "XRP",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Crypto Today: Bitcoin, Ethereum, XRP come under heavier selling pressure amid ETF outflows - www.tmgm.com",
-  "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLUsxUDZqc2hmMmMwbzk2aXdlRm1ZVzNHTlAydzFqUWFqVnptSDJNSTd1TUFtaHBBcFNsaWFzdnNtYVdmUGlZOW1OT0c2RjVxelNqT3Q3RG5QZEFfdG53NW4wMWxuS3FFWGQySjhDVGRYeFRVYS1iWDNsQ0hPSmlneVdtNXdObE51M2ROX29TSjhYWGpwRDdmdlFkRU9yYmd6Xzh4MkVSb08zZW85TkZoTzZNdjI0WkZkVm8zWFJia0N6d2RfNlBiNEN3ZWNEWWs0bUZSSzl4M3BLQkxaYVpZekln?oc=5",
-  "timestamp": 1794826841.9619002
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Why Bitcoin Slid to $62K Amidst Treasury Selling, ETF Outflows and High OI - CoinGape",
-  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeXktcnJIYkZCQU5hcUJFMUN3Q2Y5ci0tNzJGd01nVzhheWNrUVNuZ0FrREZfU0Q3OGZMZ3MyUUJtRDJBNTEtb1c3UUVZZ2NXby1Oekp4U1hhWVJETHJMWWV0YUtoS2YzdWdoQW95VmtDbjIyZm9VQUN3SjNtTkpoUVpxb0tfQi15YkpvVV9rZW4xSjI3MC1kOUlB?oc=5",
-  "timestamp": 1794826843.2875857
- },
- {
-  "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bullish",
   "title": "Harvard and Dartmouth Keep BlackRock Bitcoin ETF Stakes Steady as IBIT Gains 42% in Q3: 7 outlets compared - NewsCord",
@@ -1198,5 +1150,45 @@
   "title": "Bitcoin Price Forecast: BTC stalls as persistent ETF outflows and hawkish Fed minutes weigh on risk appetite - FXStreet",
   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNNTl5MkI5d3NpQ0dQcmdrT2prcTd0Y2J1NllKdWdRUEk1N2k4Uy0weXJ2d0JRa25Sdldfb2FpaGhRcnhPcWxoX0E5MjlaVVd3MXR6YzVxZHQyNzlGbkU2MWp3SnBFZkJFTF9WaGZqczJuaHluUTRsQTM3a2lRVU9sTVZTNUMyWjdRX2JRVHo5eENOVW1WQ0hTdHRSUktTN0dSYkotVVVDeXVVby1rLXpKMG5tZWJUYUlvWFBfTTFINGxXNllaUmwySS16QjdzYXJjd2lFTmFBN2Z0VzAxTmZmYVViTWR0RVVCbTZWQWhtNURlR3dfY2huTmdVcw?oc=5",
   "timestamp": 1795080600.457201
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November",
+  "link": "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november",
+  "timestamp": 1795087626.5305057
+ },
+ {
+  "coin": "USDC",
+  "category": "Partnership",
+  "impact": "Bullish",
+  "title": "1inch integrates Hyperliquid\u2019s perpetual futures contracts into its dApp and wallet platform",
+  "link": "https://www.theblock.co/news/web3/2026-11-19-1inch-integrates-hyperliquid-perpetual-futures-443574",
+  "timestamp": 1795087627.0561223
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November - Decrypt",
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcDBHZnpGUDMtLXc3QTlWOEVGZ3JtT2J3WkJQdGk5YlpiNHVjSkFOeGVwVmtLdU1NUkJlSk1oM09Pd3A2ckxaeG56dUJWZnBFY3RZMTNVd3VSTmFOTFMzY0kxbEZvLWxtV19XWkpVanRGeERxMnlmMldEX0NEejA5T251cHdXTmtsN0J3el9nTXVHT3REZmhGU2pB?oc=5",
+  "timestamp": 1795087627.9353473
+ },
+ {
+  "coin": "OP",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Crypto Market Pulse: ETF outflows and macro pressure threaten to offset Anthropic IPO optimism - FXStreet",
+  "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWkZld0Y3WXhRSWFiOEVhRi1BZWJXQVNGcjNFVURiRGlRTWpscHotMlE0YzlraEh6dDZKMEhtTzFXX0Z0aDBzbzNtaklfY1pKRGlvcUZ5MjlzSnhsQURtNTBQelo5N1ROUWdrblRrREFhV2JyMlhET0tDbE5EZFNvTkkzZW9leDBnUjNES0Jvd3RZNmNEU2ZlUXJJbWxQWmlfWUFmTldzZDRQUlkwWlNwRWxrcmtfQTJxZ3I4cG9aZGRHQjZ4WGhvUHVfSUtYNENkRGhKMkp3YWRxcUFaeGtYWFZqS1IxYzBi?oc=5",
+  "timestamp": 1795087628.3686683
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Binance unlocks 20x BlackRock IBIT ETF trades with a weekend catch - Cryptonews.net",
+  "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzanJZZDN2TWlPQmlFeXNUNTQyRDJicy13VjZMd2c5R1RJSzg3bjU4ZFdBVHBBNVhETkQyUlJBUHNxZHIycnhtRE9yM1lvQldQQ1hCdG9naw?oc=5",
+  "timestamp": 1795087628.8194735
  }
 ]
