@@ -1,37 +1,5 @@
 [
  {
-  "coin": "XRP",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Crypto Today: ETF Outflows Accompany Mounting Selling Pressure on Bitcoin, Ethereum and XRP - www.tmgm.com",
-  "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbjF1SXZ4ZDRGeDBDWlRjQlhYQkhpNjgxNFBXak96ejRINkFqVEFxTU9zRC16ajIzZWlHR2FtZUs3aDEtQnVJd09yNWxlWndhT3pmTUM1WEYtdDZKSzFvODNWcmF6Y1ptNzNiREt0aGZBLXVGaTFTUVVWeWw3QTFSUmxKb1ZBcnA3VGxORFF5Qk1XQW5BbnlRVWRyRzJVT1VLUXg3Zm00NXFUb3d4R1ZaSW14bnNjaUxpVXhSV2lQVmRRNDhIOWM4dDFFWk41VWFvODYyYVVpSWpZTVVrUUdXNXV3?oc=5",
-  "timestamp": 1794846638.5000181
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin muted at $64.4k as crypto sentiment dithers, ETF outflows persist - Investing.com",
-  "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYUx6RS1RSGwxWlk2NjlpUU9yLVYzQzNZVnVrTW8xbUxqdk5sckpVR1JpdV9sWS13bDdESW9UcHFfeDcwRVJQOC1xRUdRU0lBd2xrSHAxNGFOak5TLUR3YUtuX2NiWWljeDFWemh0Z21WQXdNMXZHWXpBRHhxcWVvc05sX3Q2UlRST083a1NhaEU3U19OTFg3VEZ3YVNwQWFXMml5bHQ5TDJqUU9icWVTaEJFdTdEaElKMjFiQjR4emxaTDZ6bVpxdUxWQzc?oc=5",
-  "timestamp": 1794848443.6122677
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin faces $2.1B in November ETF outflows as rebound stays unconfirmed - Cryptonews.net",
-  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zSE9QTXlBQ3F6TVpzRHdtTTI0dUhSR1RJWlFyMjRUMnA0MllSMHFWTWpQRW5SWkU5dUVqMDd0RzlXb0NKNGJJMFV6LTloY01mUW9lNW1RbXI?oc=5",
-  "timestamp": 1794848444.18319
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Why Bitcoin Slid to $62K Amidst Treasury Selling, ETF Outflows and High OI - Cryptonews.net",
-  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBnOFZnTVJGMl9ZTGY0QW5IOEVjZlNQLWJhU0ZCTGowYWxBZm9VVWE1cXVKNnViS2toNm52UERHN3JhR0tKUG9Oa0tDTnRMMEhtS2FISVBZdF8?oc=5",
-  "timestamp": 1794848444.7475836
- },
- {
   "coin": "BTC",
   "category": "Macro / Fed / CPI",
   "impact": "Mixed",
@@ -1126,5 +1094,29 @@
   "title": "BlackRock: Bitcoin ETF to Grow as Tokenization Becomes Mainstream - Benzinga",
   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZmpiNTJIODBmRWhNMHdPTUx2Q3paQVV4b1pId0E5RklpbkUxUlFpUGVGVy1LQThmY3RYUGp2SzhoQzdvQi15ckZqNXRnOVRaNW9DX05rcThNTXZ3NFE0bUFUTk9UNlMxU3J3SEtGdUZLNVk4aDQxTUt5N0txcE90Z0oxMVBNVlBjNFNvS0dyd1JBU2RTSmFWYUFTRkpoMEpFVkRLVHNVX3I3bDVSaUJSb0h2NHVHZmhBOWZhYldUTUdZUkRF?oc=5",
   "timestamp": 1795104148.46364
+ },
+ {
+  "coin": "SOL",
+  "category": "Mainnet / Upgrade",
+  "impact": "Bullish",
+  "title": "Solana Is Planning Its Next Major Upgrades: Here\u2019s What Changes",
+  "link": "https://cryptopotato.com/solana-is-planning-its-next-major-upgrades-heres-what-changes/",
+  "timestamp": 1795107740.7352211
+ },
+ {
+  "coin": "OP",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Crypto Market Pulse: ETF outflows and macro pressure threaten to offset Anthropic IPO optimism - www.tmgm.com",
+  "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQblNQamxzeDhZZFVzeTJRT1JiQWZJbXFMbFBxWFBQME5NcnY4SzNrbDVJcWpJUjhJanBZRGo3Rmw1TFZndFBVRlJtWGxMbVBBd0RJYVNfQnVjQ0Y4bFRiQWJNVnBBXzVpQ2NQWUU0R2F3QWxqT1JndWlFMXpCMFhNSEdHMDBGRUN2SktWLWx3WGR6TEFHSmxyZ3hLa2xYUW1CRDlNUkN2OHVBLTFhY1JkQ3hBZy0yRGowcUppS3FaSmh4Y0lCZlBscWdGZ3pCTm9YN1V3Z1pmcE9nbjVoakVTOG1JemVaTTFLMG1mT0V2SjA?oc=5",
+  "timestamp": 1795107741.725474
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Ongoing ETF outflows may deepen liquidity challenges for Bitcoin and restrict further advances - Traders Union",
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZzBMVDlJS2xPT0wwWGg3WGFsckYtN2xxYjBPcnZCeFNfRDU0elVCZWloeC1hNWswZnZWQ3BJeTg5S1VhWVk5NjNwTzllM3RWWGJwSWpPVncyTXpDSjVIQ0FqYUhwZjJ3c09XZ1ZCMVh2TTVVR0JhcnJqMzZrRUJ6QVQwVTFyVC12LTNwczl2SkVTb3JFS2k4Nno3NA?oc=5",
+  "timestamp": 1795107742.1896098
  }
 ]

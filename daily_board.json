@@ -26,6 +26,32 @@
    "timeframe": "1h",
    "session": "LONDON_NY_OVERLAP",
    "time": "16:04"
+  },
+  {
+   "key": "BTCUSDT|SHORT|STRATEGY",
+   "symbol": "BTCUSDT",
+   "direction": "SHORT",
+   "source": "Consensus: Smart Money CVD Breakdown, Smart Money EMA20 Pullback, Elite Trend",
+   "score": 100.0,
+   "tier": "A",
+   "price": 62778.08,
+   "stop": 63473.94313495,
+   "timeframe": "1h",
+   "session": "US_SESSION",
+   "time": "17:03"
+  },
+  {
+   "key": "BCHUSDT|SHORT|STRATEGY",
+   "symbol": "BCHUSDT",
+   "direction": "SHORT",
+   "source": "Apex Trend",
+   "score": 86.6,
+   "tier": "A",
+   "price": 205.5,
+   "stop": 210.12375,
+   "timeframe": "4h",
+   "session": "US_SESSION",
+   "time": "17:03"
   }
  ],
  "posted_slots": [

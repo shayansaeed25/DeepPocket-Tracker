@@ -1,27 +1,27 @@
 {
-  "computed_at": 1795104153.7379544,
-  "score": -50.0,
+  "computed_at": 1795107747.9513564,
+  "score": -50.8,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -90.6,
-      "note": "1h ↓ RSI 43 · 4h ↓ RSI 38 · 1d ↓ RSI 22 · 7d -14.8%",
+      "score": -93.0,
+      "note": "1h ↓ RSI 37 · 4h ↓ RSI 35 · 1d ↓ RSI 21 · 7d -14.8%",
       "weight": 0.3
     },
     "news": {
-      "score": -53.0,
-      "note": "143 headlines · 5 bullish / 36 bearish",
+      "score": -48.3,
+      "note": "140 headlines · 7 bullish / 34 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -10.9,
-      "note": "S&P -0.1% · DXY -0.1% · VIX 26",
+      "score": -15.3,
+      "note": "S&P -1.2% · DXY -0.0% · VIX 25",
       "weight": 0.1
     },
     "us10y": {
-      "score": -12.2,
-      "note": "5.06% · -0 bps 1d · -4 bps 5d · flat",
+      "score": -25.4,
+      "note": "5.09% · +2 bps 1d · -2 bps 5d · rising (headwind)",
       "weight": 0.1
     },
     "sentiment": {
@@ -30,13 +30,13 @@
       "weight": 0.1
     },
     "global": {
-      "score": -53.4,
-      "note": "mcap -3.6% 24h · BTC dom 58.1%",
+      "score": -47.4,
+      "note": "mcap -3.2% 24h · BTC dom 58.1%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": 4.5,
-      "note": "funding -0.0017% · taker buy 50.5%",
+      "score": 5.2,
+      "note": "funding +0.0023% · taker buy 50.7%",
       "weight": 0.1
     }
   },
@@ -46,20 +46,20 @@
       "impact": "Bearish"
     },
     {
-      "title": "'Almost all' Fed policymakers saw further interest rate hikes as likely",
+      "title": "J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists",
       "impact": "Bearish"
     },
     {
-      "title": "Bitcoin (BTC) price holds above $63,750 but Fed rate hike threats loom large: Crypto Markets Today",
+      "title": "'Almost all' Fed policymakers saw further interest rate hikes as likely",
       "impact": "Bearish"
     }
   ],
   "last_report_ts": 1795100549.4134367,
   "last_report_label": "STRONG BEARISH",
   "us10y": {
-    "level": 5.062,
-    "day_bps": -0.4,
-    "week_bps": -4.1,
-    "score": -12.2
+    "level": 5.086,
+    "day_bps": 2.0,
+    "week_bps": -1.7,
+    "score": -25.4
   }
 }
