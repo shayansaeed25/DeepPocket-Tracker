@@ -1,45 +1,5 @@
 [
  {
-  "coin": "ETH",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Ethereum gains while continued ETF outflows and risk-off mood limit recovery prospects - Traders Union",
-  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSzdkalRkd0pZeHB1amVSM2dHNFJZUWlmWndCdVNMTTRNM3RXWU9qRjI1azZ1cVNrV2dpTUFzMlN1WFdZaXdtMjBzYVdCRVJYa28zMHBOa2hCYjhrdjBDODJ4eU13TUREenptOFg4ZWY0WmNxYmVtLXRZVzF0c0ZWMldmMEFvOEk4ejZBMVhfcVpRLWduWm5sUG1n?oc=5",
-  "timestamp": 1794853833.0867374
- },
- {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
-  "title": "U.S. Senate Democrats tell CFTC to back off its demand prediction markets defy bans",
-  "link": "https://www.coindesk.com/policy/2026/11/16/u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans",
-  "timestamp": 1794855643.0134633
- },
- {
-  "coin": "BTC",
-  "category": "Macro / Fed / CPI",
-  "impact": "Mixed",
-  "title": "Fed Is Modeling AI 'Super Intelligence' Scenarios, Including Job Losses and a Stock Market Slump",
-  "link": "https://decrypt.co/383354/fed-modeling-ai-super-intelligence-scenarios-job-losses-stock-market",
-  "timestamp": 1794855643.742758
- },
- {
-  "coin": "USDC",
-  "category": "Hack / Exploit",
-  "impact": "Bearish",
-  "title": "Solflare CEO says AI security reviews are essential, touts \u2018bunker mode\u2019 and MoneyGram deal",
-  "link": "https://www.theblock.co/news/defi/2026-11-16-solflare-ceo-ai-security-reviews-bunker-mode-moneygram-441396",
-  "timestamp": 1794855644.5523186
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Glassnode: Bitcoin Drops 13% as ETF Outflows and Losses Mount - Bitbo",
-  "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iQlFDWHNWbFZWaE1RN182SklQdVJQSWIzUWdnU2ZjYXJvN2lqRWJ5d0xvaFJXVmROcTJjTHF0X3NIa3MwRW5oUWFLTDBZbXFVeTNVVDF1T1ZkZFVLY1NiNDlENVVhdw?oc=5",
-  "timestamp": 1794855645.72672
- },
- {
   "coin": "BTC",
   "category": "Regulation",
   "impact": "Mixed",
@@ -1110,5 +1070,13 @@
   "title": "Binance Opens 24/7 Leveraged Futures on BlackRock's Bitcoin ETF, With Weekend Liquidation Risk - BigGo Finance",
   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1iS2RhN2NWVGlWQzJUWUdwbFZ5R09kTEpFX0Nrc1k4VHpEem4zdTlhT0NaVHFKMmc0bW5YY1Y3SWJNRk1LdTJaM0p4Z2ZPeWxJc0FIY3pZcHFvcjVidlNJUjJnS1dMQ0NUdl9uT1dLU0Qxay1WR2c?oc=5",
   "timestamp": 1795111337.314566
+ },
+ {
+  "coin": "BTC",
+  "category": "Regulation",
+  "impact": "Mixed",
+  "title": "CFTC Chair Selig outlines how Hyperliquid and other onchain venues could enter the US",
+  "link": "https://www.theblock.co/news/regulation/2026-11-19-cftc-chair-selig-hyperliquid-onchain-venues-the-us-444106",
+  "timestamp": 1795114936.332218
  }
 ]
