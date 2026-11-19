@@ -1,13 +1,5 @@
 [
  {
-  "coin": "ETH",
-  "category": "Hack / Exploit",
-  "impact": "Bearish",
-  "title": "Peraire-Bueno brothers acquitted of wire fraud in $25 million Ethereum MEV case",
-  "link": "https://www.theblock.co/news/regulation/2026-11-16-peraire-bueno-brothers-acquitted-ethereum-mev-wire-fraud-441425",
-  "timestamp": 1794862840.5587137
- },
- {
   "coin": "BTC",
   "category": "Hack / Exploit",
   "impact": "Bearish",
@@ -1086,5 +1078,13 @@
   "title": "Key facts: BTCUSD Near $61,000; Demand Fell, ETF Outflows, Miner Sales - TradingView",
   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd0FSYV9vZUZhazMtay00cm5tRDh1UHpuYXpOa01xMEhfTDJMZTRUVS1YWlB5YnhWV3hYT3pNRkRwS3FrR2p3c0NTQ3BONlNJbnFFc1FONjRDMTcwR25YNzZYbHZRTHhWQ01HUVlDaU1zQ0kwMFFGSUdYSDJLY01sc0Y0NjZZY1FFekNOOWVweVI3dUZUTEw2Vlo4UmNRMDQ1bGZuQUpGcjJwYV9mR1Z1Z0xqX3hLNkRWeWZRMFZVak13bEFzN0E?oc=5",
   "timestamp": 1795118535.8992832
+ },
+ {
+  "coin": "OP",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Crypto Market Pulse: Can Anthropic IPO optimism withstand ETF outflows and macro pressure? - www.tmgm.com",
+  "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQemtIUjY0NXZOaVJYOTk5a0h0eDdxTDhrSlpuRVVPZ1Jrek9Wd0Mza2lwR2ljbVplQUVpWHdfaWNOQ2JEcTZUQ2tOSFNDNm1PMjRjei1RWGJBZGJtdzNLVWxMNGNLUlAydk1WazlKNzNRamM4RWE0d09DRm83dWtuTl9EeEx1TkJ5el9QakMta2kwbndwZElMQWFDaEpHdGR3WHdubEZPLUttRnJOc1RzNkhtblRxM0ppb1NLNW8yMTR2Q3I5NzFYSW1rVlZVemhWUndQZTRKYWg1dktUZmEyVVRFV0R3QTM1ZWdERDZRS0hReWlX?oc=5",
+  "timestamp": 1795122138.1502755
  }
 ]

@@ -52,6 +52,32 @@
    "timeframe": "4h",
    "session": "US_SESSION",
    "time": "17:03"
+  },
+  {
+   "key": "ZECUSDT|SHORT|STRATEGY",
+   "symbol": "ZECUSDT",
+   "direction": "SHORT",
+   "source": "Consensus: Alpha Prime, Smart Money CVD Breakdown, Elite Trend, Global Core, Apex Trend",
+   "score": 100.0,
+   "tier": "A",
+   "price": 888.67,
+   "stop": 908.665075,
+   "timeframe": "1h",
+   "session": "SESSION_TRANSITION",
+   "time": "21:03"
+  },
+  {
+   "key": "ENAUSDT|SHORT|STRATEGY",
+   "symbol": "ENAUSDT",
+   "direction": "SHORT",
+   "source": "Consensus: Alpha Prime, Smart Money CVD Breakdown, Elite Trend, Global Core",
+   "score": 100.0,
+   "tier": "A",
+   "price": 0.1053,
+   "stop": 0.10766925,
+   "timeframe": "1h",
+   "session": "SESSION_TRANSITION",
+   "time": "21:03"
   }
  ],
  "posted_slots": [

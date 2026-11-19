@@ -1,27 +1,27 @@
 {
-  "computed_at": 1795118540.9952438,
-  "score": -53.8,
+  "computed_at": 1795122142.4928195,
+  "score": -55.1,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -94.3,
-      "note": "1h ↓ RSI 34 · 4h ↓ RSI 34 · 1d ↓ RSI 21 · 7d -14.8%",
+      "score": -95.7,
+      "note": "1h ↓ RSI 31 · 4h ↓ RSI 32 · 1d ↓ RSI 20 · 7d -14.8%",
       "weight": 0.3
     },
     "news": {
-      "score": -50.6,
-      "note": "124 headlines · 5 bullish / 28 bearish",
+      "score": -56.9,
+      "note": "145 headlines · 6 bullish / 34 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -40.7,
-      "note": "S&P -1.9% · DXY +0.1% · VIX 27",
+      "score": -43.5,
+      "note": "S&P -2.0% · DXY +0.0% · VIX 28",
       "weight": 0.1
     },
     "us10y": {
-      "score": -11.1,
-      "note": "5.06% · -1 bps 1d · -4 bps 5d · flat",
+      "score": -6.8,
+      "note": "5.05% · -1 bps 1d · -5 bps 5d · flat",
       "weight": 0.1
     },
     "sentiment": {
@@ -30,13 +30,13 @@
       "weight": 0.1
     },
     "global": {
-      "score": -53.5,
-      "note": "mcap -3.6% 24h · BTC dom 57.9%",
+      "score": -47.1,
+      "note": "mcap -3.1% 24h · BTC dom 57.9%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": 1.3,
-      "note": "funding +0.0079% · taker buy 49.4%",
+      "score": -3.2,
+      "note": "funding +0.0058% · taker buy 47.9%",
       "weight": 0.1
     }
   },
@@ -50,16 +50,16 @@
       "impact": "Bearish"
     },
     {
-      "title": "Institutional Holdings of Bitcoin ETPs Reach New All-Time High",
-      "impact": "Bullish"
+      "title": "Dario Perkins: Questions remain about an AI market crash and Federal Reserve rate hikes",
+      "impact": "Bearish"
     }
   ],
   "last_report_ts": 1795100549.4134367,
   "last_report_label": "STRONG BEARISH",
   "us10y": {
-    "level": 5.06,
-    "day_bps": -0.6,
-    "week_bps": -4.3,
-    "score": -11.1
+    "level": 5.052,
+    "day_bps": -1.4,
+    "week_bps": -5.1,
+    "score": -6.8
   }
 }
