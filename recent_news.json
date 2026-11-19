@@ -1,13 +1,5 @@
 [
  {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
-  "title": "Clarity Act Defeat \u2018Failure of American Leadership\u2019: Trump\u2019s Former Crypto Chief",
-  "link": "https://decrypt.co/383356/clarity-act-defeat-failure-of-american-leadership-trumps-former-crypto-chief",
-  "timestamp": 1794858689.9260862
- },
- {
   "coin": "ETH",
   "category": "Hack / Exploit",
   "impact": "Bearish",
@@ -1078,5 +1070,21 @@
   "title": "CFTC Chair Selig outlines how Hyperliquid and other onchain venues could enter the US",
   "link": "https://www.theblock.co/news/regulation/2026-11-19-cftc-chair-selig-hyperliquid-onchain-venues-the-us-444106",
   "timestamp": 1795114936.332218
+ },
+ {
+  "coin": "OP",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Crypto Market Pulse: ETF outflows and macro pressure risk overshadowing Anthropic IPO optimism - www.tmgm.com",
+  "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOQlhuVk9mRWJkLWdUQmtVRmZ3eWZMZy1MeEgtUjFFaTkwU2RfXzZkMXUtdzctZE1QNXV4M2l1YV96czJRMDVwVWVEdzBiRnNrRVhwWlJOTjNobWlSbEwzWmt1NHBRSnB5TElLNmtQM2FOVjRXSloyb0pFMlhiS2hfbVlJV3B0dWFQd2doSFBTaE9sby1DNGM2SXFfMVpFeTBPdEhQc0VWWXFTOUFOLUdQVnBJZ1M1NUhCZnl5QmsxUHA5QmxsbUtwT1lQQ0pDNlpDZS1ZV2QzamhPRHF0bm5udU9BU2dGYm4xV0xjeTRjVFZnMjc4?oc=5",
+  "timestamp": 1795118535.2429428
+ },
+ {
+  "coin": "NEAR",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Key facts: BTCUSD Near $61,000; Demand Fell, ETF Outflows, Miner Sales - TradingView",
+  "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd0FSYV9vZUZhazMtay00cm5tRDh1UHpuYXpOa01xMEhfTDJMZTRUVS1YWlB5YnhWV3hYT3pNRkRwS3FrR2p3c0NTQ3BONlNJbnFFc1FONjRDMTcwR25YNzZYbHZRTHhWQ01HUVlDaU1zQ0kwMFFGSUdYSDJLY01sc0Y0NjZZY1FFekNOOWVweVI3dUZUTEw2Vlo4UmNRMDQ1bGZuQUpGcjJwYV9mR1Z1Z0xqX3hLNkRWeWZRMFZVak13bEFzN0E?oc=5",
+  "timestamp": 1795118535.8992832
  }
 ]
