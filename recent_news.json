@@ -1,22 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "Hack / Exploit",
-  "impact": "Bearish",
-  "title": "Bitcoin Wallet Maker Trezor Says Customer Data Was Exposed Again",
-  "link": "https://decrypt.co/383397/bitcoin-wallet-trezor-third-party-breach-customer-data",
-  "timestamp": 1794868232.119901
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Rebounds to $65,000 Level as Nvidia Earnings, ETF Outflows Take Focus - BigGo Finance",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UeW5yallvSVZ4d1dkaWlTb0tGTzI1ck1GdVdTV2NIUlNGdl9pbWlRa1dsTm1sSWVudnY5aktRTF9rU0w4U1dQWlA2OG9fMFZBenlkR3MzdHgxVmZnMW9TMHRjOEVVdWNOZFBYRDE2bDQxSHVaZGc?oc=5",
-  "timestamp": 1794870045.5050192
- },
- {
-  "coin": "BTC",
   "category": "Regulation",
   "impact": "Mixed",
   "title": "CFTC backs blockchain-based derivatives infrastructure as Backpack, tZERO win approvals",
@@ -1062,5 +1046,13 @@
   "title": "Crypto Market Pulse: Can Anthropic IPO optimism withstand ETF outflows and macro pressure? - www.tmgm.com",
   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQemtIUjY0NXZOaVJYOTk5a0h0eDdxTDhrSlpuRVVPZ1Jrek9Wd0Mza2lwR2ljbVplQUVpWHdfaWNOQ2JEcTZUQ2tOSFNDNm1PMjRjei1RWGJBZGJtdzNLVWxMNGNLUlAydk1WazlKNzNRamM4RWE0d09DRm83dWtuTl9EeEx1TkJ5el9QakMta2kwbndwZElMQWFDaEpHdGR3WHdubEZPLUttRnJOc1RzNkhtblRxM0ppb1NLNW8yMTR2Q3I5NzFYSW1rVlZVemhWUndQZTRKYWg1dktUZmEyVVRFV0R3QTM1ZWdERDZRS0hReWlX?oc=5",
   "timestamp": 1795122138.1502755
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Crypto Market Today, Nov. 19: Bitcoin Approaches $60,000 as ETF Outflows Surpass $2.5 Billion in 2026 - The Motley Fool",
+  "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOVC1yNlUxdFdOVG15TG1yblczMm02MFZnblBPUzF3bUZfV1FaQ2dMMHRrb1hWSHo4OTl0cGpVd2RUdnA5dVlGeDhuRTA4TGVZY0ttbTRQRHE2VVRIa2g3c1JMV0RxV1NvRXdxVDQxR1hwb1Q2MVFrTFh0cS14MHhHc1lob0szOGJxSWdYQmNVWEdKR2NBbU5TdURqTUZYcWl4UmIxZ3ZUaTI2aWJDZndmRjMyRkZLVzE0Z0xxUlpvM2JnUU80djFMUU5GM3Rsa2QwckIxTFYzMGR4TTNTTXVRRUF2MVNkakdBbHpWd2ZldDdwTkFlb2c?oc=5",
+  "timestamp": 1795129339.5051715
  }
 ]
