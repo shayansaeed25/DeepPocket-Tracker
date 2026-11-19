@@ -1,21 +1,5 @@
 [
  {
-  "coin": "BTC",
-  "category": "Macro / Fed / CPI",
-  "impact": "Mixed",
-  "title": "Supreme Court rejects Custodia Bank\u2019s bid for Fed master account",
-  "link": "https://www.theblock.co/news/regulation/2026-11-16-supreme-court-rejects-custodia-banks-bid-for-fed-master-account-441376",
-  "timestamp": 1794850234.3940566
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Harvard, Dartmouth Hold Bitcoin ETF Stakes Steady as IBIT Gains 42% - CryptoRank",
-  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSFZ1STVQTHotVDFxWHhpTzllUDRqU3VOVU1HLXlQanJKb0NKaVJhUnhPM0tQU3FTd211VTg3SE8wQ292dVFMdWRRRXBvRjJjUW9peUs4SV96cXd6WnZ0Q0FXUVBBTGNwWElPRklNdUU5UHB0THAtaGRNSXdHVlRLSQ?oc=5",
-  "timestamp": 1794852040.4698298
- },
- {
   "coin": "ETH",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
@@ -1118,5 +1102,13 @@
   "title": "Ongoing ETF outflows may deepen liquidity challenges for Bitcoin and restrict further advances - Traders Union",
   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZzBMVDlJS2xPT0wwWGg3WGFsckYtN2xxYjBPcnZCeFNfRDU0elVCZWloeC1hNWswZnZWQ3BJeTg5S1VhWVk5NjNwTzllM3RWWGJwSWpPVncyTXpDSjVIQ0FqYUhwZjJ3c09XZ1ZCMVh2TTVVR0JhcnJqMzZrRUJ6QVQwVTFyVC12LTNwczl2SkVTb3JFS2k4Nno3NA?oc=5",
   "timestamp": 1795107742.1896098
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Binance Opens 24/7 Leveraged Futures on BlackRock's Bitcoin ETF, With Weekend Liquidation Risk - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1iS2RhN2NWVGlWQzJUWUdwbFZ5R09kTEpFX0Nrc1k4VHpEem4zdTlhT0NaVHFKMmc0bW5YY1Y3SWJNRk1LdTJaM0p4Z2ZPeWxJc0FIY3pZcHFvcjVidlNJUjJnS1dMQ0NUdl9uT1dLU0Qxay1WR2c?oc=5",
+  "timestamp": 1795111337.314566
  }
 ]

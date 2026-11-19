@@ -108,11 +108,11 @@
     "created_ts": 1795104242083.2803,
     "position_size_usd": 100.0,
     "quantity": 30.543677458766034,
-    "last_price": 3.27,
-    "checked_through_ts": 1795107660000,
-    "last_checked_ts": 1795107660000,
-    "max_favorable_pct": 0.36652412950519686,
-    "max_adverse_pct": -0.9468540012217419
+    "last_price": 3.275,
+    "checked_through_ts": 1795111260000,
+    "last_checked_ts": 1795111260000,
+    "max_favorable_pct": 1.221747098350645,
+    "max_adverse_pct": -1.3133781307269388
   },
   {
     "symbol": "BTCUSDT",
@@ -217,7 +217,11 @@
     "created_ts": 1795107837524.8313,
     "position_size_usd": 100.0,
     "quantity": 0.0015929126854468947,
-    "last_price": 62778.08
+    "last_price": 62777.37,
+    "checked_through_ts": 1795111260000,
+    "last_checked_ts": 1795111260000,
+    "max_favorable_pct": 0.876547992547716,
+    "max_adverse_pct": -1.0043951646816929
   },
   {
     "symbol": "BCHUSDT",
@@ -326,6 +330,10 @@
     "created_ts": 1795107837951.1072,
     "position_size_usd": 100.0,
     "quantity": 0.48661800486618007,
-    "last_price": 205.5
+    "last_price": 206.8,
+    "checked_through_ts": 1795111260000,
+    "last_checked_ts": 1795111260000,
+    "max_favorable_pct": 0.6812652068126535,
+    "max_adverse_pct": -1.2165450121654597
   }
 ]
