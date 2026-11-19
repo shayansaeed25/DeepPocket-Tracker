@@ -1,0 +1,180 @@
+{
+  "pools": {
+    "BTC": {
+      "checked_at": 1793372550.7696452,
+      "pool": {
+        "network": "eth",
+        "address": "0x4585fe77225b41b697c938b018e2ac67ac5a20c0",
+        "token_side": "base",
+        "token_symbol": "WBTC",
+        "token_id": "wrapped-bitcoin",
+        "pool_name": "WBTC / WETH 0.05%",
+        "reserve_usd": 39988925.769,
+        "volume_24h_usd": 261257045.666131
+      }
+    },
+    "ETH": {
+      "checked_at": 1793372550.7696452,
+      "pool": {
+        "network": "eth",
+        "address": "0x4e68ccd3e89f51c3074ca5072bbac773960dfa36",
+        "token_side": "base",
+        "token_symbol": "WETH",
+        "token_id": "weth",
+        "pool_name": "WETH / USDT 0.3%",
+        "reserve_usd": 77709011.7796,
+        "volume_24h_usd": 469174611.920186
+      }
+    },
+    "SOL": {
+      "checked_at": 1793372550.7696452,
+      "pool": {
+        "network": "solana",
+        "address": "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE",
+        "token_side": "base",
+        "token_symbol": "SOL",
+        "token_id": "wrapped-solana",
+        "pool_name": "SOL / USDC",
+        "reserve_usd": 25600428.2071,
+        "volume_24h_usd": 177857761.65307
+      }
+    },
+    "XRP": {
+      "checked_at": 1793372550.7696452,
+      "pool": null
+    },
+    "BNB": {
+      "checked_at": 1793372550.7696452,
+      "pool": {
+        "network": "bsc",
+        "address": "0x6bbc40579ad1bbd243895ca0acb086bb6300d636",
+        "token_side": "quote",
+        "token_symbol": "WBNB",
+        "token_id": "wbnb",
+        "pool_name": "BTCB / WBNB 0.05%",
+        "reserve_usd": 28486020.5234,
+        "volume_24h_usd": 37372957.3655218
+      }
+    },
+    "UNI": {
+      "checked_at": 1793372550.7696452,
+      "pool": {
+        "network": "eth",
+        "address": "0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801",
+        "token_side": "base",
+        "token_symbol": "UNI",
+        "token_id": "uniswap",
+        "pool_name": "UNI / WETH 0.3%",
+        "reserve_usd": 14245789.9109,
+        "volume_24h_usd": 81475079.7136594
+      }
+    },
+    "ADA": {
+      "checked_at": 1793372550.7696452,
+      "pool": null
+    },
+    "AVAX": {
+      "checked_at": 1793372550.7696452,
+      "pool": {
+        "network": "avax",
+        "address": "0xf01449c0ba930b6e2caca3def3ccbd7a3e589534",
+        "token_side": "base",
+        "token_symbol": "WAVAX",
+        "token_id": "wrapped-avax",
+        "pool_name": "WAVAX / USDC 0.09%",
+        "reserve_usd": 10217297.383,
+        "volume_24h_usd": 43888016.2957717
+      }
+    },
+    "ATOM": {
+      "checked_at": 1792144547.4031773,
+      "pool": null
+    },
+    "TRX": {
+      "checked_at": 1793372550.7696452,
+      "pool": {
+        "network": "tron",
+        "address": "TSUUVjysXV8YqHytSNjfkNXnnB49QDvZpx",
+        "token_side": "quote",
+        "token_symbol": "WTRX",
+        "token_id": "wrapped-tron",
+        "pool_name": "USDT / WTRX 0.05%",
+        "reserve_usd": 212233169.8978,
+        "volume_24h_usd": 461846515.049576
+      }
+    },
+    "DOT": {
+      "checked_at": 1793372550.7696452,
+      "pool": null
+    },
+    "LTC": {
+      "checked_at": 1793372550.7696452,
+      "pool": null
+    },
+    "LINK": {
+      "checked_at": 1793372550.7696452,
+      "pool": {
+        "network": "eth",
+        "address": "0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8",
+        "token_side": "base",
+        "token_symbol": "LINK",
+        "token_id": "chainlink",
+        "pool_name": "LINK / WETH 0.3%",
+        "reserve_usd": 12808822.4392,
+        "volume_24h_usd": 86523625.1428974
+      }
+    },
+    "BCH": {
+      "checked_at": 1793372550.7696452,
+      "pool": null
+    },
+    "ENA": {
+      "checked_at": 1793372550.7696452,
+      "pool": {
+        "network": "eth",
+        "address": "0xc3db44adc1fcdfd5671f555236eae49f4a8eea18",
+        "token_side": "base",
+        "token_symbol": "ENA",
+        "token_id": "ethena",
+        "pool_name": "ENA / WETH 0.3%",
+        "reserve_usd": 3018031.8723,
+        "volume_24h_usd": 49915589.3519824
+      }
+    },
+    "SUI": {
+      "checked_at": 1793372550.7696452,
+      "pool": null
+    },
+    "AAVE": {
+      "checked_at": 1793372550.7696452,
+      "pool": {
+        "network": "eth",
+        "address": "0x5ab53ee1d50eef2c1dd3d5402789cd27bb52c1bb",
+        "token_side": "base",
+        "token_symbol": "AAVE",
+        "token_id": "aave",
+        "pool_name": "AAVE / WETH 0.3%",
+        "reserve_usd": 6201930.0774,
+        "volume_24h_usd": 27905243.6044777
+      }
+    },
+    "INJ": {
+      "checked_at": 1793372550.7696452,
+      "pool": null
+    },
+    "ONDO": {
+      "checked_at": 1793372550.7696452,
+      "pool": null
+    },
+    "ARB": {
+      "checked_at": 1793372550.7696452,
+      "pool": null
+    },
+    "OP": {
+      "checked_at": 1793372550.7696452,
+      "pool": null
+    }
+  },
+  "last_scan_epoch": 1793383354.962948,
+  "last_scan_iso": "2026-10-30T18:02:34.962948+00:00"
+}

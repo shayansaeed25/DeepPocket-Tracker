@@ -1,0 +1,41 @@
+name: DeepPocket Weekly Strategy Review
+
+on:
+  schedule:
+    - cron: "10 0 * * 1"   # Mondays 00:10 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deeppocket-weekly-review-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build strategy performance report (stdlib only)
+        run: python src/strategy_stats.py
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f reports/strategy_performance.csv reports/strategy_performance.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Weekly strategy performance report [skip ci]"
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase --autostash origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME" && break
+              echo "push attempt $attempt failed, retrying..."; sleep $((attempt * 3))
+            done
+          fi

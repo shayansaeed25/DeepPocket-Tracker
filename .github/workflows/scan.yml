@@ -1,0 +1,62 @@
+name: DeepPocket Tracker Scan
+
+on:
+  workflow_dispatch: {}   # Triggered hourly by cron-job.org (no duplicate GitHub schedule cron)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deeppocket-tracker-scan-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "requirements.txt"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run news monitor (bundled to save Actions minutes)
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          COINGECKO_DEMO_API_KEY: ${{ secrets.COINGECKO_DEMO_API_KEY }}
+        run: python src/news_monitor.py
+
+      - name: Run screener
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          COINGECKO_DEMO_API_KEY: ${{ secrets.COINGECKO_DEMO_API_KEY }}
+          GOOGLE_SHEETS_SPREADSHEET_ID: ${{ secrets.GOOGLE_SHEETS_SPREADSHEET_ID }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python src/screener.py
+
+      - name: Save signal cooldown state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for f in last_signals.txt open_trades.json deep_pocket_log.csv dex_flow_state.json \
+                   sheet_sync_pending.json discord_alert_cutover.json dashboard_reset.json \
+                   market_regime.json recent_news.json seen_news.txt daily_board.json \
+                   quality_symbols_cache.json backtest_rankings.json; do
+            if [ -e "$f" ]; then git add -f "$f"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m "Persist tracker events and scan state [skip ci]"
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase --autostash origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME" && break
+              echo "push attempt $attempt failed, retrying..."; sleep $((attempt * 3))
+            done
+          fi

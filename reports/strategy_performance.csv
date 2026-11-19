@@ -1,0 +1,9 @@
+Strategy,Mode,Total Trades,Wins,Losses,BE,Win Rate,Win Rate 95% CI,Avg Win,Avg Loss,Profit Factor,Expectancy (R),t-stat,Net P&L,Max Drawdown (R),Ambiguous,Recommendation
+Apex Trend,LIVE,1,0,0,1,0%,0-79%,0.95,0.00,inf,+0.42,-,+0.95,0.0,0,INSUFFICIENT DATA (1/30) - keep forward-testing
+"Consensus: Alpha Prime, Elite Trend, Global Core",LIVE,8,3,1,4,38%,14-69%,1.05,0.00,inf,+0.50,7.38,+8.42,0.0,0,INSUFFICIENT DATA (8/30) - keep forward-testing
+"Consensus: Alpha Prime, Prime Edge, Smart Money EMA20 Pullback, Elite Trend, Nova Alpha, Global Core, Quant Prime",LIVE,1,0,0,1,0%,0-79%,0.60,0.00,inf,+1.44,-,+0.60,0.0,0,INSUFFICIENT DATA (1/30) - keep forward-testing
+"Consensus: Alpha Prime, Smart Money CVD Breakdown, Elite Trend, Global Core",LIVE,4,3,0,1,75%,30-95%,1.33,0.00,inf,+0.67,8.72,+5.30,0.0,0,INSUFFICIENT DATA (4/30) - keep forward-testing
+"Consensus: Alpha Prime, Smart Money EMA20 Pullback, Elite Trend, Global Core",LIVE,1,0,1,0,0%,0-79%,0.00,-1.00,0.00,-1.43,-,-1.00,-1.4,0,INSUFFICIENT DATA (1/30) - keep forward-testing
+"Consensus: Elite Trend, Smart Vector, Apex Trend",LIVE,1,1,0,0,100%,21-100%,1.55,0.00,inf,+0.69,-,+1.55,0.0,0,INSUFFICIENT DATA (1/30) - keep forward-testing
+"Consensus: Smart Money EMA20 Pullback, Apex Trend",LIVE,1,0,0,1,0%,0-79%,0.94,0.00,inf,+0.46,-,+0.94,0.0,0,INSUFFICIENT DATA (1/30) - keep forward-testing
+"Consensus: Smart Vector, Apex Trend",LIVE,2,2,0,0,100%,34-100%,1.55,0.00,inf,+0.71,37.26,+3.10,0.0,0,INSUFFICIENT DATA (2/30) - keep forward-testing

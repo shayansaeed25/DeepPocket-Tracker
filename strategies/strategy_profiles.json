@@ -1,0 +1,507 @@
+{
+  "provenance": "QuantX DB and companion strategy metadata supplied in to_send_shayan_20260927_1646.zip",
+  "profiles": [
+    {
+      "item_id": 2881,
+      "rank": 1,
+      "name": "Alpha Prime",
+      "tag": "AP",
+      "archive_name": "Vanguard Prime",
+      "source_name": "Freqtrade Strategies",
+      "file_path": "user_data/strategies/Heracles.py",
+      "source_copy": "database_sources/2881_Heracles.py",
+      "item_type": "strategies",
+      "language": "auto",
+      "primary": "donchian",
+      "indicators": [
+        "donchian",
+        "keltner"
+      ],
+      "strategy_kind": "indicator",
+      "params": {
+        "fast": 8,
+        "slow": 26,
+        "length": 48,
+        "rsi_length": 15,
+        "rsi_oversold": 28,
+        "rsi_overbought": 80,
+        "bb_std": 2.4,
+        "tenkan": 8,
+        "kijun": 26,
+        "senkou": 53,
+        "atr_length": 17
+      },
+      "analysis": {
+        "confidence": 65,
+        "risk_level": "High",
+        "summary": "Heracles Strategy: A momentum-based strategy using the AgeFilter and ta.utils.dropna libraries. It uses a combination of indicators to identify buy and sell signals.",
+        "entry_rules": "When the buy_div_max indicator is above the buy_div_min indicator and the buy_crossed_indicator_shift indicator is above the buy_indicator_shift indicator",
+        "exit_rules": "N/A"
+      },
+      "btc_database_record": {
+        "return_pct": 501.0043980603535,
+        "sharpe": 0.34806126871943616,
+        "trades": 19,
+        "win_rate_pct": 47.368421052631575
+      },
+      "btc_4h_matrix_record": {
+        "return_pct": 74.21,
+        "sharpe": 0.73,
+        "trades": 20
+      }
+    },
+    {
+      "item_id": 469,
+      "rank": 2,
+      "name": "Core Momentum",
+      "tag": "CM",
+      "archive_name": "Trident Divergence",
+      "source_name": "Pine Script Strategies",
+      "file_path": "multi/Multi RSI Divergence.pine",
+      "source_copy": "database_sources/469_Multi RSI Divergence.pine",
+      "item_type": "strategies",
+      "language": "auto",
+      "primary": "rsi",
+      "indicators": [
+        "rsi"
+      ],
+      "strategy_kind": "indicator",
+      "params": {
+        "fast": 6,
+        "slow": 24,
+        "length": 25,
+        "rsi_length": 15,
+        "rsi_oversold": 22,
+        "rsi_overbought": 77,
+        "bb_std": 2.0,
+        "tenkan": 7,
+        "kijun": 24,
+        "senkou": 55,
+        "atr_length": 19
+      },
+      "analysis": {
+        "confidence": 80,
+        "risk_level": "Low",
+        "summary": "This script analyzes the RSI indicator and provides alerts for overbought and oversold conditions, as well as bullish and bearish divergences.",
+        "entry_rules": "N/A",
+        "exit_rules": "N/A"
+      },
+      "btc_database_record": {
+        "return_pct": 178.00384956183402,
+        "sharpe": 0.26553302301617354,
+        "trades": 17,
+        "win_rate_pct": 76.47058823529412
+      },
+      "btc_4h_matrix_record": {
+        "return_pct": 54.78,
+        "sharpe": 0.528,
+        "trades": 34
+      }
+    },
+    {
+      "item_id": 8457,
+      "rank": 3,
+      "name": "Prime Edge",
+      "tag": "PE",
+      "archive_name": "Nautilus Core",
+      "source_name": "RLTrader",
+      "file_path": "lib/env/TradingEnv.py",
+      "source_copy": "database_sources/8457_TradingEnv.py",
+      "item_type": "strategies",
+      "language": "auto",
+      "primary": "wma",
+      "indicators": [
+        "wma"
+      ],
+      "strategy_kind": "strategy",
+      "params": {
+        "fast": 14,
+        "slow": 21,
+        "length": 15,
+        "rsi_length": 9,
+        "rsi_oversold": 28,
+        "rsi_overbought": 78,
+        "bb_std": 1.7,
+        "tenkan": 10,
+        "kijun": 29,
+        "senkou": 50,
+        "atr_length": 11
+      },
+      "analysis": {
+        "confidence": 80,
+        "risk_level": "Medium",
+        "summary": "RLTrader is a reinforcement learning-based trading strategy that uses a trading environment to train agents to make trading decisions.",
+        "entry_rules": "When the agent's value function is above the baseline value function, enter a long position.",
+        "exit_rules": "When the agent's value function is below the baseline value function, exit a long position."
+      },
+      "btc_database_record": {
+        "return_pct": 1302.63003091577,
+        "sharpe": 0.5175838451729551,
+        "trades": 86,
+        "win_rate_pct": 34.883720930232556
+      },
+      "btc_4h_matrix_record": {
+        "return_pct": 45.03,
+        "sharpe": 0.458,
+        "trades": 128
+      }
+    },
+    {
+      "item_id": 119,
+      "rank": 4,
+      "name": "Elite Trend",
+      "tag": "ET",
+      "archive_name": "Storm Watch",
+      "source_name": "TA Alternatives",
+      "file_path": "test/unit/volatility.py",
+      "source_copy": "database_sources/119_volatility.py",
+      "item_type": "indicators",
+      "language": "auto",
+      "primary": "donchian",
+      "indicators": [
+        "bollinger",
+        "atr",
+        "donchian",
+        "keltner"
+      ],
+      "strategy_kind": "indicator",
+      "params": {
+        "fast": 16,
+        "slow": 36,
+        "length": 12,
+        "rsi_length": 8,
+        "rsi_oversold": 27,
+        "rsi_overbought": 69,
+        "bb_std": 2.2,
+        "tenkan": 7,
+        "kijun": 28,
+        "senkou": 52,
+        "atr_length": 19
+      },
+      "analysis": {
+        "confidence": 90,
+        "risk_level": "Medium",
+        "summary": "Average True Range (ATR) indicator measures volatility by calculating the average distance between high and low prices over a given period.",
+        "entry_rules": "When the ATR falls below a certain threshold, it may indicate a potential buying opportunity.",
+        "exit_rules": "When the ATR rises above a certain threshold, it may indicate a potential selling opportunity."
+      },
+      "btc_database_record": {
+        "return_pct": 1260.5241226550895,
+        "sharpe": 0.47492759847265287,
+        "trades": 54,
+        "win_rate_pct": 38.88888888888889
+      },
+      "btc_4h_matrix_record": {
+        "return_pct": 37.82,
+        "sharpe": 0.408,
+        "trades": 81
+      }
+    },
+    {
+      "item_id": 5068,
+      "rank": 5,
+      "name": "Nova Alpha",
+      "tag": "NA",
+      "archive_name": "Beacon Chart",
+      "source_name": "Backtest Kit",
+      "file_path": "backtesting/_plotting.py",
+      "source_copy": "database_sources/5068__plotting.py",
+      "item_type": "strategies",
+      "language": "auto",
+      "primary": "wma",
+      "indicators": [
+        "wma"
+      ],
+      "strategy_kind": "indicator",
+      "params": {
+        "fast": 15,
+        "slow": 24,
+        "length": 14,
+        "rsi_length": 7,
+        "rsi_oversold": 29,
+        "rsi_overbought": 69,
+        "bb_std": 3.4,
+        "tenkan": 7,
+        "kijun": 28,
+        "senkou": 54,
+        "atr_length": 12
+      },
+      "analysis": {
+        "confidence": 80,
+        "risk_level": "Medium",
+        "summary": "Strategy utilizes a combination of moving averages and RSI to generate buy and sell signals.",
+        "entry_rules": "When the short-term MA crosses above the long-term MA, enter long.",
+        "exit_rules": "When the short-term MA crosses below the long-term MA, exit long. When the short-term MA crosses above the long-term MA, enter short."
+      },
+      "btc_database_record": {
+        "return_pct": 1991.1411070778702,
+        "sharpe": 0.5835318909618302,
+        "trades": 78,
+        "win_rate_pct": 37.17948717948718
+      },
+      "btc_4h_matrix_record": {
+        "return_pct": 37.56,
+        "sharpe": 0.393,
+        "trades": 115
+      }
+    },
+    {
+      "item_id": 486,
+      "rank": 6,
+      "name": "Smart Vector",
+      "tag": "SV",
+      "archive_name": "Compass Trend",
+      "source_name": "Pine Script Strategies",
+      "file_path": "strategies/momentum/DMI Winner.pine",
+      "source_copy": "database_sources/486_DMI Winner.pine",
+      "item_type": "strategies",
+      "language": "auto",
+      "primary": "momentum",
+      "indicators": [
+        "sma",
+        "ema",
+        "adx",
+        "momentum"
+      ],
+      "strategy_kind": "strategy",
+      "params": {
+        "length": 14,
+        "fast": 17,
+        "slow": 58,
+        "rsi_length": 14,
+        "rsi_oversold": 20,
+        "rsi_overbought": 74,
+        "bb_std": 1.5,
+        "tenkan": 10,
+        "kijun": 22,
+        "senkou": 58,
+        "atr_length": 12
+      },
+      "analysis": {
+        "confidence": 80,
+        "risk_level": "High",
+        "summary": "This strategy uses the Directional Movement Index (DMI) to identify directional movements and a moving average filter to confirm the entry points. The strategy is a long/short strategy that enters when the DMI is above the key level and the moving average filter is triggered.",
+        "entry_rules": "adx > keyLevel and buyMaFilter and close > open",
+        "exit_rules": "N/A"
+      },
+      "btc_database_record": {
+        "return_pct": 3682.7371840574706,
+        "sharpe": 0.7088461969464122,
+        "trades": 137,
+        "win_rate_pct": 38.68613138686132
+      },
+      "btc_4h_matrix_record": {
+        "return_pct": 37.06,
+        "sharpe": 0.433,
+        "trades": 136
+      }
+    },
+    {
+      "item_id": 8449,
+      "rank": 7,
+      "name": "Global Core",
+      "tag": "GC",
+      "archive_name": "Sentinel Data",
+      "source_name": "RLTrader",
+      "file_path": "lib/data/features/indicators.py",
+      "source_copy": "database_sources/8449_indicators.py",
+      "item_type": "strategies",
+      "language": "auto",
+      "primary": "donchian",
+      "indicators": [
+        "rsi",
+        "macd",
+        "bollinger",
+        "cci",
+        "obv",
+        "donchian",
+        "keltner",
+        "aroon",
+        "trix"
+      ],
+      "strategy_kind": "indicator",
+      "params": {
+        "fast": 7,
+        "slow": 32,
+        "length": 33,
+        "rsi_length": 20,
+        "rsi_oversold": 30,
+        "rsi_overbought": 79,
+        "bb_std": 2.8,
+        "tenkan": 8,
+        "kijun": 28,
+        "senkou": 53,
+        "atr_length": 20
+      },
+      "analysis": {
+        "confidence": 80,
+        "risk_level": "High",
+        "summary": "RLTrader uses various technical indicators to analyze market trends and make predictions.",
+        "entry_rules": "RSI < 30 or MACDDI > 0",
+        "exit_rules": "RSI > 70 or MACDDI < 0"
+      },
+      "btc_database_record": {
+        "return_pct": 1327.8745528027462,
+        "sharpe": 0.4944367999283287,
+        "trades": 23,
+        "win_rate_pct": 52.17391304347826
+      },
+      "btc_4h_matrix_record": {
+        "return_pct": 33.61,
+        "sharpe": 0.381,
+        "trades": 33
+      }
+    },
+    {
+      "item_id": 796,
+      "rank": 8,
+      "name": "Apex Trend",
+      "tag": "AT",
+      "archive_name": "Horizon ESG",
+      "source_name": "Awesome Systematic Trading",
+      "file_path": "static/strategies/esg-factor-momentum-strategy.py",
+      "source_copy": "database_sources/796_esg-factor-momentum-strategy.py",
+      "item_type": "strategies",
+      "language": "auto",
+      "primary": "momentum",
+      "indicators": [
+        "wma",
+        "momentum"
+      ],
+      "strategy_kind": "strategy",
+      "params": {
+        "fast": 6,
+        "slow": 53,
+        "length": 13,
+        "rsi_length": 16,
+        "rsi_oversold": 23,
+        "rsi_overbought": 80,
+        "bb_std": 3.4,
+        "tenkan": 11,
+        "kijun": 25,
+        "senkou": 58,
+        "atr_length": 18
+      },
+      "analysis": {
+        "confidence": 80,
+        "risk_level": "High",
+        "summary": "ESG Factor Momentum Strategy: Invests in stocks with improved ESG ratings, overweighting those with increased ratings.",
+        "entry_rules": "When the 12-month ESG momentum is positive.",
+        "exit_rules": "When the 12-month ESG momentum is negative."
+      },
+      "btc_database_record": {
+        "return_pct": 2481.982266405993,
+        "sharpe": 0.6343132076656202,
+        "trades": 155,
+        "win_rate_pct": 32.903225806451616
+      },
+      "btc_4h_matrix_record": {
+        "return_pct": 32.01,
+        "sharpe": 0.404,
+        "trades": 132
+      }
+    },
+    {
+      "item_id": 3713,
+      "rank": 9,
+      "name": "Quant Prime",
+      "tag": "QP",
+      "archive_name": "Anchor DEMA",
+      "source_name": "Fast TA",
+      "file_path": "talipp/indicators/DEMA.py",
+      "source_copy": "database_sources/3713_DEMA.py",
+      "item_type": "indicators",
+      "language": "auto",
+      "primary": "dema",
+      "indicators": [
+        "ema",
+        "dema"
+      ],
+      "strategy_kind": "indicator",
+      "params": {
+        "fast": 9,
+        "slow": 32,
+        "length": 34,
+        "rsi_length": 9,
+        "rsi_oversold": 25,
+        "rsi_overbought": 75,
+        "bb_std": 3.3,
+        "tenkan": 7,
+        "kijun": 20,
+        "senkou": 49,
+        "atr_length": 18
+      },
+      "analysis": {
+        "confidence": 75,
+        "risk_level": "Low",
+        "summary": "DEMA indicator calculates the Double Exponential Moving Average. It uses two exponential moving averages to smooth out price fluctuations.",
+        "entry_rules": "When the DEMA crosses above the EMA, enter long. When the DEMA crosses below the EMA, enter short.",
+        "exit_rules": "When the DEMA crosses above the EMA, exit long. When the DEMA crosses below the EMA, exit short."
+      },
+      "btc_database_record": {
+        "return_pct": 3205.735741510341,
+        "sharpe": 0.6628884931019888,
+        "trades": 92,
+        "win_rate_pct": 43.47826086956522
+      },
+      "btc_4h_matrix_record": {
+        "return_pct": 32.0,
+        "sharpe": 0.337,
+        "trades": 160
+      }
+    },
+    {
+      "item_id": 120,
+      "rank": 10,
+      "name": "Signal Edge",
+      "tag": "SE",
+      "archive_name": "Tide Volume",
+      "source_name": "TA Alternatives",
+      "file_path": "test/unit/volume.py",
+      "source_copy": "database_sources/120_volume.py",
+      "item_type": "indicators",
+      "language": "auto",
+      "primary": "vwma",
+      "indicators": [
+        "sma",
+        "ema",
+        "wma",
+        "vwma",
+        "obv",
+        "vwap"
+      ],
+      "strategy_kind": "indicator",
+      "params": {
+        "fast": 8,
+        "slow": 55,
+        "length": 23,
+        "rsi_length": 27,
+        "rsi_oversold": 25,
+        "rsi_overbought": 78,
+        "bb_std": 3.3,
+        "tenkan": 8,
+        "kijun": 27,
+        "senkou": 58,
+        "atr_length": 19
+      },
+      "analysis": {
+        "confidence": 80,
+        "risk_level": "Low",
+        "summary": "On-Balance Volume (OBV) indicator measures buying and selling pressure by comparing volume on up days to volume on down days.",
+        "entry_rules": "When the OBV line crosses above the zero line, it's a buy signal. When it crosses below, it's a sell signal.",
+        "exit_rules": "N/A"
+      },
+      "btc_database_record": {
+        "return_pct": 778.8252008137978,
+        "sharpe": 0.4864941484432428,
+        "trades": 41,
+        "win_rate_pct": 34.146341463414636
+      },
+      "btc_4h_matrix_record": {
+        "return_pct": 27.22,
+        "sharpe": 0.32,
+        "trades": 69
+      }
+    }
+  ]
+}
