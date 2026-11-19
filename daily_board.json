@@ -1,6 +1,20 @@
 {
  "date": "2026-11-19",
- "entries": [],
+ "entries": [
+  {
+   "key": "ARBUSDT|SHORT|STRATEGY",
+   "symbol": "ARBUSDT",
+   "direction": "SHORT",
+   "source": "Consensus: Prime Edge, Smart Money EMA20 Pullback, Nova Alpha",
+   "score": 100.0,
+   "tier": "A",
+   "price": 0.1258,
+   "stop": 0.12816013,
+   "timeframe": "1h",
+   "session": "LONDON_NY_OVERLAP",
+   "time": "15:03"
+  }
+ ],
  "posted_slots": [
   6,
   12

@@ -1,38 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
-  "title": "North Korea Stole $400 Million in Crypto Using Deepfake Video Calls, DOJ Says",
-  "link": "https://decrypt.co/383208/north-korea-stole-400-million-crypto-deepfake-video-calls",
-  "timestamp": 1794839429.9707615
- },
- {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Bearish",
-  "title": "Illinois Crypto Tax Draws Unlikely Alliance of DOJ, Banks and DeFi",
-  "link": "https://decrypt.co/383144/illinois-crypto-tax-draws-alliance-doj-banks-defi",
-  "timestamp": 1794839430.4505367
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Price Forecast: ETF outflows reach $1.07 billion as BTC\u2019s rebound from oversold levels falters - www.tmgm.com",
-  "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNa1RYOGIwYnNuQ0picmRjQjN4QlN6MzFaUGNkbFNjU3Z5Xzd3dWVNUVVnVEJfYTRuZEZueUJmZ1M2U1JId3hlNHlKZDFmZGdVNnJjcUtVdWw2SngyNzF6S0ZzZjYzOTZaTkpMOU1maTJtNG9RbHFCdTJEX1YtS0FqdWc3MEp5b25rT1J2X1RIOGI0cEhUcUVIbEZEUHRjUEFHXzMya3hxRURDTG1tUFRVZDYzUmFnM0tmVTFFRTEta0h2NGY2ZUs0SkJkU3dzb3gtNjF6MXV3QVdFQUZheWpISWw4Q3cxS1FUZzROcEZxQU9ydVhkSHd6UWxBUDZGdw?oc=5",
-  "timestamp": 1794839431.726646
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Weekly Recap: Crypto ETF outflows and crypto portfolio decline - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZHdIcndrTXljOWZDcnJFejBZYlQ3S3o5WGJGdzQtSFE5R0JyZ0pJNkdDbUxRZFN6ZmhOaGJjZFBmbEZ0cmg1X2Z3ajNab1kyYWZETDBfS0NfZHNTb3E3alpMejFtM2NNcTBNemVsYjlUTDJlajVOUmJxeElpZGpwaHF5X01tVWV3WGQ3SlpFcTZ6alp6b0VKSmFKRFpXMGlxODlHOGdMUGwweXdna0NLTldZQ3l6NG9mZThIV0RyRzE?oc=5",
-  "timestamp": 1794841243.7494395
- },
- {
-  "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
   "title": "Bitcoin ETF Outflows and $3B in Liquidations Put Market Under Pressure - Coinpedia",
@@ -1142,5 +1110,21 @@
   "title": "Bitcoin holds above $63,750 as ETF outflows and Fed rate risks weigh on crypto - Traders Union",
   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRFNnYVRlNEdfOENQSzM0NEVjNkRjcjBEd1FJVW1lbVkweFJXemxFV2lTVEVJV3RwVG1xa0FHRXU1dFFPZl9mZUktWV9vdkpCR2xEaE9uOUZBZ1lmRGc5T0dsZ3UxYzNOYk5vUHd5aVB5RDY2UVpfT0ZSNlduOHl1b2tQdk1kQU4tMThUT2xid0FHVXBv?oc=5",
   "timestamp": 1795096939.3862748
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin ETF Outflows Accelerate Ahead Of Anthropic IPO - Yahoo Finance",
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWmswQkYwRUlWdkFsRkZ1aTFZOFFPQm9YRi13ZWozTnZaYVUwTWtCMUZUd1hUaDNHU3dxaXhNbDhhMEI1WWYxQUFzRFNrWHlFMzVuX0FYMERSZlJyZEJPUmEzdTJuV1JTbVFwcWJldzltQzVKOFkyNmVFVGFUZWdRVVN3Zk1OcWFNV1N6R2FpZ0Y2ZlF5UDR0WmptckFJTFdkMEc1LQ?oc=5",
+  "timestamp": 1795100540.5731978
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "INSTITUTIONAL | Bitcoin ETF Outflows Cross $2.5 Billion in 2 - KuCoin",
+  "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yVDlrUGJ5S0ExNjFCUTZYTVk3TFlHcElQdkJ3cW9RS2JZMVBjcU1IQXZDeE5Xb052MmdZY2FvOEFrSHFiNU5VeS13b3RkeWZLWGJQUXNKbFBHZ2JlTmZKWFFvZWZRLW9Yai1xWFRTTzY5dw?oc=5",
+  "timestamp": 1795100541.1336389
  }
 ]
