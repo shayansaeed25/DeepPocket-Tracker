@@ -1,21 +1,21 @@
 {
-  "computed_at": 1795089743.672476,
-  "score": -48.3,
+  "computed_at": 1795093345.0063193,
+  "score": -46.5,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -86.3,
-      "note": "1h ↓ RSI 53 · 4h ↓ RSI 41 · 1d ↓ RSI 25 · 7d -14.8%",
+      "score": -85.9,
+      "note": "1h ↓ RSI 54 · 4h ↓ RSI 42 · 1d ↓ RSI 25 · 7d -14.8%",
       "weight": 0.3
     },
     "news": {
-      "score": -62.6,
-      "note": "124 headlines · 4 bullish / 37 bearish",
+      "score": -54.0,
+      "note": "145 headlines · 5 bullish / 35 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": 5.7,
+      "score": 4.6,
       "note": "S&P -0.2% · DXY -0.2% · VIX 22",
       "weight": 0.1
     },
@@ -30,27 +30,27 @@
       "weight": 0.1
     },
     "global": {
-      "score": -44.7,
-      "note": "mcap -3.0% 24h · BTC dom 58.9%",
+      "score": -43.0,
+      "note": "mcap -2.9% 24h · BTC dom 58.9%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": 5.2,
-      "note": "funding -0.0022% · taker buy 50.7%",
+      "score": 4.2,
+      "note": "funding -0.0029% · taker buy 50.4%",
       "weight": 0.1
     }
   },
   "headlines": [
+    {
+      "title": "Bitcoin (BTC) price holds above $63,750 but Fed rate hike threats loom large: Crypto Markets Today",
+      "impact": "Bearish"
+    },
     {
       "title": "Gold Steadies Near 14-Month Low as Fed Signals More Rate Hikes",
       "impact": "Bearish"
     },
     {
       "title": "Bitcoin, crypto market remain subdued as hawkish Fed minutes reinforce December rate hike",
-      "impact": "Bearish"
-    },
-    {
-      "title": "Bitcoin Bounces From $62K: Is Gold and Silver’s 14% Crash Sending Money Into Crypto?",
       "impact": "Bearish"
     }
   ],

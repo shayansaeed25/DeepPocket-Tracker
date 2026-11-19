@@ -2,46 +2,6 @@
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Price Today: BTC Loses $65K Support: CZ Weighs Anthropic IPO and ETF Outflows - Brave New Coin",
-  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaU5jNGhBX3JROGhteGxyWXVrRmp5NjB2YWhNUmdJLWNmZ0dyQl9YUGhURlhuUFJKbUdtSFZDUzBEQXd3Rm9lQk1UMEI2cHIxLXlBbGp6TjVNbWo4V3ZISTFCU3hodTBZUzJiZEFJSG9oNlN5bU1FWUdaemJYWDdKWWVvTldiWFNiOUx1V01XT2xyWmtPX1BUQnk2Z0lEbzBhYm9pSVJmRHJmT2s5QjRKd0Iza0NkeVk?oc=5",
-  "timestamp": 1794832236.4873133
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Jane Street boosts Fidelity Bitcoin ETF holdings nearly 8x, trims IBIT",
-  "link": "https://cointelegraph.com/news/jane-street-add-fidelity-bitcoin-etf-ibit-cut-q3-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-  "timestamp": 1794834039.7340581
- },
- {
-  "coin": "SOL",
-  "category": "Partnership",
-  "impact": "Bullish",
-  "title": "Solana drops \u2018mainnet beta\u2019 label and adopts protocol version 1.0",
-  "link": "https://www.theblock.co/news/ecosystems/2026-11-16-solana-drops-mainnet-beta-label-and-adopts-protocol-version-1-0-440885",
-  "timestamp": 1794834040.425647
- },
- {
-  "coin": "ETH",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Key facts: ETF outflows extend; ETH bounces; EIP-8037 raises gas - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTUw0Snk4ZHphR2FzNTlfZFpaOUpmWDV3V01ISkkwdnBlVHZScXVtbkg0eU5FSTFOMWtpVUY1djNiWG5Pb3d0eGs0YXpfM2U1NzlzZE9fNU9ab2Q2TklGQjRMUmlYYmhuZm1ZbVhUMndMbmJ2WUU4UkllOFh6Rk1BeHpwQzN3Tlh1TlNldzBvb2tPbS1ubzFwOFFvc3FyZWc0aXJCek5CWDZvbkdPMW8zaWRzVXhfYnR2TWo3TUZuNXk?oc=5",
-  "timestamp": 1794834041.5731251
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Key facts: BTCUSD falls; ETF outflows; volatility rises; $53K/$48K support - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcVdJdEhOUFYya3Q5Zlp3b3hRTGxnTnJrV29zZU9hT2NheDVSMk5CTXhDVWFFVHhnWWM0M3dnSHJxTmY1WFhyU0U5clNObHdhUXVtTGYzckZuS3RoTGh2Ni1GdmI3Nnk4MVBMQXFDTVd2dVZoRC14aTJPNFA0T1otN0JrTXhDVVNqdnR6Z1RlNDFFLWlIZG1TTjFHUWNRYmNKWWZCclRnNml2US1fZmM3ZVlsZ3A3UnpvQjVWLTVycXVJSTdYZjBwenl3?oc=5",
-  "timestamp": 1794834042.1370974
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
   "impact": "Bullish",
   "title": "\u2018This dip could use a little orange\u2019: Michael Saylor\u2019s Strategy buys another 485 BTC for $33 million as bitcoin tumbles",
   "link": "https://www.theblock.co/news/business/2026-11-16-this-dip-could-use-a-little-orange-michael-saylor-strategy-bitcoin-tumbles-440886",
@@ -1190,5 +1150,37 @@
   "title": "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk",
   "link": "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk",
   "timestamp": 1795089737.9623876
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
+  "link": "https://www.coindesk.com/daybook-us/2026/11/19/bitcoin-etf-outflows-show-waning-crypto-appetite-ahead-of-anthropic-s-nasdaq-debut",
+  "timestamp": 1795093336.8026943
+ },
+ {
+  "coin": "BTC",
+  "category": "Macro / Fed / CPI",
+  "impact": "Mixed",
+  "title": "Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
+  "link": "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large",
+  "timestamp": 1795093337.3066792
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut - CoinDesk",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNWZIQnFSS3cweDFjY1BSaGxCNWQ2anhIMnQ1cjd2d3ZOQ25TNWhCNTlFUDBnTHpZUEtWdDlfYW1FcGlNMHpGbGRSTUtsZDVxai1QUnRNWHN2UHU1Sm9ncHFoa0daWkQtbVpIUFVCN0FWZUFHRVZZMGZ5cktvOFBFeHloLVJ5UF9qb1dJcnEza01DSnVpM3JnT2IwZkZ6RVRfMjE1Tmc1Ym5lbW52ZmluMl9YUUNVSU9JalVMRVh2d3BQU2dqQjJObw?oc=5",
+  "timestamp": 1795093338.8857398
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Slides to $63,400 as ETF Outflows and Fed Rate-Hike Bets Erase Summer Gains - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zTzVLcmtDdVV1MDVsa1lVZTdOY1pjLWhVYXo3XzA5WUx4Sk5FNHlIVWlSbFNsS2VBRkQ4NWtYU0h0RzdvaDRkZ21ncENSRi1zblNWQXpWODkxNlJza0xCbFJJWkxnaDliamI0V0NtUW5ELVY4N0E?oc=5",
+  "timestamp": 1795093339.5521119
  }
 ]
