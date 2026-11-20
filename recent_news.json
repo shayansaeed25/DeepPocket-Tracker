@@ -1,46 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows",
-  "link": "https://www.coindesk.com/daybook-us/2026/11/17/crypto-s-casino-chips-are-disappearing-adding-to-pain-from-spot-etf-outflows",
-  "timestamp": 1794918631.1037035
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "ETF NEws | Bitcoin ETFs Snap Seven-Day Outflow Streak With $7.9 Million Inflow as IBIT Draws $76.5 Million - Binance",
-  "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ETTFoMmhPVTd0R1JEMzkydGlnZkh3RDdtdFJaTDF2WmwtazZ3a1B6ZzNrSGZaSEtMcGFIRlEyenBxZDcyT0tvenNRVmlnb1BhdHJQV20xZWp0R04wSVozaU9ieFc?oc=5",
-  "timestamp": 1794918632.769194
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Binance Market Update | Bitcoin ETFs Finally Break a 7-Day Bleed as IBIT Flips to Inflows. Nvidia Reports Tonight - Binance",
-  "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wMzNick1ZZUJFVWhrZmJxWDRVekViYlZkaVNYMHZ1UVNFbVhPeVNlZjRjYjhLOEdOdVhqaFZ6STgtQTkxbzE0RDhpbzJjdjExNXJUX0ZibXZDRGhZRDBOUXVOSy0?oc=5",
-  "timestamp": 1794918633.4239366
- },
- {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
-  "title": "Morning Minute: The CFTC Officially Greenlights Perps in the US, Starting with Backpack",
-  "link": "https://decrypt.co/383418/morning-minute-the-cftc-officially-greenlights-perps-in-the-us-starting-with-backpack",
-  "timestamp": 1794920440.4856527
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows - Cryptonews.net",
-  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4zVWxBeFdKQ0huN1M0eHVvYjFlNldKSjdYZFlmaXJhT1JYbmdSMTI0LUcyNE9QcGxvemZINTk0SHhhLVFsTjMtMF85bnpkSmsydFFtTzY1SHM?oc=5",
-  "timestamp": 1794920441.621613
- },
- {
-  "coin": "BTC",
   "category": "Macro / Fed / CPI",
   "impact": "Bearish",
   "title": "Fed Rate Hike Odds Hit 90%: What Could Happen to Bitcoin and Crypto in December?",
@@ -1054,5 +1014,37 @@
   "title": "Was Anthropic\u2019s IPO the Real Reason Behind Bitcoin\u2019s November Crash?",
   "link": "https://cryptopotato.com/was-anthropics-ipo-the-real-reason-behind-bitcoins-november-crash/",
   "timestamp": 1795176142.1289864
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "US spot bitcoin ETFs see $582 million in daily net outflows as November total nears $3.5 billion",
+  "link": "https://www.theblock.co/news/markets/2026-11-20-us-spot-bitcoin-etfs-see-582-million-in-daily-net-outflows-as-november-total-nears-3-5-billion-444217",
+  "timestamp": 1795179744.8497605
+ },
+ {
+  "coin": "ETH",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Ethereum Price Prediction: ETH Drops 23% in November as BlackRock ETF Loses $124M - Coinpaper",
+  "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSTRmczYwT3Y2YzYwaEVqOEdLN2dDYlFYQ25QMzJYQWM4THB5bWw1aUhWbURnclRRTkk5TDkzWnZyMHVLdHk2U21ydmlxaUY5dlFTSzJCVUpVY2pGMjVTQzRaTE8xQko2dkVlQ3paRnlnWjVUd3VCc096aEpCQUNaaHdNNXRsMEpSVGw5clRNS2w3enpHQTUtQ3FiZWxJT1Fva0tvOHNoWnk1YU1q?oc=5",
+  "timestamp": 1795179746.0082762
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "BlackRock's IBIT Posts Record $541 Million Exit as Bitcoin ETFs Bleed - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CWlc4NTloTlpPdWVZN0FJR1dOM0FKajk2S1hZRUgtN2hCSGkwa0MwNENGQWw1NHVuSWlLVE1RSVZ6S2NzSGZYckxnQy02a1pHVk1ZQjhFVXhSaGVzeG1PT2t2WG5MOUktZlpFd3UxdGQ2OXBidFE?oc=5",
+  "timestamp": 1795179746.5106573
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "ETF outflows weigh on Bitcoin price as downward move continues - Traders Union",
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWHBaRVpSaXRkeFQyNzI2dnIwUnZSbW1LNkRtdi1saXVaUzlEQVFJUnU5X0FSUFBTTEJycWkzd053RlY1bWhYMERubFZUaXN6emV5SUhLWXVtNjhfa1hqd0tBa01uejhwZ2Jzd1d0M0lCRmNMQnpIVGRNWmZIbVRvcDNvZy1ZRlFtSUtkVHU5WEdnR3NaSjFVQkhlWkM1OFV5TVNTbQ?oc=5",
+  "timestamp": 1795179747.2752619
  }
 ]

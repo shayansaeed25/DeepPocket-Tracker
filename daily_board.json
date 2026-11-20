@@ -52,6 +52,32 @@
    "timeframe": "1h",
    "session": "LONDON_SESSION",
    "time": "07:03"
+  },
+  {
+   "key": "AVAXUSDT|SHORT|STRATEGY",
+   "symbol": "AVAXUSDT",
+   "direction": "SHORT",
+   "source": "Consensus: Alpha Prime, Smart Money CVD Breakdown, Smart Money EMA20 Pullback, Elite Trend, Smart Vector, Global Core, Apex Trend",
+   "score": 100.0,
+   "tier": "A",
+   "price": 6.807,
+   "stop": 6.95527695,
+   "timeframe": "1h",
+   "session": "LONDON_NY_OVERLAP",
+   "time": "13:03"
+  },
+  {
+   "key": "RENDERUSDT|SHORT|STRATEGY",
+   "symbol": "RENDERUSDT",
+   "direction": "SHORT",
+   "source": "Consensus: Alpha Prime, Elite Trend, Smart Vector, Global Core, Apex Trend",
+   "score": 96.7,
+   "tier": "A",
+   "price": 1.328,
+   "stop": 1.35788,
+   "timeframe": "1h",
+   "session": "LONDON_NY_OVERLAP",
+   "time": "13:03"
   }
  ],
  "posted_slots": [
