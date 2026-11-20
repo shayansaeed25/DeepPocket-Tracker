@@ -1,22 +1,22 @@
 {
-  "computed_at": 1795150942.9380705,
-  "score": -55.4,
+  "computed_at": 1795154547.938318,
+  "score": -54.7,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -94.4,
-      "note": "1h ↓ RSI 38 · 4h ↓ RSI 31 · 1d ↓ RSI 20 · 7d -13.3%",
+      "score": -92.5,
+      "note": "1h ↓ RSI 42 · 4h ↓ RSI 33 · 1d ↓ RSI 20 · 7d -13.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -48.9,
-      "note": "146 headlines · 5 bullish / 32 bearish",
+      "score": -50.1,
+      "note": "144 headlines · 6 bullish / 31 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -43.9,
-      "note": "S&P -2.0% · DXY +0.0% · VIX 28",
+      "score": -41.3,
+      "note": "S&P -2.0% · DXY -0.1% · VIX 28",
       "weight": 0.1
     },
     "us10y": {
@@ -30,27 +30,27 @@
       "weight": 0.1
     },
     "global": {
-      "score": -77.0,
-      "note": "mcap -5.1% 24h · BTC dom 58.0%",
+      "score": -75.3,
+      "note": "mcap -5.0% 24h · BTC dom 58.0%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -4.1,
-      "note": "funding +0.0005% · taker buy 47.6%",
+      "score": -3.9,
+      "note": "funding -0.0007% · taker buy 47.7%",
       "weight": 0.1
     }
   },
   "headlines": [
+    {
+      "title": "Gold Prices Plunge Over 7% This Week, Head for Worst Fall Since March as Fed Rate Hike Fears Deepen",
+      "impact": "Bearish"
+    },
     {
       "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
       "impact": "Bearish"
     },
     {
       "title": "SEC Charges Eight Entities for $37M Crypto Fraud Targeting U.S. Investors",
-      "impact": "Bearish"
-    },
-    {
-      "title": "Bitcoin Price Slumps Under $62,000, Crashing 25% in One Month",
       "impact": "Bearish"
     }
   ],
