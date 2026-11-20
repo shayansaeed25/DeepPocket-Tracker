@@ -1014,5 +1014,37 @@
   "title": "Bitcoin falls below $62,000 amid $582 million in spot ETF outflows - Traders Union",
   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRjB1MHJmSFZfSklqSXNQMGRETGhhVkdjbWw0RE1kcUhMNmJzWENJYjFORUI3dFFiWnQ1QXRBcW1NdDFEbzNtRkRQUy1FUXZ0WWx2aDh4OXB3NW94WnZOcEdsTVJnWTctTjBhLVE4Z2VMYWhnR0h6UGV5TzhOZ2lDYk4yM3lIblZuYWExOEd3cjF0ZjQ?oc=5",
   "timestamp": 1795161740.8513634
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "BlackRock\u2019s IBIT loses record $541M amid Anthropic market debut",
+  "link": "https://cointelegraph.com/markets/blackrock-ibit-record-single-day-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "timestamp": 1795165338.9591858
+ },
+ {
+  "coin": "BTC",
+  "category": "Regulation",
+  "impact": "Bearish",
+  "title": "SEC charges eight firms over fake crypto platforms tied to $37M fraud",
+  "link": "https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "timestamp": 1795165339.5739303
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Slips to Four-Month Low Under $61,300 as ETF Outflows and Liquidations Snowball - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yamlnZ0Q0Y3RmZjhZNklVU3Q2cktkanZRS2hzZnhhRXN2alFMNjdhdGNaUmV6eXV2djRYeXl1S1lJUTdnZTNZU2tkUS1zNG5JT3I3MlN3amZvMFViaDhOM2VyQ3pyRi1hd0ZYUmkwZ3VGUmNsdXc?oc=5",
+  "timestamp": 1795165341.0428076
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Slips Toward $60,000 as Spot ETF Outflows Top $2.5 Billion for 2026 - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBaREdqUW1OOUdEenlfcTI0YV9TamMzY3RtUm1haVg2Y1dmRGtjMnV3YzdxdDJjQ0puU3J5X1hKa1NudkdhRVl5N3BYZEQ1VGJDTUdIMmx1S0UzZU1BYzJENkdKNTJVbXJMMFpJUlRneTJPVFFFWGc?oc=5",
+  "timestamp": 1795165341.5810723
  }
 ]
