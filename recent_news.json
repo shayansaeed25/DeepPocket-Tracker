@@ -1,13 +1,5 @@
 [
  {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
-  "title": "Trump\u2019s First Democratic Picks for SEC and CFTC Could Reshape Crypto\u2019s Regulators",
-  "link": "https://decrypt.co/383260/trump-first-democratic-picks-sec-cftc-could-reshape-crypto",
-  "timestamp": 1794889826.735752
- },
- {
   "coin": "XRP",
   "category": "Listing",
   "impact": "Bullish",
@@ -1054,5 +1046,13 @@
   "title": "Bitcoin Sinks Below $62,000 as Fed Rate-Hike Fears and ETF Outflows Batter Crypto - BigGo Finance",
   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tWnhza2xSaGhKU2N2amNPSDV1WEVBMzlNRGhxWmJ5RDJ0Z0d4ZWtCV2V5MWR4NnZ3WjVxNF9fbER1UVNpRGVhNXhLTVhvTU03eHJuWEZKT1NfNThxcEEwZ0ViSmZIN1dEWHkza1VVaC04a0Q2amc?oc=5",
   "timestamp": 1795136537.4829292
+ },
+ {
+  "coin": "BTC",
+  "category": "Regulation",
+  "impact": "Mixed",
+  "title": "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling",
+  "link": "https://www.theblock.co/news/business/2026-11-19-coinbase-backs-cftc-prediction-markets-444152",
+  "timestamp": 1795150937.7992418
  }
 ]

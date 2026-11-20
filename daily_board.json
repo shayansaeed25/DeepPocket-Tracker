@@ -1,88 +1,32 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "entries": [
   {
-   "key": "ARBUSDT|SHORT|STRATEGY",
-   "symbol": "ARBUSDT",
+   "key": "BNBUSDT|SHORT|STRATEGY",
+   "symbol": "BNBUSDT",
    "direction": "SHORT",
-   "source": "Consensus: Prime Edge, Smart Money EMA20 Pullback, Nova Alpha",
-   "score": 100.0,
+   "source": "Consensus: Smart Money CVD Breakdown, Elite Trend, Smart Vector, Apex Trend",
+   "score": 93.0,
    "tier": "A",
-   "price": 0.1258,
-   "stop": 0.12816013,
-   "timeframe": "1h",
-   "session": "LONDON_NY_OVERLAP",
-   "time": "15:03"
-  },
-  {
-   "key": "NEARUSDT|SHORT|STRATEGY",
-   "symbol": "NEARUSDT",
-   "direction": "SHORT",
-   "source": "Consensus: Elite Trend, Quant Prime",
-   "score": 100.0,
-   "tier": "A",
-   "price": 3.274,
-   "stop": 3.347665,
-   "timeframe": "1h",
-   "session": "LONDON_NY_OVERLAP",
-   "time": "16:04"
-  },
-  {
-   "key": "BTCUSDT|SHORT|STRATEGY",
-   "symbol": "BTCUSDT",
-   "direction": "SHORT",
-   "source": "Consensus: Smart Money CVD Breakdown, Smart Money EMA20 Pullback, Elite Trend",
-   "score": 100.0,
-   "tier": "A",
-   "price": 62778.08,
-   "stop": 63473.94313495,
-   "timeframe": "1h",
-   "session": "US_SESSION",
-   "time": "17:03"
-  },
-  {
-   "key": "BCHUSDT|SHORT|STRATEGY",
-   "symbol": "BCHUSDT",
-   "direction": "SHORT",
-   "source": "Apex Trend",
-   "score": 86.6,
-   "tier": "A",
-   "price": 205.5,
-   "stop": 210.12375,
+   "price": 574.96,
+   "stop": 584.55039407,
    "timeframe": "4h",
-   "session": "US_SESSION",
-   "time": "17:03"
+   "session": "SESSION_TRANSITION",
+   "time": "05:03"
   },
   {
-   "key": "ZECUSDT|SHORT|STRATEGY",
-   "symbol": "ZECUSDT",
+   "key": "SUIUSDT|SHORT|STRATEGY",
+   "symbol": "SUIUSDT",
    "direction": "SHORT",
-   "source": "Consensus: Alpha Prime, Smart Money CVD Breakdown, Elite Trend, Global Core, Apex Trend",
-   "score": 100.0,
+   "source": "Consensus: Alpha Prime, Elite Trend, Global Core",
+   "score": 79.8,
    "tier": "A",
-   "price": 888.67,
-   "stop": 908.665075,
+   "price": 0.6902,
+   "stop": 0.7057295,
    "timeframe": "1h",
    "session": "SESSION_TRANSITION",
-   "time": "21:03"
-  },
-  {
-   "key": "ENAUSDT|SHORT|STRATEGY",
-   "symbol": "ENAUSDT",
-   "direction": "SHORT",
-   "source": "Consensus: Alpha Prime, Smart Money CVD Breakdown, Elite Trend, Global Core",
-   "score": 100.0,
-   "tier": "A",
-   "price": 0.1053,
-   "stop": 0.10766925,
-   "timeframe": "1h",
-   "session": "SESSION_TRANSITION",
-   "time": "21:03"
+   "time": "05:03"
   }
  ],
- "posted_slots": [
-  6,
-  12,
-  18
- ]
+ "posted_slots": []
 }

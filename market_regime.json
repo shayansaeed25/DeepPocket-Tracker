@@ -1,22 +1,22 @@
 {
-  "computed_at": 1795147342.8397279,
-  "score": -52.1,
+  "computed_at": 1795150942.9380705,
+  "score": -55.4,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -92.8,
-      "note": "1h ↓ RSI 41 · 4h ↓ RSI 33 · 1d ↓ RSI 20 · 7d -13.3%",
+      "score": -94.4,
+      "note": "1h ↓ RSI 38 · 4h ↓ RSI 31 · 1d ↓ RSI 20 · 7d -13.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -47.9,
-      "note": "139 headlines · 6 bullish / 29 bearish",
+      "score": -48.9,
+      "note": "146 headlines · 5 bullish / 32 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -41.7,
-      "note": "S&P -2.0% · DXY -0.1% · VIX 28",
+      "score": -43.9,
+      "note": "S&P -2.0% · DXY +0.0% · VIX 28",
       "weight": 0.1
     },
     "us10y": {
@@ -30,13 +30,13 @@
       "weight": 0.1
     },
     "global": {
-      "score": -52.5,
-      "note": "mcap -3.5% 24h · BTC dom 58.1%",
+      "score": -77.0,
+      "note": "mcap -5.1% 24h · BTC dom 58.0%",
       "weight": 0.1
     },
     "derivatives": {
       "score": -4.1,
-      "note": "funding +0.0008% · taker buy 47.6%",
+      "note": "funding +0.0005% · taker buy 47.6%",
       "weight": 0.1
     }
   },
@@ -54,7 +54,7 @@
       "impact": "Bearish"
     }
   ],
-  "last_report_ts": 1795125752.0565708,
+  "last_report_ts": 1795150945.8142133,
   "last_report_label": "STRONG BEARISH",
   "us10y": {
     "level": 5.052,
