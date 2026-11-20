@@ -1,22 +1,22 @@
 {
-  "computed_at": 1795165346.1171865,
-  "score": -55.0,
+  "computed_at": 1795168948.3467476,
+  "score": -53.1,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -93.0,
-      "note": "1h ↓ RSI 42 · 4h ↓ RSI 32 · 1d ↓ RSI 20 · 7d -13.3%",
+      "score": -93.4,
+      "note": "1h ↓ RSI 41 · 4h ↓ RSI 32 · 1d ↓ RSI 20 · 7d -13.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -51.8,
-      "note": "137 headlines · 7 bullish / 31 bearish",
+      "score": -48.4,
+      "note": "137 headlines · 8 bullish / 30 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -35.0,
-      "note": "S&P -2.0% · DXY -0.0% · VIX 29",
+      "score": -34.6,
+      "note": "S&P -2.0% · DXY -0.1% · VIX 30",
       "weight": 0.1
     },
     "us10y": {
@@ -30,13 +30,13 @@
       "weight": 0.1
     },
     "global": {
-      "score": -80.0,
-      "note": "mcap -5.3% 24h · BTC dom 58.0%",
+      "score": -66.0,
+      "note": "mcap -4.4% 24h · BTC dom 58.0%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -4.4,
-      "note": "funding -0.0048% · taker buy 47.5%",
+      "score": -4.8,
+      "note": "funding -0.0044% · taker buy 47.4%",
       "weight": 0.1
     }
   },
@@ -46,11 +46,11 @@
       "impact": "Bearish"
     },
     {
-      "title": "SEC Charges Eight Entities for $37M Crypto Fraud Targeting U.S. Investors",
+      "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
       "impact": "Bearish"
     },
     {
-      "title": "Gold Heads For Worst Week In 8 Months As Dollar Strengthens, Fed Rate Hike Bets Rise",
+      "title": "SEC Charges Eight Entities for $37M Crypto Fraud Targeting U.S. Investors",
       "impact": "Bearish"
     }
   ],

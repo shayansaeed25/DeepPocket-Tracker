@@ -1,14 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Bearish",
-  "title": "Should Government Officials Be Banned From Prediction Markets? House Oversight Says Maybe",
-  "link": "https://decrypt.co/383271/government-officials-banned-prediction-markets-house-oversight",
-  "timestamp": 1794907830.592541
- },
- {
-  "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
   "title": "BlackRock\u2019s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
@@ -1046,5 +1038,21 @@
   "title": "Bitcoin Slips Toward $60,000 as Spot ETF Outflows Top $2.5 Billion for 2026 - BigGo Finance",
   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBaREdqUW1OOUdEenlfcTI0YV9TamMzY3RtUm1haVg2Y1dmRGtjMnV3YzdxdDJjQ0puU3J5X1hKa1NudkdhRVl5N3BYZEQ1VGJDTUdIMmx1S0UzZU1BYzJENkdKNTJVbXJMMFpJUlRneTJPVFFFWGc?oc=5",
   "timestamp": 1795165341.5810723
+ },
+ {
+  "coin": "BTC",
+  "category": "Regulation",
+  "impact": "Mixed",
+  "title": "No special rules for Hyperliquid or other onchain trading platforms, CFTC says",
+  "link": "https://www.coindesk.com/markets/2026/11/20/cftc-tells-hyperliquid-and-crypto-rivals-no-special-rules-for-onchain-trading",
+  "timestamp": 1795168942.5229776
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Why is Bitcoin falling below $63,000 as ETF outflows accelerate? - FXStreet",
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS2tnM0pxdHUyTVNkNTBQaWlqRC12SDROZnQwVmp5aXVfa0NzQmJ2OXFGMWQtSlhmdmZyazF4UDI2VjB0b2lsbkFOcnpzVnhRa3ZIUzNtaDFTeHJneklVWGFVbUFGLTR3ZDVPVXVpcExTRDV3bThyRXRxRzRfUFBNblNlT196UWZMNWhXd1NPYmJtbGFwbnpyc3F6TXlwOEY3QTNJLVUzbU9xeEFqYXFVUDFGRl9LbTUxY3JMMGZlVQ?oc=5",
+  "timestamp": 1795168943.9360337
  }
 ]
