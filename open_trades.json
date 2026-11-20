@@ -106,9 +106,9 @@
     "created_ts": 1795107837951.1072,
     "position_size_usd": 100.0,
     "quantity": 0.48661800486618007,
-    "last_price": 207.0,
-    "checked_through_ts": 1795132860000,
-    "last_checked_ts": 1795132860000,
+    "last_price": 206.6,
+    "checked_through_ts": 1795136460000,
+    "last_checked_ts": 1795136460000,
     "max_favorable_pct": 0.9245742092457432,
     "max_adverse_pct": -1.9951338199513335
   },
@@ -234,10 +234,10 @@
     "created_ts": 1795122209990.1672,
     "position_size_usd": 100.0,
     "quantity": 0.11252770994857485,
-    "last_price": 896.15,
-    "checked_through_ts": 1795132860000,
-    "last_checked_ts": 1795132860000,
+    "last_price": 890.19,
+    "checked_through_ts": 1795136460000,
+    "last_checked_ts": 1795136460000,
     "max_favorable_pct": 1.1860420628579726,
-    "max_adverse_pct": -1.0138746666366494
+    "max_adverse_pct": -1.1624112437687906
   }
 ]

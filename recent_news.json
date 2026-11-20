@@ -1,13 +1,5 @@
 [
  {
-  "coin": "XRP",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "XRP under pressure as crypto ETF outflows and shrinking stablecoin market limit liquidity - Traders Union",
-  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNkhQQlR1OWJKNGVxN1ZqNVRfWW5JUnp3eUkxTFcwZkZuaGVNN1h4MHBWSk5WMGdTRVRVRFJJNEx6WTBhbWNtNDV3ZWM3MmRCQy0zNXo4eUxmSDNmSTZJMXlOcmQzckU4WGlMZnp5elVZdVNHTklobWh2TWVKTmppQUdBN1dVUzl1aWJNekVOQ1V0QQ?oc=5",
-  "timestamp": 1794875437.2962646
- },
- {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bullish",
@@ -1054,5 +1046,29 @@
   "title": "Bitcoin slides toward $60,000 as spot ETF outflows near $3 billion - Crypto Briefing",
   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YVnoxODJ6TjJQX1h2WUI3Y2VqXzM5YjhNaGRtMUZha3ZXM1pZY21HdXRrVk5VV3JESTVjZXJuWEpMQlZXTnNuQ1V1ZEpYSS1YbkNDWUVlcGU1bThja1NMRi10TlB0MTcwNVBWcA?oc=5",
   "timestamp": 1795132943.2438638
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin slides toward $60,000 as spot ETF outflows near $3 billion - Cryptonews.net",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE90TjQzdGtmSmxPTDFWZUVEX0dDWV9vUjdEc0NKRFlLN3ExdWQzYnRlbl9DQ252V0NPNDBSbm5kTG1SdnlSbGlaT3BLZnlrRXBlX19VM0ZOemY?oc=5",
+  "timestamp": 1795136536.3220904
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin approaches $60,000 as year-to-date net ETF outflows exceed $2.5 billion - Moomoo",
+  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaks2YmxsYWt5UVF5RENmaTFwRHN2NjRTSkk5TjNTMExZVHIxQlZoYzR0MTlUbDAwcWdROTJQUVlPNEgyb0U0ano0UjZDTVQ0dVlINEV2UTM3N0ZuOVI1UXJxb3g0cDJzQ3NCbk1HX1RuNUtLOFlCbHcza1VOWWk4eFVfbnBPYjgtLTJpckNsUGt6X3ZOWFVKTXd3cmZKOHliVUVN?oc=5",
+  "timestamp": 1795136536.826092
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Sinks Below $62,000 as Fed Rate-Hike Fears and ETF Outflows Batter Crypto - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tWnhza2xSaGhKU2N2amNPSDV1WEVBMzlNRGhxWmJ5RDJ0Z0d4ZWtCV2V5MWR4NnZ3WjVxNF9fbER1UVNpRGVhNXhLTVhvTU03eHJuWEZKT1NfNThxcEEwZ0ViSmZIN1dEWHkza1VVaC04a0Q2amc?oc=5",
+  "timestamp": 1795136537.4829292
  }
 ]
