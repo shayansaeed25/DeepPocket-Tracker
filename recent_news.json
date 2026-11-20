@@ -2,38 +2,6 @@
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "BlackRock's IBIT Pulls In $76.5 Million, Snapping 11-Session Bitcoin ETF Bleed - BigGo Finance",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOaUk1QVVVeUk4dGNFWjRKdjZTTlM1b2JNVkpTM3pFdzhxY3JrZm8zQm9kZ3hKT1Y3aEZ4a1d6cGx5WUotVkRlX2V3V05sX2FEa05pTmduY3BBWWRrUDJwN1hIVG5FcEJUNHNIMndVVXRTVUcxN0E?oc=5",
-  "timestamp": 1794929434.5628715
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Altcoins fall over 50% in 27-token chart as ETF outflows grow - Crypto News",
-  "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40YXFOU3FYR0djZ2FyLTRBNE1velZ6TWxaMUp5dDNpZ1Mxdm5CLXViZUJSN2FTRW9ialpCN1lSQzd4TEpEY09lekpQbjlfajduaVZ6cUhMRGlKZEE1VGtzQVlxdFJKV2dSd0JONjJ3?oc=5",
-  "timestamp": 1794929435.0677605
- },
- {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Bearish",
-  "title": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
-  "link": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze",
-  "timestamp": 1794931254.0656106
- },
- {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
-  "title": "Anchorage, Kalshi Prime let institutions use custodied bitcoin as margin",
-  "link": "https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568",
-  "timestamp": 1794931254.6887045
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
   "impact": "Bearish",
   "title": "Bitcoin Hovers Below $65,000 as Rate Fears, ETF Outflows Weigh on Market - Yahoo Finance",
   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeVZCRGhiQ0lsTGJoc0RxQU5wVkNTd3pVZGFNckQ1QUp4WHlDY0F3dEdWa3VWRUE1WGdTTjFYMjBXaVRSZFktb0VIU3VRZFZnNTd2b05IX1pMcGtFNERqbXFIRTFHd1h6ZTZCMmdDVDRkbm1ZZE5SR0x1UU8wSnJRUjRyU1ZHd2thS3J2SzFocU8xVWdva3BB?oc=5",
@@ -1038,5 +1006,53 @@
   "title": "Ether Sheds $1,000 in Seven Weeks as Exchange Inflows and ETF Outflows Pile On - BigGo Finance",
   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aNGc3MDQ4VEtzYmlROTROMkhHcGlsakd4ZUN5dkpza1RVRmFuckNWTjBORTJPd2FhWGw4RkU4OENuWVZvdkhGc2ZsaWlVRjY2ODVqd25WLTZlN1NFXzlVam1OSlB6Y2M5a0YyN3AwaHJoNURTZVE?oc=5",
   "timestamp": 1795183340.4845273
+ },
+ {
+  "coin": "BTC",
+  "category": "Regulation",
+  "impact": "Bearish",
+  "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
+  "link": "https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "timestamp": 1795190539.601869
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin ETF Outflows In November Near $3.5 Billion - Yahoo Finance",
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeHRkRVlPS0lxaDI5ZGZqLUJ5MWNtaTZRUkNUTUZybWJtQ2kwQlJ6WVFCNHZaVUhVc1RkS0NQcUxSWjdrZzFuMHpkaTFPZWF1MVBLQVdOSVZaMVktaGFRNmhUaFBCb2hKa1FKZWNMY3RPZVk4ZGU1MHhTQkxNOGhnSEtGbnM2UkNneFlBb0FicmFtUW1sVnZuT3g3dEV6TXFr?oc=5",
+  "timestamp": 1795190540.7240531
+ },
+ {
+  "coin": "ETH",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Ethereum Price Forecast: Why is ETH faltering as ETF outflows outweigh returning retail demand? - www.tmgm.com",
+  "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQenQyZjZ5d1VRTlU0bzZEQ2ZabkRWZkZFcjVXeGRHT0owREFpazhrRDVmSkJVUDZqM2VOZldiV3pOUXgxRjZSOGdRT2tXU0FFWlN0b1BMeHlicEpMajUyZC1NMkxQOFI2Q2xFZWpEeTVRdmhUSDk4LV8tRXZBZmJwY0RDb19YcHR4NXdHMUxpWTUwekR2Q1ZwVW1ra2lEbWJOdF9jLUFldFZaX3lBQURTUl9faFFYUjlHYmViVExpU2NpZ3dxRXpNWjJuancxbm9QVnA2Nmcyc1I5TExtMVlsMmtMekJYbmdoQmFQS2hlaWVoUQ?oc=5",
+  "timestamp": 1795190541.159699
+ },
+ {
+  "coin": "ETH",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Ethereum tests $1,700 as ETF outflows hit $208.5M - Crypto News",
+  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hY0lrV1BTYXZZUDEzR3V2M3NrTmhMNTd5RG1NM1pOdEQzY0pMbnIxa2tpOU5xSUQ0VUxkMjljM3BlRVlhaURoRVJ6cUE1Sl9kQXBoaHdYMEN0SzhSUDBLTmdka0VwMWxsRmRYdA?oc=5",
+  "timestamp": 1795190541.7629006
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Heads For Longest Weekly Losing Streak Since 2022 With BlackRock\u2019s IBIT Clocking Record Outflows - TradingView",
+  "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQTlZkWERDRk5RZzZ6WUVqVEE1dnJIdXBwSGttN252WDBUMVpySEVYMWo3Ri1YeUJHOXpTNm1wTUx4UmZRcGxxaVFEMGFXd0tFczVpUUI2TUN4aTRRdHgxQlN6M09JR2kwUEFUMVBuQWxPVElwWDNwV0hNLXNfZV9kRlVJZlplLUxEQnRkV0V3S3RvaDc1YnR6OGE1cy1wLXlCM0JESTNtZkJnSXU1VUZqUS1fdkJxS2ZYOW9NYTRmLU9kdTJ2c29hdVJaZFFuQjA1NUJtQjJhWWhUVk1ocktEeUhuQnVsT19DbmpqM0ZoVnJlUXF6ZEJBMw?oc=5",
+  "timestamp": 1795190542.3213499
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin on track for seventh straight weekly loss as ETF outflows hit record - Investing.com",
+  "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONkdBbzV5UWVCZVZrT1p2MV8wWlBlMlZWX1hLRVVmc1Njc3U1UW03V3RVQUJoT0xNb2tIZDFHb284OFE5blFudXdkR1hrakJDTzI4MTREUzVGZ1dEemRSYVRwb05RZXRBSW1aMzBfV2h6SmtQZ2cxc0wwVVlmcUNPTXhXVlJzaUVqaG1iNFBGOGR5MUNNdmV0NUltblZBZ3ZzaXF2T0pCMld1R3BtUmNVQWJ3YUZ6a2NJb0dOcXk0MzZJQWU0OGp4ZHQxR3RwdUhPTVNzZjV1Yw?oc=5",
+  "timestamp": 1795190542.885661
  }
 ]

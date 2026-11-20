@@ -1,27 +1,27 @@
 {
-  "computed_at": 1795186950.3742473,
-  "score": -52.1,
+  "computed_at": 1795190548.392798,
+  "score": -54.7,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -93.2,
-      "note": "1h ↓ RSI 42 · 4h ↓ RSI 31 · 1d ↓ RSI 20 · 7d -13.3%",
+      "score": -99.9,
+      "note": "1h ↓ RSI 25 · 4h ↓ RSI 22 · 1d ↓ RSI 18 · 7d -13.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -71.7,
-      "note": "140 headlines · 5 bullish / 39 bearish",
+      "score": -67.1,
+      "note": "114 headlines · 5 bullish / 28 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -5.6,
-      "note": "S&P -0.1% · DXY -0.2% · VIX 28",
+      "score": -27.4,
+      "note": "S&P -1.5% · DXY -0.2% · VIX 31",
       "weight": 0.1
     },
     "us10y": {
-      "score": 44.9,
-      "note": "4.98% · -7 bps 1d · -17 bps 5d · falling (tailwind)",
+      "score": 64.7,
+      "note": "4.94% · -11 bps 1d · -21 bps 5d · falling (tailwind)",
       "weight": 0.1
     },
     "sentiment": {
@@ -30,17 +30,21 @@
       "weight": 0.1
     },
     "global": {
-      "score": -93.1,
-      "note": "mcap -6.2% 24h · BTC dom 58.1%",
+      "score": -100.0,
+      "note": "mcap -8.5% 24h · BTC dom 57.9%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -3.0,
-      "note": "funding +0.0052% · taker buy 48.0%",
+      "score": -8.7,
+      "note": "funding +0.0037% · taker buy 46.1%",
       "weight": 0.1
     }
   },
   "headlines": [
+    {
+      "title": "‘We Have A Real Issue’—Sudden Bitcoin Plunge Leaves Crypto Braced For A Massive Price Crash",
+      "impact": "Bearish"
+    },
     {
       "title": "SEC Charges Eight Entities Over Alleged $37M Crypto Investment Fraud",
       "impact": "Bearish"
@@ -48,18 +52,14 @@
     {
       "title": "U.S. Senate passes bill to ban prediction market bets on war and death",
       "impact": "Bearish"
-    },
-    {
-      "title": "Zcash tumbles as hawkish Fed repricing weighs on the crypto market; focus remains on the Fed and US-Iran negotiations",
-      "impact": "Bearish"
     }
   ],
   "last_report_ts": 1795172550.014835,
   "last_report_label": "STRONG BEARISH",
   "us10y": {
-    "level": 4.98,
-    "day_bps": -7.2,
-    "week_bps": -17.4,
-    "score": 44.9
+    "level": 4.944,
+    "day_bps": -10.8,
+    "week_bps": -21.0,
+    "score": 64.7
   }
 }
