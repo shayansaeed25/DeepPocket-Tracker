@@ -1,27 +1,27 @@
 {
-  "computed_at": 1795201351.3692575,
-  "score": -59.5,
+  "computed_at": 1795204945.7411735,
+  "score": -60.1,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -100.0,
-      "note": "1h ↓ RSI 22 · 4h ↓ RSI 20 · 1d ↓ RSI 17 · 7d -13.3%",
+      "score": -99.8,
+      "note": "1h ↓ RSI 26 · 4h ↓ RSI 21 · 1d ↓ RSI 17 · 7d -13.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -83.7,
-      "note": "141 headlines · 7 bullish / 50 bearish",
+      "score": -84.1,
+      "note": "140 headlines · 6 bullish / 50 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -41.9,
-      "note": "S&P -2.1% · DXY -0.0% · VIX 32",
+      "score": -49.6,
+      "note": "S&P -2.9% · DXY -0.1% · VIX 34",
       "weight": 0.1
     },
     "us10y": {
-      "score": 66.9,
-      "note": "4.94% · -11 bps 1d · -21 bps 5d · falling (tailwind)",
+      "score": 70,
+      "note": "4.91% · -14 bps 1d · -24 bps 5d · falling (tailwind)",
       "weight": 0.1
     },
     "sentiment": {
@@ -31,16 +31,20 @@
     },
     "global": {
       "score": -100.0,
-      "note": "mcap -8.5% 24h · BTC dom 57.6%",
+      "note": "mcap -8.9% 24h · BTC dom 57.8%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -11.3,
-      "note": "funding +0.0024% · taker buy 45.2%",
+      "score": -11.9,
+      "note": "funding -0.0008% · taker buy 45.0%",
       "weight": 0.1
     }
   },
   "headlines": [
+    {
+      "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
+      "impact": "Bearish"
+    },
     {
       "title": "Gold Plunges Nearly 9% In Worst Week Since March. Fed Rate Fears And AI Selloff Deepen Losses.",
       "impact": "Bearish"
@@ -48,18 +52,14 @@
     {
       "title": "Bitcoin Price Crashes to $59,000 as Market Selloff Deepens",
       "impact": "Bearish"
-    },
-    {
-      "title": "SEC Charges Eight Entities Over Alleged $37M Crypto Investment Fraud",
-      "impact": "Bearish"
     }
   ],
   "last_report_ts": 1795197751.6248577,
   "last_report_label": "STRONG BEARISH",
   "us10y": {
-    "level": 4.94,
-    "day_bps": -11.2,
-    "week_bps": -21.4,
-    "score": 66.9
+    "level": 4.912,
+    "day_bps": -14.0,
+    "week_bps": -24.2,
+    "score": 70
   }
 }
