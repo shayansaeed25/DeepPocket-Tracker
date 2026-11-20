@@ -3,38 +3,6 @@
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "BlackRock\u2019s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
-  "link": "https://cointelegraph.com/markets/blackrock-ibit-outflow-streak-end-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-  "timestamp": 1794915030.8036757
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
-  "link": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends",
-  "timestamp": 1794916091.5087264
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "BlackRock\u2019s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZUoyWU5WSjJFMXVQS05Vc2c0WFhMdkZ0ZEVnM1paa280RFpwWllhMWRyZm83aGZsbVJqU05rQWVwcGZtcEh5UE40Y3R2dWU3X1FSTE12R1Y4YTctR3NkdE5Pb1ZQOVBYVG1nanZPR0V4cHZDb3M3aXNzZWU4NVVRZkQxRlhaLW5RV2ZiSEVQWFNsVFlOWHV2QS1xT05WX29FRVhFNXdhbVVXbENpbEZhdk9wcDlqOXRoczJwOHVEZTFoMlFVQ0c2QW5uUjk?oc=5",
-  "timestamp": 1794916843.0859241
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Holds Near $64,800 as ETF Outflow Streak Ends - The Defiant",
-  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTm5kbkdLaXU3aTJ5X01KSUM4dGJ6UDkyTjBSaU55VXdMTmtSbm9wYXRuQ2dQdHJlVFdmUUtiaVV5OEdiaEMtNFJjeXVyUEdHTzlpeEVNTWJqRXIxWmVxWVduR2hYQThnSWZWZUwzSUd0LTA2NEJkbGtqQ0kzRUNyRnlWN3d2WXNwV0xfN0lWejc?oc=5",
-  "timestamp": 1794916843.6633976
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
   "title": "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows",
   "link": "https://www.coindesk.com/daybook-us/2026/11/17/crypto-s-casino-chips-are-disappearing-adding-to-pain-from-spot-etf-outflows",
   "timestamp": 1794918631.1037035
@@ -1062,5 +1030,29 @@
   "title": "CryptoUK Urges FCA Not to Treat DeFi Devs as Regulated by Default",
   "link": "https://decrypt.co/383679/cryptouk-urges-fca-not-to-treat-defi-devs-as-regulated-by-default",
   "timestamp": 1795172541.8183708
+ },
+ {
+  "coin": "ETH",
+  "category": "Hack / Exploit",
+  "impact": "Bearish",
+  "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
+  "link": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "timestamp": 1795176140.7387266
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin ETFs Shed $582M in a Day as BTC Drops Below $62K",
+  "link": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k",
+  "timestamp": 1795176141.4698346
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Was Anthropic\u2019s IPO the Real Reason Behind Bitcoin\u2019s November Crash?",
+  "link": "https://cryptopotato.com/was-anthropics-ipo-the-real-reason-behind-bitcoins-november-crash/",
+  "timestamp": 1795176142.1289864
  }
 ]

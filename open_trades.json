@@ -110,10 +110,10 @@
     "created_ts": 1795151015959.698,
     "position_size_usd": 100.0,
     "quantity": 144.88554042306578,
-    "last_price": 0.6904,
-    "checked_through_ts": 1795172460000,
-    "last_checked_ts": 1795172460000,
-    "max_favorable_pct": 0.40567951318458695,
+    "last_price": 0.6857,
+    "checked_through_ts": 1795176060000,
+    "last_checked_ts": 1795176060000,
+    "max_favorable_pct": 0.89829035062301,
     "max_adverse_pct": -1.753115039119102
   },
   {
@@ -225,9 +225,9 @@
     "created_ts": 1795158202893.5625,
     "position_size_usd": 100.0,
     "quantity": 0.0016088468557984128,
-    "last_price": 62018.06,
-    "checked_through_ts": 1795172460000,
-    "last_checked_ts": 1795172460000,
+    "last_price": 61758.96,
+    "checked_through_ts": 1795176060000,
+    "last_checked_ts": 1795176060000,
     "max_favorable_pct": 1.1081415373368264,
     "max_adverse_pct": -0.29863415337330057
   },
@@ -340,10 +340,10 @@
     "created_ts": 1795158203199.8132,
     "position_size_usd": 100.0,
     "quantity": 403.8772213247173,
-    "last_price": 0.2483,
-    "checked_through_ts": 1795172460000,
-    "last_checked_ts": 1795172460000,
-    "max_favorable_pct": 0.4846526655896577,
+    "last_price": 0.2461,
+    "checked_through_ts": 1795176060000,
+    "last_checked_ts": 1795176060000,
+    "max_favorable_pct": 0.6058158319870666,
     "max_adverse_pct": -1.1712439418416931
   }
 ]
