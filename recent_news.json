@@ -1,37 +1,5 @@
 [
  {
-  "coin": "ETH",
-  "category": "Hack / Exploit",
-  "impact": "Bearish",
-  "title": "Binance Hack Wallets Move $137 Million in Ethereum After Two Weeks of Silence",
-  "link": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
-  "timestamp": 1794936633.5029504
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin holds near $64,800 as ETF outflow streak ends - Cryptonews.net",
-  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBmZF9SSFI3ZVh0M0h3MVBBa28wdW10YUxWZHRIcTkzZ2RMcTJ4M1BJeEkySGFBLS1qZzFkUnJkeEUxUmRBSjFXZDcyXzNYSTVVUEFaYWY2aTU?oc=5",
-  "timestamp": 1794936634.871969
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Wells Fargo customers double their BlackRock bitcoin ETF holdings to $2.35B - Yahoo Finance",
-  "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMmRpSFVxRHFwcXhxc0pVN29tY3dvRGJqSUJBUHJTTnRtVm9iYTdNQ0xrWFJ2RFV2dVJENTR4dVpEZjdtUnNwaFo4UlY2YmxVSm95aEkwUG5zT25obFJyZkE0TWtXOEt2Vmh6by1GUkEwbHc0ZHN4OXJiWlhxVmFsZ1JvZFNZZTFDVHFvX0pR?oc=5",
-  "timestamp": 1794936635.4139853
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Goldman's Spot Bitcoin ETF Book Doubles to $1.28 Billion, With Fidelity Fund Driving the Jump - BigGo Finance",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CNDY3TTRidGV2Z0lMUmZYdHc0ZVJ3bUVzaVN1LWN3RTlEZ1hzSFdGTFJXcG9fQThfUEZtdGRud0lfYml6eHJGM08tdS1pSWd1RUtkV3dqbG9RV1ZjLTc2X0dFLTFDRWdLOFl5T3BqLU5HNm1VZlE?oc=5",
-  "timestamp": 1794938452.833372
- },
- {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bullish",
@@ -1022,5 +990,13 @@
   "title": "BlackRock Bitcoin ETF Outflow Sets $541M Single-Day Record - Bitcoin Foundation",
   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYzJmWVVBMFhibzI0bWpuekEyYmtvMDNnOGQwRE15MXU5VmVBSGdsMmhrWnN1OHZoX3dfdFNzLW1FZEhsb1JiT3BuTUVURDB5QVc1RHdnQXZsZUVya1lxZ3RuaUMxaGNmMW5ud0ZDTF80SzVESmhOMC1zUktmekxLWlhBdlpTNDU5aU1MX2dqUzM2QW1PazhBRXFnOU5ydGMtZklV?oc=5",
   "timestamp": 1795194141.9528701
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin falls over 20% in November as ETF outflows mount, but history offers some hope - Crypto Briefing",
+  "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5anB6SUFyQUVMd3Q1MmJoMm5WbFNqaTdqSVUwdFNuMDdIRG9oa1NVY0ZjTnk3by02RElWV1hUcXA5Z3Q2cENEajZiY3ROTFNERUs3WTVXb0JHaFdvLWItbGlRSVBUekZQNW9hWFp3?oc=5",
+  "timestamp": 1795197743.4707723
  }
 ]
