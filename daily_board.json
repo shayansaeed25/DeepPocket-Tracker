@@ -26,6 +26,32 @@
    "timeframe": "1h",
    "session": "SESSION_TRANSITION",
    "time": "05:03"
+  },
+  {
+   "key": "BTCUSDT|SHORT|STRATEGY",
+   "symbol": "BTCUSDT",
+   "direction": "SHORT",
+   "source": "Apex Trend",
+   "score": 84.0,
+   "tier": "A",
+   "price": 62156.32,
+   "stop": 63554.8372,
+   "timeframe": "4h",
+   "session": "LONDON_SESSION",
+   "time": "07:03"
+  },
+  {
+   "key": "WLDUSDT|SHORT|STRATEGY",
+   "symbol": "WLDUSDT",
+   "direction": "SHORT",
+   "source": "Consensus: Smart Vector, Apex Trend",
+   "score": 79.5,
+   "tier": "A",
+   "price": 0.2476,
+   "stop": 0.253171,
+   "timeframe": "1h",
+   "session": "LONDON_SESSION",
+   "time": "07:03"
   }
  ],
  "posted_slots": [

@@ -3,38 +3,6 @@
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bullish",
-  "title": "Bank of America Boosts BlackRock Bitcoin ETF Stake to $685M - Bitbo",
-  "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaN0FqaDZpUmRxenlhUTlLTFJVMzJJNHFIeXB6MVdtaUVoRnd0QThCQ2JZU3RJb3k3QUJhTFNvTEVJWkdhdEhuZW9TbXFCR2FCOVB0NXl3S0s3cnNGdWc?oc=5",
-  "timestamp": 1794897036.3924153
- },
- {
-  "coin": "BTC",
-  "category": "Macro / Fed / CPI",
-  "impact": "Mixed",
-  "title": "Fed Chair Warsh Wants Answers on AI Inflation\u2014and Bitcoin May Feel the Impact",
-  "link": "https://decrypt.co/383259/fed-chair-warsh-wants-answers-ai-inflation-bitcoin",
-  "timestamp": 1794898834.4365118
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Wells Fargo Doubles BlackRock Bitcoin ETF Holdings in 3 Months to $2.35 Billion - bloomingbit",
-  "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4yOThBRVU0bGxxM29QRzRQUkliVjV2TXhDZ3FzVXI4SnZGOHVTMXMxcU9WMktoQUpOaldtTTJxcXkwN2VUVkkwRXdWSXNLYlVlaWhIbw?oc=5",
-  "timestamp": 1794898835.8940136
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Wells Fargo doubles its investment in BlackRock's Bitcoin ETF - Traders Union",
-  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa0htbkxWY1lQTHBiQXJJR2hmSGdVNE1zNFI2aDB2VlFJcUFBLVM1MkNiQkZJMFFlZm8xVUhCdFRfbDVvMjhNallLdC1zR0NDbU53TGYwZXZSTzRURzlxOGszR3VEdkZvSzNCWXFvakhIb3hrcWRqM0hKcFlVaXJ2OVFEdXc3Q0lYdFJKdGlpUVFFcGp6c0E3cnNR?oc=5",
-  "timestamp": 1794898836.3984313
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
   "title": "Wells Fargo Doubles BlackRock Bitcoin ETF Holdings in Three Months to $2.35 Billion - BigGo Finance",
   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZc21ndU5ESmQxYVhUd2lCdlpZeEVialVGZ25DMVR4S0lWRHlTYWQ1Ylk2dkJldzRubVI0MGk5TkZ6U1hPSjhjQVVINEo1SXpHcFdmM291dmZZSGl0YkN5UzJkWWdEMEpfdWR1RzlDNFJjZUN5OWc?oc=5",
   "timestamp": 1794900630.538864
@@ -1046,5 +1014,13 @@
   "title": "BlackRock Bets Beyond Bitcoin ETFs on Tokenization: \"Moving Traditional Assets On-Chain Is the Bigger Opportunity\" - BigGo Finance",
   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IVmhIYW1sTVNERldaMGZCbF9IVGowdi0tYVh3Zy1fYkhVa2g0U2h5RGV5OGVMUnVHd19ZU3hSX2NJZFBucl9TV0pDZEdSeTRQVUUwajItUGpvOEE5QjF6eEJSZXdrQmoyQ2JmUjhGSVVfSk5VNXc?oc=5",
   "timestamp": 1795154543.3145845
+ },
+ {
+  "coin": "XRP",
+  "category": "Regulation",
+  "impact": "Mixed",
+  "title": "CFTC Chair on Hyperliquid and onchain venues, Ripple CLO doubts Elizabeth Warren will set crypto policy, and more",
+  "link": "https://www.theblock.co/newsletters/the-daily/2026-11-20-cftc-chair-hyperliquid-ripple-clo-elizabeth-warren-crypto-policy-more-news-444143",
+  "timestamp": 1795158137.6140623
  }
 ]
