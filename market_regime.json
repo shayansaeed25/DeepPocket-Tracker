@@ -1,21 +1,21 @@
 {
-  "computed_at": 1795129343.9836872,
-  "score": -53.4,
+  "computed_at": 1795132948.748518,
+  "score": -52.1,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -93.1,
-      "note": "1h ↓ RSI 39 · 4h ↓ RSI 33 · 1d ↓ RSI 21 · 7d -14.8%",
+      "score": -93.6,
+      "note": "1h ↓ RSI 38 · 4h ↓ RSI 33 · 1d ↓ RSI 21 · 7d -13.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -52.5,
-      "note": "144 headlines · 7 bullish / 33 bearish",
+      "score": -48.1,
+      "note": "121 headlines · 5 bullish / 29 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -44.6,
+      "score": -44.4,
       "note": "S&P -2.0% · DXY +0.1% · VIX 28",
       "weight": 0.1
     },
@@ -25,18 +25,18 @@
       "weight": 0.1
     },
     "sentiment": {
-      "score": -50.0,
-      "note": "Fear & Greed 10 (Extreme Fear)",
+      "score": -41.6,
+      "note": "Fear & Greed 12 (Extreme Fear)",
       "weight": 0.1
     },
     "global": {
-      "score": -44.2,
-      "note": "mcap -2.9% 24h · BTC dom 58.0%",
+      "score": -45.1,
+      "note": "mcap -3.0% 24h · BTC dom 57.9%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -4.4,
-      "note": "funding +0.0002% · taker buy 47.5%",
+      "score": -5.9,
+      "note": "funding -0.0017% · taker buy 47.0%",
       "weight": 0.1
     }
   },
@@ -46,12 +46,12 @@
       "impact": "Bearish"
     },
     {
-      "title": "SEC Charges Eight Entities Over Alleged $37 Million Crypto Fraud",
+      "title": "Gold Price Hits 14-Month Low as Fed Rate Hike Fears Strengthen US Dollar",
       "impact": "Bearish"
     },
     {
-      "title": "SEC Charges Eight Entities in Alleged $37 Million Crypto Fraud",
-      "impact": "Bearish"
+      "title": "Institutional Holdings of Bitcoin ETPs Reach New All-Time High",
+      "impact": "Bullish"
     }
   ],
   "last_report_ts": 1795125752.0565708,

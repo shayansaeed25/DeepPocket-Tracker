@@ -1,29 +1,5 @@
 [
  {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
-  "title": "CFTC backs blockchain-based derivatives infrastructure as Backpack, tZERO win approvals",
-  "link": "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591",
-  "timestamp": 1794871831.8995607
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Crypto Spot ETF Volume Market Share by Coin - The Block",
-  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CaVl1MEtuNnhDbEI1TXkwS3Y2bHF3UVM3S1FWem13Qkc0dWhGalNfY0FGbkxnaFpUM1JOcktVTUtwTl9Oei04aXdhTHdxbE1oalRUc2E2V3RBeFZSZzNDWlVVSTBqU0RjT2hfSnhzczI?oc=5",
-  "timestamp": 1794871833.1080916
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "US Crypto Spot ETF Overview - SoSoValue",
-  "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Eb0VMWkFGVWQ1WkdaV1FnQjlPOHVjc0JkbzlfRzJhOW1Pa2ZVSWU3VnEzSXhtUkpRU1ZoLWhvdHVRalhaMWh0dzRrVjA3WWJ0U3EtODE1bGlSZmM?oc=5",
-  "timestamp": 1794873642.4380944
- },
- {
   "coin": "XRP",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
@@ -1054,5 +1030,29 @@
   "title": "Crypto Market Today, Nov. 19: Bitcoin Approaches $60,000 as ETF Outflows Surpass $2.5 Billion in 2026 - The Motley Fool",
   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOVC1yNlUxdFdOVG15TG1yblczMm02MFZnblBPUzF3bUZfV1FaQ2dMMHRrb1hWSHo4OTl0cGpVd2RUdnA5dVlGeDhuRTA4TGVZY0ttbTRQRHE2VVRIa2g3c1JMV0RxV1NvRXdxVDQxR1hwb1Q2MVFrTFh0cS14MHhHc1lob0szOGJxSWdYQmNVWEdKR2NBbU5TdURqTUZYcWl4UmIxZ3ZUaTI2aWJDZndmRjMyRkZLVzE0Z0xxUlpvM2JnUU80djFMUU5GM3Rsa2QwckIxTFYzMGR4TTNTTXVRRUF2MVNkakdBbHpWd2ZldDdwTkFlb2c?oc=5",
   "timestamp": 1795129339.5051715
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Crypto Market Today, Nov. 19: Bitcoin Approaches $60,000 as ETF Outflows Surpass $2.5 Billion in 2026 - Yahoo Finance",
+  "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ2pBR1NKWGNoenZFTHRrTFhQZ3lqbWdWSl9hUmVyR0tYUWxzeFhCVDdrRmhPUXY1eVBDMG9JTEdwYlJUWnhBVlRZa0RITmFSSzVRQnhkcVFPdmZGdE5UTndRd19KaTAyRFNsTTd1VDU1eE9uRUhpV2g5TVNvTldjRkNpWUVMWVB5X2pXNGZKc04wZktVY3c?oc=5",
+  "timestamp": 1795132942.3449
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin slides toward $60,000 as spot ETF outflows near $3 billion - TradingView",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORjZiWnRNdFl3TTdnMDZpdHpPQ3JDbkdCWHE3OHNSc2pJRHZKT0VWcUx5MXl3X0V0MWtMWDlzYVpPR2RwSzkzWG94WVNGMFY1X3VSZW5FcFpZSEs1QV83MU5DVjNJRnV6VWx6MjZnZV9yQ2lMSVNDTElxTGNxRll1ak84LVk5SzVLSUZ4ZTEwT1RIem1oS0dnR3FJOHMyYTFrRkNwdVl0OV9GZWRPMVNReEhvdEVuSzhpVnppS05GVEFzdHctdXpGLQ?oc=5",
+  "timestamp": 1795132942.8230326
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin slides toward $60,000 as spot ETF outflows near $3 billion - Crypto Briefing",
+  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YVnoxODJ6TjJQX1h2WUI3Y2VqXzM5YjhNaGRtMUZha3ZXM1pZY21HdXRrVk5VV3JESTVjZXJuWEpMQlZXTnNuQ1V1ZEpYSS1YbkNDWUVlcGU1bThja1NMRi10TlB0MTcwNVBWcA?oc=5",
+  "timestamp": 1795132943.2438638
  }
 ]
