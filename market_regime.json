@@ -1,22 +1,22 @@
 {
-  "computed_at": 1795204945.7411735,
-  "score": -60.1,
+  "computed_at": 1795208549.8901908,
+  "score": -58.5,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -99.8,
-      "note": "1h ↓ RSI 26 · 4h ↓ RSI 21 · 1d ↓ RSI 17 · 7d -13.3%",
+      "score": -100.0,
+      "note": "1h ↓ RSI 25 · 4h ↓ RSI 20 · 1d ↓ RSI 17 · 7d -13.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -84.1,
-      "note": "140 headlines · 6 bullish / 50 bearish",
+      "score": -72.6,
+      "note": "112 headlines · 6 bullish / 36 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -49.6,
-      "note": "S&P -2.9% · DXY -0.1% · VIX 34",
+      "score": -57.2,
+      "note": "S&P -3.7% · DXY -0.0% · VIX 38",
       "weight": 0.1
     },
     "us10y": {
@@ -31,27 +31,27 @@
     },
     "global": {
       "score": -100.0,
-      "note": "mcap -8.9% 24h · BTC dom 57.8%",
+      "note": "mcap -8.8% 24h · BTC dom 57.8%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -11.9,
-      "note": "funding -0.0008% · taker buy 45.0%",
+      "score": -11.3,
+      "note": "funding -0.0024% · taker buy 45.2%",
       "weight": 0.1
     }
   },
   "headlines": [
     {
-      "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
-      "impact": "Bearish"
-    },
-    {
-      "title": "Gold Plunges Nearly 9% In Worst Week Since March. Fed Rate Fears And AI Selloff Deepen Losses.",
-      "impact": "Bearish"
-    },
-    {
       "title": "Bitcoin Price Crashes to $59,000 as Market Selloff Deepens",
       "impact": "Bearish"
+    },
+    {
+      "title": "SEC Charges Eight Entities Over Alleged $37M Crypto Investment Fraud",
+      "impact": "Bearish"
+    },
+    {
+      "title": "Bitcoin Poised For 'Great' 2027 as Fed Eyes Aggressive Rate Cuts, Expert Says",
+      "impact": "Bullish"
     }
   ],
   "last_report_ts": 1795197751.6248577,
