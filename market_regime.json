@@ -1,27 +1,27 @@
 {
-  "computed_at": 1795190548.392798,
-  "score": -54.7,
+  "computed_at": 1795194147.3841062,
+  "score": -57.9,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -99.9,
-      "note": "1h ↓ RSI 25 · 4h ↓ RSI 22 · 1d ↓ RSI 18 · 7d -13.3%",
+      "score": -99.6,
+      "note": "1h ↓ RSI 26 · 4h ↓ RSI 22 · 1d ↓ RSI 18 · 7d -13.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -67.1,
-      "note": "114 headlines · 5 bullish / 28 bearish",
+      "score": -79.0,
+      "note": "141 headlines · 5 bullish / 43 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -27.4,
-      "note": "S&P -1.5% · DXY -0.2% · VIX 31",
+      "score": -36.1,
+      "note": "S&P -1.9% · DXY -0.2% · VIX 32",
       "weight": 0.1
     },
     "us10y": {
-      "score": 64.7,
-      "note": "4.94% · -11 bps 1d · -21 bps 5d · falling (tailwind)",
+      "score": 63.6,
+      "note": "4.95% · -11 bps 1d · -21 bps 5d · falling (tailwind)",
       "weight": 0.1
     },
     "sentiment": {
@@ -31,18 +31,18 @@
     },
     "global": {
       "score": -100.0,
-      "note": "mcap -8.5% 24h · BTC dom 57.9%",
+      "note": "mcap -8.0% 24h · BTC dom 57.9%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -8.7,
-      "note": "funding +0.0037% · taker buy 46.1%",
+      "score": -8.1,
+      "note": "funding +0.0016% · taker buy 46.3%",
       "weight": 0.1
     }
   },
   "headlines": [
     {
-      "title": "‘We Have A Real Issue’—Sudden Bitcoin Plunge Leaves Crypto Braced For A Massive Price Crash",
+      "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
       "impact": "Bearish"
     },
     {
@@ -50,16 +50,16 @@
       "impact": "Bearish"
     },
     {
-      "title": "U.S. Senate passes bill to ban prediction market bets on war and death",
+      "title": "‘We Have A Real Issue’—Sudden Bitcoin Plunge Leaves Crypto Braced For A Massive Price Crash",
       "impact": "Bearish"
     }
   ],
   "last_report_ts": 1795172550.014835,
   "last_report_label": "STRONG BEARISH",
   "us10y": {
-    "level": 4.944,
-    "day_bps": -10.8,
-    "week_bps": -21.0,
-    "score": 64.7
+    "level": 4.946,
+    "day_bps": -10.6,
+    "week_bps": -20.8,
+    "score": 63.6
   }
 }

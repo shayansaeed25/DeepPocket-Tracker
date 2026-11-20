@@ -1,45 +1,5 @@
 [
  {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Hovers Below $65,000 as Rate Fears, ETF Outflows Weigh on Market - Yahoo Finance",
-  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeVZCRGhiQ0lsTGJoc0RxQU5wVkNTd3pVZGFNckQ1QUp4WHlDY0F3dEdWa3VWRUE1WGdTTjFYMjBXaVRSZFktb0VIU3VRZFZnNTd2b05IX1pMcGtFNERqbXFIRTFHd1h6ZTZCMmdDVDRkbm1ZZE5SR0x1UU8wSnJRUjRyU1ZHd2thS3J2SzFocU8xVWdva3BB?oc=5",
-  "timestamp": 1794933033.1593723
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "iShares Bitcoin Trust ETF (IBIT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-  "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zdVh2bVo0bDFzNGdLOUJkYVBxMW1Fa0pkcnZyTHktRnFaZ0hIWWFCdXR6cHlGZm9mOERJeG1vbU9HZmVqVE9hbmVXREZtQTUwOXc?oc=5",
-  "timestamp": 1794933033.8384912
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Bitcoin ETF Inflows Return After Seven-Day Losing Streak as IBIT Adds $76.5M: Is the Sell-Off Finally Over? - Yahoo Finance",
-  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdURqUE9QdHZHU1dxVWVjc1Z1WnZpU2dwUFpkZDJDbHV3eS1oMl9xNDZjLUQ4TFk3Y2hzMG5rb29DRXAwQlBIdkYzOHc0ZkpRMGtpY25QNTRYbzl0VHJSekdSNWxwZGQ0Y1hCQThzUV82Z0czTDVEZkVsOElHRjZURWNfblUzUTI1dFlhQVc3YzFOTFVBSVpTcnp2djlqdw?oc=5",
-  "timestamp": 1794934853.8680902
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "BlackRock single-handedly ends Bitcoin ETFs' $1.9 billion exodus as seven rivals keep bleeding - CryptoSlate",
-  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLU1VbWNueml6WFpvV0FMV0xHN2I0ZDQycUtmY054bWQ5V1ptYTNEem1ITlVudGRSQ0ZvazhFTTF4eXZSd2ZKaGdKTzlZOTJQaDVjdVI1QVNaZ3ZwWnBWOXhnbHgya093NVhKN1RMX1p4TURlTEtGdkdzdmdMTVp1QzJzUklHZVpHM0FTbjQ3QV9MZGxSTmNIOGNERGdacUZVMjExY1lTMXJQRVExSHRLNnBwSkY4YS1v?oc=5",
-  "timestamp": 1794934854.4020925
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Tudor Investment nearly doubles IBIT shares to $65M in Q3 - Crypto News",
-  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmVE1ZOXExNV9VVkhLU1A3dXVpbTRyWk1aTzR0UXNEREFvZXpzczZCRnpzR2ljdWplLS1TRjR5RG9lY3JkOHl1c2hqTkprVXl1ZEh3cm9TZ2pQaDZVVzd0cmdkUXhEczF2QzVSWmxTUFM?oc=5",
-  "timestamp": 1794934854.9997604
- },
- {
   "coin": "ETH",
   "category": "Hack / Exploit",
   "impact": "Bearish",
@@ -1054,5 +1014,13 @@
   "title": "Bitcoin on track for seventh straight weekly loss as ETF outflows hit record - Investing.com",
   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONkdBbzV5UWVCZVZrT1p2MV8wWlBlMlZWX1hLRVVmc1Njc3U1UW03V3RVQUJoT0xNb2tIZDFHb284OFE5blFudXdkR1hrakJDTzI4MTREUzVGZ1dEemRSYVRwb05RZXRBSW1aMzBfV2h6SmtQZ2cxc0wwVVlmcUNPTXhXVlJzaUVqaG1iNFBGOGR5MUNNdmV0NUltblZBZ3ZzaXF2T0pCMld1R3BtUmNVQWJ3YUZ6a2NJb0dOcXk0MzZJQWU0OGp4ZHQxR3RwdUhPTVNzZjV1Yw?oc=5",
   "timestamp": 1795190542.885661
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "BlackRock Bitcoin ETF Outflow Sets $541M Single-Day Record - Bitcoin Foundation",
+  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYzJmWVVBMFhibzI0bWpuekEyYmtvMDNnOGQwRE15MXU5VmVBSGdsMmhrWnN1OHZoX3dfdFNzLW1FZEhsb1JiT3BuTUVURDB5QVc1RHdnQXZsZUVya1lxZ3RuaUMxaGNmMW5ud0ZDTF80SzVESmhOMC1zUktmekxLWlhBdlpTNDU5aU1MX2dqUzM2QW1PazhBRXFnOU5ydGMtZklV?oc=5",
+  "timestamp": 1795194141.9528701
  }
 ]
