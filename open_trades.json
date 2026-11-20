@@ -99,9 +99,9 @@
     "created_ts": 1795151015641.4453,
     "position_size_usd": 100.0,
     "quantity": 0.17392514261861694,
-    "last_price": 572.65,
-    "checked_through_ts": 1795158060000,
-    "last_checked_ts": 1795158060000,
+    "last_price": 571.69,
+    "checked_through_ts": 1795161660000,
+    "last_checked_ts": 1795161660000,
     "max_favorable_pct": 1.3844441352442005,
     "max_adverse_pct": 0.0,
     "tp1_hit": true,
@@ -220,9 +220,9 @@
     "created_ts": 1795151015959.698,
     "position_size_usd": 100.0,
     "quantity": 144.88554042306578,
-    "last_price": 0.7,
-    "checked_through_ts": 1795158060000,
-    "last_checked_ts": 1795158060000,
+    "last_price": 0.6995,
+    "checked_through_ts": 1795161660000,
+    "last_checked_ts": 1795161660000,
     "max_favorable_pct": 0.40567951318458695,
     "max_adverse_pct": -1.680672268907557
   },
@@ -335,7 +335,11 @@
     "created_ts": 1795158202893.5625,
     "position_size_usd": 100.0,
     "quantity": 0.0016088468557984128,
-    "last_price": 62156.32
+    "last_price": 61797.14,
+    "checked_through_ts": 1795161660000,
+    "last_checked_ts": 1795161660000,
+    "max_favorable_pct": 1.1081415373368264,
+    "max_adverse_pct": 0.0
   },
   {
     "symbol": "WLDUSDT",
@@ -446,6 +450,10 @@
     "created_ts": 1795158203199.8132,
     "position_size_usd": 100.0,
     "quantity": 403.8772213247173,
-    "last_price": 0.2476
+    "last_price": 0.2489,
+    "checked_through_ts": 1795161660000,
+    "last_checked_ts": 1795161660000,
+    "max_favorable_pct": 0.4846526655896577,
+    "max_adverse_pct": -0.8885298869143909
   }
 ]

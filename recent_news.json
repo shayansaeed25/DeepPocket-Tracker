@@ -1,46 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Wells Fargo Doubles BlackRock Bitcoin ETF Holdings in Three Months to $2.35 Billion - BigGo Finance",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZc21ndU5ESmQxYVhUd2lCdlpZeEVialVGZ25DMVR4S0lWRHlTYWQ1Ylk2dkJldzRubVI0MGk5TkZ6U1hPSjhjQVVINEo1SXpHcFdmM291dmZZSGl0YkN5UzJkWWdEMEpfdWR1RzlDNFJjZUN5OWc?oc=5",
-  "timestamp": 1794900630.538864
- },
- {
-  "coin": "BTC",
-  "category": "Macro / Fed / CPI",
-  "impact": "Bearish",
-  "title": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
-  "link": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says",
-  "timestamp": 1794902437.993318
- },
- {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
-  "title": "Backpack Secures Major US Exchange Approval, Native Token Soars 20%",
-  "link": "https://cryptopotato.com/backpack-secures-major-us-exchange-approval-native-token-soars-20/",
-  "timestamp": 1794902438.7721117
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "WELLS FARGO MORE THAN DOUBLES ITS BLACKROCK BITCOIN ETF $iShares Bitcoin Trust (IBIT.US)$ STAKE TO 49.58 MILLION SHARES WORTH $2.35 BILLION, BECOMING THE LARGEST REPORTED INSTITUTIONAL HOLDER - Moomoo",
-  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcW1FZC1NZVU2ZW04czI4XzQtN2lLSTdpR0ZlMWdqQTdXZDl3SVpTVnFPUEhyT2dQZFhNa2N1UV9hZ0MtZVZnWGlSQnc4cS1tWjdfWTBtQUxwY3FSSEVZQWYzUkxvM3Q2MHV5b2RXX1RSVW9YNFF0NmpFc2ZNUHMxYl92cGRudGFXY0pJZm0xQ3VYQWdlUjBCU0JRMWcyajhpQ1ptWjU1dXVhcjZlZTlEWWNVaU5DbzJt?oc=5",
-  "timestamp": 1794902440.0338042
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Wells Fargo reports 103% jump in BlackRock Bitcoin ETF holdings to $2.35B - Crypto News",
-  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0tMFBrWkVQM0JzMFBsMEwtOWIzUl8zNkZTWENad3prTzdlUDJGZnBmeEhUYlo0OWF3ZXM4eW54dTR0Nm0zU0hiR1JHd1ZERlhYMTJiODJ3dTR2U1FNNEJwdTczNm1HMzcxZGp3eHJYY012Mnh5?oc=5",
-  "timestamp": 1794902440.533214
- },
- {
-  "coin": "BTC",
   "category": "Regulation",
   "impact": "Bearish",
   "title": "Should Government Officials Be Banned From Prediction Markets? House Oversight Says Maybe",
@@ -1022,5 +982,37 @@
   "title": "CFTC Chair on Hyperliquid and onchain venues, Ripple CLO doubts Elizabeth Warren will set crypto policy, and more",
   "link": "https://www.theblock.co/newsletters/the-daily/2026-11-20-cftc-chair-hyperliquid-ripple-clo-elizabeth-warren-crypto-policy-more-news-444143",
   "timestamp": 1795158137.6140623
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "ETF Market Movement | CSOP 2x Short MSTR (07399) Surges Over 19% in Late Trading; BlackRock's Bitcoin ETF Sees Record Capital Outflows - Moomoo",
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYTRoN2EteEZDWGlvVWdSd2RjXzQ2QWlxdzFYZmFMcVFIcmdsNFF0MVgzeERsbXVnZkx5dS1MR1JJX1VmTUxfZFFUWkw1QW93dWt6OGw1Y09GSVBPbUplT1JFZ014VWFmeDFpQl81bkpUNjY4X3lESDFjZkRrUjRpYzNwTFRGM1pISjJ4UG1ZMFhYUmZ4QW1jSDhHdGFMbXdFMHc?oc=5",
+  "timestamp": 1795161739.1572964
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "BlackRock\u2019s Bitcoin ETF Sees Record $541 Million Outflow in a Single Day - BeInCrypto",
+  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtUFFrci1pZTgyckdUTG5HblBwUG9rZjZId0NOdW5VaFVfTUEtb1FvbWtQYVY5SEI4Nm9XeGpBei1Ua2E3MUJyVnMxNlBtaWF3VjVQNVVUdmtrNjJ1TUxVeDR6aW1ZTThPU3V4cQ?oc=5",
+  "timestamp": 1795161739.6974454
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin ETF Outflows Rise as AI Stocks Crash - Cryptonews",
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSHJhdHNwZURVYllkd2VFM2dKMHBPeVRJd3Q5ZjduRFB5djd4SkM3NlMxRkpWNGZ1SFlpdFM1LTBQcWhRXzR4ZTlybF9KOVFhVGNxdFZNSVptZzMzUDRiQVJWaTlRMWlzczZncVlfTGRiU1RqdVE2VDZINWo5UEJQRVlKdXg?oc=5",
+  "timestamp": 1795161740.2343962
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin falls below $62,000 amid $582 million in spot ETF outflows - Traders Union",
+  "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRjB1MHJmSFZfSklqSXNQMGRETGhhVkdjbWw0RE1kcUhMNmJzWENJYjFORUI3dFFiWnQ1QXRBcW1NdDFEbzNtRkRQUy1FUXZ0WWx2aDh4OXB3NW94WnZOcEdsTVJnWTctTjBhLVE4Z2VMYWhnR0h6UGV5TzhOZ2lDYk4yM3lIblZuYWExOEd3cjF0ZjQ?oc=5",
+  "timestamp": 1795161740.8513634
  }
 ]
