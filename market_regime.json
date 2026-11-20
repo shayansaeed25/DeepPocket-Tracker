@@ -1,22 +1,22 @@
 {
-  "computed_at": 1795168948.3467476,
-  "score": -53.1,
+  "computed_at": 1795172547.3961189,
+  "score": -51.6,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -93.4,
-      "note": "1h ↓ RSI 41 · 4h ↓ RSI 32 · 1d ↓ RSI 20 · 7d -13.3%",
+      "score": -91.4,
+      "note": "1h ↓ RSI 45 · 4h ↓ RSI 34 · 1d ↓ RSI 20 · 7d -13.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -48.4,
-      "note": "137 headlines · 8 bullish / 30 bearish",
+      "score": -47.2,
+      "note": "139 headlines · 6 bullish / 27 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -34.6,
-      "note": "S&P -2.0% · DXY -0.1% · VIX 30",
+      "score": -35.1,
+      "note": "S&P -2.0% · DXY -0.0% · VIX 29",
       "weight": 0.1
     },
     "us10y": {
@@ -30,13 +30,13 @@
       "weight": 0.1
     },
     "global": {
-      "score": -66.0,
-      "note": "mcap -4.4% 24h · BTC dom 58.0%",
+      "score": -61.7,
+      "note": "mcap -4.1% 24h · BTC dom 58.1%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -4.8,
-      "note": "funding -0.0044% · taker buy 47.4%",
+      "score": -2.1,
+      "note": "funding -0.0026% · taker buy 48.3%",
       "weight": 0.1
     }
   },
@@ -50,11 +50,11 @@
       "impact": "Bearish"
     },
     {
-      "title": "SEC Charges Eight Entities for $37M Crypto Fraud Targeting U.S. Investors",
+      "title": "A ‘Shock’ Rate Hike by the Fed? In This Economy?",
       "impact": "Bearish"
     }
   ],
-  "last_report_ts": 1795150945.8142133,
+  "last_report_ts": 1795172550.014835,
   "last_report_label": "STRONG BEARISH",
   "us10y": {
     "level": 5.052,
