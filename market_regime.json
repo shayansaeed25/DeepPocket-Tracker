@@ -1,27 +1,27 @@
 {
-  "computed_at": 1795179751.9650486,
-  "score": -57.5,
+  "computed_at": 1795183345.7611222,
+  "score": -50.9,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -93.3,
-      "note": "1h ↓ RSI 42 · 4h ↓ RSI 31 · 1d ↓ RSI 20 · 7d -13.3%",
+      "score": -91.4,
+      "note": "1h ↓ RSI 46 · 4h ↓ RSI 33 · 1d ↓ RSI 20 · 7d -13.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -58.1,
-      "note": "140 headlines · 7 bullish / 32 bearish",
+      "score": -58.5,
+      "note": "123 headlines · 7 bullish / 30 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -37.4,
-      "note": "S&P -2.0% · DXY -0.1% · VIX 31",
+      "score": -35.5,
+      "note": "S&P -2.0% · DXY -0.2% · VIX 31",
       "weight": 0.1
     },
     "us10y": {
-      "score": -6.8,
-      "note": "5.05% · -1 bps 1d · -5 bps 5d · flat",
+      "score": 49.3,
+      "note": "4.97% · -8 bps 1d · -18 bps 5d · falling (tailwind)",
       "weight": 0.1
     },
     "sentiment": {
@@ -30,13 +30,13 @@
       "weight": 0.1
     },
     "global": {
-      "score": -90.0,
-      "note": "mcap -6.0% 24h · BTC dom 58.1%",
+      "score": -86.2,
+      "note": "mcap -5.7% 24h · BTC dom 58.2%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -2.9,
-      "note": "funding -0.0000% · taker buy 48.0%",
+      "score": -3.6,
+      "note": "funding +0.0034% · taker buy 47.8%",
       "weight": 0.1
     }
   },
@@ -50,16 +50,16 @@
       "impact": "Bearish"
     },
     {
-      "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
+      "title": "Gold price crashes 36% from record high as Fed rate hike fears intensify",
       "impact": "Bearish"
     }
   ],
   "last_report_ts": 1795172550.014835,
   "last_report_label": "STRONG BEARISH",
   "us10y": {
-    "level": 5.052,
-    "day_bps": -1.4,
-    "week_bps": -5.1,
-    "score": -6.8
+    "level": 4.972,
+    "day_bps": -8.0,
+    "week_bps": -18.2,
+    "score": 49.3
   }
 }

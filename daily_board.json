@@ -78,6 +78,19 @@
    "timeframe": "1h",
    "session": "LONDON_NY_OVERLAP",
    "time": "13:03"
+  },
+  {
+   "key": "FETUSDT|SHORT|STRATEGY",
+   "symbol": "FETUSDT",
+   "direction": "SHORT",
+   "source": "Consensus: Alpha Prime, Elite Trend, Global Core",
+   "score": 100.0,
+   "tier": "A",
+   "price": 0.1191,
+   "stop": 0.12177975,
+   "timeframe": "1h",
+   "session": "LONDON_NY_OVERLAP",
+   "time": "14:03"
   }
  ],
  "posted_slots": [

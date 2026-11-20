@@ -1,29 +1,5 @@
 [
  {
-  "coin": "BTC",
-  "category": "Macro / Fed / CPI",
-  "impact": "Bearish",
-  "title": "Fed Rate Hike Odds Hit 90%: What Could Happen to Bitcoin and Crypto in December?",
-  "link": "https://cryptopotato.com/fed-rate-hike-odds-hit-90-what-could-happen-to-bitcoin-and-crypto-in-december/",
-  "timestamp": 1794924041.2368555
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "IBIT Led $2.35B Bitcoin ETF Exodus: Is Wall Street Selling Too Soon? - iShares Bitcoin Trust (NASDAQ:IBIT - Benzinga",
-  "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSndTaklvblRHcTIxZkdVVTBnMF9QSDcyN2tyc2NFTUdtcUhkOVVfOXliY3RRTHk3RURTOThpOXVHTk1zVVhQNGFUZXM3Q013WUloMW9leE9sQzVaZ2l2a25EX2pjazRQTGZOX1BONE5DekpzMDAycm1hVXJ5eldQdUxDZ29uNXQ5OXZyUGVoNk8xelJrSWlVNGMyb0R4d1pfcm5USFROMTZtXzJZM01peTVJdDFJNGxXRS1QXzRBbEsyM25rNDBtNVQxckxteVRHUWdWOGJobXExUQ?oc=5",
-  "timestamp": 1794924042.3422582
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "David Gokhshtein: Wells Fargo becomes largest reported holder of BlackRock Bitcoin ETF - Traders Union",
-  "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWQ3OUhsRThfUHJBcFdjbks2TmxUZTlnRjVPa2NITE1yYU5lUkZqRVZZVE55WnowZUdlZXNGSWpmazhqblBrOFo5b2xaYV9STF9TSmpnX2F1OGd4NzhSLTFvNEZfcjYwQmJlSHFSVWJ1UDlRanVhblhxejgzdjhiY25Bcm9DLVBo?oc=5",
-  "timestamp": 1794924044.1067328
- },
- {
   "coin": "NEAR",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
@@ -1046,5 +1022,29 @@
   "title": "ETF outflows weigh on Bitcoin price as downward move continues - Traders Union",
   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWHBaRVpSaXRkeFQyNzI2dnIwUnZSbW1LNkRtdi1saXVaUzlEQVFJUnU5X0FSUFBTTEJycWkzd053RlY1bWhYMERubFZUaXN6emV5SUhLWXVtNjhfa1hqd0tBa01uejhwZ2Jzd1d0M0lCRmNMQnpIVGRNWmZIbVRvcDNvZy1ZRlFtSUtkVHU5WEdnR3NaSjFVQkhlWkM1OFV5TVNTbQ?oc=5",
   "timestamp": 1795179747.2752619
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Bitcoin ETF Sellers Show No Mercy: BlackRock Leads $582M Bitcoin ETF Exodus as BTC Hits New Lows - Yahoo Finance",
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUkNib0lQSktFYU9uZkthNWlnOG1tbjg1YU02MWlUbFg1ejREdnczY2hGeS1TdThCcUhLREI0T3A1OG5TbGV3NFpYQkNXeFpkTTczVE9YREQwMlVxQ3ZQNzQwREJoX3cxNVFQTU5uRHRhSzkxbnY1TFBSekFweUlZdzdmb3lVUTk1NDc0Z20xR3NjMVp3M1Fj?oc=5",
+  "timestamp": 1795183339.3281388
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "BlackRock's Bitcoin ETF Bleeds NT$18 Billion in a Single Day, Marking Largest Outflow Since Inception - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QS1NPcFBSbFM4N1hWVDBGaXN0UlNGMHd4UVlVMmh3ZF9rVjRlME4xQ1pWaVZEa2hpNU9jWWp5NVVFREtxZFV6VEhQU2RJZjZWQUZZWWo0NUNQbm9hWUt2VGV3eHFjNHFtWnk5R2VEOGk2d0FCYnc?oc=5",
+  "timestamp": 1795183339.8783104
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Ether Sheds $1,000 in Seven Weeks as Exchange Inflows and ETF Outflows Pile On - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aNGc3MDQ4VEtzYmlROTROMkhHcGlsakd4ZUN5dkpza1RVRmFuckNWTjBORTJPd2FhWGw4RkU4OENuWVZvdkhGc2ZsaWlVRjY2ODVqd25WLTZlN1NFXzlVam1OSlB6Y2M5a0YyN3AwaHJoNURTZVE?oc=5",
+  "timestamp": 1795183340.4845273
  }
 ]
