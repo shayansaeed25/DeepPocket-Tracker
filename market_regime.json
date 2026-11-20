@@ -1,22 +1,22 @@
 {
-  "computed_at": 1795208549.8901908,
-  "score": -58.5,
+  "computed_at": 1795212157.4329035,
+  "score": -59.6,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -100.0,
-      "note": "1h ↓ RSI 25 · 4h ↓ RSI 20 · 1d ↓ RSI 17 · 7d -13.3%",
+      "score": -98.1,
+      "note": "1h ↓ RSI 32 · 4h ↓ RSI 25 · 1d ↓ RSI 17 · 7d -13.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -72.6,
-      "note": "112 headlines · 6 bullish / 36 bearish",
+      "score": -82.7,
+      "note": "140 headlines · 5 bullish / 50 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -57.2,
-      "note": "S&P -3.7% · DXY -0.0% · VIX 38",
+      "score": -54.3,
+      "note": "S&P -3.7% · DXY -0.0% · VIX 36",
       "weight": 0.1
     },
     "us10y": {
@@ -31,27 +31,27 @@
     },
     "global": {
       "score": -100.0,
-      "note": "mcap -8.8% 24h · BTC dom 57.8%",
+      "note": "mcap -7.6% 24h · BTC dom 57.9%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -11.3,
-      "note": "funding -0.0024% · taker buy 45.2%",
+      "score": -10.7,
+      "note": "funding -0.0035% · taker buy 45.4%",
       "weight": 0.1
     }
   },
   "headlines": [
     {
-      "title": "Bitcoin Price Crashes to $59,000 as Market Selloff Deepens",
+      "title": "Crypto Market Today, Nov. 20: Bitcoin Plunges Below $60,000 as Wall Street's Sell-Off Spreads to Crypto",
       "impact": "Bearish"
     },
     {
-      "title": "SEC Charges Eight Entities Over Alleged $37M Crypto Investment Fraud",
+      "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
       "impact": "Bearish"
     },
     {
-      "title": "Bitcoin Poised For 'Great' 2027 as Fed Eyes Aggressive Rate Cuts, Expert Says",
-      "impact": "Bullish"
+      "title": "Gold Plunges Nearly 9% In Worst Week Since March. Fed Rate Fears And AI Selloff Deepen Losses.",
+      "impact": "Bearish"
     }
   ],
   "last_report_ts": 1795197751.6248577,

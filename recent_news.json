@@ -1,14 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Wells Fargo more than doubles its BlackRock Bitcoin ETF stake to 49.6M shares - Crypto Briefing",
-  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVVVpN3Q1LUZCMDFlMFh1VmI0NkUyNmVDLWxjcThfYnlOMklSa1RuT0k3eWZOZ1l3SDR5TDhKVi1Db1lMWEpFMnVZSXdwaE9RZ1ROR0pJbGZjM2hBbmRHUnBkU2NCMExFODdtVFQwdjZwdzBEbU5mUWk0TVRuVV9Ueg?oc=5",
-  "timestamp": 1794952847.1469502
- },
- {
-  "coin": "BTC",
   "category": "Regulation",
   "impact": "Mixed",
   "title": "CFTC halts some Kalshi Trump mention markets over manipulation concerns",
@@ -1046,5 +1038,29 @@
   "title": "Bitcoin Heads For Longest Weekly Losing Streak Since 2022 With BlackRock\u2019s IBIT Clocking Record Outflows - Yahoo Finance",
   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMXI5UER3LUFIRFR2VVl4U0Fjd0Jtekpmb1BzM2JNYXdXTF9tZFFCNUR0WjlWQXpsb1A3a2VMMkZwOXFVRmxEcDJjam4zN0FlRUZha2lJaVRMeW55RG85OFBTUEtCODhYaFcyUVdiUGd2dmdLaU5oS1YzYXNYTVlMVXRxY0ROVk5jU3BEUHlISVNtS0xuOTA1TnBlbGhUR2VYaXc?oc=5",
   "timestamp": 1795208544.7691803
+ },
+ {
+  "coin": "ZEC",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "DCG\u2019s Zcash miner Fortitude clears vote for Nasdaq listing as ZEC retreats from all-time high",
+  "link": "https://www.theblock.co/news/business/2026-11-20-dcgs-zcash-miner-fortitude-clears-vote-nasdaq-listing-zec-retreats-all-time-high-444784",
+  "timestamp": 1795212150.8159337
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Briefly Dips Below $58,000 as AI Stock Selloff Spreads; $2 Billion Liquidated, ETF Outflows Continue - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LMm1WOTktWk9IeE9IdnFwWS02b0o5aVlvN0hfOFg0d2MwVi1hSUltMFdhOVhOSFNGQnBtOHhLNnpiMTJJWDdMSy1ITXJPa1lUQV95TERjR1E4YnlqRzRqdFBhZkx2d1VYVzg0emU3M3BMZjRyQXc?oc=5",
+  "timestamp": 1795212151.9322016
+ },
+ {
+  "coin": "ETH",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Ethereum Price Forecast: ETH struggles as ETF outflows outweigh renewed retail demand - www.tmgm.com",
+  "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTHljXzlIeHFwMjEycTI2dGlMbXVtaHFoVGs0dmkzdVRnNnV6ZGo2WXVMdkRCbjJIZnRqZC1ueVVQU1FmOWRkMFFMNUplUzN5dXd4OEtadDFDV3FsSlhpM29oWVpqdlgwS2lmOXRQUDZEaFotVTdFclBOeW9namRQdVFQSUJjSkp3cWRiUU9sV3Y4YzdCS0pRa3hOQWRRVmN3SlRoZURWSWdYODY5VFpQNUt3RFFRNUYzSU9NNW00Zndyb2IwZzI5NUIxXzVkMFZ1c2JGNVk5bTU4eFdpSFpQbVRIQ2l0YVllZkUzUExBRURwQQ?oc=5",
+  "timestamp": 1795212152.5006537
  }
 ]
