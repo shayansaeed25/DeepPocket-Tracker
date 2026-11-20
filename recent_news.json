@@ -1,14 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Crypto Spot ETF Volume by Coin - The Block",
-  "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aVGp2UkpMYjJ3LVdZbEdzWHRCSmQwZG02VjloRkJsRktYX1BiTS1MZjQ0VEdrV0lpRlhaLWJ6amFlelNFZ1djc0JqNjhBb2hzZU9zMlkzRW1qTENRbnJUWXhacldQclpuaWc?oc=5",
-  "timestamp": 1794884104.2820666
- },
- {
-  "coin": "BTC",
   "category": "Macro / Fed / CPI",
   "impact": "Bearish",
   "title": "Bitcoin Hits 12-Week Low as Fed Rate Fears Undo Most of Summer Rally",
