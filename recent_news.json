@@ -1,22 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
-  "title": "CFTC nominee questions public benefit of prediction markets as legal fight grows",
-  "link": "https://www.coindesk.com/policy/2026/11/17/nominee-says-u-s-cftc-must-think-hard-about-public-benefit-of-prediction-markets",
-  "timestamp": 1794963636.5608592
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Billionaire Paul Tudor Jones doubles stake in BlackRock's Bitcoin ETF - Yahoo Finance",
-  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX3pCVVVxNVFOWnlsRFJkTzhGVXBLS3I3ZXRaazFONWR1RnhtMmNOUnVRYkl4VEdrSWRhZGQ4Y3gwS0xPb1JBR29uRE5kTUp5aHkxaUdTUWJDRVA3WDRQaTlxUGpKQWlxQ2JYUjlERTdJT1h6SXVCRU5oNkdWOVNmZlNIR3hpbjI1WUtJS0w0c1oyVGNrQS02bVBmenp1d1NLdlpr?oc=5",
-  "timestamp": 1794963637.9453962
- },
- {
-  "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bullish",
   "title": "Billionaire Paul Tudor Jones doubles stake in BlackRock's Bitcoin ETF - Yahoo Finance Australia",
