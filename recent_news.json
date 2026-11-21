@@ -1,29 +1,5 @@
 [
  {
-  "coin": "ETH",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Ethereum Futures Open Interest Falls to $9.12 Billion, Lowest Since October 2024 as ETF Outflows Mount - finance.biggo.com",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEOGNxei05MndZMU1KdlJ3a1dqMzVXbzhfVnV6anlZNTZxT1pWMHdycUVpb1lQTnBTVkY3cmJrQ0VWV2RYY1dUMHNRdHptYzRtQm8tTVZiNXFMUVZQOHZIU05ndWVGQlA3MXBnRlFZdTY0WHBPc2c?oc=5",
-  "timestamp": 1795001431.0154722
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "\u2018They\u2019re Going to Try to Package Collectibles Like Pokemon Cards\u2019: ETF Analyst as BlackRock Files New Structure for Private Companies - Yahoo Finance",
-  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYmR5UEkwbE01cFQzbDREWjZvMVdTU1lwR25rYlU5ZkVSUVhYZWpqaVJyZUVEUm9JRUlqbzIxNlpLUmNZZ2pxbXlFT1YxdFRwV1dKQUxCWGVCZ1A2QjJtWUFDaGxobWxyemIzWno5T0xEQWpxRU54ZGJOV0EzQWN1VW55ai14R2JOay1uRkdjRlVNS01tREw3QTl5TXVzeW9vTjBhQnpR?oc=5",
-  "timestamp": 1795001819.240099
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Kevin O'Leary Says AI 'Sucked the Air' Out of Crypto's 'Hot' Trade \u2014 Binance Founder CZ Points to Anthropic IPO, $1.9 Billion ETF Outflows and Inflation as Bitcoin Sell-Off Deepens - Yahoo Finance",
-  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVm1hSmgyQXJiQVR2c29GNFc5aHhqR1JCT2dieGhDZ0pmTkV5TXBPdU1rSFhkeUNPR2pmZ01sTzd6T252eWl3UE50VU51dlozTWxTUWRlZE51WF9FZFFiRTN1UVA5Z0poTFFrZ2ZGdzJYcHF5Y2xBMC13WHRyUHZ1VF9YZ2dwYXh1YngzMEgtRnowVnhRcXFz?oc=5",
-  "timestamp": 1795003239.6333098
- },
- {
   "coin": "SOL",
   "category": "Hack / Exploit",
   "impact": "Bearish",
