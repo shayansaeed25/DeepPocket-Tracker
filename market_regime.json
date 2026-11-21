@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795251746.227353,
-  "score": -53.3,
+  "computed_at": 1795255342.4924784,
+  "score": -53.5,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -94.8,
-      "note": "1h ↓ RSI 40 · 4h ↓ RSI 28 · 1d ↓ RSI 16 · 7d -13.7%",
+      "score": -94.1,
+      "note": "1h ↓ RSI 42 · 4h ↓ RSI 29 · 1d ↓ RSI 17 · 7d -13.7%",
       "weight": 0.3
     },
     "news": {
-      "score": -55.7,
-      "note": "131 headlines · 4 bullish / 35 bearish",
+      "score": -57.6,
+      "note": "129 headlines · 5 bullish / 37 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -31,12 +31,12 @@
     },
     "global": {
       "score": -100.0,
-      "note": "mcap -8.4% 24h · BTC dom 57.6%",
+      "note": "mcap -7.8% 24h · BTC dom 57.5%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -8.4,
-      "note": "funding -0.0056% · taker buy 43.7%",
+      "score": -8.8,
+      "note": "funding -0.0064% · taker buy 43.6%",
       "weight": 0.1
     }
   },
@@ -50,7 +50,7 @@
       "impact": "Bearish"
     },
     {
-      "title": "Crypto Market Bloodbath: Bitcoin, Ethereum and XRP Crash Up to 10% as Bear Market Fears Grow",
+      "title": "ETHFI Swings 4.02% Amid Ethereum ETF Outflows and Selloff",
       "impact": "Bearish"
     }
   ],
