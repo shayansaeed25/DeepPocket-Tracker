@@ -3,14 +3,6 @@
   "coin": "BTC",
   "category": "Regulation",
   "impact": "Mixed",
-  "title": "Trump\u2019s CFTC picks face Senate scrutiny as prediction market turf war heats up",
-  "link": "https://www.theblock.co/news/regulation/2026-11-17-trumps-cftc-picks-face-senate-scrutiny-as-prediction-market-turf-war-heats-up-442909",
-  "timestamp": 1794960038.057132
- },
- {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
   "title": "CFTC nominee questions public benefit of prediction markets as legal fight grows",
   "link": "https://www.coindesk.com/policy/2026/11/17/nominee-says-u-s-cftc-must-think-hard-about-public-benefit-of-prediction-markets",
   "timestamp": 1794963636.5608592
@@ -1046,5 +1038,13 @@
   "title": "Ethereum Price Forecast: ETH struggles as ETF outflows outweigh renewed retail demand - www.tmgm.com",
   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTHljXzlIeHFwMjEycTI2dGlMbXVtaHFoVGs0dmkzdVRnNnV6ZGo2WXVMdkRCbjJIZnRqZC1ueVVQU1FmOWRkMFFMNUplUzN5dXd4OEtadDFDV3FsSlhpM29oWVpqdlgwS2lmOXRQUDZEaFotVTdFclBOeW9namRQdVFQSUJjSkp3cWRiUU9sV3Y4YzdCS0pRa3hOQWRRVmN3SlRoZURWSWdYODY5VFpQNUt3RFFRNUYzSU9NNW00Zndyb2IwZzI5NUIxXzVkMFZ1c2JGNVk5bTU4eFdpSFpQbVRIQ2l0YVllZkUzUExBRURwQQ?oc=5",
   "timestamp": 1795212152.5006537
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Holds Steady as VIX Surges and Crypto ETF Outflows Mount - Cryptonews.net",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ISy1Qc2RHcEJpMXN2MXZJc0RtTmRnazVhUHFoSS1MNzNoeERuajBjZmxJZ1drSGNqdzl6U1NHMVVQLVZNUmpsWGZvM3hPREt0M0F0MkVtT04?oc=5",
+  "timestamp": 1795219355.0770764
  }
 ]
