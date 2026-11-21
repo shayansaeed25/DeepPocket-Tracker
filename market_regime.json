@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795269745.8206336,
-  "score": -45.5,
+  "computed_at": 1795273346.3168008,
+  "score": -46.8,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -69.4,
-      "note": "1h ↑ RSI 62 · 4h ↓ RSI 45 · 1d ↓ RSI 24 · 7d -13.7%",
+      "score": -70.9,
+      "note": "1h ↑ RSI 59 · 4h ↓ RSI 43 · 1d ↓ RSI 23 · 7d -13.7%",
       "weight": 0.3
     },
     "news": {
-      "score": -69.2,
-      "note": "123 headlines · 3 bullish / 37 bearish",
+      "score": -72.1,
+      "note": "111 headlines · 4 bullish / 38 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -30,27 +30,27 @@
       "weight": 0.1
     },
     "global": {
-      "score": -66.7,
-      "note": "mcap -4.4% 24h · BTC dom 58.0%",
+      "score": -69.0,
+      "note": "mcap -4.6% 24h · BTC dom 58.0%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -13.0,
-      "note": "funding -0.0008% · taker buy 44.7%",
+      "score": -13.2,
+      "note": "funding -0.0003% · taker buy 44.6%",
       "weight": 0.1
     }
   },
   "headlines": [
     {
-      "title": "BlackRock Said Bitcoin Moves Against AI Stocks: Then Both Crashed Together",
+      "title": "Crypto Market Crash Triggers $2.3B Liquidations Amid Stock Rout",
       "impact": "Bearish"
     },
     {
-      "title": "Crypto Crashes Pile Up as Once-Diehard Fans Chase New Bets",
+      "title": "Ethereum Declines 3.21% Amid ETF Outflows, Leverage Liquidations",
       "impact": "Bearish"
     },
     {
-      "title": "What Is the Best Crypto to Buy With $500 During This Crash?",
+      "title": "'Pretty Low Demand': Dogecoin Co-Founder Explains $2.55 Billion Crypto Market Crash",
       "impact": "Bearish"
     }
   ],
