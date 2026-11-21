@@ -1,7 +1,9 @@
 name: DeepPocket Tracker Scan
 
 on:
-  workflow_dispatch: {}   # Triggered hourly by cron-job.org (no duplicate GitHub schedule cron)
+  schedule:
+    - cron: "3 * * * *"
+  workflow_dispatch: {}   # Manual or external trigger still supported
 
 permissions:
   contents: write

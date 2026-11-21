@@ -316,6 +316,9 @@ def btc_guard(signal: dict[str, Any], regime: dict[str, Any] | None) -> str | No
     raw_dir = str(signal.get("direction") or signal.get("action") or "").upper()
     is_long = raw_dir in {"LONG", "BUY"}
     is_short = raw_dir in {"SHORT", "SELL"}
+    details = signal.get("details") if isinstance(signal.get("details"), dict) else {}
+    if is_long and details.get("wz_reversal_override"):
+        return None
 
     btc_mom = ((regime.get("components") or {}).get("btc_momentum") or {}).get("score")
     if btc_mom is not None:

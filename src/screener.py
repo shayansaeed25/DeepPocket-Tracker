@@ -75,7 +75,7 @@ TOP_N_BY_MARKET_VOLUME = 200
 QUALITY_TOP_N_MARKET_CAP = 500
 
 KLINE_INTERVAL = "1h"
-KLINE_LOOKBACK = 120
+KLINE_LOOKBACK = 200
 
 VOLUME_SPIKE_MULTIPLIER = 3.0
 VOLUME_LOOKBACK_CANDLES = 20
@@ -117,6 +117,7 @@ SIGNAL_COOLDOWN_HOURS = 6
 FUTURES_BASE = "https://fapi.binance.com"
 BYBIT_BASE = "https://api.bybit.com"
 OKX_BASE = "https://www.okx.com"
+BITGET_BASE = "https://api.bitget.com"
 FUTURES_FALLBACK_ENABLED = True
 ENABLE_OI_CONFIRMATION = True
 OI_LOOKBACK = 20
@@ -385,11 +386,12 @@ def passes_institutional_v3_gates(
     details = signal.get("details") if isinstance(signal.get("details"), dict) else {}
     direction = str(signal.get("direction") or ("LONG" if signal.get("action") == "BUY" else "SHORT")).upper()
     is_long = direction in {"LONG", "BUY"}
+    is_wz_reversal = bool(is_long and details.get("wz_reversal_override"))
 
     # 1. Macro / BTC Regime Directional Priority
     if isinstance(CURRENT_REGIME, dict) and CURRENT_REGIME.get("score") is not None:
         r_score = float(CURRENT_REGIME["score"])
-        if is_long and r_score <= BEARISH_REGIME_NO_BUY_SCORE:
+        if is_long and (not is_wz_reversal) and r_score <= BEARISH_REGIME_NO_BUY_SCORE:
             return False, f"counter-regime BUY blocked in bearish market ({r_score:+.1f})"
         if (not is_long) and r_score >= BULLISH_REGIME_NO_SELL_SCORE:
             return False, f"counter-regime SELL blocked in bullish market ({r_score:+.1f})"
@@ -410,11 +412,11 @@ def passes_institutional_v3_gates(
     if sess_name == "ASIA_DEAD_ZONE":
         return False, "Asia Dead-Zone low-liquidity window (22:00–05:00 UTC)"
 
-    # 4. H4 + D1 Trend Structure Gate
+    # 4. H4 + D1 Trend Structure Gate (verified WZ Oversold V-bottom LONGs exempt from lagging H4+D1 lock)
     trend_align = details.get("trend_alignment")
     trend_votes = details.get("trend_votes") if isinstance(details.get("trend_votes"), dict) else {}
     expected_vote = 1 if is_long else -1
-    if trend_align not in {"ALIGNED", "PARTIAL"}:
+    if (not is_wz_reversal) and trend_align not in {"ALIGNED", "PARTIAL"}:
         if not (trend_align in {"MIXED", "NEUTRAL"} and trend_votes.get("4h") == expected_vote):
             return False, f"H4+D1 trend structure is {trend_align} (requires ALIGNED or PARTIAL)"
 
@@ -450,7 +452,7 @@ def passes_institutional_v3_gates(
             p_di_num, m_di_num = float(p_di_raw), float(m_di_raw)
             if (not is_long) and p_di_num >= m_di_num:
                 return False, f"opposing bullish DI momentum on SHORT (+DI {p_di_num:.1f} >= -DI {m_di_num:.1f})"
-            if is_long and m_di_num >= p_di_num:
+            if is_long and (not is_wz_reversal) and m_di_num >= p_di_num:
                 return False, f"opposing bearish DI momentum on LONG (-DI {m_di_num:.1f} >= +DI {p_di_num:.1f})"
         except (TypeError, ValueError):
             pass
@@ -474,6 +476,24 @@ def passes_institutional_v3_gates(
             return False, quad["reason"] or f"OI+CVD quadrant {quad['quadrant']} blocks SHORT"
         if is_long and quad["blocks_long"]:
             return False, quad["reason"] or f"OI+CVD quadrant {quad['quadrant']} blocks LONG"
+
+    # 7b. Free Institutional Liquidation Magnet Telemetry & Extreme-Trap Guard (NO analysis paralysis)
+    if coin_klines:
+        liq_mag = smart_money.estimate_liquidation_magnets(
+            coin_klines, oi_change_pct=oi_chg, funding_rate_pct=funding_pct
+        )
+        if liq_mag.get("short_liq_above") is not None:
+            details.setdefault("liq_short_above", liq_mag["short_liq_above"])
+            details.setdefault("liq_short_dist_pct", liq_mag["short_liq_dist_pct"])
+            details.setdefault("liq_long_below", liq_mag["long_liq_below"])
+            details.setdefault("liq_long_dist_pct", liq_mag["long_liq_dist_pct"])
+            details.setdefault("liq_magnet_bias", liq_mag["magnet_bias"])
+            details.setdefault("liq_short_share_pct", liq_mag["short_liq_share_pct"])
+            details.setdefault("liq_long_share_pct", liq_mag["long_liq_share_pct"])
+        if (not is_long) and liq_mag.get("extreme_trap_short"):
+            return False, liq_mag["reason"]
+        if is_long and liq_mag.get("extreme_trap_long"):
+            return False, liq_mag["reason"]
 
     # 8. Relative Strength (RS) vs. BTC Beta Filter
     if coin_klines and btc_klines and str(signal.get("symbol", "")).upper() != "BTCUSDT":
@@ -710,11 +730,38 @@ def get_tracker_klines(symbol, interval, limit=100, start_time=None):
     return combined
 
 
-# ------------------------ FUTURES DATA (with Bybit / OKX US Runner Fallbacks) ------------------------
+# ------------------------ FUTURES DATA (OKX -> Bitget -> Bybit -> Binance US-Safe Chain) ------------------------
+
+def _okx_open_interest_change(symbol, period, limit=OI_LOOKBACK):
+    """Fetch Futures OI % change from OKX public Rubik endpoint (works reliably on US GitHub Actions runners)."""
+    if not str(symbol).endswith("USDT"):
+        return None
+    ccy = str(symbol)[:-4].upper()
+    period_map = {"5m": "5m", "15m": "5m", "30m": "5m", "1h": "1H", "4h": "1H", "1d": "1D"}
+    okx_period = period_map.get(str(period).split("/")[0], "1H")
+    try:
+        resp = requests.get(
+            f"{OKX_BASE}/api/v5/rubik/stat/contracts/open-interest-volume",
+            params={"ccy": ccy, "period": okx_period},
+            timeout=REQUEST_TIMEOUT,
+        )
+        if resp.status_code == 200:
+            rows = resp.json().get("data") or []
+            if len(rows) >= 2:
+                # OKX returns newest-first: [ts, oi_usd, vol_usd]
+                span = min(max(int(limit), 2), len(rows))
+                newest = float(rows[0][1])
+                oldest = float(rows[span - 1][1])
+                if oldest > 0:
+                    return round((newest - oldest) / oldest * 100.0, 2)
+    except Exception:
+        pass
+    return None
+
 
 def _bybit_open_interest_change(symbol, period, limit=OI_LOOKBACK):
     interval_map = {"5m": "5min", "15m": "15min", "30m": "30min", "1h": "1h", "4h": "4h", "1d": "1d"}
-    bybit_interval = interval_map.get(period, "1h")
+    bybit_interval = interval_map.get(str(period).split("/")[0], "1h")
     try:
         resp = requests.get(
             f"{BYBIT_BASE}/v5/market/open-interest",
@@ -735,7 +782,48 @@ def _bybit_open_interest_change(symbol, period, limit=OI_LOOKBACK):
         return None
 
 
+def _okx_funding_rate(symbol):
+    if not str(symbol).endswith("USDT"):
+        return None
+    inst_id = f"{str(symbol)[:-4].upper()}-USDT-SWAP"
+    try:
+        resp = requests.get(
+            f"{OKX_BASE}/api/v5/public/funding-rate",
+            params={"instId": inst_id},
+            timeout=REQUEST_TIMEOUT,
+        )
+        if resp.status_code == 200:
+            data = resp.json().get("data") or []
+            if data and data[0].get("fundingRate") not in (None, ""):
+                return round(float(data[0]["fundingRate"]) * 100.0, 4)
+    except Exception:
+        pass
+    return None
+
+
+def _bitget_funding_rate(symbol):
+    try:
+        resp = requests.get(
+            f"{BITGET_BASE}/api/v2/mix/market/current-fund-rate",
+            params={"symbol": symbol, "productType": "USDT-FUTURES"},
+            timeout=REQUEST_TIMEOUT,
+        )
+        if resp.status_code == 200:
+            data = resp.json().get("data") or []
+            if data and data[0].get("fundingRate") not in (None, ""):
+                return round(float(data[0]["fundingRate"]) * 100.0, 4)
+    except Exception:
+        pass
+    return None
+
+
 def _bybit_or_okx_funding_rate(symbol):
+    okx_rate = _okx_funding_rate(symbol)
+    if okx_rate is not None:
+        return okx_rate
+    bg_rate = _bitget_funding_rate(symbol)
+    if bg_rate is not None:
+        return bg_rate
     try:
         resp = requests.get(
             f"{BYBIT_BASE}/v5/market/tickers",
@@ -748,63 +836,55 @@ def _bybit_or_okx_funding_rate(symbol):
                 return round(float(items[0]["fundingRate"]) * 100.0, 4)
     except Exception:
         pass
-    if symbol.endswith("USDT"):
-        inst_id = f"{symbol[:-4]}-USDT-SWAP"
-        try:
-            resp = requests.get(
-                f"{OKX_BASE}/api/v5/public/funding-rate",
-                params={"instId": inst_id},
-                timeout=REQUEST_TIMEOUT,
-            )
-            if resp.status_code == 200:
-                data = resp.json().get("data") or []
-                if data and data[0].get("fundingRate") not in (None, ""):
-                    return round(float(data[0]["fundingRate"]) * 100.0, 4)
-        except Exception:
-            pass
     return None
 
 
 def get_open_interest_change(symbol, period, limit=OI_LOOKBACK):
+    """Fetch Futures Open Interest % change with US-runner-safe OKX -> Bybit -> Binance fallback chain."""
+    clean_period = str(period).split("/")[0] if period else "1h"
+    if FUTURES_FALLBACK_ENABLED:
+        okx_oi = _okx_open_interest_change(symbol, clean_period, limit=limit)
+        if okx_oi is not None:
+            return okx_oi
     try:
         resp = requests.get(
             f"{FUTURES_BASE}/futures/data/openInterestHist",
-            params={"symbol": symbol, "period": period, "limit": limit},
+            params={"symbol": symbol, "period": clean_period, "limit": limit},
             timeout=REQUEST_TIMEOUT,
         )
-        if resp.status_code in (451, 403) and FUTURES_FALLBACK_ENABLED:
-            return _bybit_open_interest_change(symbol, period, limit=limit)
-        if resp.status_code != 200:
-            return None
-        data = resp.json()
-        if not isinstance(data, list) or len(data) < 2:
-            return None
-        first_oi = float(data[0]["sumOpenInterest"])
-        last_oi = float(data[-1]["sumOpenInterest"])
-        if first_oi == 0:
-            return None
-        return round((last_oi - first_oi) / first_oi * 100, 2)
+        if resp.status_code == 200:
+            data = resp.json()
+            if isinstance(data, list) and len(data) >= 2:
+                first_oi = float(data[0]["sumOpenInterest"])
+                last_oi = float(data[-1]["sumOpenInterest"])
+                if first_oi != 0:
+                    return round((last_oi - first_oi) / first_oi * 100, 2)
     except (requests.RequestException, KeyError, ValueError, TypeError):
-        return None
+        pass
+    if FUTURES_FALLBACK_ENABLED:
+        return _bybit_open_interest_change(symbol, clean_period, limit=limit)
+    return None
 
 
 def get_funding_rate(symbol):
+    """Fetch perpetual Futures Funding Rate (%) with US-runner-safe OKX -> Bitget -> Bybit -> Binance chain."""
+    if FUTURES_FALLBACK_ENABLED:
+        rate_fb = _bybit_or_okx_funding_rate(symbol)
+        if rate_fb is not None:
+            return rate_fb
     try:
         resp = requests.get(
             f"{FUTURES_BASE}/fapi/v1/premiumIndex",
             params={"symbol": symbol},
             timeout=REQUEST_TIMEOUT,
         )
-        if resp.status_code in (451, 403) and FUTURES_FALLBACK_ENABLED:
-            return _bybit_or_okx_funding_rate(symbol)
-        if resp.status_code != 200:
-            return None
-        rate = resp.json().get("lastFundingRate")
-        if rate is None:
-            return None
-        return round(float(rate) * 100, 4)
+        if resp.status_code == 200:
+            rate = resp.json().get("lastFundingRate")
+            if rate is not None:
+                return round(float(rate) * 100, 4)
     except (requests.RequestException, KeyError, ValueError, TypeError):
-        return None
+        pass
+    return None
 
 
 def enrich_with_derivatives(confidence, symbol, timeframe):
@@ -1626,6 +1706,12 @@ def send_discord_strategy_signal(signal):
         prop_parts = []
         if details.get("taker_buy_share_pct") is not None:
             prop_parts.append(f"Spot Taker Buy: {details['taker_buy_share_pct']:.1f}%")
+        oi_val = signal.get("oi_change_pct") if signal.get("oi_change_pct") is not None else details.get("oi_change_pct")
+        fr_val = signal.get("funding_rate_pct") if signal.get("funding_rate_pct") is not None else details.get("funding_rate_pct")
+        if oi_val is not None:
+            prop_parts.append(f"Futures OI: {float(oi_val):+.2f}%")
+        if fr_val is not None:
+            prop_parts.append(f"Funding: {float(fr_val):+.4f}%")
         if details.get("oi_quadrant") and details.get("oi_quadrant") != "SPOT_CVD_ONLY":
             prop_parts.append(f"OI Matrix: {details['oi_quadrant']}")
         if details.get("rs_vs_btc_pct") is not None:
@@ -1635,7 +1721,25 @@ def send_discord_strategy_signal(signal):
         if details.get("fvg_present") and details.get("fvg_midpoint"):
             prop_parts.append(f"FVG Mid: ${details['fvg_midpoint']:.6g}")
         if prop_parts:
-            fields.append({"name": "🏛️ Prop-Desk Orderflow & L2 Depth", "value": " · ".join(prop_parts), "inline": False})
+            fields.append({"name": "🏛️ Prop-Desk Orderflow, OI & L2 Depth", "value": " · ".join(prop_parts), "inline": False})
+
+        if details.get("liq_short_above") is not None and details.get("liq_long_below") is not None:
+            liq_text = (
+                f"Short Liq Above: **${float(details['liq_short_above']):.6g}** ({float(details.get('liq_short_dist_pct', 0)):+.1f}%) | "
+                f"Long Liq Below: **${float(details['liq_long_below']):.6g}** ({float(details.get('liq_long_dist_pct', 0)):+.1f}%)\n"
+                f"Bias: **{details.get('liq_magnet_bias', 'BALANCED')}** "
+                f"({float(details.get('liq_short_share_pct', 50)):.0f}% Shorts Above / {float(details.get('liq_long_share_pct', 50)):.0f}% Longs Below)"
+            )
+            fields.append({"name": "🧲 Liquidation Magnet Clusters (Estimated)", "value": liq_text, "inline": False})
+
+        if details.get("wz_vpf") is not None and details.get("wz_drz") is not None:
+            wz_text = (
+                f"VPF: **{details['wz_vpf']}** ({details.get('wz_vpf_zone', 'n/a')}) · "
+                f"DRZ: **{details['wz_drz']:+.2f}** · "
+                f"IBL: **${float(details.get('wz_ibl', 0)):.6g}** · "
+                f"LML: **${float(details.get('wz_lml', 0)):.6g}**"
+            )
+            fields.append({"name": "📐 WZ Mathematical Decision System", "value": wz_text, "inline": False})
 
     news = signal.get("recent_news")
     if news:
@@ -1647,7 +1751,7 @@ def send_discord_strategy_signal(signal):
         "title": f"{'🐋 ' if is_flow else '🎯 '}{factor}: {signal['symbol']} — {'BUY (LONG)' if is_long else 'SELL (SHORT)'}",
         "color": 3066993 if is_long else 15158332,
         "fields": fields,
-        "footer": {"text": "DeepPocket Tracker v3.0 · Smart-Money & Historical Backtester Verified"},
+        "footer": {"text": "DeepPocket Tracker v6.0 · WZ Math + Liquidation Magnet + Live OI/Funding"},
     }]}
     try:
         resp = _post_discord(payload)
@@ -2019,6 +2123,11 @@ def main():
                     )
                     selected["oi_change_pct"] = oi_chg
                     selected["funding_rate_pct"] = fund_pct
+                    if isinstance(selected.get("details"), dict):
+                        if oi_chg is not None:
+                            selected["details"]["oi_change_pct"] = oi_chg
+                        if fund_pct is not None:
+                            selected["details"]["funding_rate_pct"] = fund_pct
                 except Exception:
                     pass
             assess_quality(selected, symbol, selected["direction"], families)

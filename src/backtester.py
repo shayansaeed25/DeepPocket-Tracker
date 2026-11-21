@@ -44,10 +44,11 @@ ACCOUNT_BASE_USD = 150.0
 NOTIONAL_USD = 100.0
 COST_ROUND_TRIP_PCT = 0.20  # 0.10% fee/slippage per side
 
-ALL_13_STRATEGY_NAMES = (
+ALL_14_STRATEGY_NAMES = (
     "Smart Money Liquidity Sweep",
     "Smart Money EMA20 Pullback",
     "Smart Money CVD Breakdown",
+    "WZ Reversal & Liquidity Magnet",
     "Quant Prime",
     "Elite Trend",
     "Alpha Prime",
@@ -59,6 +60,7 @@ ALL_13_STRATEGY_NAMES = (
     "Nova Alpha",
     "Smart Vector",
 )
+ALL_13_STRATEGY_NAMES = ALL_14_STRATEGY_NAMES
 
 
 def simulate_trade_on_candles(
@@ -223,7 +225,7 @@ def summarize_strategy_results(strategy_name: str, results: list[dict[str, Any]]
     """Compute Profit Factor, Max Drawdown %, Win Rate %, SL Rate %, and Auto-Selector Verdict."""
     total = len(results)
     if total == 0:
-        is_sm = strategy_name.startswith("Smart Money")
+        is_sm = strategy_name.startswith("Smart Money") or strategy_name.startswith("WZ ")
         return {
             "strategy": strategy_name,
             "trades": 0,
@@ -269,7 +271,7 @@ def summarize_strategy_results(strategy_name: str, results: list[dict[str, Any]]
     max_dd_pct = round(max_dd_pct, 2)
 
     if total < MIN_TRADES_FOR_PRUNING:
-        is_sm = strategy_name.startswith("Smart Money")
+        is_sm = strategy_name.startswith("Smart Money") or strategy_name.startswith("WZ ")
         approved = (is_sm and pf >= 1.0) or (pf >= 1.50 and win_rate >= 60.0 and net_pnl > 0)
         verdict = "✅ ACTIVE (LIVE)" if approved else "🛑 DISABLED (LOW SAMPLE / NEGATIVE)"
     else:
@@ -355,7 +357,7 @@ def load_rankings(path: str = BACKTEST_CACHE_FILE) -> dict[str, dict[str, Any]]:
 def write_markdown_report(rankings: dict[str, dict[str, Any]], path: str = BACKTEST_REPORT_MD) -> str:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     lines = [
-        "# Historical Candle Backtest Report (All 13 Strategies — Auto-Selector v5.0)",
+        "# Historical Candle Backtest Report (All 14 Strategies — Auto-Selector v6.0)",
         "",
         "| Strategy | Past Trades | Wins (TP Hit) | SL Hits | Win Rate | Profit Factor | Max DD % | Net Return ($100/trade) | Auto-Selector Status |",
         "|---|---:|---:|---:|---:|---:|---:|---:|---|",

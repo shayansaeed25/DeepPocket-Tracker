@@ -18,6 +18,7 @@ verified on previous historical candles by `src/backtester.py`:
 """
 from __future__ import annotations
 
+import math
 from datetime import datetime, timezone
 from typing import Any
 
@@ -574,6 +575,282 @@ def check_macro_whipsaw_blackout(
     return {"blackout": False, "age_minutes": None, "headline": None, "reason": None}
 
 
+
+
+# =========================================================================
+# PROP-DESK FACTOR 6: WZ MATHEMATICAL DECISION SYSTEM (VPF / DRZ / IBL / LML)
+# =========================================================================
+WZ_VPF_SHORT_MIN = 1.50
+WZ_VPF_LONG_MAX = 0.70
+WZ_DRZ_OVERSOLD = -2.0
+WZ_DRZ_OVERBOUGHT = 2.0
+
+
+def compute_wz_metrics(klines: dict[str, Any], idx: int) -> dict[str, Any] | None:
+    """Compute the 4 WZ Mathematical Decision System indicators at closed candle `idx`:
+      1. VPF (Volatility Pressure Formula): > 1.50 SHORT pressure, < 0.70 LONG pressure, 0.70-1.50 no-trade zone.
+      2. DRZ (Directional Reversal Zone): (Close - EMA20) / ATR14 (< -2.0 Oversold BUY, > +2.0 Overbought SELL).
+      3. IBL (Institutional Baseline): 20-bar Rolling VWAP +/- 2*Dev.
+      4. LML (Liquidity Magnet Level): 24-bar liquidity midpoint blended with rolling VWAP.
+    """
+    closes = klines.get("close") or []
+    highs = klines.get("high") or []
+    lows = klines.get("low") or []
+    opens = klines.get("open") or []
+    volumes = klines.get("volume") or []
+    if len(closes) <= idx or idx < 25:
+        return None
+
+    ema20_series = _ema(closes[: idx + 1], 20)
+    atr_series = _atr(highs[: idx + 1], lows[: idx + 1], closes[: idx + 1], 14)
+    ema20 = ema20_series[idx]
+    atr14 = atr_series[idx]
+    if ema20 is None or atr14 is None or atr14 <= 0:
+        return None
+
+    c = float(closes[idx])
+    o = float(opens[idx])
+    h = float(highs[idx])
+    l = float(lows[idx])
+    vol_now = max(float(volumes[idx]), 0.0)
+    prior_vols = [float(v) for v in volumes[max(0, idx - 20) : idx] if float(v) > 0]
+    avg_vol = (sum(prior_vols) / len(prior_vols)) if prior_vols else 1.0
+    vol_ratio = (vol_now / avg_vol) if avg_vol > 0 else 1.0
+
+    # 1. WZ Volatility Pressure Formula (VPF)
+    # Combines candle range (H-L), directional body (O-C), and ln(Volume) normalized by ATR14
+    body_signed = (o - c) / atr14  # >0 bearish selling pressure, <0 bullish buying pressure
+    range_atr = (h - l) / atr14
+    ln_vol_factor = math.log(max(vol_ratio, 0.25) + math.e) / math.log(1.0 + math.e)
+    vpf = round(max(0.05, 1.0 + body_signed * (0.55 + 0.35 * range_atr) * ln_vol_factor), 3)
+    if vpf > WZ_VPF_SHORT_MIN:
+        vpf_zone = "SHORT_PRESSURE"
+    elif vpf < WZ_VPF_LONG_MAX:
+        vpf_zone = "LONG_PRESSURE"
+    else:
+        vpf_zone = "NO_TRADE_ZONE"
+
+    # 2. WZ Directional Reversal Zone (DRZ = (Close - EMA20) / ATR14)
+    drz = round((c - float(ema20)) / float(atr14), 3)
+    low_drz = round((l - float(ema20)) / float(atr14), 3)
+    high_drz = round((h - float(ema20)) / float(atr14), 3)
+    recent_low_drzs = [drz, low_drz]
+    recent_high_drzs = [drz, high_drz]
+    for k_back in (1, 2):
+        if idx - k_back >= 20 and ema20_series[idx - k_back] is not None and atr_series[idx - k_back]:
+            e_k = float(ema20_series[idx - k_back])
+            a_k = float(atr_series[idx - k_back])
+            recent_low_drzs.append(round((float(closes[idx - k_back]) - e_k) / a_k, 3))
+            recent_low_drzs.append(round((float(lows[idx - k_back]) - e_k) / a_k, 3))
+            recent_high_drzs.append(round((float(closes[idx - k_back]) - e_k) / a_k, 3))
+            recent_high_drzs.append(round((float(highs[idx - k_back]) - e_k) / a_k, 3))
+
+    min_drz_3b = min(recent_low_drzs)
+    max_drz_3b = max(recent_high_drzs)
+
+    # 3. WZ Institutional Baseline (IBL = Rolling 20-bar VWAP +/- 2 * Dev)
+    w_start = max(0, idx - 19)
+    tp_vol_sum = 0.0
+    vol_sum = 0.0
+    tps: list[float] = []
+    for i in range(w_start, idx + 1):
+        tp = (float(highs[i]) + float(lows[i]) + float(closes[i])) / 3.0
+        v_i = max(float(volumes[i]), 1e-9)
+        tps.append(tp)
+        tp_vol_sum += tp * v_i
+        vol_sum += v_i
+    vwap = tp_vol_sum / vol_sum if vol_sum > 0 else c
+    var = sum((tp - vwap) ** 2 for tp in tps) / len(tps) if tps else 0.0
+    dev = var ** 0.5
+    ibl_upper = round(vwap + 2.0 * dev, 8)
+    ibl_lower = round(vwap - 2.0 * dev, 8)
+    ibl_bias = "LONG_CONTINUATION" if c >= vwap else "SHORT_CONTINUATION"
+
+    # 4. WZ Liquidity Magnet Level (LML)
+    lml_start = max(0, idx - 23)
+    h_24 = max(float(highs[i]) for i in range(lml_start, idx + 1))
+    l_24 = min(float(lows[i]) for i in range(lml_start, idx + 1))
+    lml = round(((h_24 + l_24) / 2.0 * 0.65) + (vwap * 0.35), 8)
+
+    return {
+        "vpf": vpf,
+        "vpf_zone": vpf_zone,
+        "drz": drz,
+        "min_drz_3b": min_drz_3b,
+        "max_drz_3b": max_drz_3b,
+        "ibl": round(vwap, 8),
+        "ibl_upper": ibl_upper,
+        "ibl_lower": ibl_lower,
+        "ibl_bias": ibl_bias,
+        "lml": lml,
+    }
+
+
+# =========================================================================
+# PROP-DESK FACTOR 7: FREE INSTITUTIONAL LIQUIDATION MAGNET ESTIMATOR
+# =========================================================================
+def estimate_liquidation_magnets(
+    klines: dict[str, Any] | None,
+    idx: int | None = None,
+    oi_change_pct: float | None = None,
+    funding_rate_pct: float | None = None,
+) -> dict[str, Any]:
+    """Estimate Short-Liquidation Clusters Above Price and Long-Liquidation Clusters Below Price
+    using 100% free OHLCV 24h-72h swing pivots + 10x/25x/50x leverage bands + live OI & Funding skew.
+    Designed as a score booster, Discord telemetry layer, and extreme-bottom trap guard (NO analysis paralysis).
+    """
+    empty = {
+        "short_liq_above": None,
+        "short_liq_dist_pct": None,
+        "long_liq_below": None,
+        "long_liq_dist_pct": None,
+        "short_liq_share_pct": 50.0,
+        "long_liq_share_pct": 50.0,
+        "magnet_bias": "BALANCED",
+        "score_bonus_long": 0,
+        "score_bonus_short": 0,
+        "extreme_trap_short": False,
+        "extreme_trap_long": False,
+        "reason": None,
+    }
+    if not klines:
+        return empty
+    closes = klines.get("close") or []
+    highs = klines.get("high") or []
+    lows = klines.get("low") or []
+    volumes = klines.get("volume") or []
+    if len(closes) < 30:
+        return empty
+
+    use_idx = (len(closes) - 2) if idx is None else min(idx, len(closes) - 1)
+    if use_idx < 25:
+        return empty
+    price = float(closes[use_idx])
+    if price <= 0:
+        return empty
+
+    lookback = min(72, use_idx)
+    start = use_idx - lookback
+    window_highs = [float(highs[i]) for i in range(start, use_idx + 1)]
+    window_lows = [float(lows[i]) for i in range(start, use_idx + 1)]
+    window_vols = [float(volumes[i]) for i in range(start, use_idx + 1)]
+    avg_vol = (sum(window_vols) / len(window_vols)) if window_vols else 1.0
+
+    # Identify swing highs (where shorts placed stops / 25x-50x liquidations sit just above)
+    # and swing lows (where longs placed stops / 25x-50x liquidations sit just below)
+    short_clusters: list[tuple[float, float]] = []  # (level_price, weight)
+    long_clusters: list[tuple[float, float]] = []
+
+    for i in range(start + 2, use_idx - 1):
+        h_i = float(highs[i])
+        l_i = float(lows[i])
+        v_w = max(0.5, float(volumes[i]) / avg_vol) if avg_vol > 0 else 1.0
+        if h_i >= float(highs[i - 1]) and h_i >= float(highs[i + 1]) and h_i > price * 1.004:
+            # 50x/25x short liq cluster sits ~0.6%-1.8% above swing high
+            short_clusters.append((h_i * 1.008, v_w * 1.4))
+            short_clusters.append((h_i * 1.022, v_w * 0.9))
+        if l_i <= float(lows[i - 1]) and l_i <= float(lows[i + 1]) and l_i < price * 0.996:
+            # 50x/25x long liq cluster sits ~0.6%-1.8% below swing low
+            long_clusters.append((l_i * 0.992, v_w * 1.4))
+            long_clusters.append((l_i * 0.978, v_w * 0.9))
+
+    # Add 25x/50x synthetic leverage bands around recent 24h range anchors if pivots sparse
+    recent_h = max(window_highs[-24:])
+    recent_l = min(window_lows[-24:])
+    if recent_h > price * 1.005:
+        short_clusters.append((recent_h * 1.006, 1.5))
+    else:
+        short_clusters.append((price * 1.038, 1.0))  # ~25x short liq band above
+    if recent_l < price * 0.995:
+        long_clusters.append((recent_l * 0.994, 1.5))
+    else:
+        long_clusters.append((price * 0.962, 1.0))   # ~25x long liq band below
+
+    # Nearest high-weight short-liq magnet within +0.6% .. +15.0% above price (covers 10x/25x/50x bands)
+    valid_shorts = [(lvl, w) for lvl, w in short_clusters if price * 1.006 <= lvl <= price * 1.15]
+    valid_longs = [(lvl, w) for lvl, w in long_clusters if price * 0.85 <= lvl <= price * 0.994]
+
+    short_magnet = min(valid_shorts, key=lambda x: (x[0] - price) / max(x[1], 0.5))[0] if valid_shorts else price * 1.038
+    long_magnet = min(valid_longs, key=lambda x: (price - x[0]) / max(x[1], 0.5))[0] if valid_longs else price * 0.962
+
+    short_weight = sum(w for _, w in valid_shorts) if valid_shorts else 1.0
+    long_weight = sum(w for _, w in valid_longs) if valid_longs else 1.0
+
+    # Skew weights using live Funding Rate & OI Change (negative funding = crowded shorts above!)
+    if funding_rate_pct is not None:
+        fr = float(funding_rate_pct)
+        if fr <= -0.01:
+            short_weight *= min(2.2, 1.25 + abs(fr) * 15.0)
+        elif fr >= 0.015:
+            long_weight *= min(2.2, 1.25 + abs(fr) * 15.0)
+    if oi_change_pct is not None and float(oi_change_pct) >= 2.0:
+        # Rising OI amplifies dominant liquidation side
+        if short_weight >= long_weight:
+            short_weight *= 1.15
+        else:
+            long_weight *= 1.15
+
+    total_w = short_weight + long_weight
+    short_share = round(short_weight / total_w * 100.0, 1) if total_w > 0 else 50.0
+    long_share = round(100.0 - short_share, 1)
+
+    short_dist = round((short_magnet - price) / price * 100.0, 2)
+    long_dist = round((long_magnet - price) / price * 100.0, 2)  # negative %
+
+    if short_share >= 58.0:
+        bias = "UP_SHORT_SQUEEZE"
+        bonus_long, bonus_short = 5, 0
+    elif long_share >= 58.0:
+        bias = "DOWN_LONG_FLUSH"
+        bonus_long, bonus_short = 0, 5
+    else:
+        bias = "BALANCED"
+        bonus_long, bonus_short = 0, 0
+
+    # Extreme Capitulation Trap Guard ONLY (never blocks normal trend setups!)
+    wz = compute_wz_metrics(klines, use_idx)
+    drz_val = wz["min_drz_3b"] if wz else 0.0
+    max_drz_val = wz["max_drz_3b"] if wz else 0.0
+    extreme_trap_short = (
+        drz_val <= -2.2
+        and funding_rate_pct is not None
+        and float(funding_rate_pct) <= -0.025
+        and short_share >= 62.0
+    )
+    extreme_trap_long = (
+        max_drz_val >= 2.2
+        and funding_rate_pct is not None
+        and float(funding_rate_pct) >= 0.04
+        and long_share >= 62.0
+    )
+    reason = None
+    if extreme_trap_short:
+        reason = (
+            f"extreme long-liquidation bottom trap (DRZ={drz_val:.2f}, funding={float(funding_rate_pct):+.3f}%, "
+            f"{short_share:.0f}% short liq magnet stacked above at ${short_magnet:.6g})"
+        )
+    elif extreme_trap_long:
+        reason = (
+            f"extreme short-squeeze top trap (DRZ={max_drz_val:+.2f}, funding={float(funding_rate_pct):+.3f}%, "
+            f"{long_share:.0f}% long liq magnet stacked below at ${long_magnet:.6g})"
+        )
+
+    return {
+        "short_liq_above": round(short_magnet, 8),
+        "short_liq_dist_pct": short_dist,
+        "long_liq_below": round(long_magnet, 8),
+        "long_liq_dist_pct": long_dist,
+        "short_liq_share_pct": short_share,
+        "long_liq_share_pct": long_share,
+        "magnet_bias": bias,
+        "score_bonus_long": bonus_long,
+        "score_bonus_short": bonus_short,
+        "extreme_trap_short": extreme_trap_short,
+        "extreme_trap_long": extreme_trap_long,
+        "reason": reason,
+    }
+
+
 def evaluate_at_index(
     symbol: str,
     klines: dict[str, Any],
@@ -1005,6 +1282,145 @@ def evaluate_at_index(
                     "rr_tp2": TP2_RR,
                 },
             })
+
+    # -------------------------------------------------------------------------
+    # 4. WZ REVERSAL & LIQUIDITY MAGNET (ID 9004: VPF + DRZ + IBL + LML)
+    # Captures capitulation V-bottom bounces (e.g. BTC $55k -> $60.3k) even in bearish regimes
+    # and overbought blow-off top rejections.
+    # -------------------------------------------------------------------------
+    wz = compute_wz_metrics(klines, idx)
+    if wz is not None:
+        liq_mag = estimate_liquidation_magnets(
+            klines, idx=idx, oi_change_pct=oi_change_pct, funding_rate_pct=funding_rate_pct
+        )
+        # 4a. WZ Oversold Liquidation-Sweep Reversal LONG (allowed even in bearish macro regime!)
+        wz_oversold_zone = wz["min_drz_3b"] <= WZ_DRZ_OVERSOLD or low_p <= wz["ibl_lower"]
+        wz_bull_pressure = (wz["vpf"] < WZ_VPF_LONG_MAX) or (price > open_p and lower_wick_ratio >= 0.28)
+        wz_buyer_absorb = max(buy_share_1, buy_share_2) >= 0.51 and vol_ratio >= 1.15
+        if wz_oversold_zone and wz_bull_pressure and wz_buyer_absorb and not oi_quad["blocks_long"]:
+            raw_sl = min(low_p - 0.25 * atr_val, price * (1.0 - MIN_STOP_PCT / 100.0))
+            risk_pct = (price - raw_sl) / price * 100.0
+            if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+                tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=True)
+                mag_tag = (
+                    f" · Short Liq Magnet ${liq_mag['short_liq_above']:.6g} ({liq_mag['short_liq_dist_pct']:+.1f}%)"
+                    if liq_mag.get("short_liq_above") else ""
+                )
+                results.append({
+                    "symbol": symbol,
+                    "scanner": "STRATEGY",
+                    "strategy_id": 9004,
+                    "strategy_name": "WZ Reversal & Liquidity Magnet",
+                    "strategy_ids": [9004],
+                    "strategy_names": ["WZ Reversal & Liquidity Magnet"],
+                    "strategy_agreement_count": 2,
+                    "timeframe": timeframe,
+                    "direction": "LONG",
+                    "action": "BUY",
+                    "price": price,
+                    "stop_loss": round(raw_sl, 8),
+                    "take_profit_1": tp1,
+                    "take_profit_2": tp2,
+                    "risk_pct": r_pct,
+                    "watch_only": False,
+                    "confidence": (
+                        f"WZ Oversold Reversal (DRZ {wz['min_drz_3b']:.2f}, VPF {wz['vpf']:.2f}) · "
+                        f"buyer CVD {max(buy_share_1, buy_share_2) * 100:.0f}% · vol {vol_ratio}x · "
+                        f"LML ${wz['lml']:.6g}{mag_tag}"
+                    ),
+                    "details": {
+                        "item_id": 9004,
+                        "strategy": "WZ Reversal & Liquidity Magnet",
+                        "trigger_type": "WZ_OVERSOLD_LIQ_REVERSAL",
+                        "wz_reversal_override": True,
+                        "wz_vpf": wz["vpf"],
+                        "wz_vpf_zone": wz["vpf_zone"],
+                        "wz_drz": wz["drz"],
+                        "wz_min_drz_3b": wz["min_drz_3b"],
+                        "wz_ibl": wz["ibl"],
+                        "wz_ibl_lower": wz["ibl_lower"],
+                        "wz_lml": wz["lml"],
+                        "liq_short_above": liq_mag["short_liq_above"],
+                        "liq_short_dist_pct": liq_mag["short_liq_dist_pct"],
+                        "liq_long_below": liq_mag["long_liq_below"],
+                        "liq_long_dist_pct": liq_mag["long_liq_dist_pct"],
+                        "liq_magnet_bias": liq_mag["magnet_bias"],
+                        "liq_short_share_pct": liq_mag["short_liq_share_pct"],
+                        "volume_ratio": vol_ratio,
+                        "trigger_volume_ratio": vol_ratio,
+                        "taker_buy_share_pct": round(max(buy_share_1, buy_share_2) * 100.0, 1),
+                        "cvd_zscore": cvd_z,
+                        "oi_quadrant": oi_quad["quadrant"],
+                        "rsi_14": rsi_val,
+                        "price_change_4b_pct": round(price_chg_4b, 2),
+                        "rr_tp1": TP1_RR,
+                        "rr_tp2": TP2_RR,
+                    },
+                })
+
+        # 4b. WZ Overbought Blow-Off Rejection SHORT
+        wz_overbought_zone = wz["max_drz_3b"] >= WZ_DRZ_OVERBOUGHT or high_p >= wz["ibl_upper"]
+        wz_bear_pressure = (wz["vpf"] > WZ_VPF_SHORT_MIN) or (price < open_p and upper_wick_ratio >= 0.28)
+        wz_seller_absorb = min(buy_share_1, buy_share_2) <= 0.49 and vol_ratio >= 1.15
+        if wz_overbought_zone and wz_bear_pressure and wz_seller_absorb and not oi_quad["blocks_short"]:
+            raw_sl = max(high_p + 0.25 * atr_val, price * (1.0 + MIN_STOP_PCT / 100.0))
+            risk_pct = (raw_sl - price) / price * 100.0
+            if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+                tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=False)
+                mag_tag = (
+                    f" · Long Liq Magnet ${liq_mag['long_liq_below']:.6g} ({liq_mag['long_liq_dist_pct']:+.1f}%)"
+                    if liq_mag.get("long_liq_below") else ""
+                )
+                results.append({
+                    "symbol": symbol,
+                    "scanner": "STRATEGY",
+                    "strategy_id": 9004,
+                    "strategy_name": "WZ Reversal & Liquidity Magnet",
+                    "strategy_ids": [9004],
+                    "strategy_names": ["WZ Reversal & Liquidity Magnet"],
+                    "strategy_agreement_count": 2,
+                    "timeframe": timeframe,
+                    "direction": "SHORT",
+                    "action": "SELL",
+                    "price": price,
+                    "stop_loss": round(raw_sl, 8),
+                    "take_profit_1": tp1,
+                    "take_profit_2": tp2,
+                    "risk_pct": r_pct,
+                    "watch_only": False,
+                    "confidence": (
+                        f"WZ Overbought Rejection (DRZ {wz['max_drz_3b']:+.2f}, VPF {wz['vpf']:.2f}) · "
+                        f"seller CVD {(1 - min(buy_share_1, buy_share_2)) * 100:.0f}% · vol {vol_ratio}x · "
+                        f"LML ${wz['lml']:.6g}{mag_tag}"
+                    ),
+                    "details": {
+                        "item_id": 9004,
+                        "strategy": "WZ Reversal & Liquidity Magnet",
+                        "trigger_type": "WZ_OVERBOUGHT_LIQ_REJECTION",
+                        "wz_vpf": wz["vpf"],
+                        "wz_vpf_zone": wz["vpf_zone"],
+                        "wz_drz": wz["drz"],
+                        "wz_max_drz_3b": wz["max_drz_3b"],
+                        "wz_ibl": wz["ibl"],
+                        "wz_ibl_upper": wz["ibl_upper"],
+                        "wz_lml": wz["lml"],
+                        "liq_short_above": liq_mag["short_liq_above"],
+                        "liq_short_dist_pct": liq_mag["short_liq_dist_pct"],
+                        "liq_long_below": liq_mag["long_liq_below"],
+                        "liq_long_dist_pct": liq_mag["long_liq_dist_pct"],
+                        "liq_magnet_bias": liq_mag["magnet_bias"],
+                        "liq_long_share_pct": liq_mag["long_liq_share_pct"],
+                        "volume_ratio": vol_ratio,
+                        "trigger_volume_ratio": vol_ratio,
+                        "taker_buy_share_pct": round(min(buy_share_1, buy_share_2) * 100.0, 1),
+                        "cvd_zscore": cvd_z,
+                        "oi_quadrant": oi_quad["quadrant"],
+                        "rsi_14": rsi_val,
+                        "price_change_4b_pct": round(price_chg_4b, 2),
+                        "rr_tp1": TP1_RR,
+                        "rr_tp2": TP2_RR,
+                    },
+                })
 
     return results
 

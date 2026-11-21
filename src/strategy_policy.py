@@ -20,6 +20,7 @@ SMART_MONEY_STRATEGIES = frozenset({
     "Smart Money Liquidity Sweep",
     "Smart Money CVD Breakdown",
     "Smart Money EMA20 Pullback",
+    "WZ Reversal & Liquidity Magnet",
 })
 
 WATCH_EXACT_CONSENSUSES = frozenset({
@@ -50,6 +51,7 @@ except (OSError, ValueError, KeyError):
 STRATEGY_FAMILY["Smart Money Liquidity Sweep"] = "LIQUIDITY_SWEEP"
 STRATEGY_FAMILY["Smart Money CVD Breakdown"] = "CVD_BREAKDOWN"
 STRATEGY_FAMILY["Smart Money EMA20 Pullback"] = "EMA_PULLBACK"
+STRATEGY_FAMILY["WZ Reversal & Liquidity Magnet"] = "WZ_REVERSAL_MAGNET"
 
 REMOVED_STRATEGIES = frozenset({
     "Apex Trend", "Nova Alpha", "Global Core", "Alpha Prime",
