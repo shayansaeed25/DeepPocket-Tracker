@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795276944.6119783,
-  "score": -45.6,
+  "computed_at": 1795280547.2232652,
+  "score": -42.7,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -85.9,
-      "note": "1h ↓ RSI 55 · 4h ↓ RSI 41 · 1d ↓ RSI 21 · 7d -13.7%",
+      "score": -71.5,
+      "note": "1h → RSI 57 · 4h ↓ RSI 43 · 1d ↓ RSI 22 · 7d -13.7%",
       "weight": 0.3
     },
     "news": {
-      "score": -65.1,
-      "note": "108 headlines · 5 bullish / 33 bearish",
+      "score": -73.3,
+      "note": "119 headlines · 5 bullish / 39 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -30,27 +30,27 @@
       "weight": 0.1
     },
     "global": {
-      "score": -28.2,
-      "note": "mcap -1.9% 24h · BTC dom 57.9%",
+      "score": -26.0,
+      "note": "mcap -1.7% 24h · BTC dom 57.9%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -11.4,
-      "note": "funding +0.0001% · taker buy 45.2%",
+      "score": -11.5,
+      "note": "funding -0.0004% · taker buy 45.2%",
       "weight": 0.1
     }
   },
   "headlines": [
+    {
+      "title": "Crypto Market Crash Triggers $2.3B Liquidations Amid Stock Rout",
+      "impact": "Bearish"
+    },
     {
       "title": "Bitcoin Crashes Below $56,000 as $2.7 Billion Crypto Liquidation Wipes Out Traders",
       "impact": "Bearish"
     },
     {
       "title": "Ethereum Declines 3.21% Amid ETF Outflows, Leverage Liquidations",
-      "impact": "Bearish"
-    },
-    {
-      "title": "Bitcoin Loses $60K for First Time Since July as AI Stocks Crash",
       "impact": "Bearish"
     }
   ],

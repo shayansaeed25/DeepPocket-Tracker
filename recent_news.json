@@ -1,30 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "Macro / Fed / CPI",
-  "impact": "Bearish",
-  "title": "Bitcoin, stocks wobble as Fed\u2019s Waller talks of \u2018shock\u2019 50-point rate hike",
-  "link": "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-  "timestamp": 1795021242.3093085
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Bitcoin ETFs Are Bleeding Cash. What IBIT Holders Should Watch Next - 24/7 Wall St.",
-  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRWNnWWFVejF3cXRaN2tfNy1CSTcxaXRMOWpRUFl3UTMweGhSNEo3aXRWeHpuNVFSV2JmTGowT3h4MVNvQ2NUa0NaTjhDZFR2aHFKQUladWxFRFpWSHU2R0ZmcGduczhwekFXZjdnU3ltYkhMVmJFMWQwOENNVTZfZDQtZG5mU2I3X09jODdnSWRuSHBac2JUSFBMaWVBS1FiV1JUMkt0QkFjT3diaVNMcFU0Nmk?oc=5",
-  "timestamp": 1795021243.8738039
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Bitcoin ETFs Are Bleeding Cash. What IBIT Holders Should Watch Next - Yahoo Finance",
-  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUzJtaVBlQmNkNGNtR3BubjhmWG91SjlZZzBDY2U5VE1WR1gxZWJGNXdjc0NESUpYdXRnLVdQeVFYQTJHUVkxZE9xZWVWSy04Q2Q0R2NxSmpDWFpaeFJHYndwcnZuYTRxUUVVblVTdjZ5UmU5a00xSHBNM2FqVERWWWZaMG44UlBzMXQwUUg1YmZ0QmlDR21GZ2cwdEc?oc=5",
-  "timestamp": 1795021244.4103854
- },
- {
-  "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
   "title": "Citi Trims 12-Month Bitcoin Target to $99,532, Citing ETF Outflows and Weak Demand - BigGo Finance",
@@ -974,5 +950,21 @@
   "title": "Ethereum Declines 3.21% Amid ETF Outflows, Leverage Liquidations - CoinMarketCap",
   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rdlJBTFc1VjNVOF9pWnVldml4MUtnaExKY0Z4cTNFN21lZ1BDOGNJNVctRGtmbmtBSjN1dmR1dTFFN0M4SGI0LUN6RmsyanVvU0VGSUdoQU9XZXc5dENkbm5NRUtweE4tUkk4dlVKbVg?oc=5",
   "timestamp": 1795273341.3726242
+ },
+ {
+  "coin": "ETH",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Ethereum Price Analysis: Did ETH Hit Its Macro Bottom After a 30% Monthly Drop?",
+  "link": "https://cryptopotato.com/ethereum-price-analysis-did-eth-hit-its-macro-bottom-after-a-30-monthly-drop/",
+  "timestamp": 1795280540.7746575
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin's Volatility Explained: $2.4B Liquidations, ETF Outflows - CoinMarketCap",
+  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mWHJIMkFnaS1tbEN3WkFtSThZckN6Z0dHUjlMNE5NSHRSa29CN3NpaUZXcWJpckI3UFljWl9QMkZLLWFUQVQ3d3BpY0F4bVlNNVdYNUhRdnFxT2p2dWU3Vk11ZVY0S2plQUQxakJtaWU?oc=5",
+  "timestamp": 1795280541.6839538
  }
 ]
