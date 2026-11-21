@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795248144.5685637,
-  "score": -55.8,
+  "computed_at": 1795251746.227353,
+  "score": -53.3,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -94.9,
+      "score": -94.8,
       "note": "1h ↓ RSI 40 · 4h ↓ RSI 28 · 1d ↓ RSI 16 · 7d -13.7%",
       "weight": 0.3
     },
     "news": {
-      "score": -64.9,
-      "note": "130 headlines · 4 bullish / 41 bearish",
+      "score": -55.7,
+      "note": "131 headlines · 4 bullish / 35 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -31,12 +31,12 @@
     },
     "global": {
       "score": -100.0,
-      "note": "mcap -8.2% 24h · BTC dom 57.6%",
+      "note": "mcap -8.4% 24h · BTC dom 57.6%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -15.1,
-      "note": "funding -0.0047% · taker buy 44.0%",
+      "score": -8.4,
+      "note": "funding -0.0056% · taker buy 43.7%",
       "weight": 0.1
     }
   },
@@ -50,7 +50,7 @@
       "impact": "Bearish"
     },
     {
-      "title": "Strategy Breaks Silence After BTC Crash as Bitcoin Position Dumps to $17B in Paper Losses",
+      "title": "Crypto Market Bloodbath: Bitcoin, Ethereum and XRP Crash Up to 10% as Bear Market Fears Grow",
       "impact": "Bearish"
     }
   ],
