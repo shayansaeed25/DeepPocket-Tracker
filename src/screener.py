@@ -75,7 +75,7 @@ TOP_N_BY_MARKET_VOLUME = 200
 QUALITY_TOP_N_MARKET_CAP = 500
 
 KLINE_INTERVAL = "1h"
-KLINE_LOOKBACK = 200
+KLINE_LOOKBACK = 280
 
 VOLUME_SPIKE_MULTIPLIER = 3.0
 VOLUME_LOOKBACK_CANDLES = 20
@@ -1610,7 +1610,7 @@ def send_scan_summary(scanned, long_count, short_count, total_found, trend_long_
         "description": description,
         "fields": summary_fields,
         "footer": {
-            "text": "DeepPocket Tracker v6.1 — Dynamic 14-Strategy WZ + Liquidation Auto-Selector"
+            "text": "DeepPocket Tracker v6.2 — Dynamic 15-Strategy (WZ + Future Admiral + Liq) Auto-Selector"
         },
     }
     payload = {"embeds": [embed]}

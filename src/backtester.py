@@ -49,6 +49,7 @@ ALL_14_STRATEGY_NAMES = (
     "Smart Money EMA20 Pullback",
     "Smart Money CVD Breakdown",
     "WZ Reversal & Liquidity Magnet",
+    "Future Admiral",
     "Quant Prime",
     "Elite Trend",
     "Alpha Prime",
@@ -60,6 +61,7 @@ ALL_14_STRATEGY_NAMES = (
     "Nova Alpha",
     "Smart Vector",
 )
+ALL_15_STRATEGY_NAMES = ALL_14_STRATEGY_NAMES
 ALL_13_STRATEGY_NAMES = ALL_14_STRATEGY_NAMES
 
 
@@ -225,7 +227,7 @@ def summarize_strategy_results(strategy_name: str, results: list[dict[str, Any]]
     """Compute Profit Factor, Max Drawdown %, Win Rate %, SL Rate %, and Auto-Selector Verdict."""
     total = len(results)
     if total == 0:
-        is_sm = strategy_name.startswith("Smart Money") or strategy_name.startswith("WZ ")
+        is_sm = strategy_name.startswith("Smart Money") or strategy_name.startswith("WZ ") or strategy_name == "Future Admiral"
         return {
             "strategy": strategy_name,
             "trades": 0,
@@ -271,7 +273,7 @@ def summarize_strategy_results(strategy_name: str, results: list[dict[str, Any]]
     max_dd_pct = round(max_dd_pct, 2)
 
     if total < MIN_TRADES_FOR_PRUNING:
-        is_sm = strategy_name.startswith("Smart Money") or strategy_name.startswith("WZ ")
+        is_sm = strategy_name.startswith("Smart Money") or strategy_name.startswith("WZ ") or strategy_name == "Future Admiral"
         approved = (is_sm and pf >= 1.0) or (pf >= 1.50 and win_rate >= 60.0 and net_pnl > 0)
         verdict = "✅ ACTIVE (LIVE)" if approved else "🛑 DISABLED (LOW SAMPLE / NEGATIVE)"
     else:
@@ -328,8 +330,8 @@ def format_discord_league_table(rankings: dict[str, dict[str, Any]]) -> tuple[st
             active_lines.append(f"✅ {line}")
         else:
             disabled_lines.append(f"🛑 {line}")
-    active_str = "\n".join(active_lines[:14]) if active_lines else "None passed threshold this window"
-    disabled_str = "\n".join(disabled_lines[:14]) if disabled_lines else "None"
+    active_str = "\n".join(active_lines[:15]) if active_lines else "None passed threshold this window"
+    disabled_str = "\n".join(disabled_lines[:15]) if disabled_lines else "None"
     return active_str[:1000], disabled_str[:1000]
 
 
@@ -357,7 +359,7 @@ def load_rankings(path: str = BACKTEST_CACHE_FILE) -> dict[str, dict[str, Any]]:
 def write_markdown_report(rankings: dict[str, dict[str, Any]], path: str = BACKTEST_REPORT_MD) -> str:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     lines = [
-        "# Historical Candle Backtest Report (All 14 Strategies — Auto-Selector v6.0)",
+        "# Historical Candle Backtest Report (All 15 Strategies — Auto-Selector v6.2)",
         "",
         "| Strategy | Past Trades | Wins (TP Hit) | SL Hits | Win Rate | Profit Factor | Max DD % | Net Return ($100/trade) | Auto-Selector Status |",
         "|---|---:|---:|---:|---:|---:|---:|---:|---|",

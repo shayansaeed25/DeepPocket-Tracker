@@ -97,6 +97,98 @@ def _atr(highs: list[float], lows: list[float], closes: list[float], period: int
     return out
 
 
+
+
+def _macd(closes: list[float], fast: int = 12, slow: int = 26, sig: int = 9) -> tuple[float | None, float | None]:
+    """Pure-Python MACD(12, 26, 9) returning (macd_line, signal_line) at latest bar."""
+    if len(closes) < slow + sig:
+        return None, None
+    ema_f = _ema(closes, fast)
+    ema_s = _ema(closes, slow)
+    macd_series = [
+        float(ema_f[i]) - float(ema_s[i])
+        for i in range(len(closes))
+        if ema_f[i] is not None and ema_s[i] is not None
+    ]
+    if len(macd_series) < sig:
+        return None, None
+    sig_series = _ema(macd_series, sig)
+    if sig_series[-1] is None:
+        return None, None
+    return round(macd_series[-1], 8), round(float(sig_series[-1]), 8)
+
+
+def _adx_14(highs: list[float], lows: list[float], closes: list[float], period: int = 14) -> float | None:
+    """Pure-Python ADX(14) matching Future Admiral v10.0."""
+    n = len(closes)
+    if n < period * 2 + 2:
+        return None
+    plus_dm, minus_dm, trs = [0.0], [0.0], [0.0]
+    for i in range(1, n):
+        up = float(highs[i]) - float(highs[i - 1])
+        dn = float(lows[i - 1]) - float(lows[i])
+        plus_dm.append(up if (up > dn and up > 0) else 0.0)
+        minus_dm.append(dn if (dn > up and dn > 0) else 0.0)
+        tr = max(
+            float(highs[i]) - float(lows[i]),
+            abs(float(highs[i]) - float(closes[i - 1])),
+            abs(float(lows[i]) - float(closes[i - 1])),
+        )
+        trs.append(tr)
+    dx_vals: list[float] = []
+    for i in range(period, n):
+        atr_m = sum(trs[i - period + 1 : i + 1]) / period
+        p_m = sum(plus_dm[i - period + 1 : i + 1]) / period
+        m_m = sum(minus_dm[i - period + 1 : i + 1]) / period
+        p_di = 100.0 * p_m / (atr_m + 1e-9)
+        m_di = 100.0 * m_m / (atr_m + 1e-9)
+        dx_vals.append(100.0 * abs(p_di - m_di) / (p_di + m_di + 1e-9))
+    if len(dx_vals) < period:
+        return None
+    return round(sum(dx_vals[-period:]) / period, 2)
+
+
+def _detect_recent_smc(
+    opens: list[float],
+    highs: list[float],
+    lows: list[float],
+    closes: list[float],
+    idx: int,
+    lookback: int = 5,
+) -> dict[str, bool]:
+    """Pure-Python SMC detector for unmitigated Bullish/Bearish FVG or Order Block in last `lookback` candles."""
+    bull_fvg = False
+    bear_fvg = False
+    bull_ob = False
+    bear_ob = False
+    start = max(2, idx - lookback + 1)
+    for k in range(start, idx + 1):
+        # Bullish FVG: low[k] > high[k-2] and unmitigated through idx
+        if float(lows[k]) > float(highs[k - 2]):
+            mitigated = any(float(lows[m]) <= float(highs[k - 2]) for m in range(k + 1, idx + 1))
+            if not mitigated:
+                bull_fvg = True
+        # Bearish FVG: high[k] < low[k-2] and unmitigated through idx
+        if float(highs[k]) < float(lows[k - 2]):
+            mitigated = any(float(highs[m]) >= float(lows[k - 2]) for m in range(k + 1, idx + 1))
+            if not mitigated:
+                bear_fvg = True
+        # Bullish Order Block: last down candle (k-1) followed by strong impulsive bullish displacement (k)
+        if float(closes[k - 1]) < float(opens[k - 1]) and float(closes[k]) > float(highs[k - 1]):
+            bull_ob = True
+        # Bearish Order Block: last up candle (k-1) followed by strong impulsive bearish displacement (k)
+        if float(closes[k - 1]) > float(opens[k - 1]) and float(closes[k]) < float(lows[k - 1]):
+            bear_ob = True
+    return {
+        "bull_smc": bull_fvg or bull_ob,
+        "bear_smc": bear_fvg or bear_ob,
+        "bull_fvg": bull_fvg,
+        "bear_fvg": bear_fvg,
+        "bull_ob": bull_ob,
+        "bear_ob": bear_ob,
+    }
+
+
 def _rsi(closes: list[float], period: int = 14) -> float | None:
     if len(closes) <= period:
         return None
@@ -1294,7 +1386,7 @@ def evaluate_at_index(
             klines, idx=idx, oi_change_pct=oi_change_pct, funding_rate_pct=funding_rate_pct
         )
         # 4a. WZ Oversold Liquidation-Sweep Reversal LONG (strict AND confluence: no falling-knife catching!)
-        wz_oversold_zone = wz["min_drz_3b"] <= -2.2 and (low_p <= wz["ibl_lower"] or float(lows[idx - 1]) <= wz["ibl_lower"])
+        wz_oversold_zone = wz["min_drz_3b"] <= -2.5 and price < wz["ibl"]
         wz_bull_pressure = wz["vpf"] < WZ_VPF_LONG_MAX and price > open_p
         wz_buyer_absorb = (
             max(buy_share_1, buy_share_2) >= 0.54
@@ -1363,7 +1455,7 @@ def evaluate_at_index(
                 })
 
         # 4b. WZ Overbought Blow-Off Rejection SHORT (strict AND confluence)
-        wz_overbought_zone = wz["max_drz_3b"] >= WZ_DRZ_OVERBOUGHT and (high_p >= wz["ibl_upper"] or float(highs[idx - 1]) >= wz["ibl_upper"])
+        wz_overbought_zone = wz["max_drz_3b"] >= 2.5 and price > wz["ibl"]
         wz_bear_pressure = wz["vpf"] > WZ_VPF_SHORT_MIN and price < open_p
         wz_seller_absorb = (
             min(buy_share_1, buy_share_2) <= 0.46
@@ -1429,6 +1521,118 @@ def evaluate_at_index(
                         "rr_tp2": TP2_RR,
                     },
                 })
+
+    # -------------------------------------------------------------------------
+    # 5. FUTURE ADMIRAL (ID 9005: EMA200 + MACD 12/26/9 + ADX > 20 + SMC OB/FVG + Slippage <= 1.5%)
+    # -------------------------------------------------------------------------
+    if idx >= 199:
+        ema200 = _ema(closes[: idx + 1], 200)[-1]
+        macd_val, macd_sig = _macd(closes[: idx + 1], 12, 26, 9)
+        adx_val_fa = _adx_14(highs[: idx + 1], lows[: idx + 1], closes[: idx + 1], 14)
+        prev_c_fa = float(closes[idx - 1])
+        slip_pct = abs(price - prev_c_fa) / prev_c_fa if prev_c_fa > 0 else 1.0
+        if ema200 is not None and macd_val is not None and macd_sig is not None and adx_val_fa is not None:
+            if adx_val_fa > 20.0 and slip_pct <= 0.015:
+                smc = _detect_recent_smc(opens, highs, lows, closes, idx, lookback=5)
+                # 5a. Future Admiral LONG (Exact v10.0 rules)
+                if price > ema200 and macd_val > macd_sig and smc["bull_smc"] and (btc_bearish_bias is not True) and not oi_quad["blocks_long"]:
+                    raw_sl = min(low_p - 0.30 * atr_val, price * (1.0 - MIN_STOP_PCT / 100.0))
+                    risk_pct = (price - raw_sl) / price * 100.0
+                    if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+                        tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=True)
+                        smc_tag = "Bullish FVG+OB" if (smc["bull_fvg"] and smc["bull_ob"]) else ("Bullish FVG" if smc["bull_fvg"] else "Bullish OB")
+                        results.append({
+                            "symbol": symbol,
+                            "scanner": "STRATEGY",
+                            "strategy_id": 9005,
+                            "strategy_name": "Future Admiral",
+                            "strategy_ids": [9005],
+                            "strategy_names": ["Future Admiral"],
+                            "strategy_agreement_count": 2,
+                            "timeframe": timeframe,
+                            "direction": "LONG",
+                            "action": "BUY",
+                            "price": price,
+                            "stop_loss": round(raw_sl, 8),
+                            "take_profit_1": tp1,
+                            "take_profit_2": tp2,
+                            "risk_pct": r_pct,
+                            "watch_only": False,
+                            "confidence": (
+                                f"Future Admiral LONG · Price > EMA200 (${ema200:.6g}) · "
+                                f"MACD Bullish · ADX {adx_val_fa:.1f} · {smc_tag} · Slippage {slip_pct * 100:.2f}%"
+                            ),
+                            "details": {
+                                "item_id": 9005,
+                                "strategy": "Future Admiral",
+                                "trigger_type": "FUTURE_ADMIRAL_LONG",
+                                "ema200": round(float(ema200), 8),
+                                "macd": macd_val,
+                                "macd_signal": macd_sig,
+                                "adx_14": adx_val_fa,
+                                "smc_type": smc_tag,
+                                "slippage_pct": round(slip_pct * 100.0, 2),
+                                "volume_ratio": vol_ratio,
+                                "trigger_volume_ratio": vol_ratio,
+                                "taker_buy_share_pct": round(max(buy_share_1, buy_share_2) * 100.0, 1),
+                                "cvd_zscore": cvd_z,
+                                "oi_quadrant": oi_quad["quadrant"],
+                                "rsi_14": rsi_val,
+                                "price_change_4b_pct": round(price_chg_4b, 2),
+                                "rr_tp1": TP1_RR,
+                                "rr_tp2": TP2_RR,
+                            },
+                        })
+
+                # 5b. Future Admiral SHORT (Exact Bearish Mirror for Bearish Regimes)
+                if price < ema200 and macd_val < macd_sig and smc["bear_smc"] and (btc_bearish_bias is not False) and not oi_quad["blocks_short"]:
+                    raw_sl = max(high_p + 0.30 * atr_val, price * (1.0 + MIN_STOP_PCT / 100.0))
+                    risk_pct = (raw_sl - price) / price * 100.0
+                    if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+                        tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=False)
+                        smc_tag = "Bearish FVG+OB" if (smc["bear_fvg"] and smc["bear_ob"]) else ("Bearish FVG" if smc["bear_fvg"] else "Bearish OB")
+                        results.append({
+                            "symbol": symbol,
+                            "scanner": "STRATEGY",
+                            "strategy_id": 9005,
+                            "strategy_name": "Future Admiral",
+                            "strategy_ids": [9005],
+                            "strategy_names": ["Future Admiral"],
+                            "strategy_agreement_count": 2,
+                            "timeframe": timeframe,
+                            "direction": "SHORT",
+                            "action": "SELL",
+                            "price": price,
+                            "stop_loss": round(raw_sl, 8),
+                            "take_profit_1": tp1,
+                            "take_profit_2": tp2,
+                            "risk_pct": r_pct,
+                            "watch_only": False,
+                            "confidence": (
+                                f"Future Admiral SHORT · Price < EMA200 (${ema200:.6g}) · "
+                                f"MACD Bearish · ADX {adx_val_fa:.1f} · {smc_tag} · Slippage {slip_pct * 100:.2f}%"
+                            ),
+                            "details": {
+                                "item_id": 9005,
+                                "strategy": "Future Admiral",
+                                "trigger_type": "FUTURE_ADMIRAL_SHORT",
+                                "ema200": round(float(ema200), 8),
+                                "macd": macd_val,
+                                "macd_signal": macd_sig,
+                                "adx_14": adx_val_fa,
+                                "smc_type": smc_tag,
+                                "slippage_pct": round(slip_pct * 100.0, 2),
+                                "volume_ratio": vol_ratio,
+                                "trigger_volume_ratio": vol_ratio,
+                                "taker_buy_share_pct": round(min(buy_share_1, buy_share_2) * 100.0, 1),
+                                "cvd_zscore": cvd_z,
+                                "oi_quadrant": oi_quad["quadrant"],
+                                "rsi_14": rsi_val,
+                                "price_change_4b_pct": round(price_chg_4b, 2),
+                                "rr_tp1": TP1_RR,
+                                "rr_tp2": TP2_RR,
+                            },
+                        })
 
     return results
 

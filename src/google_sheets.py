@@ -292,7 +292,7 @@ ANALYTICS_STRATEGY_ROWS = _analytics_strategy_rows()
 
 HISTORICAL_BACKTEST_START_ROW = 22
 HISTORICAL_BACKTEST_HEADERS = [
-    "Previous Candles Backtest (Auto-Selector · All 14 Strategies)",
+    "Previous Candles Backtest (Auto-Selector · All 15 Strategies)",
     "Past Trades",
     "Wins (TP Hit)",
     "SL Hits",

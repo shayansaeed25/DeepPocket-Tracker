@@ -196,6 +196,46 @@ class V60WZAndLiquidationTests(unittest.TestCase):
         self.assertEqual(oi, 5.0)
         self.assertEqual(fr, -0.018)
 
+    def test_future_admiral_strategy_15_long_signal_and_registration(self):
+        self.assertIn("Future Admiral", strategy_policy.SMART_MONEY_STRATEGIES)
+        self.assertIn("Future Admiral", backtester.ALL_15_STRATEGY_NAMES)
+        # Build 230-bar uptrend above EMA200 with ADX > 20, Bullish MACD, Bullish OB/FVG, slippage <= 1.5%
+        opens, highs, lows, closes, volumes, qv, tb = [], [], [], [], [], [], []
+        price = 100.0
+        for i in range(230):
+            if i == 226:
+                # Bearish OB candle
+                o, c = price, price - 0.5
+                h, l = o + 0.2, c - 0.2
+            elif i == 227:
+                # Impulsive bullish displacement creating Bullish OB + FVG
+                o, c = price, price + 1.4
+                h, l = c + 0.2, o - 0.1
+            else:
+                o = price
+                c = price + 0.35
+                h = c + 0.25
+                l = o - 0.20
+            v = 1500.0
+            opens.append(round(o, 4))
+            highs.append(round(h, 4))
+            lows.append(round(l, 4))
+            closes.append(round(c, 4))
+            volumes.append(v)
+            qv.append(v * c)
+            tb.append(v * c * 0.60)
+            price = c
+        kl = {
+            "open": opens, "high": highs, "low": lows, "close": closes,
+            "volume": volumes, "quote_volume": qv, "taker_buy_quote_volume": tb,
+        }
+        sigs = smart_money.evaluate_latest("SOLUSDT", kl, "1h", btc_bearish_bias=False)
+        fa = [s for s in sigs if s.get("strategy_name") == "Future Admiral" and s.get("direction") == "LONG"]
+        self.assertEqual(len(fa), 1)
+        self.assertEqual(fa[0]["strategy_id"], 9005)
+        self.assertGreater(fa[0]["details"]["adx_14"], 20.0)
+        self.assertLessEqual(fa[0]["details"]["slippage_pct"], 1.5)
+
 
 if __name__ == "__main__":
     unittest.main()
