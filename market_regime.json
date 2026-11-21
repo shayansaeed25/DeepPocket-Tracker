@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795226545.1744869,
-  "score": -58.5,
+  "computed_at": 1795230145.8557296,
+  "score": -57.4,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -97.8,
-      "note": "1h ↓ RSI 33 · 4h ↓ RSI 25 · 1d ↓ RSI 18 · 7d -13.7%",
+      "score": -98.7,
+      "note": "1h ↓ RSI 30 · 4h ↓ RSI 23 · 1d ↓ RSI 17 · 7d -13.7%",
       "weight": 0.3
     },
     "news": {
-      "score": -78.7,
-      "note": "134 headlines · 4 bullish / 48 bearish",
+      "score": -70.1,
+      "note": "136 headlines · 4 bullish / 43 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -31,12 +31,12 @@
     },
     "global": {
       "score": -100.0,
-      "note": "mcap -7.4% 24h · BTC dom 57.8%",
+      "note": "mcap -7.1% 24h · BTC dom 57.8%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -4.9,
-      "note": "funding -0.0076% · taker buy 44.9%",
+      "score": -8.6,
+      "note": "funding -0.0062% · taker buy 43.6%",
       "weight": 0.1
     }
   },
@@ -46,11 +46,11 @@
       "impact": "Bearish"
     },
     {
-      "title": "ETHFI Swings 4.02% Amid Ethereum ETF Outflows and Selloff",
+      "title": "Crypto Market Today, Nov. 20: Bitcoin Plunges Below $60,000 as Wall Street's Sell-Off Spreads to Crypto",
       "impact": "Bearish"
     },
     {
-      "title": "Crypto Market Today, Nov. 20: Bitcoin Plunges Below $60,000 as Wall Street's Sell-Off Spreads to Crypto",
+      "title": "SEC sues eight fake advisor firms over $37m rotating crypto scheme",
       "impact": "Bearish"
     }
   ],
