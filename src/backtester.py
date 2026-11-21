@@ -328,8 +328,8 @@ def format_discord_league_table(rankings: dict[str, dict[str, Any]]) -> tuple[st
             active_lines.append(f"✅ {line}")
         else:
             disabled_lines.append(f"🛑 {line}")
-    active_str = "\n".join(active_lines[:8]) if active_lines else "None passed threshold this window"
-    disabled_str = "\n".join(disabled_lines[:6]) if disabled_lines else "None"
+    active_str = "\n".join(active_lines[:14]) if active_lines else "None passed threshold this window"
+    disabled_str = "\n".join(disabled_lines[:14]) if disabled_lines else "None"
     return active_str[:1000], disabled_str[:1000]
 
 

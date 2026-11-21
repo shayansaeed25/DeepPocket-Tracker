@@ -1293,10 +1293,14 @@ def evaluate_at_index(
         liq_mag = estimate_liquidation_magnets(
             klines, idx=idx, oi_change_pct=oi_change_pct, funding_rate_pct=funding_rate_pct
         )
-        # 4a. WZ Oversold Liquidation-Sweep Reversal LONG (allowed even in bearish macro regime!)
-        wz_oversold_zone = wz["min_drz_3b"] <= WZ_DRZ_OVERSOLD or low_p <= wz["ibl_lower"]
-        wz_bull_pressure = (wz["vpf"] < WZ_VPF_LONG_MAX) or (price > open_p and lower_wick_ratio >= 0.28)
-        wz_buyer_absorb = max(buy_share_1, buy_share_2) >= 0.51 and vol_ratio >= 1.15
+        # 4a. WZ Oversold Liquidation-Sweep Reversal LONG (strict AND confluence: no falling-knife catching!)
+        wz_oversold_zone = wz["min_drz_3b"] <= -2.2 and (low_p <= wz["ibl_lower"] or float(lows[idx - 1]) <= wz["ibl_lower"])
+        wz_bull_pressure = wz["vpf"] < WZ_VPF_LONG_MAX and price > open_p
+        wz_buyer_absorb = (
+            max(buy_share_1, buy_share_2) >= 0.54
+            and vol_ratio >= 1.50
+            and (rsi_val is None or rsi_val <= 35.0)
+        )
         if wz_oversold_zone and wz_bull_pressure and wz_buyer_absorb and not oi_quad["blocks_long"]:
             raw_sl = min(low_p - 0.25 * atr_val, price * (1.0 - MIN_STOP_PCT / 100.0))
             risk_pct = (price - raw_sl) / price * 100.0
@@ -1358,10 +1362,14 @@ def evaluate_at_index(
                     },
                 })
 
-        # 4b. WZ Overbought Blow-Off Rejection SHORT
-        wz_overbought_zone = wz["max_drz_3b"] >= WZ_DRZ_OVERBOUGHT or high_p >= wz["ibl_upper"]
-        wz_bear_pressure = (wz["vpf"] > WZ_VPF_SHORT_MIN) or (price < open_p and upper_wick_ratio >= 0.28)
-        wz_seller_absorb = min(buy_share_1, buy_share_2) <= 0.49 and vol_ratio >= 1.15
+        # 4b. WZ Overbought Blow-Off Rejection SHORT (strict AND confluence)
+        wz_overbought_zone = wz["max_drz_3b"] >= WZ_DRZ_OVERBOUGHT and (high_p >= wz["ibl_upper"] or float(highs[idx - 1]) >= wz["ibl_upper"])
+        wz_bear_pressure = wz["vpf"] > WZ_VPF_SHORT_MIN and price < open_p
+        wz_seller_absorb = (
+            min(buy_share_1, buy_share_2) <= 0.46
+            and vol_ratio >= 1.40
+            and (rsi_val is None or rsi_val >= 65.0)
+        )
         if wz_overbought_zone and wz_bear_pressure and wz_seller_absorb and not oi_quad["blocks_short"]:
             raw_sl = max(high_p + 0.25 * atr_val, price * (1.0 + MIN_STOP_PCT / 100.0))
             risk_pct = (raw_sl - price) / price * 100.0

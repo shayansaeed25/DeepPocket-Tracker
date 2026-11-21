@@ -1610,7 +1610,7 @@ def send_scan_summary(scanned, long_count, short_count, total_found, trend_long_
         "description": description,
         "fields": summary_fields,
         "footer": {
-            "text": "DeepPocket Tracker v5.0 — Dynamic 13-Strategy Historical Candle Auto-Selector"
+            "text": "DeepPocket Tracker v6.1 — Dynamic 14-Strategy WZ + Liquidation Auto-Selector"
         },
     }
     payload = {"embeds": [embed]}
