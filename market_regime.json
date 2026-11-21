@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795222964.5198538,
-  "score": -55.1,
+  "computed_at": 1795226545.1744869,
+  "score": -58.5,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -98.0,
-      "note": "1h ↓ RSI 33 · 4h ↓ RSI 24 · 1d ↓ RSI 17 · 7d -13.7%",
+      "score": -97.8,
+      "note": "1h ↓ RSI 33 · 4h ↓ RSI 25 · 1d ↓ RSI 18 · 7d -13.7%",
       "weight": 0.3
     },
     "news": {
-      "score": -61.1,
-      "note": "27 headlines · 0 bullish / 7 bearish",
+      "score": -78.7,
+      "note": "134 headlines · 4 bullish / 48 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -31,26 +31,26 @@
     },
     "global": {
       "score": -100.0,
-      "note": "mcap -7.3% 24h · BTC dom 57.8%",
+      "note": "mcap -7.4% 24h · BTC dom 57.8%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -5.2,
-      "note": "funding -0.0072% · taker buy 44.8%",
+      "score": -4.9,
+      "note": "funding -0.0076% · taker buy 44.9%",
       "weight": 0.1
     }
   },
   "headlines": [
     {
-      "title": "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic",
+      "title": "SEC Charges Eight Entities Over Alleged $37M Crypto Investment Fraud",
       "impact": "Bearish"
     },
     {
-      "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
+      "title": "ETHFI Swings 4.02% Amid Ethereum ETF Outflows and Selloff",
       "impact": "Bearish"
     },
     {
-      "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
+      "title": "Crypto Market Today, Nov. 20: Bitcoin Plunges Below $60,000 as Wall Street's Sell-Off Spreads to Crypto",
       "impact": "Bearish"
     }
   ],
