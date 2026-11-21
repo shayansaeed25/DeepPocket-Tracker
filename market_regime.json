@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795266146.161913,
-  "score": -54.5,
+  "computed_at": 1795269745.8206336,
+  "score": -45.5,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -89.4,
-      "note": "1h ↓ RSI 50 · 4h ↓ RSI 35 · 1d ↓ RSI 17 · 7d -13.7%",
+      "score": -69.4,
+      "note": "1h ↑ RSI 62 · 4h ↓ RSI 45 · 1d ↓ RSI 24 · 7d -13.7%",
       "weight": 0.3
     },
     "news": {
-      "score": -68.5,
-      "note": "124 headlines · 3 bullish / 38 bearish",
+      "score": -69.2,
+      "note": "123 headlines · 3 bullish / 37 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -30,31 +30,31 @@
       "weight": 0.1
     },
     "global": {
-      "score": -95.2,
-      "note": "mcap -6.3% 24h · BTC dom 57.7%",
+      "score": -66.7,
+      "note": "mcap -4.4% 24h · BTC dom 58.0%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -15.7,
-      "note": "funding -0.0019% · taker buy 43.8%",
+      "score": -13.0,
+      "note": "funding -0.0008% · taker buy 44.7%",
       "weight": 0.1
     }
   },
   "headlines": [
     {
-      "title": "XRP Selloff: $18M in Long Liquidations as ETF Assets Slip Below $1B",
+      "title": "BlackRock Said Bitcoin Moves Against AI Stocks: Then Both Crashed Together",
       "impact": "Bearish"
     },
     {
-      "title": "Crypto ETF News Today: BTC, ETH, XRP Outflows As Market Crash Hard",
+      "title": "Crypto Crashes Pile Up as Once-Diehard Fans Chase New Bets",
       "impact": "Bearish"
     },
     {
-      "title": "‘Dump It Now’—Panic Suddenly Sweeps Bitcoin As Crypto Braces For Massive $2 Trillion Weekend Price Crash",
+      "title": "What Is the Best Crypto to Buy With $500 During This Crash?",
       "impact": "Bearish"
     }
   ],
-  "last_report_ts": 1795244549.3173397,
+  "last_report_ts": 1795269748.3035989,
   "last_report_label": "STRONG BEARISH",
   "us10y": {
     "level": 4.912,
