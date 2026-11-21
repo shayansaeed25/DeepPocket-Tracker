@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795273346.3168008,
-  "score": -46.8,
+  "computed_at": 1795276944.6119783,
+  "score": -45.6,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -70.9,
-      "note": "1h ↑ RSI 59 · 4h ↓ RSI 43 · 1d ↓ RSI 23 · 7d -13.7%",
+      "score": -85.9,
+      "note": "1h ↓ RSI 55 · 4h ↓ RSI 41 · 1d ↓ RSI 21 · 7d -13.7%",
       "weight": 0.3
     },
     "news": {
-      "score": -72.1,
-      "note": "111 headlines · 4 bullish / 38 bearish",
+      "score": -65.1,
+      "note": "108 headlines · 5 bullish / 33 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -30,19 +30,19 @@
       "weight": 0.1
     },
     "global": {
-      "score": -69.0,
-      "note": "mcap -4.6% 24h · BTC dom 58.0%",
+      "score": -28.2,
+      "note": "mcap -1.9% 24h · BTC dom 57.9%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -13.2,
-      "note": "funding -0.0003% · taker buy 44.6%",
+      "score": -11.4,
+      "note": "funding +0.0001% · taker buy 45.2%",
       "weight": 0.1
     }
   },
   "headlines": [
     {
-      "title": "Crypto Market Crash Triggers $2.3B Liquidations Amid Stock Rout",
+      "title": "Bitcoin Crashes Below $56,000 as $2.7 Billion Crypto Liquidation Wipes Out Traders",
       "impact": "Bearish"
     },
     {
@@ -50,7 +50,7 @@
       "impact": "Bearish"
     },
     {
-      "title": "'Pretty Low Demand': Dogecoin Co-Founder Explains $2.55 Billion Crypto Market Crash",
+      "title": "Bitcoin Loses $60K for First Time Since July as AI Stocks Crash",
       "impact": "Bearish"
     }
   ],
