@@ -1,21 +1,5 @@
 [
  {
-  "coin": "SOL",
-  "category": "Hack / Exploit",
-  "impact": "Bearish",
-  "title": "AI Will Make the Next 12 Months 'a Slaughterhouse' for Crypto Security: Anchorage Exec",
-  "link": "https://decrypt.co/383526/ai-will-make-the-next-12-months-a-slaughterhouse-for-crypto-security-anchorage-exec",
-  "timestamp": 1795005032.990505
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Abu Dhabi Sovereign Wealth Funds HODL Bitcoin, Disclose Combined IBIT Holdings of Over $1 Billion in Q3 - Benzinga",
-  "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOM2hSRkxvU0lObHlNLUR6eXl5ZDduaW1lYlFrMkZYUFRRR3g1SVBTSDhvS21jc1FEWEhUTWRxZkJjOEVzcmtsa2pvMkQ5MFhzUDNjcVlGbUtJZ1o0cVVVQUlxS2MxVzNzcjlvUDVRSVBGeW1QM1dXTHVNdEx2Ty02QVpoalFQblVJS0tYVFY2SGt5Sm9YVDNETEhGZWItMi1ObXRQeURvX1dXakY0THBNcWU4cy05TUpkajdCSzQ1YmY5ZjZzMDFISS13ZjNpUzZGLW5LRE5FRDBWeWlMMGhjZV93UWplamlDcjR4azNRRkRDcERqQ3c?oc=5",
-  "timestamp": 1795006840.9240835
- },
- {
   "coin": "BTC",
   "category": "Regulation",
   "impact": "Mixed",
@@ -982,5 +966,13 @@
   "title": "NVDA Dives 23% in a Week as Nvidia Faces 8 Legal and Regulatory Threats",
   "link": "https://cryptopotato.com/nvda-dives-23-in-a-week-as-nvidia-faces-8-legal-and-regulatory-threats/",
   "timestamp": 1795258938.2331176
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Why Is Bitcoin Down Today? BTC Slides 5.57% to $58,072, Below $60,000, as Record ETF Outflows Pile On - Around Prague",
+  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU1NGWUlMaHZkX3ctZXEwdGhuMlFOYzRWaThQMDVRbFNJVGR0anlUcDY2TGZwbU9leFpwc0FhXy1xTXRsdXVBSnd4NnVUZEVMR1BQaVl6TFRPcDFSOVIydHAwaXRYLVVQS3JzakxCSXZzd19uM1lrYTZLYXVqNFVkTEp0S3BSTHFoOFI3bWFkMGYzQVZ3VWhudUtaaEIyNzBLeWRtbERpQklkNzZoM1Axamc5aw?oc=5",
+  "timestamp": 1795266141.0110862
  }
 ]
