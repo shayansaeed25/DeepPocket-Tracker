@@ -1,45 +1,5 @@
 [
  {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "iShares Bitcoin Trust ETF (Derivatives) price today, IBIT to USD live price, marketcap and chart - CoinMarketCap",
-  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVmdWR2laNlU2MnpwWTRmXzFmVDF1c2l3eEJFVnA0T1lEWUpDR21FSXBxUmhCa2Y0bzgwR1B4Z3I5aTBJTG9VTklhYmVjT1J3YnFDbGhRM21aTUxDamQtcTg2MjgyYkhJSndoc0QtaHVMbTBneGtmU1JlWUlIUlM1WA?oc=5",
-  "timestamp": 1794997834.499612
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Erases Summer Rally as ETF Outflows Persist - The Defiant",
-  "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM0F5NlRaLTZrRENwbjBVZWh6V1FNQ3RkNGZsS0xWVVlfTEVHdDg0cVhmbTd6UHF5dUZqb1ZwVk93Z1FiblZ0UWxVYy1Jb1d3XzFIaE5DNDhhZXBHc3I1cGdtMlRVdnJVMFVOUjVhbTFPRHFzeDBaSVNBMTBfblFkLXpnbFJMbUdmMEVkam1KWQ?oc=5",
-  "timestamp": 1794997835.0542538
- },
- {
-  "coin": "BTC",
-  "category": "Macro / Fed / CPI",
-  "impact": "Bearish",
-  "title": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
-  "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike",
-  "timestamp": 1794999642.0163734
- },
- {
-  "coin": "ZEC",
-  "category": "Listing",
-  "impact": "Bullish",
-  "title": "Bitwise seeks Texas Stock Exchange listing for Zcash ETF",
-  "link": "https://cointelegraph.com/news/bitwise-zcash-etf-texas-stock-exchange-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-  "timestamp": 1794999642.655394
- },
- {
-  "coin": "ZEC",
-  "category": "Listing",
-  "impact": "Bullish",
-  "title": "Bitwise seeks Texas Stock Exchange listing for Zcash ETF - Crypto Briefing",
-  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90cVZFaC1ZZVEzUVZLVUo1ZC1qUGdRN3FsMG8yUW1Da0pmOGxrU0dDMzlrUV9wTUF5bnhIQmNwWXUteHBQRy1HQXJ4ME13MktmWDM1QnB0dzU4VF9UZ0hjZmVXcERnckZTbHBnaWF1MEdycDR6?oc=5",
-  "timestamp": 1794999644.2419143
- },
- {
   "coin": "ETH",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
@@ -1038,5 +998,13 @@
   "title": "XRP Tumbles 10% in a Day as ETF Outflows Deepen - bloomingbit",
   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42MlRTeXdGeF9LUW1pWlhZYVdMaWFDRklmYjVVdTE0al9WYjdHb2lON0xKQmN1ekNXUEZMTE5qb3hDWnNOWlFfZVdfZkJBS0UzcWdUbw?oc=5",
   "timestamp": 1795255337.7859552
+ },
+ {
+  "coin": "BTC",
+  "category": "Regulation",
+  "impact": "Mixed",
+  "title": "NVDA Dives 23% in a Week as Nvidia Faces 8 Legal and Regulatory Threats",
+  "link": "https://cryptopotato.com/nvda-dives-23-in-a-week-as-nvidia-faces-8-legal-and-regulatory-threats/",
+  "timestamp": 1795258938.2331176
  }
 ]
