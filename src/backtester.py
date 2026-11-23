@@ -178,7 +178,8 @@ def backtest_klines_dataset(
         n_closed = len(closes) - 1
         cooldown_until: dict[str, int] = {}
 
-        for idx in range(55, n_closed - 6):
+        eval_start = max(55, n_closed - 76)
+        for idx in range(eval_start, n_closed - 6):
             # 1. Evaluate all 3 Smart-Money setups at candle `idx`
             sm_signals = smart_money.evaluate_at_index(
                 symbol, klines, timeframe, idx, btc_bearish_bias=btc_bearish_bias

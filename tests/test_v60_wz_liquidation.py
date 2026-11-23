@@ -236,6 +236,55 @@ class V60WZAndLiquidationTests(unittest.TestCase):
         self.assertGreater(fa[0]["details"]["adx_14"], 20.0)
         self.assertLessEqual(fa[0]["details"]["slippage_pct"], 1.5)
 
+    def test_v63_relief_rally_unblocks_aligned_long_without_weakening_crash_guard(self):
+        relief_regime = {
+            "label": "BEARISH",
+            "score": -26.7,
+            "components": {"btc_momentum": {"score": -17.0, "note": "1h ↑ RSI 71 · 4h ↑ RSI 62 · 1d ↓ RSI 34"}},
+        }
+        crash_regime = {
+            "label": "STRONG BEARISH",
+            "score": -48.0,
+            "components": {"btc_momentum": {"score": -45.0, "note": "1h ↓ RSI 30 · 4h ↓ RSI 32 · 1d ↓ RSI 34"}},
+        }
+        sig = {
+            "symbol": "SOLUSDT",
+            "direction": "LONG",
+            "action": "BUY",
+            "price": 100.0,
+            "stop_loss": 98.5,
+            "take_profit_1": 101.2,
+            "take_profit_2": 102.4,
+            "strategy_name": "Alpha Prime",
+            "strategy_names": ["Alpha Prime"],
+            "details": {
+                "session_name": "LONDON_NY_OVERLAP",
+                "trend_alignment": "PARTIAL",
+                "trend_votes": {"4h": 1, "1d": -1},
+                "taker_buy_share_pct": 54.0,
+                "volume_ratio": 1.6,
+                "adx": 28.0,
+                "plus_di": 32.0,
+                "minus_di": 14.0,
+            },
+        }
+        # Unblocked during 1h+4h relief rally (-26.7)
+        self.assertIsNone(quality_gate.check(sig, "CONSENSUS", relief_regime))
+        # Still blocked during STRONG BEARISH crash (-48.0)
+        self.assertIsNotNone(quality_gate.check(sig, "CONSENSUS", crash_regime))
+
+        old_regime = screener.CURRENT_REGIME
+        try:
+            screener.CURRENT_REGIME = relief_regime
+            ok_relief, reason = screener.passes_institutional_v3_gates(sig, backtest_rankings=None)
+            self.assertTrue(ok_relief, f"Expected relief-rally LONG to pass, got: {reason}")
+
+            screener.CURRENT_REGIME = crash_regime
+            ok_crash, _ = screener.passes_institutional_v3_gates(sig, backtest_rankings=None)
+            self.assertFalse(ok_crash)
+        finally:
+            screener.CURRENT_REGIME = old_regime
+
 
 if __name__ == "__main__":
     unittest.main()

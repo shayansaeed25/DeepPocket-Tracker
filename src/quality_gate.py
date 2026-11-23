@@ -320,6 +320,18 @@ def btc_guard(signal: dict[str, Any], regime: dict[str, Any] | None) -> str | No
     if is_long and details.get("wz_reversal_override"):
         return None
 
+    # v6.3 Relief-Rally Unblock: when BTC 1h & 4h are BOTH trending UP while composite regime
+    # is only moderately bearish (> -40), allow H4-aligned LONGs so the bot doesn't deadlock at 0 trades.
+    btc_note = str(((regime.get("components") or {}).get("btc_momentum") or {}).get("note") or "")
+    r_score_raw = regime.get("score")
+    intraday_relief_rally = (
+        "1h ↑" in btc_note
+        and "4h ↑" in btc_note
+        and (r_score_raw is None or float(r_score_raw) > -40.0)
+    )
+    if is_long and intraday_relief_rally:
+        return None
+
     btc_mom = ((regime.get("components") or {}).get("btc_momentum") or {}).get("score")
     if btc_mom is not None:
         try:

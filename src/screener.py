@@ -388,10 +388,12 @@ def passes_institutional_v3_gates(
     is_long = direction in {"LONG", "BUY"}
     is_wz_reversal = bool(is_long and details.get("wz_reversal_override"))
 
-    # 1. Macro / BTC Regime Directional Priority
+    # 1. Macro / BTC Regime Directional Priority (with v6.3 Intraday Relief-Rally Unblock)
     if isinstance(CURRENT_REGIME, dict) and CURRENT_REGIME.get("score") is not None:
         r_score = float(CURRENT_REGIME["score"])
-        if is_long and (not is_wz_reversal) and r_score <= BEARISH_REGIME_NO_BUY_SCORE:
+        btc_note = str(((CURRENT_REGIME.get("components") or {}).get("btc_momentum") or {}).get("note") or "")
+        intraday_relief_rally = ("1h ↑" in btc_note and "4h ↑" in btc_note and r_score > -40.0)
+        if is_long and (not is_wz_reversal) and (not intraday_relief_rally) and r_score <= BEARISH_REGIME_NO_BUY_SCORE:
             return False, f"counter-regime BUY blocked in bearish market ({r_score:+.1f})"
         if (not is_long) and r_score >= BULLISH_REGIME_NO_SELL_SCORE:
             return False, f"counter-regime SELL blocked in bullish market ({r_score:+.1f})"
@@ -1610,7 +1612,7 @@ def send_scan_summary(scanned, long_count, short_count, total_found, trend_long_
         "description": description,
         "fields": summary_fields,
         "footer": {
-            "text": "DeepPocket Tracker v6.2 — Dynamic 15-Strategy (WZ + Future Admiral + Liq) Auto-Selector"
+            "text": "DeepPocket Tracker v6.3 — Dynamic 15-Strategy (Relief-Rally Unblocked + Recent-Window Backtest)"
         },
     }
     payload = {"embeds": [embed]}
@@ -1939,7 +1941,12 @@ def main():
     btc_bearish_bias = None
     if isinstance(CURRENT_REGIME, dict) and CURRENT_REGIME.get("score") is not None:
         r_score = float(CURRENT_REGIME["score"])
-        if r_score <= BEARISH_REGIME_NO_BUY_SCORE or CURRENT_REGIME.get("label") == "BEARISH":
+        btc_note = str(((CURRENT_REGIME.get("components") or {}).get("btc_momentum") or {}).get("note") or "")
+        intraday_relief_rally = ("1h ↑" in btc_note and "4h ↑" in btc_note and r_score > -40.0)
+        if intraday_relief_rally:
+            btc_bearish_bias = None
+            print(f"[regime-priority] Intraday Relief Rally detected ({btc_note} vs regime {r_score:+.1f}) -> Two-way mode (LONGs + SHORTs evaluated cleanly).")
+        elif r_score <= BEARISH_REGIME_NO_BUY_SCORE or CURRENT_REGIME.get("label") == "BEARISH":
             btc_bearish_bias = True
             print(f"[regime-priority] Market Regime is BEARISH ({r_score:+.1f}) -> Prioritizing SHORT setups & blocking BUY traps.")
         elif r_score >= BULLISH_REGIME_NO_SELL_SCORE or CURRENT_REGIME.get("label") == "BULLISH":

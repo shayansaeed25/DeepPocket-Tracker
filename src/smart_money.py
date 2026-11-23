@@ -1020,7 +1020,7 @@ def evaluate_at_index(
         fvg_info = detect_fair_value_gap(klines, idx, "SHORT", atr_val)
         raw_sl = max(high_p + 0.25 * atr_val, price * (1.0 + MIN_STOP_PCT / 100.0))
         risk_pct = (raw_sl - price) / price * 100.0
-        if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+        if (MIN_STOP_PCT - 1e-4) <= risk_pct <= MAX_STOP_PCT:
             tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=False)
             squeeze_tag = ""
             if (funding_rate_pct is not None and funding_rate_pct > 0.01) or (oi_change_pct is not None and oi_change_pct >= 3.0):
@@ -1084,7 +1084,7 @@ def evaluate_at_index(
         fvg_info = detect_fair_value_gap(klines, idx, "LONG", atr_val)
         raw_sl = min(low_p - 0.25 * atr_val, price * (1.0 - MIN_STOP_PCT / 100.0))
         risk_pct = (price - raw_sl) / price * 100.0
-        if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+        if (MIN_STOP_PCT - 1e-4) <= risk_pct <= MAX_STOP_PCT:
             tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=True)
             fvg_tag = f" · Bullish FVG (${fvg_info['fvg_midpoint']:.5g})" if fvg_info["fvg_present"] else ""
             results.append({
@@ -1149,7 +1149,7 @@ def evaluate_at_index(
         fvg_info = detect_fair_value_gap(klines, idx, "SHORT", atr_val)
         raw_sl = max(high_p + 0.20 * atr_val, price * (1.0 + MIN_STOP_PCT / 100.0))
         risk_pct = (raw_sl - price) / price * 100.0
-        if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+        if (MIN_STOP_PCT - 1e-4) <= risk_pct <= MAX_STOP_PCT:
             tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=False)
             fvg_tag = f" · FVG Zone ${fvg_info['fvg_midpoint']:.5g}" if fvg_info["fvg_present"] else ""
             results.append({
@@ -1207,7 +1207,7 @@ def evaluate_at_index(
         fvg_info = detect_fair_value_gap(klines, idx, "LONG", atr_val)
         raw_sl = min(low_p - 0.20 * atr_val, price * (1.0 - MIN_STOP_PCT / 100.0))
         risk_pct = (price - raw_sl) / price * 100.0
-        if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+        if (MIN_STOP_PCT - 1e-4) <= risk_pct <= MAX_STOP_PCT:
             tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=True)
             fvg_tag = f" · FVG Zone ${fvg_info['fvg_midpoint']:.5g}" if fvg_info["fvg_present"] else ""
             results.append({
@@ -1274,7 +1274,7 @@ def evaluate_at_index(
         pullback_peak = max(high_p, prev_high)
         raw_sl = max(pullback_peak + 0.25 * atr_val, price * (1.0 + MIN_STOP_PCT / 100.0))
         risk_pct = (raw_sl - price) / price * 100.0
-        if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+        if (MIN_STOP_PCT - 1e-4) <= risk_pct <= MAX_STOP_PCT:
             tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=False)
             results.append({
                 "symbol": symbol,
@@ -1333,7 +1333,7 @@ def evaluate_at_index(
         pullback_trough = min(low_p, prev_low)
         raw_sl = min(pullback_trough - 0.25 * atr_val, price * (1.0 - MIN_STOP_PCT / 100.0))
         risk_pct = (price - raw_sl) / price * 100.0
-        if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+        if (MIN_STOP_PCT - 1e-4) <= risk_pct <= MAX_STOP_PCT:
             tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=True)
             results.append({
                 "symbol": symbol,
@@ -1396,7 +1396,7 @@ def evaluate_at_index(
         if wz_oversold_zone and wz_bull_pressure and wz_buyer_absorb and not oi_quad["blocks_long"]:
             raw_sl = min(low_p - 0.25 * atr_val, price * (1.0 - MIN_STOP_PCT / 100.0))
             risk_pct = (price - raw_sl) / price * 100.0
-            if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+            if (MIN_STOP_PCT - 1e-4) <= risk_pct <= MAX_STOP_PCT:
                 tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=True)
                 mag_tag = (
                     f" · Short Liq Magnet ${liq_mag['short_liq_above']:.6g} ({liq_mag['short_liq_dist_pct']:+.1f}%)"
@@ -1465,7 +1465,7 @@ def evaluate_at_index(
         if wz_overbought_zone and wz_bear_pressure and wz_seller_absorb and not oi_quad["blocks_short"]:
             raw_sl = max(high_p + 0.25 * atr_val, price * (1.0 + MIN_STOP_PCT / 100.0))
             risk_pct = (raw_sl - price) / price * 100.0
-            if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+            if (MIN_STOP_PCT - 1e-4) <= risk_pct <= MAX_STOP_PCT:
                 tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=False)
                 mag_tag = (
                     f" · Long Liq Magnet ${liq_mag['long_liq_below']:.6g} ({liq_mag['long_liq_dist_pct']:+.1f}%)"
@@ -1538,7 +1538,7 @@ def evaluate_at_index(
                 if price > ema200 and macd_val > macd_sig and smc["bull_smc"] and (btc_bearish_bias is not True) and not oi_quad["blocks_long"]:
                     raw_sl = min(low_p - 0.30 * atr_val, price * (1.0 - MIN_STOP_PCT / 100.0))
                     risk_pct = (price - raw_sl) / price * 100.0
-                    if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+                    if (MIN_STOP_PCT - 1e-4) <= risk_pct <= MAX_STOP_PCT:
                         tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=True)
                         smc_tag = "Bullish FVG+OB" if (smc["bull_fvg"] and smc["bull_ob"]) else ("Bullish FVG" if smc["bull_fvg"] else "Bullish OB")
                         results.append({
@@ -1588,7 +1588,7 @@ def evaluate_at_index(
                 if price < ema200 and macd_val < macd_sig and smc["bear_smc"] and (btc_bearish_bias is not False) and not oi_quad["blocks_short"]:
                     raw_sl = max(high_p + 0.30 * atr_val, price * (1.0 + MIN_STOP_PCT / 100.0))
                     risk_pct = (raw_sl - price) / price * 100.0
-                    if MIN_STOP_PCT <= risk_pct <= MAX_STOP_PCT:
+                    if (MIN_STOP_PCT - 1e-4) <= risk_pct <= MAX_STOP_PCT:
                         tp1, tp2, r_pct = compute_sniper_targets(price, raw_sl, is_long=False)
                         smc_tag = "Bearish FVG+OB" if (smc["bear_fvg"] and smc["bear_ob"]) else ("Bearish FVG" if smc["bear_fvg"] else "Bearish OB")
                         results.append({

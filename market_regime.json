@@ -1,65 +1,65 @@
 {
-  "computed_at": 1795266146.161913,
-  "score": -54.5,
-  "label": "STRONG BEARISH",
+  "computed_at": 1795442548.9057605,
+  "score": -26.7,
+  "label": "BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -89.4,
-      "note": "1h ↓ RSI 50 · 4h ↓ RSI 35 · 1d ↓ RSI 17 · 7d -13.7%",
+      "score": -17.0,
+      "note": "1h ↑ RSI 71 · 4h ↑ RSI 62 · 1d ↓ RSI 34 · 7d -6.2%",
       "weight": 0.3
     },
     "news": {
-      "score": -68.5,
-      "note": "124 headlines · 3 bullish / 38 bearish",
+      "score": -72.3,
+      "note": "93 headlines · 3 bullish / 29 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -53.0,
-      "note": "S&P -3.7% · DXY -0.1% · VIX 36",
+      "score": -43.0,
+      "note": "S&P -3.7% · DXY +0.4% · VIX 32",
       "weight": 0.1
     },
     "us10y": {
-      "score": 70,
-      "note": "4.91% · -14 bps 1d · -24 bps 5d · falling (tailwind)",
+      "score": 14.7,
+      "note": "4.92% · +1 bps 1d · -20 bps 5d · flat",
       "weight": 0.1
     },
     "sentiment": {
-      "score": -45.6,
-      "note": "Fear & Greed 12 (Extreme Fear)",
+      "score": -46.8,
+      "note": "Fear & Greed 11 (Extreme Fear)",
       "weight": 0.1
     },
     "global": {
-      "score": -95.2,
-      "note": "mcap -6.3% 24h · BTC dom 57.7%",
+      "score": -3.2,
+      "note": "mcap -0.2% 24h · BTC dom 58.5%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -15.7,
-      "note": "funding -0.0019% · taker buy 43.8%",
+      "score": 6.8,
+      "note": "funding +0.0023% · taker buy 51.3%",
       "weight": 0.1
     }
   },
   "headlines": [
     {
-      "title": "XRP Selloff: $18M in Long Liquidations as ETF Assets Slip Below $1B",
+      "title": "Gold Rebounds as Traders Reduce Fed Rate Hike Bets",
       "impact": "Bearish"
     },
     {
-      "title": "Crypto ETF News Today: BTC, ETH, XRP Outflows As Market Crash Hard",
+      "title": "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes",
       "impact": "Bearish"
     },
     {
-      "title": "‘Dump It Now’—Panic Suddenly Sweeps Bitcoin As Crypto Braces For Massive $2 Trillion Weekend Price Crash",
+      "title": "Get ready for 3 consecutive rate hikes starting next month, bank economist warns",
       "impact": "Bearish"
     }
   ],
-  "last_report_ts": 1795244549.3173397,
-  "last_report_label": "STRONG BEARISH",
+  "last_report_ts": 1795435350.3833675,
+  "last_report_label": "BEARISH",
   "us10y": {
-    "level": 4.912,
-    "day_bps": -14.0,
-    "week_bps": -24.2,
-    "score": 70
+    "level": 4.924,
+    "day_bps": 1.2,
+    "week_bps": -19.7,
+    "score": 14.7
   }
 }
