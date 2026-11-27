@@ -1,21 +1,5 @@
 [
  {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "iShares Bitcoin Trust ETF (IBIT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-  "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zdVh2bVo0bDFzNGdLOUJkYVBxMW1Fa0pkcnZyTHktRnFaZ0hIWWFCdXR6cHlGZm9mOERJeG1vbU9HZmVqVE9hbmVXREZtQTUwOXc?oc=5",
-  "timestamp": 1795557741.7240741
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin falls around 5.5% as ETF outflows and weak technicals spur selling - Traders Union",
-  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVkJuS3RPU1JUcmZfeWRsc01xdXp2WUJuNklLMldiMUJYQjhYQWJfbnE3X3NMWEYzVzhSSjlXMHR1anhPNjBiS3lMQlp4ZVBaLVltMV9Vc3JySFRDRVZrWnZKUEJQVEpWVzdRV0VRQWprOHZMYUFDYzA3c19LM0Y4VmJBZTUwUFB1cF9LeG1ZbmpMZHhmWGNMNkx6X0wweUdq?oc=5",
-  "timestamp": 1795557742.3359365
- },
- {
   "coin": "UNI",
   "category": "Listing",
   "impact": "Bullish",
@@ -958,5 +942,29 @@
   "title": "Crypto News Today: Binance Ends Freeze, Fidelity Files LINK ETF - CoinMarketCap",
   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5EZ19MRzdjZkRCenRzeDl3d29RNEpIQVRMVzFJWU41OVN6bmE1NnVxNW1jUmxwWUVKZklxT21pXzZXQXpDb28zM1BGTUxweTdqeEhSQi1WaVpHQWdxZTZnc2dNU2JfdXVNN3d3NlZ6R2plbDJqUkdSal9iaw?oc=5",
   "timestamp": 1795816941.3155243
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Fidelity Files for a Spot Chainlink ETF That Would Trade on Nasdaq, Extending Its Crypto Fund Lineup Beyond Bitcoin and Ether - HedgeCo.Net",
+  "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNM2VYMk5kSUQ2dER2bDU5Sm9LSXpxMXJDTUFkd2I2LXFVcXh2SVNuNG1OdUI2OFZqMjBHcmc2U0d3RTJuUUJXNGt6T0wxaUVxYlJlWk5lcGFPczRPOVVPdXE4eGwwU1RIOGdpaHlxM2VLaFNkYmhrMzNraU1vQ0RSdW9NU3RZMVYtQjRqMVRZdEdER2g3YnNjcVFTNktySEdWbGF4c1NoeExDTVhYMG9MdkRsR21saGdDQjRucWZLSEx1eWFFdVl5NGdtT1R6TlRUcV9vY3RmYS0tYXpFTS1RR1lJMThlZzNXT0dLTU9EdnlGdnZx?oc=5",
+  "timestamp": 1795820541.3144574
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Below $48K in 2026? Manifold Traders Price It at 18% as ETF Outflows Hit a Record $5.39B - shattered.io",
+  "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaHR2ODFBeTliNXhVX0stVWxnUFNaZ1hXcFZUbE0xeTFwSkpGTjJVYTRPQUJUZVplZHdsVjN6QU9Dem9fdjBRY1F2c29PVUpqeW4yTE5kMFRySWdvR0JSN0dZNGxCZjQwSFF5WFRvTnNJNFZfcFVCSHZkMFpmRkIxeVhn?oc=5",
+  "timestamp": 1795820541.8204222
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin (BTC) faces historic losses as BlackRock\u2019s IBIT sees record outflows - Investorsobserver",
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTFJ1dTBuRVJXbDhVRzBQMEEySTNHT3FoS3ZEMWh0b0N1LUhPSFRXbi1ZbW41MTk1QUNacldBQ1VESkFkZU9tTnlVYlVrYjNkVFFVd0xnY09BTWV2MVU1ZjlMeWYxVmNjQ2EzSVFvMGI0X1dybkNjUnA2ajBGRHF2ZmRKeURCVzROZ1lPYjFJRElRUl9YWXhvVWZNX0FrdktfeHFXaVNKQzItVWlMMHc?oc=5",
+  "timestamp": 1795820542.3182547
  }
 ]

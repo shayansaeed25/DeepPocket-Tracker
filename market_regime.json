@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795816946.3497713,
-  "score": -37.3,
+  "computed_at": 1795820548.2001512,
+  "score": -34.8,
   "label": "BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -74.2,
-      "note": "1h ↓ RSI 36 · 4h ↓ RSI 43 · 1d ↓ RSI 26 · 7d -2.3%",
+      "score": -73.1,
+      "note": "1h ↓ RSI 39 · 4h ↓ RSI 44 · 1d ↓ RSI 26 · 7d -2.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -22.0,
-      "note": "138 headlines · 11 bullish / 21 bearish",
+      "score": -9.9,
+      "note": "132 headlines · 13 bullish / 15 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -30,27 +30,27 @@
       "weight": 0.1
     },
     "global": {
-      "score": -58.3,
-      "note": "mcap -3.9% 24h · BTC dom 57.7%",
+      "score": -60.1,
+      "note": "mcap -4.0% 24h · BTC dom 57.8%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": 3.2,
-      "note": "funding +0.0020% · taker buy 50.1%",
+      "score": 2.2,
+      "note": "funding +0.0047% · taker buy 49.7%",
       "weight": 0.1
     }
   },
   "headlines": [
-    {
-      "title": "XRP ETF Price Forecast — XRP ($10.59) $12.27 Upside Target on First November Inflows and $1.13 Breakout",
-      "impact": "Bullish"
-    },
     {
       "title": "Bitcoin or XRP: Which Is Closer to Getting Back to Its All-Time High?",
       "impact": "Bullish"
     },
     {
       "title": "Tariff Risks vs Rate Hike Fears in the Latest U.S. Stock Selloff",
+      "impact": "Bearish"
+    },
+    {
+      "title": "Gold Rebounds Above $3,660: What Fed Rate Hike Bets Mean Next",
       "impact": "Bearish"
     }
   ],
