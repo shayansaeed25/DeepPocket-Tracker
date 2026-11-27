@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795809745.7448916,
-  "score": -35.9,
+  "computed_at": 1795813345.2269855,
+  "score": -35.6,
   "label": "BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -73.6,
+      "score": -73.5,
       "note": "1h ↓ RSI 37 · 4h ↓ RSI 44 · 1d ↓ RSI 26 · 7d -2.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -20.1,
-      "note": "134 headlines · 14 bullish / 18 bearish",
+      "score": -15.3,
+      "note": "133 headlines · 12 bullish / 16 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -30,17 +30,21 @@
       "weight": 0.1
     },
     "global": {
-      "score": -50.8,
-      "note": "mcap -3.4% 24h · BTC dom 57.7%",
+      "score": -56.6,
+      "note": "mcap -3.8% 24h · BTC dom 57.7%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": 4.3,
-      "note": "funding +0.0012% · taker buy 50.4%",
+      "score": 3.4,
+      "note": "funding +0.0013% · taker buy 50.1%",
       "weight": 0.1
     }
   },
   "headlines": [
+    {
+      "title": "Bitcoin or XRP: Which Is Closer to Getting Back to Its All-Time High?",
+      "impact": "Bullish"
+    },
     {
       "title": "Tariff Risks vs Rate Hike Fears in the Latest U.S. Stock Selloff",
       "impact": "Bearish"
@@ -48,13 +52,9 @@
     {
       "title": "Gold Rebounds Above $3,660: What Fed Rate Hike Bets Mean Next",
       "impact": "Bearish"
-    },
-    {
-      "title": "Chainlink Volatility Surges on Fidelity ETF Filing, Adoption News",
-      "impact": "Bullish"
     }
   ],
-  "last_report_ts": 1795788150.8439662,
+  "last_report_ts": 1795813347.8334599,
   "last_report_label": "BEARISH",
   "us10y": {
     "level": 4.936,
