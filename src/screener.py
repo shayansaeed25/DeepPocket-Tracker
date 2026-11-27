@@ -388,15 +388,14 @@ def passes_institutional_v3_gates(
     is_long = direction in {"LONG", "BUY"}
     is_wz_reversal = bool(is_long and details.get("wz_reversal_override"))
 
-    # 1. Macro / BTC Regime Directional Priority (with v6.3 Intraday Relief-Rally Unblock)
+    # 1. Macro / BTC Regime Directional Priority (v6.4: requires decisive regime |score| >= 20.0)
+    # Validated on 86 live trades: choppy transition regimes (-20..+20) had 20% WR (-$7.63) vs <= -20 ALIGNED 88.9% WR.
     if isinstance(CURRENT_REGIME, dict) and CURRENT_REGIME.get("score") is not None:
         r_score = float(CURRENT_REGIME["score"])
-        btc_note = str(((CURRENT_REGIME.get("components") or {}).get("btc_momentum") or {}).get("note") or "")
-        intraday_relief_rally = ("1h ↑" in btc_note and "4h ↑" in btc_note and r_score > -40.0)
-        if is_long and (not is_wz_reversal) and (not intraday_relief_rally) and r_score <= BEARISH_REGIME_NO_BUY_SCORE:
-            return False, f"counter-regime BUY blocked in bearish market ({r_score:+.1f})"
-        if (not is_long) and r_score >= BULLISH_REGIME_NO_SELL_SCORE:
-            return False, f"counter-regime SELL blocked in bullish market ({r_score:+.1f})"
+        if is_long and (not is_wz_reversal) and r_score < 20.0:
+            return False, f"BUY blocked outside decisive bullish regime ({r_score:+.1f} < +20.0)"
+        if (not is_long) and r_score > -20.0:
+            return False, f"SELL blocked outside decisive bearish regime ({r_score:+.1f} > -20.0)"
         if market_regime.yield_blocks_signal(CURRENT_REGIME, is_long):
             return False, "US 10Y Treasury Yield headwind moving against signal direction"
 
@@ -414,13 +413,11 @@ def passes_institutional_v3_gates(
     if sess_name == "ASIA_DEAD_ZONE":
         return False, "Asia Dead-Zone low-liquidity window (22:00–05:00 UTC)"
 
-    # 4. H4 + D1 Trend Structure Gate (verified WZ Oversold V-bottom LONGs exempt from lagging H4+D1 lock)
+    # 4. H4 + D1 Trend Structure Gate (v6.4: strictly requires ALIGNED — both 4h & 1d agree)
+    # Validated on 86 live trades: ALIGNED = 78.0% WR (+$61.93) vs PARTIAL = 25.0% WR (-$5.74).
     trend_align = details.get("trend_alignment")
-    trend_votes = details.get("trend_votes") if isinstance(details.get("trend_votes"), dict) else {}
-    expected_vote = 1 if is_long else -1
-    if (not is_wz_reversal) and trend_align not in {"ALIGNED", "PARTIAL"}:
-        if not (trend_align in {"MIXED", "NEUTRAL"} and trend_votes.get("4h") == expected_vote):
-            return False, f"H4+D1 trend structure is {trend_align} (requires ALIGNED or PARTIAL)"
+    if (not is_wz_reversal) and trend_align != "ALIGNED":
+        return False, f"H4+D1 trend structure is {trend_align} (requires strict ALIGNED on both 4h and 1d)"
 
     # 5. Spot Taker CVD Alignment Gate
     t_buy_pct = details.get("taker_buy_share_pct")
@@ -1612,7 +1609,7 @@ def send_scan_summary(scanned, long_count, short_count, total_found, trend_long_
         "description": description,
         "fields": summary_fields,
         "footer": {
-            "text": "DeepPocket Tracker v6.3 — Dynamic 15-Strategy (Relief-Rally Unblocked + Recent-Window Backtest)"
+            "text": "DeepPocket Tracker v6.4 — Strict ALIGNED H4+D1 & Decisive Regime (|Score| >= 20) Sniper"
         },
     }
     payload = {"embeds": [embed]}
@@ -1817,6 +1814,8 @@ def consolidate_strategy_candidates(strategy_candidates, profiles):
     profiles_by_id[9001] = {"item_id": 9001, "name": "Smart Money Liquidity Sweep", "rank": 1}
     profiles_by_id[9002] = {"item_id": 9002, "name": "Smart Money CVD Breakdown", "rank": 2}
     profiles_by_id[9003] = {"item_id": 9003, "name": "Smart Money EMA20 Pullback", "rank": 3}
+    profiles_by_id[9004] = {"item_id": 9004, "name": "WZ Reversal & Liquidity Magnet", "rank": 4}
+    profiles_by_id[9005] = {"item_id": 9005, "name": "Future Admiral", "rank": 5}
     raw_count = sum(len(items) for items in strategy_candidates.values())
     by_direction = {"LONG": [], "SHORT": []}
     conflict_count = 0
@@ -1941,12 +1940,7 @@ def main():
     btc_bearish_bias = None
     if isinstance(CURRENT_REGIME, dict) and CURRENT_REGIME.get("score") is not None:
         r_score = float(CURRENT_REGIME["score"])
-        btc_note = str(((CURRENT_REGIME.get("components") or {}).get("btc_momentum") or {}).get("note") or "")
-        intraday_relief_rally = ("1h ↑" in btc_note and "4h ↑" in btc_note and r_score > -40.0)
-        if intraday_relief_rally:
-            btc_bearish_bias = None
-            print(f"[regime-priority] Intraday Relief Rally detected ({btc_note} vs regime {r_score:+.1f}) -> Two-way mode (LONGs + SHORTs evaluated cleanly).")
-        elif r_score <= BEARISH_REGIME_NO_BUY_SCORE or CURRENT_REGIME.get("label") == "BEARISH":
+        if r_score <= BEARISH_REGIME_NO_BUY_SCORE or CURRENT_REGIME.get("label") == "BEARISH":
             btc_bearish_bias = True
             print(f"[regime-priority] Market Regime is BEARISH ({r_score:+.1f}) -> Prioritizing SHORT setups & blocking BUY traps.")
         elif r_score >= BULLISH_REGIME_NO_SELL_SCORE or CURRENT_REGIME.get("label") == "BULLISH":

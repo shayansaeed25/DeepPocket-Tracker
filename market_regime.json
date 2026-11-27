@@ -1,65 +1,65 @@
 {
-  "computed_at": 1795442548.9057605,
-  "score": -26.7,
+  "computed_at": 1795809745.7448916,
+  "score": -35.9,
   "label": "BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -17.0,
-      "note": "1h ↑ RSI 71 · 4h ↑ RSI 62 · 1d ↓ RSI 34 · 7d -6.2%",
+      "score": -73.6,
+      "note": "1h ↓ RSI 37 · 4h ↓ RSI 44 · 1d ↓ RSI 26 · 7d -2.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -72.3,
-      "note": "93 headlines · 3 bullish / 29 bearish",
+      "score": -20.1,
+      "note": "134 headlines · 14 bullish / 18 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": -43.0,
-      "note": "S&P -3.7% · DXY +0.4% · VIX 32",
+      "score": 19.8,
+      "note": "S&P +1.6% · DXY +0.4% · VIX 24",
       "weight": 0.1
     },
     "us10y": {
-      "score": 14.7,
-      "note": "4.92% · +1 bps 1d · -20 bps 5d · flat",
+      "score": -27.8,
+      "note": "4.94% · +9 bps 1d · -12 bps 5d · rising (headwind)",
       "weight": 0.1
     },
     "sentiment": {
-      "score": -46.8,
-      "note": "Fear & Greed 11 (Extreme Fear)",
+      "score": -43.6,
+      "note": "Fear & Greed 12 (Extreme Fear)",
       "weight": 0.1
     },
     "global": {
-      "score": -3.2,
-      "note": "mcap -0.2% 24h · BTC dom 58.5%",
+      "score": -50.8,
+      "note": "mcap -3.4% 24h · BTC dom 57.7%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": 6.8,
-      "note": "funding +0.0023% · taker buy 51.3%",
+      "score": 4.3,
+      "note": "funding +0.0012% · taker buy 50.4%",
       "weight": 0.1
     }
   },
   "headlines": [
     {
-      "title": "Gold Rebounds as Traders Reduce Fed Rate Hike Bets",
+      "title": "Tariff Risks vs Rate Hike Fears in the Latest U.S. Stock Selloff",
       "impact": "Bearish"
     },
     {
-      "title": "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes",
+      "title": "Gold Rebounds Above $3,660: What Fed Rate Hike Bets Mean Next",
       "impact": "Bearish"
     },
     {
-      "title": "Get ready for 3 consecutive rate hikes starting next month, bank economist warns",
-      "impact": "Bearish"
+      "title": "Chainlink Volatility Surges on Fidelity ETF Filing, Adoption News",
+      "impact": "Bullish"
     }
   ],
-  "last_report_ts": 1795435350.3833675,
+  "last_report_ts": 1795788150.8439662,
   "last_report_label": "BEARISH",
   "us10y": {
-    "level": 4.924,
-    "day_bps": 1.2,
-    "week_bps": -19.7,
-    "score": 14.7
+    "level": 4.936,
+    "day_bps": 8.8,
+    "week_bps": -11.6,
+    "score": -27.8
   }
 }

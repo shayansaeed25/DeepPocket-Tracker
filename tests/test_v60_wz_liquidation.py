@@ -236,52 +236,34 @@ class V60WZAndLiquidationTests(unittest.TestCase):
         self.assertGreater(fa[0]["details"]["adx_14"], 20.0)
         self.assertLessEqual(fa[0]["details"]["slippage_pct"], 1.5)
 
-    def test_v63_relief_rally_unblocks_aligned_long_without_weakening_crash_guard(self):
-        relief_regime = {
-            "label": "BEARISH",
-            "score": -26.7,
-            "components": {"btc_momentum": {"score": -17.0, "note": "1h ↑ RSI 71 · 4h ↑ RSI 62 · 1d ↓ RSI 34"}},
-        }
-        crash_regime = {
-            "label": "STRONG BEARISH",
-            "score": -48.0,
-            "components": {"btc_momentum": {"score": -45.0, "note": "1h ↓ RSI 30 · 4h ↓ RSI 32 · 1d ↓ RSI 34"}},
-        }
-        sig = {
-            "symbol": "SOLUSDT",
-            "direction": "LONG",
-            "action": "BUY",
-            "price": 100.0,
-            "stop_loss": 98.5,
-            "take_profit_1": 101.2,
-            "take_profit_2": 102.4,
-            "strategy_name": "Alpha Prime",
-            "strategy_names": ["Alpha Prime"],
+    def test_v64_blocks_partial_trend_and_weak_choppy_regime(self):
+        weak_bear_regime = {"label": "BEARISH", "score": -17.4}
+        strong_bear_regime = {"label": "BEARISH", "score": -34.7}
+        sig_partial = {
+            "symbol": "DOTUSDT", "direction": "SELL", "action": "SELL",
+            "price": 0.657, "stop_loss": 0.670, "take_profit_1": 0.649, "take_profit_2": 0.641,
+            "strategy_name": "Elite Trend", "strategy_names": ["Elite Trend"],
             "details": {
-                "session_name": "LONDON_NY_OVERLAP",
-                "trend_alignment": "PARTIAL",
-                "trend_votes": {"4h": 1, "1d": -1},
-                "taker_buy_share_pct": 54.0,
-                "volume_ratio": 1.6,
-                "adx": 28.0,
-                "plus_di": 32.0,
-                "minus_di": 14.0,
+                "session_name": "LONDON_NY_OVERLAP", "trend_alignment": "PARTIAL",
+                "trend_votes": {"4h": 0, "1d": -1}, "taker_buy_share_pct": 40.0,
+                "volume_ratio": 2.0, "adx": 24.0, "plus_di": 15.0, "minus_di": 35.0,
             },
         }
-        # Unblocked during 1h+4h relief rally (-26.7)
-        self.assertIsNone(quality_gate.check(sig, "CONSENSUS", relief_regime))
-        # Still blocked during STRONG BEARISH crash (-48.0)
-        self.assertIsNotNone(quality_gate.check(sig, "CONSENSUS", crash_regime))
+        sig_aligned = dict(sig_partial, details=dict(sig_partial["details"], trend_alignment="ALIGNED", trend_votes={"4h": -1, "1d": -1}))
 
         old_regime = screener.CURRENT_REGIME
         try:
-            screener.CURRENT_REGIME = relief_regime
-            ok_relief, reason = screener.passes_institutional_v3_gates(sig, backtest_rankings=None)
-            self.assertTrue(ok_relief, f"Expected relief-rally LONG to pass, got: {reason}")
+            # Weak/choppy regime (-17.4) MUST block even ALIGNED SELL (fixes Nov 26 ENA/AVAX SLs)
+            screener.CURRENT_REGIME = weak_bear_regime
+            ok_weak, _ = screener.passes_institutional_v3_gates(sig_aligned, backtest_rankings=None)
+            self.assertFalse(ok_weak)
 
-            screener.CURRENT_REGIME = crash_regime
-            ok_crash, _ = screener.passes_institutional_v3_gates(sig, backtest_rankings=None)
-            self.assertFalse(ok_crash)
+            # Decisive bearish regime (-34.7) blocks PARTIAL (fixes Nov 27 DOT SL) but approves ALIGNED (ETH win!)
+            screener.CURRENT_REGIME = strong_bear_regime
+            ok_partial, _ = screener.passes_institutional_v3_gates(sig_partial, backtest_rankings=None)
+            self.assertFalse(ok_partial)
+            ok_aligned, reason = screener.passes_institutional_v3_gates(sig_aligned, backtest_rankings=None)
+            self.assertTrue(ok_aligned, f"Expected ALIGNED SELL in -34.7 regime to pass, got: {reason}")
         finally:
             screener.CURRENT_REGIME = old_regime
 

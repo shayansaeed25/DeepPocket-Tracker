@@ -1,179 +1,11 @@
 [
  {
   "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Bearish",
-  "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
-  "link": "https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-  "timestamp": 1795190539.601869
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin ETF Outflows In November Near $3.5 Billion - Yahoo Finance",
-  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeHRkRVlPS0lxaDI5ZGZqLUJ5MWNtaTZRUkNUTUZybWJtQ2kwQlJ6WVFCNHZaVUhVc1RkS0NQcUxSWjdrZzFuMHpkaTFPZWF1MVBLQVdOSVZaMVktaGFRNmhUaFBCb2hKa1FKZWNMY3RPZVk4ZGU1MHhTQkxNOGhnSEtGbnM2UkNneFlBb0FicmFtUW1sVnZuT3g3dEV6TXFr?oc=5",
-  "timestamp": 1795190540.7240531
- },
- {
-  "coin": "ETH",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Ethereum Price Forecast: Why is ETH faltering as ETF outflows outweigh returning retail demand? - www.tmgm.com",
-  "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQenQyZjZ5d1VRTlU0bzZEQ2ZabkRWZkZFcjVXeGRHT0owREFpazhrRDVmSkJVUDZqM2VOZldiV3pOUXgxRjZSOGdRT2tXU0FFWlN0b1BMeHlicEpMajUyZC1NMkxQOFI2Q2xFZWpEeTVRdmhUSDk4LV8tRXZBZmJwY0RDb19YcHR4NXdHMUxpWTUwekR2Q1ZwVW1ra2lEbWJOdF9jLUFldFZaX3lBQURTUl9faFFYUjlHYmViVExpU2NpZ3dxRXpNWjJuancxbm9QVnA2Nmcyc1I5TExtMVlsMmtMekJYbmdoQmFQS2hlaWVoUQ?oc=5",
-  "timestamp": 1795190541.159699
- },
- {
-  "coin": "ETH",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Ethereum tests $1,700 as ETF outflows hit $208.5M - Crypto News",
-  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hY0lrV1BTYXZZUDEzR3V2M3NrTmhMNTd5RG1NM1pOdEQzY0pMbnIxa2tpOU5xSUQ0VUxkMjljM3BlRVlhaURoRVJ6cUE1Sl9kQXBoaHdYMEN0SzhSUDBLTmdka0VwMWxsRmRYdA?oc=5",
-  "timestamp": 1795190541.7629006
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Heads For Longest Weekly Losing Streak Since 2022 With BlackRock\u2019s IBIT Clocking Record Outflows - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQTlZkWERDRk5RZzZ6WUVqVEE1dnJIdXBwSGttN252WDBUMVpySEVYMWo3Ri1YeUJHOXpTNm1wTUx4UmZRcGxxaVFEMGFXd0tFczVpUUI2TUN4aTRRdHgxQlN6M09JR2kwUEFUMVBuQWxPVElwWDNwV0hNLXNfZV9kRlVJZlplLUxEQnRkV0V3S3RvaDc1YnR6OGE1cy1wLXlCM0JESTNtZkJnSXU1VUZqUS1fdkJxS2ZYOW9NYTRmLU9kdTJ2c29hdVJaZFFuQjA1NUJtQjJhWWhUVk1ocktEeUhuQnVsT19DbmpqM0ZoVnJlUXF6ZEJBMw?oc=5",
-  "timestamp": 1795190542.3213499
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin on track for seventh straight weekly loss as ETF outflows hit record - Investing.com",
-  "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONkdBbzV5UWVCZVZrT1p2MV8wWlBlMlZWX1hLRVVmc1Njc3U1UW03V3RVQUJoT0xNb2tIZDFHb284OFE5blFudXdkR1hrakJDTzI4MTREUzVGZ1dEemRSYVRwb05RZXRBSW1aMzBfV2h6SmtQZ2cxc0wwVVlmcUNPTXhXVlJzaUVqaG1iNFBGOGR5MUNNdmV0NUltblZBZ3ZzaXF2T0pCMld1R3BtUmNVQWJ3YUZ6a2NJb0dOcXk0MzZJQWU0OGp4ZHQxR3RwdUhPTVNzZjV1Yw?oc=5",
-  "timestamp": 1795190542.885661
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "BlackRock Bitcoin ETF Outflow Sets $541M Single-Day Record - Bitcoin Foundation",
-  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYzJmWVVBMFhibzI0bWpuekEyYmtvMDNnOGQwRE15MXU5VmVBSGdsMmhrWnN1OHZoX3dfdFNzLW1FZEhsb1JiT3BuTUVURDB5QVc1RHdnQXZsZUVya1lxZ3RuaUMxaGNmMW5ud0ZDTF80SzVESmhOMC1zUktmekxLWlhBdlpTNDU5aU1MX2dqUzM2QW1PazhBRXFnOU5ydGMtZklV?oc=5",
-  "timestamp": 1795194141.9528701
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin falls over 20% in November as ETF outflows mount, but history offers some hope - Crypto Briefing",
-  "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5anB6SUFyQUVMd3Q1MmJoMm5WbFNqaTdqSVUwdFNuMDdIRG9oa1NVY0ZjTnk3by02RElWV1hUcXA5Z3Q2cENEajZiY3ROTFNERUs3WTVXb0JHaFdvLWItbGlRSVBUekZQNW9hWFp3?oc=5",
-  "timestamp": 1795197743.4707723
- },
- {
-  "coin": "BTC",
   "category": "Hack / Exploit",
   "impact": "Bearish",
-  "title": "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic",
-  "link": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
-  "timestamp": 1795201344.2351177
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Bitcoin\u2019s ETF Boom Is Showing Cracks as BlackRock\u2019s IBIT Loses $2.9B - iShares Bitcoin Trust (NASDAQ:IBIT - Benzinga",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRTdTa3BGd3hjMy03REtVc3M5Vm5qVmp0TThGWXJLXzFIOE02aUdXQ282UmpQVERzX0RYY2QyZlNTSzVLRkh4d1BpaG5ESTdJTWVIQmJHdFJmVDhTSWhLN3FtTVVSbzJDNTFLSFhDMlFqWV9xRnduNm5RWWdsbzhncDJteTlqVUlPUVVDUGVhV2l3VG1wVVlIRmZ6V2swTTdQMGxaMDg1RzhVV1dDSnRTcjlKTHlVckE0MTBJRExDQWg0eVU?oc=5",
-  "timestamp": 1795201345.446777
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "BlackRock's IBIT Posts Record $541 Million Daily Outflow as Bitcoin Sinks to Four-Month Low - BigGo Finance",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9WUnYyMnYydGJaWjBpQzJVdjE2Zl9GWElTbmw3amM5cS0wNGYxNU00X0JxVzVYZWdteWNNWUhrUjdpdmVPelI0alZxUkwyN2dCZG1YUFVPU29tVmxONFhCM3lEdklPbnVwWHRpemlVZGpjS2xDRnc?oc=5",
-  "timestamp": 1795201345.9125016
- },
- {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
-  "title": "Rep. Casten seeks to curb prediction market insider trading with DOJ whistleblower program",
-  "link": "https://www.theblock.co/news/regulation/2026-11-20-rep-casten-seeks-curb-prediction-market-insider-trading-doj-whistleblower-program-444779",
-  "timestamp": 1795204939.987051
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Bitcoin\u2019s ETF Boom Is Showing Cracks as BlackRock\u2019s IBIT Loses $2.9 Billion - Benzinga",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRTdTa3BGd3hjMy03REtVc3M5Vm5qVmp0TThGWXJLXzFIOE02aUdXQ282UmpQVERzX0RYY2QyZlNTSzVLRkh4d1BpaG5ESTdJTWVIQmJHdFJmVDhTSWhLN3FtTVVSbzJDNTFLSFhDMlFqWV9xRnduNm5RWWdsbzhncDJteTlqVUlPUVVDUGVhV2l3VG1wVVlIRmZ6V2swTTdQMGxaMDg1RzhVV1dDSnRTcjlKTHlVckE0MTBJRExDQWg0eVU?oc=5",
-  "timestamp": 1795204941.1724567
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Heads For Longest Weekly Losing Streak Since 2022 With BlackRock\u2019s IBIT Clocking Record Outflows - Yahoo Finance",
-  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMXI5UER3LUFIRFR2VVl4U0Fjd0Jtekpmb1BzM2JNYXdXTF9tZFFCNUR0WjlWQXpsb1A3a2VMMkZwOXFVRmxEcDJjam4zN0FlRUZha2lJaVRMeW55RG85OFBTUEtCODhYaFcyUVdiUGd2dmdLaU5oS1YzYXNYTVlMVXRxY0ROVk5jU3BEUHlISVNtS0xuOTA1TnBlbGhUR2VYaXc?oc=5",
-  "timestamp": 1795208544.7691803
- },
- {
-  "coin": "ZEC",
-  "category": "Listing",
-  "impact": "Bullish",
-  "title": "DCG\u2019s Zcash miner Fortitude clears vote for Nasdaq listing as ZEC retreats from all-time high",
-  "link": "https://www.theblock.co/news/business/2026-11-20-dcgs-zcash-miner-fortitude-clears-vote-nasdaq-listing-zec-retreats-all-time-high-444784",
-  "timestamp": 1795212150.8159337
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Briefly Dips Below $58,000 as AI Stock Selloff Spreads; $2 Billion Liquidated, ETF Outflows Continue - BigGo Finance",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LMm1WOTktWk9IeE9IdnFwWS02b0o5aVlvN0hfOFg0d2MwVi1hSUltMFdhOVhOSFNGQnBtOHhLNnpiMTJJWDdMSy1ITXJPa1lUQV95TERjR1E4YnlqRzRqdFBhZkx2d1VYVzg0emU3M3BMZjRyQXc?oc=5",
-  "timestamp": 1795212151.9322016
- },
- {
-  "coin": "ETH",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Ethereum Price Forecast: ETH struggles as ETF outflows outweigh renewed retail demand - www.tmgm.com",
-  "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTHljXzlIeHFwMjEycTI2dGlMbXVtaHFoVGs0dmkzdVRnNnV6ZGo2WXVMdkRCbjJIZnRqZC1ueVVQU1FmOWRkMFFMNUplUzN5dXd4OEtadDFDV3FsSlhpM29oWVpqdlgwS2lmOXRQUDZEaFotVTdFclBOeW9namRQdVFQSUJjSkp3cWRiUU9sV3Y4YzdCS0pRa3hOQWRRVmN3SlRoZURWSWdYODY5VFpQNUt3RFFRNUYzSU9NNW00Zndyb2IwZzI5NUIxXzVkMFZ1c2JGNVk5bTU4eFdpSFpQbVRIQ2l0YVllZkUzUExBRURwQQ?oc=5",
-  "timestamp": 1795212152.5006537
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Holds Steady as VIX Surges and Crypto ETF Outflows Mount - Cryptonews.net",
-  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ISy1Qc2RHcEJpMXN2MXZJc0RtTmRnazVhUHFoSS1MNzNoeERuajBjZmxJZ1drSGNqdzl6U1NHMVVQLVZNUmpsWGZvM3hPREt0M0F0MkVtT04?oc=5",
-  "timestamp": 1795219355.0770764
- },
- {
-  "coin": "ETHFI",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "ETHFI Swings 4.02% Amid Ethereum ETF Outflows and Selloff - CoinMarketCap",
-  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XM2tXTXd1UUEtS0l5b1BiRnB0OWtxWHJWZDFkMVNHVUNic09lU0x2dlpvQVNkeVQzS1M2ZjlOa0l6dzFBbnRzTkFVVlNzZGFSY19malpISzhVOG1BWHBiSDIwcU9UNktkUjZzY1RQbXc?oc=5",
-  "timestamp": 1795226539.6516938
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "iShares Bitcoin ETF (IBIT.NE) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-  "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LLVI3LXJ5bTh1SzRGMkxHLUdVWXVPd1hHdFBXTUJlc1RObl9Jdnkxck81M3FqUDk1TGZ3RG83alpBREYwM09EQU9feWZzLU9HWkhjNU1B?oc=5",
-  "timestamp": 1795226540.304975
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin's 12-Hour Slide: Macro Risk, ETF Outflows, Liquidations - CoinMarketCap",
-  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4taVBMc2xkU01zdlIxci1tZU5od1BQcV9XbUZWU3k0SndYQXR1LUl3MGtIemtDaUtrMm43ZFVXby1ldm01MEtGdjFJMm9naWFobmhjQnJVZlE0cy11QTdld2lfWjhKSVhyTXJLR2lrd2o?oc=5",
-  "timestamp": 1795244541.5809155
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "BlackRock ETF approaching third anniversary just had its worst day - Yahoo Finance",
-  "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQLXhPMndiQ1JCWGE0RXFaUzNuX0VvWW9CQzA2Zk4tU0daQ2lyR0RLNDhIMVd2WC1ZTFlGbVN2NkNDME9mb19kUTVpUExKQTFqY2k4OXY5YXFBMUhEZnlZZ3lFOV9SZUZVc04xTUVzNU4waG9NdjF3TUI1MFJfTk93YjJlbUx2UTFFWjRRX1VrNGZCdk91Wk4xN3BNclZ1UkUtNU82WUd5aW5FWUcz?oc=5",
-  "timestamp": 1795248139.027869
+  "title": "Coldcard Bitcoin Exploit, Revisited: How a Hidden Flaw Survived Years of Audits",
+  "link": "https://decrypt.co/383930/coldcard-bitcoin-exploit-how-hidden-flaw-survived-years-audits",
+  "timestamp": 1795557740.4769633
  },
  {
   "coin": "BTC",
@@ -181,582 +13,942 @@
   "impact": "Bullish",
   "title": "iShares Bitcoin Trust ETF (IBIT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zdVh2bVo0bDFzNGdLOUJkYVBxMW1Fa0pkcnZyTHktRnFaZ0hIWWFCdXR6cHlGZm9mOERJeG1vbU9HZmVqVE9hbmVXREZtQTUwOXc?oc=5",
-  "timestamp": 1795251739.8585553
+  "timestamp": 1795557741.7240741
  },
  {
   "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "BlackRock Files Third Bitcoin ETF With Capped Losses and Gains - CoinMarketCap",
-  "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUVJuVktXMmc0cUxHTTlkWlZXVDhsSUUzNklmekprWkZvaE1xZ1NGZXNWemJHdGd3d1RZR2tDOHBKYjloUjZ1WThxRXM5dVlCVWNISzQtWjZ2QmQzZUlEb3l0eWR0cy1XcjFNUTZLYWNOdVd5UnVFdTdZbERGT0pXdnRwS3IzN1VFV3JN?oc=5",
-  "timestamp": 1795251740.3520072
- },
- {
-  "coin": "ETH",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Ethereum drops more than 7% after $131 million exits spot ETFs and Glamsterdam upgrade delay - Traders Union",
-  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdEVLSTJPZmNJMi0yVTJIbjhyZXBReW5qY1RvSEVrVHlCZG1VMnB2a052VjNyNG94NVR3dTlvUUNNUUNiRzZ6VmN2WE11bmhVbnhtUWNCRGF3MjBfQzliTUpuUUNhRzNwYUc5bDlMR1RGTG1abHhURGl1bG02bmxOdllLMHA0SnlrUUYtRmE4QjBoX1ludUJ3cXNKdGFiRjN2X3c?oc=5",
-  "timestamp": 1795251740.9139986
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Bitcoin\u2019s ETF Boom Is Showing Cracks as BlackRock\u2019s IBIT Loses $2.9 Billion - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYTVfZHZIZ1hzZXNQaUgxd2laVWFQT3pQMDdtY1FMSUdfbFluMVBLbzYwRlhTTUl5cHRmMWsxT0wtbmxoaDAtSUh6b29rZ0dvVUxESDVzalJ1Q2FybDBGVmlLNm9IaHdQN2JjMHByTzltbkg5d3JKZzFLRWxoT0VZanZQblgyS3hKc09rNktXU0VNOWpVTHNtZ0RZTVJjQnZrdWlnVkpUOE1SR2tnemJoeXRpWmZ1bnkzZHFtcEV6OVZQYk5ZbkxFLUVNbEcydw?oc=5",
-  "timestamp": 1795255337.2953405
- },
- {
-  "coin": "XRP",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "XRP Tumbles 10% in a Day as ETF Outflows Deepen - bloomingbit",
-  "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42MlRTeXdGeF9LUW1pWlhZYVdMaWFDRklmYjVVdTE0al9WYjdHb2lON0xKQmN1ekNXUEZMTE5qb3hDWnNOWlFfZVdfZkJBS0UzcWdUbw?oc=5",
-  "timestamp": 1795255337.7859552
+  "title": "Bitcoin falls around 5.5% as ETF outflows and weak technicals spur selling - Traders Union",
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVkJuS3RPU1JUcmZfeWRsc01xdXp2WUJuNklLMldiMUJYQjhYQWJfbnE3X3NMWEYzVzhSSjlXMHR1anhPNjBiS3lMQlp4ZVBaLVltMV9Vc3JySFRDRVZrWnZKUEJQVEpWVzdRV0VRQWprOHZMYUFDYzA3c19LM0Y4VmJBZTUwUFB1cF9LeG1ZbmpMZHhmWGNMNkx6X0wweUdq?oc=5",
+  "timestamp": 1795557742.3359365
+ },
+ {
+  "coin": "UNI",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "Pump and Uniswap Dominate 2026 Token Listings, Accounting for 83.6% of the Total",
+  "link": "https://cryptopotato.com/pump-and-uniswap-dominate-2026-token-listings-accounting-for-83-6-of-the-total/",
+  "timestamp": 1795561347.473189
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Crypto Market Today, Nov. 24: Bitcoin Falls Below $60,000 as ETF Outflows Hit a Record $4.7 Billion - The Motley Fool",
+  "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPLTNtZEtTS2JrekFZdEt1TTVjWEJIMG5zOUVRdUpVYTFfblo4MkhMNlRxbzRINzVXU3doTi0yNkM5amZKQnpva3VObXBNdFVsWGR0T3lYNy02ZjlVWk41VEE5Wnh0MU5qeHh5MzlZVFJUUWg4cmNXcHFZVXE5dGtoR0VHRTlGTGtKWFNVVFB4OFdNdlA0TTVhc2JGTTBma2RXR0JlMEhLOS1pcFlOQldpcmVlRkNWLXF2Rmx1UDA0LVdLY19pdjhSTHNrX0U1bHNLTjhwQ2FiU05KZ2tVVXRUUVJhY3lGazEyTU01bXNOclg4d2s?oc=5",
+  "timestamp": 1795561348.6314316
+ },
+ {
+  "coin": "FF",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Rebound or Capitulation? Bitget Wallet Warns of Thin Spot Demand Amid $3.47B ETF Outflows - FF News",
+  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYUhRNy1XZk1pUnVNaVJTUXFYNk1CdlF1dmxObUNKTGtCT1pUX3dIWW5LQUlKOVVmTmZVTE4tX0VHOTFPVmI2OE5SdTlFNWZZS2hiZkU3cGw0N3FKVExhNWpoTkZpOFBVUUxGdUFWT2gtVEZSRTh3eWV5TjVUSVdDaFFjRWxuZjZ2WDg5VXZpeHFjSWZ5WW8yMW4xNlZWNDkwNnJnYmVvU0c5TE1ucmlYRzBTZw?oc=5",
+  "timestamp": 1795561349.1482978
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Watch Bitcoin Sinks Below $60,000 Amid ETF Outflows - Bloomberg.com",
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUXZEMXM0LXU0dGd5TXRQanYwTTZwZmtTNzFYc0ZrTTFEOVZKUGozbmtmQTNPNXpnSXNxaU0xM3RNVEthSXVTU3I2cExGQVEyMG85ZEZjNGdZS2RuUHNuQkFiSXRLVXdmel9NT09HTXJOalc4VGg3UFVCTnl4bFBNZlowSnJWTlJxSTlZQTYwUTVZMWRNdUgtYUk5LWVucDZD?oc=5",
+  "timestamp": 1795563922.5827456
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Breaks Below $60,000 as November ETF Outflows Top $4.7 Billion - Businesskorea",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RMk5FYUNodGdNcmZKakFUNFc5cXNmZ1FvbGZUVWdOb1ZUcXB0Uk9yc3hjcThkQWQtaHZ3ZWltVG03YU01VXV3ZXFrM1V3RlI5QnJHOUxCSXYtZUh4WnBHVFRJTWFjc2ZFNVVheWZZcnduVkQ3?oc=5",
+  "timestamp": 1795568541.1822202
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin falls below $60,000 as US spot ETF outflows mount - Chosunbiz",
+  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc1NaZEVTendPNDh5SjVoNDRDVlhwWWthV0FrT0FvSmJ3U0dBR1ViZWx4aHR6STIzRm9oVzQ4NkVUYXM4UVhvVzhKMmhneWtXTDZRbGRFZUdzd2JmWW1fVHFSZjNBYjM4SlVNMVZsRjZMbXhuT2ZEbzZEbl9uUmwyY9IBlAFBVV95cUxNY3VYTjNhOWRFcEhaTWN1bWc4YUJ2Q1JVT0p0YVFmalJudUVpYTRYZWFvZ29Ha0FKN2UtTjBvWmxrbU5yUDJpTFlrblNwbmRKLWI5eWdKLXJfSnlOcWlOZGpXQ2pZWVhEdWtvaWh3ZDQybnJwbUxGX1BTSXM3M0x4QWpZMU8zMDlibUVKY0thNlV1bjR5?oc=5",
+  "timestamp": 1795568542.3921168
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Fidelity Investments Canada ULC Announces Estimated 2026 Annual Reinvested Capital Gains Distributions for Fidelity ETFs and ETF Series of Fidelity Mutual Funds - Investing News Network",
+  "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQdVZpcnN0N2ZlS09Mb2dnS0RYZDY3X0drWDA0MEtrTFdTR1J4YUZlaXh2ZDN4WEhXY3h5SVBnYXZSc19FRlkyaWtZNTV1VzNvVDlWdEVDU2drZFNaakJPYjlFRGtJamNhWVFmb0J2TXpTdUxQamZKS0NKRnl3ZmRub2J4SjhDWDAtWnh6eXRnRUFGS0hxWUFyOTAxdTUzdzV4OHowQzRia0NISTZJV1FGcGNrTXRQS0dRd05tUTdualNpY2pFWWFwcDY4ODl6MzBiV3Ywd1RsVGVkRHlpNmNhMHUwMHU5RjlvakVBUWd0UFE1RkZrOVdCRTMwVmxna0RxSXBleGlpX3JtdkNxOFR4cVZsWVNEZw?oc=5",
+  "timestamp": 1795572142.3014054
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin loses the $60,000 mark; record $4.7 billion ETF outflows exacerbate selling pressure - Moomoo",
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQmNWMG5XTGlyOVNjMGxDcVlrRFMwUlZJajBfaVRkcUFhekVFSDc5eV93Z3A4b3d3UzM0bVV0X1gwakdnNWZVUGtEeFRKcTY1aFYxNTQtMmFReExMUTNoTUV4eE94UGN2dV9VbDlTTnhNQllvVUZ5NmtuN0hfTjl1ZUlrRUY0YVpydjRlU3NzdVhuMHdGQzdyeXpVNA?oc=5",
+  "timestamp": 1795575742.054882
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin ETF outflows set a monthly record at $4.71B in November - CryptoRank",
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbG9NQW5fQ1gxY2JnMFhhZ1FWXy03TE9XLUJhTW1hel9JQWRDNkxaejd0QlNaMG00dGdHb1ozZjBRTWRnVlF5dm1ULTIxVWE4cHdZbVJfRnU0TTFwU1A0bzVFRUtBanpaamhEQkk1dnllZGxkeU9vOUlQWnYtQWlfQmRFTDBOdw?oc=5",
+  "timestamp": 1795579339.6931107
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Loss Ratio Hits FTX-Era High as ETF Outflows Reach $4.3B - Cryptonews.net",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03TkFRclJYZTFnZG9UNS0wUkhOSjcwd05QeDVIWnBEbE9iVUkwTFoxeDIyRUhMQ0VtTExhYWlTWWpOVFo5RlE0czVwdEpqSFRBWmVSNlM1ZEE?oc=5",
+  "timestamp": 1795579340.2658846
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin loses the $60,000 mark; record $4.7 billion ETF outflows exacerbate selling pressure - \u5bcc\u9014\u725b\u725b",
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPX1NLM0ktbGg3V01FeHI1emtrbmdvVHR5aVpFdW5paWp6aDFUS2NrcTRUdjV2RURXcllrRGZwQ2g0aUMxS2JQTUtQOFVpckV2ME1oWVBUdHdXT2hEZlFHbDc1OW5jUkRJUnR4alVwLXdwemlqMWM0MmRyWGdXZExjeUYwZVFKbkdueGhWSGk4LVFXMWlFbGhTY2l3?oc=5",
+  "timestamp": 1795579340.845861
  },
  {
   "coin": "BTC",
   "category": "Regulation",
   "impact": "Mixed",
-  "title": "NVDA Dives 23% in a Week as Nvidia Faces 8 Legal and Regulatory Threats",
-  "link": "https://cryptopotato.com/nvda-dives-23-in-a-week-as-nvidia-faces-8-legal-and-regulatory-threats/",
-  "timestamp": 1795258938.2331176
+  "title": "Bitcoin, ether get CFTC staff nod for expense requirements, Ethereum Foundation doubles security team, and more",
+  "link": "https://www.theblock.co/newsletters/the-daily/2026-11-25-bitcoin-ether-cftc-staff-nod-ethereum-foundation-doubles-security-team-more-crypto-news-446074",
+  "timestamp": 1795586539.8154418
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "BlackRock Says Markets Overprice Fed Hikes: Will Bitcoin Catch a Break? - Yahoo Finance",
+  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUHVCSGt4cjhnQVNXUEZIQ3N6X2J2YVJ3NkRmRzQyZmgxd0pidWpzdmlMU0hKUDFXU1EyaFRfNGFtNWEtNHJraURIaVgtXzJmZ3FsbUh0Y2JWYXpCdHQ3MWR2Qkwxdk1xcThLcTUyQVh2M3VEUHoyWFZhNGpIMndPWDJ6SlBIRjlrSFowazdKdVdkeUFJeVJHc1hyUWxHd2JRWG1z?oc=5",
+  "timestamp": 1795586540.9623916
+ },
+ {
+  "coin": "BTC",
+  "category": "Regulation",
+  "impact": "Mixed",
+  "title": "South Korea\u2019s crypto bill could move stablecoin race beyond token issuance",
+  "link": "https://cointelegraph.com/news/south-korea-crypto-bill-stablecoin-race-beyond-issuance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "timestamp": 1795590143.6905105
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Why Is Bitcoin Down Today? BTC Slides 5.57% to $58,072, Below $60,000, as Record ETF Outflows Pile On - Around Prague",
-  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU1NGWUlMaHZkX3ctZXEwdGhuMlFOYzRWaThQMDVRbFNJVGR0anlUcDY2TGZwbU9leFpwc0FhXy1xTXRsdXVBSnd4NnVUZEVMR1BQaVl6TFRPcDFSOVIydHAwaXRYLVVQS3JzakxCSXZzd19uM1lrYTZLYXVqNFVkTEp0S3BSTHFoOFI3bWFkMGYzQVZ3VWhudUtaaEIyNzBLeWRtbERpQklkNzZoM1Axamc5aw?oc=5",
-  "timestamp": 1795266141.0110862
- },
- {
-  "coin": "ETH",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Ethereum Price Analysis: Did ETH Hit Its Macro Bottom After a 30% Monthly Drop?",
-  "link": "https://cryptopotato.com/ethereum-price-analysis-did-eth-hit-its-macro-bottom-after-a-30-monthly-drop/",
-  "timestamp": 1795284139.9176948
+  "title": "Bitcoin extends losses below $59,000 as ETF outflows weigh - Investing.com",
+  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSTBkMG93STB0WlRoTFVSa0dNSGltWXg4OWxUa2pXYVREaElrMmRXSlJUUnlJMkZKR2djT0UzRVNLT3ZJb3dCbzUxcFdZTGt6bTVySmt4bGdfelV5N1FWZGllNUNNMFVYUkdhelNsRWZDWUZyUlB2Qlg1VERWMHNpaDN0Z0lfbFE0ZW0zS0czbG9TOXBMalB5OVg5dzZnaEoyekRhUlJRVDZIdnhXdWtDVFZFVXUzZw?oc=5",
+  "timestamp": 1795590145.4009693
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Bitcoin Eyes $38,770 as ETF Outflows and Liquidations Surge and the Fear and Greed Index Falls - Benzinga",
-  "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcFBIR2h0enZtWXM3TTg3aWsxXzlOcTJLMVhBc2JLX3FXaUdIUnNRc3FwVlhXN1pTb0c3ckZyTzI0TThxaEZPRUNwMWc4OVRPbXZuVjhpa0ZGUUN4eEN2aGVTNktQREFmMC1oUGZ1d1BfZFF3TFFvUW90TlhNZFJoY3ZLU1FjZ3BPMDVMZTJkNVNVeTl4ZjJ5aTlhOUVwUmxZN3A1Wlg0UnNVbnB4RU5uVXRfR1BlazI5LTMzSExmTDhkVDR3SHkybHNTTkZBOGRySk1sekRn?oc=5",
-  "timestamp": 1795284140.992216
+  "title": "Bitcoin Breaks Below $60,000 Again as November ETF Outflows Top $4.7 Billion - Businesskorea",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RMk5FYUNodGdNcmZKakFUNFc5cXNmZ1FvbGZUVWdOb1ZUcXB0Uk9yc3hjcThkQWQtaHZ3ZWltVG03YU01VXV3ZXFrM1V3RlI5QnJHOUxCSXYtZUh4WnBHVFRJTWFjc2ZFNVVheWZZcnduVkQ3?oc=5",
+  "timestamp": 1795590145.867664
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "BlackRock's Martin S. Small to Present at the 2026 Goldman Sachs US Financial Services Conference on December 8th - Finviz",
+  "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd3dGYmFEVmh1TEVlSzFuZUc3UEdaN0NUNWZrWmtmTDJQU05IcDE0LWxyOXJMTTVkRl9pMGUxVi02MUEybnhaNVh0bVdLYjBLTG5SWFVNUV80cmJYYlZzQWZ1TVFDZ05mNF9kRE5FZVF6SXc2ZTU0QWhmSFoweXU2cU42YzJra3NNaWoxRG5udTFOOVFTaHJQS0FaeXVtSG1rSF8tZXVXZndlNHZ1N2JxV211TXZlNUZuUkJidUZvazF0V1UxN2JETURXNGc2ZGF2MGRfRHhzbXhTUQ?oc=5",
+  "timestamp": 1795590146.361436
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "BlackRock's IBIT posts record $541M outflow as Bitcoin ETFs bleed $3.47B in November - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYWhsTmJNOFkxcDFBcUVOQzRTY3dyWjhOVnJ5R3hKZlE5RkNEUDVPd1FrS1g4ZHh6QzE5OUhxaTQtbEpfemtCREV2MjhwSmdUbEpKTjJxSlB1S1hFNUFUZjJhbVlrZnc4Y0Zic0pTREowNWZCNnhoZVBSOHUxM3VIcHEzTHc2WjN6TTZsMC14MFFlVlNWRFZnc1pDWkdlaFkwbGFNOWt6ajlUVmtOc2lwZzFTOUh4WHJvak5KN1ZveGJrZDhCc01PNEUyZUEzZGFFdkRzUUUxLThhQk5od2syYg?oc=5",
-  "timestamp": 1795284141.5212
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin's Volatility Explained: $2.4B Liquidations, ETF Outflows - CoinMarketCap",
-  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mWHJIMkFnaS1tbEN3WkFtSThZckN6Z0dHUjlMNE5NSHRSa29CN3NpaUZXcWJpckI3UFljWl9QMkZLLWFUQVQ3d3BpY0F4bVlNNVdYNUhRdnFxT2p2dWU3Vk11ZVY0S2plQUQxakJtaWU?oc=5",
-  "timestamp": 1795284142.0208395
- },
- {
-  "coin": "ETH",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Ethereum Declines 3.21% Amid ETF Outflows, Leverage Liquidations - CoinMarketCap",
-  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rdlJBTFc1VjNVOF9pWnVldml4MUtnaExKY0Z4cTNFN21lZ1BDOGNJNVctRGtmbmtBSjN1dmR1dTFFN0M4SGI0LUN6RmsyanVvU0VGSUdoQU9XZXc5dENkbm5NRUtweE4tUkk4dlVKbVg?oc=5",
-  "timestamp": 1795284142.599616
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "BlackRock\u2019s IBIT Posts Record $541M Single-Day Bitcoin Outflow - CryptoRank",
-  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMzhRWkhSVEU0LWwtMkxWa19fTl9CTnVTUTdWSi15V052dUVUeGplUWYwTzNCd0tBZTJsVWZUcFUzeEJyUDkwSEtBWXYwY25oLTQtRk1KWTU2Y1NGX09yUGZweVRHRVp2c0gzTlU2d2V3RXAzTlJEX1VDYk9NN1J2cQ?oc=5",
-  "timestamp": 1795284143.1780577
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin ETF Outflows and Stablecoin Decline Raise Concerns Over BTC Support Levels - KuCoin",
-  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUXBhbkQ4NDdVX3o0ejJTc0xPRTZwYTc5bGxGWjhzaGhIQ0w5TVQ3LV9nU1hhVWFVWE5USzRNaVVUZkZwS3kxMVl3SXBtUktMV2xyZ0RmX21Pck5EblJRWjBSRG1fUjlFYUdOekRReVhIdFJrUVhESUxUaEZDbmJwc0RLcHRXRGRMWkd3ZEJXWm9GeGtTSUNTeGluZERRWGF3TUY1djdNaC1ZTmxtOWhBMkVuNm9rTmM?oc=5",
-  "timestamp": 1795284143.6733742
- },
- {
-  "coin": "ETH",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Ethereum rises amid ongoing ETF outflows and building Federal Reserve rate hike speculation - Traders Union",
-  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQUU4YUhzR1BwQ2VKRXREV29hSjJWd3dFWWQ4S20xOHBQTEZsMWdMOGcyZGVWNElmSFlhVDhmelBvTWVaaWtOT01mY0t4NkI1RDNoeUNiWXBoellGamJJdk1Mb0NHZncxaGx4REVrNUNqODdTZ24zTkJzeHZXNEtUQWFTYl9jTnVtcnNsdWNyMDZCODFVSzI4?oc=5",
-  "timestamp": 1795287740.1659415
+  "title": "Bitcoin spot ETFs recorded a $232 million net outflow on November 24, marking the sixth consecutive day of outflows. - KuCoin",
+  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRm9KaVVBOVBlWEJralNBSUxKbEZKSTFEY19xZEg0czE5bE83R1c0dlZ4UWJVaHVnTTV5TFduMXlZbWJpbmFNaFBFQThBSlVFU29feTM4c0ZLamlLOEJNdW1tUVd5VlNkUFpTcXItMWJmTjNlV2k3b3JqeUFLeFJOcmxXZWg2dXJTSWdYdnJHajJUMTZzams0MjhOSWZ4Z1lrNGhXdW40b18zNDIyaHdRaEJNR1lHdEo2YkFZ?oc=5",
+  "timestamp": 1795593738.2193358
  },
  {
   "coin": "XRP",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "XRP Price Nears Death Cross as Ripple ETF Outflows and Bullish Liquidations Jump - Benzinga",
-  "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWE8zZ2JrdGhySGNhVTJVWHJwVTJqcXc3bm0xQTB0U3NXSG5YcFRqenFZRmF2YWQ0VUNSNV8zQVFCX0c4SmNUZENMUUZtdHlIbndIV1BEQVZoLW8ycVdMR3E4ZkVNMEVGU2Z3MUh4aHpLaGMybktJYlZzdTZHSzUweFpBYWlZMlRzbWNVckJOVHFCai0ybC1nWUJzaE1Yck95cG1MaTc2UF9HaEhZMEtHMi05UURWUWNDRFY2OXl2RkFVbHN2QWc?oc=5",
-  "timestamp": 1795291340.0537546
+  "title": "XRP Below $1 Again as ETF Outflows Reach Four Weeks - Bitcoin Foundation",
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ2NWbEwtMDgtdTNGYkcyMUt2OVdMR3k3akxIMm1QeEpiX2pZcUlfX2dTRkt1cVhnWk9IOFlvbE1tZEdhaGUtdjhhTzNDalBmRHhNQ0tsVjlsTjJoUDJ4Q1Y4aDB5ZXpoSVRRTHV3Yi15eEY1Mlg3V1M4N2NRSExyZ0lmOGlfNTBkSm1DQmpIZXZwZ2Q0bEdSdU11aWR0WlRfeHpZLThXM3FmZU1vc05z?oc=5",
+  "timestamp": 1795597340.9603875
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bullish",
-  "title": "BlackRock Said Bitcoin Moves Against AI Stocks: Then Both Crashed Together - 24/7 Wall St.",
-  "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRXgxNEYxNmR5Q2lGMXQwSGZCOTV5c0tXd0c1YlJqd0tGMlNfNTQ2eDk2UkJIbmZtZzliN2JCWWUyVnR6QTlOX05UcFdMWkFyRVB3T08yRHR3eDNjNS1zMXRfMTBUNjdjeEdqUXZWbGplRW9ONk1fUUl2TmVHRW9oQ2kxNTBaTUU2OFA1b01fSjVoZTRkMmxuV0lGMEFpVmlNUGVsZTRHS0RNTG9mSFZHNVBZSU04MVo1Q2ZiQ2Z5VV9MUE5OMU1iM1Z6XzE?oc=5",
-  "timestamp": 1795291340.6922898
+  "title": "21Shares says bitcoin\u2019s sustained recovery needs stablecoin supply, spot ETF inflows - ForkLog",
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTDgyNW9vcTZtZ01RVFNqamFHRW1aUEc4aDVSMkhYbFFMV094TzNjY2FGUUNhQTJnUGVpSm5tNDBZYmdpWWJMUDV2MnRnRzBKVlRPZlYzVmlNU0Nmd1RYYkVXZjZOdUhqYk1hRDB1a3ZtSTNrbFdtNUxVWm56TzFwVGlJRGFuZTljTkMtMGRBQjViODF2cTdMNjlzTUw4RzBDWVBfd2h2aW1pQQ?oc=5",
+  "timestamp": 1795597341.4010453
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Recovers to $60,000 but Demand Stays Away: \u00a592 Billion ETF Outflows and Weak US Buying Pressure Point to What a Bottom Would Require - BigGo Finance",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3MHU5X1IyV0VfQ0JLaDdMVlhEMUZKWlVsdUZpTWo2MENQTUx5ZjBjLXBjeXJfemF2SmFqa29TNVhtWGpYN0JOYkZhUEZkanpmTGREejc0d1FlRGtzTEZYdGUzUHE1dmUwa3RkcFB0Yl9DbmRxTHc?oc=5",
-  "timestamp": 1795298542.2269826
- },
- {
-  "coin": "BTC",
-  "category": "Listing",
   "impact": "Bullish",
-  "title": "GSR Lists First ETF Combining Bitcoin, Ethereum and Solana Staking - CoinMarketCap",
-  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEhicDY3TmRobU5DSE9Ma2NqbDhtWnZpa0RDMEo3NkNHbWxkM0gzNGRGWW5kQlRaYWhDcHVoTkdmLUxIWWxYdmZxbnJoaDR1Zi0wdEVneGRKZjlFdkZSZjZWZHZ0Q1ZsckU5bDVlUUVMV0RiQ3V3ckVxbk5kOUI1NGNiZTR0QkJzWlpUcnJNSlVrVEZHeXByeFZuSmVibU4wZklUSjBNRUx0aWs?oc=5",
-  "timestamp": 1795302142.8803484
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin and Ether ETFs Lose $1.47B in a Week as BlackRock\u2019s IBIT Logs Record Outflow - Cryptonews.net",
-  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1zUk5WaUE5SFZySHRJaFJvM3FrT1czb3h3dlZpUmxSbFM3Vkt1UG5HNzZTdGsxV0tGRk9zWE5zNDB5NUxFa0piTnk4QllmbVlUdjlib3ZwRzc?oc=5",
-  "timestamp": 1795305739.962505
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Price Prediction: Can BTC Take Back $60K After BlackRock\u2019s ETF Outflow? AlphaPepe Clears $3,45M Raised - StreetInsider",
-  "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPXzZ2NlBwUWptVTFOb1JYU25KTDA1US1wX1ZQS2pSMk1nbHhRMmYtQkhzTjVVVWZWNlJqM3JJZzgwSzZkUFVMZFU4VWNCSlZMcUd2YnprdkdqUjZPanhTQnByZndPOF9GOVNPeFZRUkRtWkNIZHhXZUt2c3pUSzZqQmVSY0ZiSk53MEpoU3R6Ymp1Y25fT2QxazVZWk5jSnc5ZjZjS252N0R4U0NRbWs3UFJvR1liQ3Q3eVV3blZ4RU55ZFFLS3hzcm5HVGc5ZGt1Y3lBVkNuQm5EMjVpMnNyX2xSc0NWdXFWTVNMRG91d3lSemNxXzJhT2dRamFyMEZCTlhDblNieDVVYXVUMmxnbC00dw?oc=5",
-  "timestamp": 1795316540.0544949
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Crypto week in review: bitcoin's 12% drop, a record IBIT outflow and a 30% slide in Strategy shares - CEO Economy",
-  "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTWm1xdkh6UVlSNjlvSUhCV0FsZDhOVE9FZ0F0V2dRT3FoLU90UWU3cHBoUHhCVkJwZUhnTElCZ2pDTzlmOExOeC1CNGNlSW03VlFPYVRWcXdMUndpZW9TbWZveTF3Y3E3bTI3RzIwR3VqUQ?oc=5",
-  "timestamp": 1795316540.4788368
+  "title": "LIVE \u2013 Crypto News Today: Bitcoin Hit by Trump Tariff Threat and US Treasury Cyberattack as IBIT Bleeds Billions - Yahoo Finance",
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZGNEaTV3SmVQWUZtVTNMcVJuVjV3RHlSbzQzaUlYbHdmRkVGZXU4Uzg4WUtjV01sRWVJZjVpSVh2aGF6U09CSThJVlh5ZlpIaFN2LXlhRV9KVll3R2RLdU9nQ2dFdlFIaDAxNUl1NjhGd1BkU1ZzdmhWZ0RNenNVZzJEeE9ZSHcxYm1GaExxbGhuNmRKeDBibTd0dw?oc=5",
+  "timestamp": 1795597341.9289682
  },
  {
   "coin": "ETH",
   "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "BlackRock Ethereum ETF (ETHA) Trading Volume Data: Daily Dataset - The Block",
-  "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9lZC1lY2dWNWM5RC1wenk3akthXzcza3EtbGtpbUVsVEpNRU5rV0tHX2hIVkNsN181dGg0aVdaSzVzbHJkSG1faVl5X0FDaUF4NGgzSVRBVHlzbmdBa19vQTRDczJjaTA?oc=5",
-  "timestamp": 1795338146.5605001
+  "impact": "Bearish",
+  "title": "Ethereum slides toward $1,650 as ETF outflows and rate fears return - Traders Union",
+  "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNS2RMQktYaXpLNUhONV9peHhLbXN5Ung4RlpkRXNPTlFOX1ZsWl80Ymk5WU1IZS1IbzU1Wmh1Q1VLRTIxaXVVZjJ3YkpEbVRwR3A3YlN3ZE9qckFpaG5yQ3RVb2VWazdUWHh2bThFQmtxcXlZbTE0VWUyNDcxUzF2b2pObVNLaGFLMWFyeFRLcHU0WkpadWc?oc=5",
+  "timestamp": 1795597342.4663267
  },
  {
-  "coin": "BTC",
+  "coin": "XRP",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Bitcoin ETFs Lost $3.59 Billion over Three Weeks: IBIT set New Record for Daily Outflows - Incrypted",
-  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWWpnS01hNTFObzZ6dEhnUWtPblZPbGtRcWZ3djNtbHlIYUIyMzQ2Vk1wQXNBTmFaQ3c0T1ZrRmRpVENxNHNLSXBmY19ycmFRVjJzSW80dDIwbVlDcTF6RXVzeXVFRUgxUE9sMnloSVJrYVJfaWo1cXBORXYwTFZ6eVZfdVJHM0lrOXZNOGIzcEYzMHZESXBOX2J5SFhJbmNRNDJZQVU3TU9RN0dKY0RFZlJn?oc=5",
-  "timestamp": 1795338147.0830028
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "BlackRock, State Street Say Tokenization Won't Kill ETFs, But Could Draw Crypto Holders Who Avoid Banks - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQVXdFZXM5N0dhWXdVSk52UFJZUlA4c0p5VVR6Si1INkpUQ1loYmhqRV9vS29nYmZIRW1CWV94T3JwUnVrZ3l3OWE4bDRnN1A5cEQ5alhWWm10N1VVZGZodW51OEplZ1QxemtHMnAtaFJhalNIQk5JcExJNXdHa0c4Z3hOLXlRdE5xVUc5YnBDMjFiQk5XYU1waFI3Uk1HSmdxMmpJOFJhN0s0U1R0VGlKNDN1dzJTei1sVi1iZ3o3bUVGTFV2NERLSkNYSXRFeTdWSFBtNllrZ0UzMHdsY0JPZDZHQTVqRVpZZFJ0LWFVWUF6MGVB?oc=5",
-  "timestamp": 1795339391.8979113
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Scaramucci Sees Nov. 25 Bitcoin Bottom as ETF Outflows Top $3.4 Billion - BigGo Finance",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBNF83NS1MczZrelZTVVhTOHFMQjBxNE9rdlZ6NktNWFFmMlQ3UTl0SUNPVFpMVHBpNjVHMk5WQ2JpZzMwa2pod1JhUzBVMzhaS3F1bHJQVGFjY0tobXZucndDLXB5X2pUY005MEZaUTZuLUdocHc?oc=5",
-  "timestamp": 1795345345.3306403
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Crypto's 'Casino-chips' Are Disappearing, Adding to Pain From Spot ETF Outflows - Moomoo",
-  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbGI0M2FlRXBDOXRlME5tMHVZdXQtQ0pXVTM5REtVd1dtaW55RHl6NHE3TU56N3Y5YmV1SDN5X0sxTk5uTDN0VEZRSjcxdUk2YmJtb25heWxsNkt2RzFkaVd2TW9pTGMyRGdoOUtFVElZcElzc3lxNFdFUno2TUc0N3VzTFdjQmJNZTQ3Uk5YaDNFZGlUeW1BN0VHV3JrVkdOOFRadg?oc=5",
-  "timestamp": 1795348940.8527987
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Crypto selloff deepens as ETF outflows and $6B in liquidations weigh - Traders Union",
-  "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbnF3QXBLYmplRnhMeFQ5dy0tcWJOaGJaX2c0VjA4cEdCUGdfb2xTQkxkU0cwWGdxNlluUjFoMGlaRDhYYS1NdmttWFY1Wk5DWGVuTjBkdm9kYmVFd19yTjRpaHV3Sl94VUNJcnV0dVFRSkZrS2JRQmc5V2ZUUzI0dmZjblhYNXpBT3hLQVg5Zw?oc=5",
-  "timestamp": 1795352546.4619472
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Key facts: ETF outflows hit $1.245 billion; BTCUSD nears $60,000 - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQU0haY056TVJGczZlQ3FBVzZFckFEajlPbUZBV2tBaTloVFE2STJPTUdPME9wQ1ZfUmVqSXR2V0hEWFJ2ZDJ3aFBLd0dCSFpjUGVBeGlfdVFHa3hNbUh4aEpQc01CamMtNnE0NUVtU2hlV013ODVMRzdldl9JT2tsOTJIakdoQXB3UHJNX3hvRWY4S0NjM0FocUVLSXVHcG1SY0lmNVJOcmFwdUM2Wmp0MnB3OVhJVTFseWx4bm9IVQ?oc=5",
-  "timestamp": 1795359746.8731356
+  "title": "Failed Recovery Leaves XRP Below $1 as ETF Outflows Hit Four Weeks - Bitcoin Foundation",
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ2NWbEwtMDgtdTNGYkcyMUt2OVdMR3k3akxIMm1QeEpiX2pZcUlfX2dTRkt1cVhnWk9IOFlvbE1tZEdhaGUtdjhhTzNDalBmRHhNQ0tsVjlsTjJoUDJ4Q1Y4aDB5ZXpoSVRRTHV3Yi15eEY1Mlg3V1M4N2NRSExyZ0lmOGlfNTBkSm1DQmpIZXZwZ2Q0bEdSdU11aWR0WlRfeHpZLThXM3FmZU1vc05z?oc=5",
+  "timestamp": 1795600944.743747
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bullish",
-  "title": "iShares Bitcoin Trust ETF (Derivatives) price today, IBIT to USD live price, marketcap and chart - CoinMarketCap",
-  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVmdWR2laNlU2MnpwWTRmXzFmVDF1c2l3eEJFVnA0T1lEWUpDR21FSXBxUmhCa2Y0bzgwR1B4Z3I5aTBJTG9VTklhYmVjT1J3YnFDbGhRM21aTUxDamQtcTg2MjgyYkhJSndoc0QtaHVMbTBneGtmU1JlWUlIUlM1WA?oc=5",
-  "timestamp": 1795359747.322319
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "ETF outflows deepen selling pressure for Bitcoin across digital asset markets - Traders Union",
-  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWXJva2RmRHRYTGRUWUUwQi1IT2xKczhzVzdPQnVFVnBZanI2TjhEWFZXM051bHdqcFY3STk5WlA1djhLeVgtRmUxeTdKWjJpd1h5ZmJUNV9GZlBZbGc4aFk2RHdjVHdWQUxWR3lNVmpnTFBlbHVOUkJQRXlndVF5NzluV25ITHA4dEFiYTRKRW1VWEdubEJyNjQxaw?oc=5",
-  "timestamp": 1795366938.2443156
+  "title": "Binance adds five tokenized securities for spot and margin trading, including BlackRock\u2019s Bitcoin ETF - Crypto News",
+  "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5yZElDQVVXM3ZXNGFmU1hmNmtsWjhKWkV1QUphZ1EtQTdDOG9Gc29WRGNKUTBnZk42Nlk5czF3cWx3NzEtUjRjZnJXN0Zhb2UtT3JUUE54M3NxdnJ1X1ppSFJZd01XOWF5UlpZYk1aY0RWS1FrM2ZoXzdR?oc=5",
+  "timestamp": 1795600945.6604843
  },
  {
   "coin": "ETH",
   "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Ethereum Price Prediction: Peter Brandt Warns of $500 Crash Amid Persistent ETF Outflows - CoinGape",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNY1VNbU9Fd1FHb2JLYWp2UE5OOTBOY3A2Y2ktSlZVbWg5aDI0QW1WQXlPWDhBbHNNMk41T1pCOEZfc0ZjaUVpT3R1eDBtVkhLNVVfMmtJaHRNUFVqd1Npb19vbzRJYXdwV2ZHMFhyWVoxUUpKZEo4aUFKMEZyUlJrZi00aUM5M2RISlU2VTl3alBFTzkwNHRNYWl6U01OTVFEQlF3Ukk5eWE3b0FBUkU4VVRXenNQS1U?oc=5",
+  "timestamp": 1795600949.2237678
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin ETF Outflows Hit Record $4.94B in November - KuCoin",
+  "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOay1ncFAtamxIRGtZYU1DNndwN3l4WHd5UXdDZnFkcnRES0FfVlNzOTB6Y0FkWE1jWWRqVjJucUQ2b20zdDdNM0hCdVZzSmltbUR5eUlpTUFEYjI1MGlnckh1RXV6YnZGZDdQUDRaSHFSd1RzZ0RreEViNDhzbG5tU3JRU3BuRUNBdTYw?oc=5",
+  "timestamp": 1795600949.8323822
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
   "impact": "Bullish",
-  "title": "Drop in spot ETF interest may deepen risk context for Ethereum - Traders Union",
-  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNR1Z0Tk5PNTF3cVFodUZQd1MzdkxWX3BlMDhHb0ZNWDY1SlFmZkwwaHRyLW50RGJPWXFCU0VnQWVmNzNZRkRwYm1paG5GYUtGeW01a3NscFc4QUUyeWZMRFBQTzdhXy1CQkdRa2k0cGlkZjRpSW5BeU54NU1aRGRiM1dicWpObVRPdXBUTXU1cWdqLXVkYVZFUkpxNA?oc=5",
-  "timestamp": 1795369044.0148404
- },
- {
-  "coin": "BTC",
-  "category": "Hack / Exploit",
-  "impact": "Bearish",
-  "title": "Chainflip\u2019s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty",
-  "link": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
-  "timestamp": 1795374137.8110542
+  "title": "Fidelity Wise Origin Bitcoin Fund (FBTC) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+  "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBES1ZiSENsR0pyTnh6QU1GSGNnMFFkeEFQbDNjSGJxOFZXUWY4WDJzc19KVm5oMWx4YjFvSFVBc3Q3Mk54aEUyRDZjWU9ZcUJ3SXc?oc=5",
+  "timestamp": 1795604541.368031
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Bitcoin and Ethereum ETF Outflows Stay in the Billions for Another Week",
-  "link": "https://cryptopotato.com/bitcoin-and-ethereum-etf-outflows-stay-in-the-billions-for-another-week/",
-  "timestamp": 1795374138.605631
+  "title": "Bitcoin Price Risks $55K Crash After US Spot ETFs\u2019 Record Biggest Monthly Outflow Since Launch - CoinGape",
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSVNoQ3I1b1J5aGhWYV9KZlhvUWtVUXVfMXMtam12RnZ1SUZGWnMtM1F5U1ZPd3drV2dibkcwQ2tFV0Jubm83Q013ZjJjbzhlc3NpVmRYQVp4ZC1PQktkaDRULUpwSDRORFk4TDR2ZzNoV2pxekZGLVhjV28tLUp2RnNVd2Npd0N0SFBheG9YbVhrQlJURjRMNkN5YWVETXBST3FGaWVpVW5xR0FMUC1PRGVJUjhFX09JeklxYmh5NA?oc=5",
+  "timestamp": 1795604541.9478662
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Bitcoin and Ethereum ETF Outflows Stay in the Billions for Another Week - CryptoPotato",
-  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd1VoSjlFcHdxTjJtOEFpZE1fLWMwbU1TNURzZkZlU1ZXZGM0XzFiVnFxcHRmaVZ1REFUZXZkUlpCMkJ4aFFzODA5SHFVemxnN0t3d2U5Rm1IRGYtbWRsQ25EZjM2aFZTalJrZDA1bTVEdGgwT3dJNVhRei1Pa1h5ZDF4MFhkWnFqQXJraHNmUzFwM3Z4UUxLdjlkYjVhZw?oc=5",
-  "timestamp": 1795374139.5808837
+  "title": "Bitcoin falls below $59,000 as November ETF outflows approach $5 billion - Investing.com",
+  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSTBkMG93STB0WlRoTFVSa0dNSGltWXg4OWxUa2pXYVREaElrMmRXSlJUUnlJMkZKR2djT0UzRVNLT3ZJb3dCbzUxcFdZTGt6bTVySmt4bGdfelV5N1FWZGllNUNNMFVYUkdhelNsRWZDWUZyUlB2Qlg1VERWMHNpaDN0Z0lfbFE0ZW0zS0czbG9TOXBMalB5OVg5dzZnaEoyekRhUlJRVDZIdnhXdWtDVFZFVXUzZw?oc=5",
+  "timestamp": 1795608153.0093634
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin holds up better than ether as stocks slide, ETF outflows hit sixth day - CoinDesk",
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUFhzaDdWajNwYTlhWGl6LVlQazYyckdleTJWYU5KNW9XdmdHTkJWODhNM1FtUlFGMmU3eUtMZmprRS0yTlR1U3hmbFFLdUd1TEoybXBnSUhHeVhNRDI4Q2VtTUlFYkFXcTh1UzdiZjNXZFNZRnNOZVFObVM1TWFFVVNQbktpRmdzVzQ0YzBSVFA3XzNuQXJGQktWLWFyWHdXZTh5cjJNR0FBc3I0RndWeWpB?oc=5",
+  "timestamp": 1795608154.0953732
  },
  {
   "coin": "BTC",
   "category": "Regulation",
   "impact": "Bearish",
-  "title": "US Senate Passes DEATH BETS Act to Ban Prediction Market Contracts on War and Death",
-  "link": "https://cryptopotato.com/us-senate-passes-death-bets-act-to-ban-prediction-market-contracts-on-war-and-death/",
-  "timestamp": 1795377739.4030437
+  "title": "\u2018Don\u2019t mess with X,\u2019 Elon Musk says after platform secures default judgment in alleged bitcoin content-farm case",
+  "link": "https://www.theblock.co/news/regulation/2026-11-25-dont-mess-with-x-elon-musk-says-after-platform-secures-default-judgment-in-alleged-bitcoin-content-farm-case-446151",
+  "timestamp": 1795611741.6193435
+ },
+ {
+  "coin": "BTC",
+  "category": "Regulation",
+  "impact": "Mixed",
+  "title": "Key facts: CFTC Allows Bitcoin Reserves; U.S. Demand Firms; $1B Puts - TradingView",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcUladkk5dEFlZmFEQkx2ZXNNVkp5eFp6UHNSazdQdS1uUnZaVE9POG5RRGFaM0oxd0VGZmhjWXdoNlozUHREVTJmM3B6aXBGdTBMcHhkUkx4RkNkRlNObk03blVaV2FyS2hMNU9RQjNoWnJIQy12cEVxb3RPalpKRUJDbXdfdi1oeGY3aDRKX2tXZG1TX2QwaDZJTzdJaERGMEZoZUI0ZGx3NnlyQm91ZnpsdVY3OW9oTXlMeHBpbGVoZnc?oc=5",
+  "timestamp": 1795611742.9817657
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Bitcoin ETF Outflows and Corporate Treasuries Add to Selling Pressure - kalkine.com",
-  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQelpCcEsyRkhabTFrVEdCdWhlM09aeVRYcEQyREYwemNnTzktNk9XY2dvYTBPMm5pLWprcGxtVnoycFh3Y2x5c3NkdUN3dVJfT1YxTnZ1QVdjdERCX1E3VFRfVHhJZHRZYWs3MmdKUjBCNHNKaTF2S0lrSnRRVTNuQk1CNk56bUd3UWRaOUJWMnRNd2dfQ2hPTkRrTTR6cl9URWFtSTl5WV9iX2c?oc=5",
-  "timestamp": 1795381337.9018135
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Bitcoin ETFs lose $3.59 billion in November as BlackRock's IBIT bleeds - Startup Fortune",
-  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQVNyRTA2VUh2M0tiNndhMWwxNHo3aEF0Szc2ZE5SRkh2WkVTOGFVYnBKang0Y0FpOG91UW9ORHh5WGV6YlhuSjVhS1h6X080M0hNSWp2MXZjckwtMkY0cmExaExwQkQwdkh5V3pUZDBGSUdxa2x5TmN2c1VNajZUbExSZHZCWlBBWm9DVXBkenFGaWFRNWtxYk1Pcw?oc=5",
-  "timestamp": 1795384940.414864
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin spot ETFs bleed $669 million as outflow streak stretches to four days - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPakFzbUM1b3FzS3I3aVNzcVlfVXp1MVFET2VvaHFYc0FLaFpNWkFLLXIzdHNzalZ5VHlkc1pfRy1ubjg4c0RRUmVqNk5LMnhHNXpPYl9VdGFMbW9Fb2RLR1FYdU5NQ0MwRkNGanNtVUxUSGFzc1M3UFItejBHVlVUWDVsUXdPSDFpRnRqaWpMUWVWTC0yaGJkdnhEeU1POXJsSkF4QU5ZTGpkVW9rUmdGMVduVG1lSDJzUEpPRjR1RkMwd2JYTVowd19zb1ZKUzYwSGVsT2ZVSDk?oc=5",
-  "timestamp": 1795402938.2777283
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin and Ethereum ETF Outflows Stay in the Billions for Another Week - CryptoRank",
-  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX2I1dlBUanZ5QTRDaS1ZUWtlVWFidmlyYjhBSTY0eGV5aEFob1kzbGhrTWY5eHdYS0xYWHhPUmp5U0VvaGhtOVZEbTFJWl9qdW0yT1BNa1lUN05QVGZpWF9oYXBERy1IZm50XzF3X0xWWUJJOWZoLVhaYmhManZ3b0NETVR6eXhVWWhGWWk0aHdrR2VkTlV1WUFGWVg1M1czLVdLZTlOdnpjcGkyMVE?oc=5",
-  "timestamp": 1795406538.094159
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin spot ETFs bleed $669 million as outflow streak stretches to four days - Crypto Briefing",
-  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05QTZsNVkwZUtkQi1HR1BJTkFTZkJsYjMxRDlwbWktUGViSGNtMGxBb1ZOQmdqX1l5WTZra1hSNkN5MjF3emtUVmo0cTRaQWY3VlltVTlxd2todVFXcEU4ZWVld0Y1MHg3d1AtTVRTdTg?oc=5",
-  "timestamp": 1795406538.510439
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Spot ETFs Record $669M Net Outflow on November 20 - KuCoin",
-  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTktSTFJ2Y0pLbmpNOHc3aVJwZ1dZcVpkVDk2cXF6X2xyRzU0UFNjX09QMkVuaGtuWHF1R3U4cEtlSzhVbnBBTWN6OUlERVRUOGNmLW5PY0NWdWFqQ3VUMVE3SzYwSjVzZ3NLME5mdGJfZ05FN0xpZnplYmhyam5NcFpxRktxOVd1TVZ0S2dheE5icXBq?oc=5",
-  "timestamp": 1795406538.933889
- },
- {
-  "coin": "ETH",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Ethereum spot ETFs recorded a $97.38 million net outflow on November 20, marking the sixth consecutive day of outflows. - KuCoin",
-  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUHplZG9PbWZfVkxGVTVLRDNqb2dBNjlrMkM5UHB6OWpmMVBtRFQyZUZtNVJ6dEFMandmelhtV2pMN0NfMVlBYXVqRE1EZFRSWGdaVHcwRGVLSTRmSFVIRWJoM2k4MWJuOE5rVHp4ZVAyWEF5TjJUZEpTZ1BPRl9RZTV0eThmS1VLMWdxeDNQbXFHc0xwUWxEQ0lZTHg0VVFWcUN5LXFzRmxwYUE3MnNYbEg5a3hrdFVBaDNnX25Hb1IwNW5ZS19CeFVRVVVZdw?oc=5",
-  "timestamp": 1795406539.383553
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "$669 Million: Bitcoin Spot ETFs Face Major Outflows - Cryptonews.net",
-  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Qdm1VcDd2WTFLUFN2V25xblBxcDg3S3JTaF92UTJORkFUTzQ1N0JpTElnTE5wYWg4cUdaSVVPTHR6VVJ1QmZtN1FETVozVG5kRXBObk9abWo?oc=5",
-  "timestamp": 1795406539.8481023
+  "title": "Bitcoin steadies as U.S. ETF outflows extend and equity selloff deepens - Traders Union",
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOal8yWjNEY2pyRHVKV0p6bUJjMWsyV2IxQktTaWhYdlQtcmdma0JQWUY5WEtkb1ZodldCMEk4WWFCaGxDWnRtRkFDQjNLaXE2ZkNxRF9RdURDRVFsd0dCVWtEM012RVlSekxPQmpNRmRpbWg4SDV1VWdjUHBjNDhCTXUtZHc4V250empxTW83WjJhZ19ZNzBKRTFn?oc=5",
+  "timestamp": 1795611743.6120625
  },
  {
   "coin": "BTC",
   "category": "Macro / Fed / CPI",
   "impact": "Bearish",
-  "title": "Market rout kills 50 basis points December Fed rate hike bets",
-  "link": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
-  "timestamp": 1795410138.7819223
+  "title": "BTC Price Slides Again as US PCE Inflation Posts Second-Highest Reading Since Early 2023",
+  "link": "https://cryptopotato.com/btc-price-slides-again-as-us-pce-inflation-posts-second-highest-reading-since-early-2023/",
+  "timestamp": 1795615349.097675
+ },
+ {
+  "coin": "BTC",
+  "category": "Regulation",
+  "impact": "Mixed",
+  "title": "Ukraine passes crypto market law, with $332 million revenue target",
+  "link": "https://www.theblock.co/news/regulation/2026-11-25-ukraine-passes-crypto-market-law-with-332-million-revenue-target-446182",
+  "timestamp": 1795618940.7160704
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Bitcoin Heads For Worst November Since 2018 As ETF Outflows Top $4 Billion - Yahoo Finance",
-  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTWlOUXZUbU53Z2ZvZUhmWHpPWnotZjE5dG9ydzNCVkRkSS1KM3FXZlpxU19RVEg4MUU4d2tlQmwxTWdkWmcxNzVab3N0RjBGUkt4NW9SQlVMXzR3MEFjVGNPTTZnbFlEYVFLejZPWTJWa1FnbmpnYWF1ekdJRWFielZIZ0ZmaS1mZ1Bvb3cwV3RRYlBCaWd1RXlXT0RENFBX?oc=5",
-  "timestamp": 1795410140.0377614
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "BlackRock and other Bitcoin ETF issuers see $1.79 billion in weekly outflows - Crypto Briefing",
-  "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5BX2Z1T3A1azAxWEhzR1JHN2pjN0lZZmNfeVZtc2kwNWdYOFhSejZZN0JqSlFleS1ib1lDenVfa19xSjRnMUdMUlU0alE3WWU3RXROQ0xsNWFfbXdNTmZLczVtTzA5V2ZKN09DMXE2Q2tidXYwTzNZNkF3?oc=5",
-  "timestamp": 1795410140.54128
- },
- {
-  "coin": "ZEC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Is Zcash heading for another lower leg amid heavy ETF outflows? - FXStreet",
-  "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNd2xRMGFrbUN3Wm1FbHoyLXNmenp0ZklxZFF5bW9nVWxsS01zR0tjdC1VamhnMlVxVFE5Z1Vhc1VzcW0wRnBPOHdYbkZ6Q2NwenZuVl9yRjBvVUdtdU83MWUtalpIbzYzTGJRRUJ5MGh2Z2VCeHc1NHBWSERCY1dGZGVORlRIekJWSjJJRHpKQWRsaXd0V3E3MGdmQkR4LWRueExuQjNvX2laME5xOGpsZU1QX3Ytdkp4TXNwczhUM205aTVES1NlRi14QjE5MHl2SnJUdEItNFRVMFBYNGc?oc=5",
-  "timestamp": 1795410141.0284846
- },
- {
-  "coin": "SOL",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Solana Surges 3.8% on Oversold Bounce, ETF Inflows, Positive News - CoinMarketCap",
-  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMT2hfd19DaXdBb2FBTGIzSzY0ZzRDQVFCQ0tzR3R3UFZtdjBjZWpsR292WW1aeWFLQmQzV3YtVW15a0gzSkpIXzR1amtNY0ZKVzN6X3BTNzFwcFA4b3pKTjZXZ0g5ODVlcFp6S1dXbWE?oc=5",
-  "timestamp": 1795410141.520597
- },
- {
-  "coin": "BTC",
-  "category": "Macro / Fed / CPI",
-  "impact": "Bearish",
-  "title": "Spot bitcoin ETFs shed $1.8 billion in past week as outflows become \u2018structural\u2019: analysts",
-  "link": "https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857",
-  "timestamp": 1795413048.5710588
- },
- {
-  "coin": "SOL",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Solana Price Forecast: SOL holds above $70 as ETF inflows ease selloff - www.tmgm.com",
-  "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYnVLbnNQaFpsajQ2WU41M0Z6TmljSmUxdTFZelMydUsyRE9LaGNjNWV1enRpWVdkSVFha0VwYnF1Sk5OeXN2Vm9EZ3VuWHVTM3drYnJoSUowZ0FsenV0ODdCcUw5dXB0YktaSFZsM2hTMXB6M0FLOW9TeWhKYzdBd2JJbmp5Ykt1VUxaejhUYVJxWGFHVHlpeDZETmVNRGZtMkktb2tyTm4zRFBrZElLbVZHVkNLZ2FIa3AwMHhhemF0dnNXV2xEc3A3cXoyeWM?oc=5",
-  "timestamp": 1795413049.7471974
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin ETF Outflows Accelerate, Removing a Key Source of Support - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNEZ5UzFpY21HM1pBeEhqT0FMS1hDVDJBbWdLVENZN0Zjb0h4TzZldzhBcE40cWlOdUh6OHktTHQ5Ny1CTjVzQm91TldZUEpHbzhpTDNyS0M2TlR6Mno4N2hYa2xORzZ1SmtHbVNEczUtQ2V1VUVhZm9mNktwaFJNRlplUzYwcU9MelVaSHJYeE5nZzJMcWV1RzFHOXppMmpIc2Y5TUtVdVZ6NUZicE5VbDFwUjNCcTRwZnpkclNRbEN1Z3VVeXc?oc=5",
-  "timestamp": 1795417338.793996
+  "title": "Bitcoin slides toward worst month since 2022 as ETF outflows, Fed hike bets bite - Investing.com",
+  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSTBkMG93STB0WlRoTFVSa0dNSGltWXg4OWxUa2pXYVREaElrMmRXSlJUUnlJMkZKR2djT0UzRVNLT3ZJb3dCbzUxcFdZTGt6bTVySmt4bGdfelV5N1FWZGllNUNNMFVYUkdhelNsRWZDWUZyUlB2Qlg1VERWMHNpaDN0Z0lfbFE0ZW0zS0czbG9TOXBMalB5OVg5dzZnaEoyekRhUlJRVDZIdnhXdWtDVFZFVXUzZw?oc=5",
+  "timestamp": 1795618941.9933126
  },
  {
   "coin": "ETH",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "BlackRock\u2019s staked Ethereum ETF can delay redemptions if unstaked ETH runs short - CryptoSlate",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Jb1BUaE9OU0dSY29yMHZBMmxLNC1ZSVdUSEVKcFZGckNrbnlyWm5pRjFmWHRfUDc4V1dtSG85aVRIbkJJbHlYTG5DcmZic1ZaakNBbVQ2MHRwMnpjUXViVHlGd3pHX195b2UwWGtuYmI5YkRab1E?oc=5",
-  "timestamp": 1795417339.3550317
+  "title": "Ethereum Price Prediction: Peter Brandt Warns of $500 Crash Amid Persistent ETF Outflows - Cryptonews.net",
+  "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1jdTlpZ3BkaEUwRDc3N1Ezb2UyTTdqM08zVDc3U0FWY3Bja2w5OG1hLXh5TVpuQUd6ZVZjNzlyYTZaTkRMTVU0ZXBrUVJTYXE5UkNGbGJuVzJVUQ?oc=5",
+  "timestamp": 1795618942.616181
+ },
+ {
+  "coin": "BTC",
+  "category": "Macro / Fed / CPI",
+  "impact": "Bearish",
+  "title": "Bitcoin Sinks to $57,500 as US Proposes Tariffs on 14 Economies - Bitbo",
+  "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sM041WTYtVnlyM053VFpLbnowRGVzdnoxU3hhTzVnZEpqTTJiYmVmQk1SZ25ROU56MjUzYkFYd2N5bVQzSGpyZlZ6bFBfdEx6TjNKTk5DdjVHZEZVS0JlaExR?oc=5",
+  "timestamp": 1795622542.4288075
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "BlackRock and other Bitcoin ETF issuers see $1.79 billion in weekly outflows - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONDE5dE1UNGhHZmZRVzVqa2Niem9JLWVpN2ZtRFBWTTgxajNDMW5iRVJiZ2pDdXZFSTFianhpMElvZkJneUJlRFpwOFZ1V0stV2hXUDA5cDV1MEsxbGtPU0NHb0RaQWhsblg5QUtPN2NuVlBPNjVhaFhMOURGWWhEeGp5TjJWMVFNQ0RvVFk2bmMtZUQ1ZXc2OHBFM2MweEQyV0E2a2NTNk9aT3cySlBzWGU2d0tSQ3BMcElfam90LTJETEpkTnBtdHRnWk4yYjVXZFBXNWhhcw?oc=5",
-  "timestamp": 1795417339.938342
+  "title": "Bitcoin Drops to $58,000 as U.S. Tariff Fears and ETF Outflows Weigh on Crypto Markets - KuCoin",
+  "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNT2ljRWZoNWY3QnR6UnA3SFRzSXpMQTQ0TDhCRXZwa0FnbTZpbG5WU1pNUjJYT3hpdkRUa01jVUlEVVl1Q0hWZE05M3JSVHN2Wk1JWURVamo3dDdxYkQ0ZUVsVE9OcFA5RHFvQmdPRzluQ090UDZRc3VPaW55UHpKVk12dnFVWnhWczNLemRBT2kzVnM4TFRuM3RiNkxRbHdZWVRPc0Fadmw5VFhBOUhaUDdpSnVDUlh4cFE?oc=5",
+  "timestamp": 1795622543.0218801
+ },
+ {
+  "coin": "BTC",
+  "category": "Macro / Fed / CPI",
+  "impact": "Bearish",
+  "title": "Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets",
+  "link": "https://decrypt.co/383967/bitcoin-sinks-inflation-trump-tariffs-ai-selloff",
+  "timestamp": 1795626140.7858098
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Bitcoin Heads For Worst November Since 2018 As ETF Outflows Top $4 Billion - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSmlhRG14c0xKSEU1elZ0ZnVmZ2k3Mzg2S25mVUJna3Y4TXNVRFo2T0hvcVdEOHIyMTk5VXZKUUVIZUViX3pwYm5fLTRfWVU2NFJlLXVWd1ZYS3BWcHFKMUZVN2VVRzhJWkJMeGVSMlNIeVp2Zy1YVmVLSGJBZldpbXYydlhoaHAzX2g4QVJoTlpSOG85MXMteXhMa2tFR1FNODktMHg2REVlUHJzT2JlV2t5SnF0RW9zQVJMMUZENTFqSEplVGtFWFZlWkdxbWc?oc=5",
-  "timestamp": 1795417340.442486
+  "title": "Bitcoin tests $58,834 support as ETF outflows reach $570 million - Cryptonews.net",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBLc0xUcndNRXRpbVFpcWs0YnJHU0Uwb19ORlBNcnRyZkh1SXc1MV9RRDFSZ0cwVkpDSS1fU2ZyNDQ2OVRwc2JDcElWTS1ON0psdDY4T2E5R0M?oc=5",
+  "timestamp": 1795626142.043285
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November",
-  "link": "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november",
-  "timestamp": 1795420950.7669718
+  "title": "Bitcoin stuck below $60,000 as inflation picks up, ETF outflows near $5 billion - Crypto Briefing",
+  "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WcllfZGdfbnFteGFTeFRFdHBTS0IxMFZJZW13eDRhcXpraWR5cjhwb2IwelAzOUpKTXJCNnR4NkJrSUEtek9SdUo5eDU2RmhkdGRNWThZVUlPeFZnYVVMRUdRcnZrdw?oc=5",
+  "timestamp": 1795626142.5235908
+ },
+ {
+  "coin": "BTC",
+  "category": "Macro / Fed / CPI",
+  "impact": "Bearish",
+  "title": "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%",
+  "link": "https://cointelegraph.com/markets/bitcoin-falls-57k-us-tariff-pce-data-nasdaq-drops?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "timestamp": 1795629306.8238711
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Binance adds five tokenized securities for spot and margin trading, including BlackRock\u2019s Bitcoin ETF - Cryptonews.net",
+  "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE13TjFYVktlTHdkb3JwaTRXOFZCbkxxamR5MV9oanA3NmZDaFloNkNqUW5laFJRdWs0THJTVVJ1c2R1eHlCOFVPT3FGdVNDMjQySTZYaVM1cw?oc=5",
+  "timestamp": 1795629308.1742744
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "iShares Bitcoin Trust ETF (IBIT) - Yahoo! Finance Canada",
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWFNJZF8wMWtFS0d3THdVM2Z0YjRMRFJaZm1SWW02cXpJVHZIYU16QVlZdFROZTZtV2JyOG8tTW9jN1NDa2ZwN0RzYnhlZ3VINVZqRmpqR2E4T2R4eDlkR0JmVEl4RHE0czQ5V1VFQmJ5SUVLc1hOMTVuX0k4cXJiYTdTZDhOVVdlV0hadEsycmREQQ?oc=5",
+  "timestamp": 1795629308.7340355
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Bitcoin ETF Outflows Hit $1.8B as Ethereum Exits Persist - Bitcoin Foundation",
-  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLW9xZ09ZekpRRkszRTNoZWVlVFRjR1NDQnh5ei1TdDBCejU4QlY1NUZwcEtENmdGODJPcnQxNEh6M21vNGdWdFp0cUg0aTJ1SzdoakxGY1dmMDJxNVR2dGNSdVpucHQ2NDlFcTRFMndhWEhtSGhVd0ZKVFVKUU4wTGNDWXJIQjBvLUE4Q0pZY1lZWFl1c1lWaUtwNmdWWjRsZ01RXzR3OVdzUDc5dnN1NFdDNE5MMXl3UmVz?oc=5",
-  "timestamp": 1795424547.6818664
+  "title": "Bitcoin stuck below $60,000 as inflation picks up, ETF outflows near $5 billion - Cryptonews.net",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PSk9ZamJMdm9VdkNUZDNDUlRaenE5M0cxNWwyMzM5Tmt4REdLOUZLRmNXd05DQWFtb0N2QW5rRXNoMkh4MDJEb0lIeDhibGxmc25NdmVScy0?oc=5",
+  "timestamp": 1795629309.1852732
+ },
+ {
+  "coin": "BTC",
+  "category": "Regulation",
+  "impact": "Bearish",
+  "title": "Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit",
+  "link": "https://decrypt.co/383994/nvidia-290-million-settle-crypto-mining-disclosure-lawsuit",
+  "timestamp": 1795636940.3639052
+ },
+ {
+  "coin": "BTC",
+  "category": "Hack / Exploit",
+  "impact": "Bearish",
+  "title": "Bitcoin miners hit by hashrate hijacking attack exploiting unencrypted connections",
+  "link": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723",
+  "timestamp": 1795636940.9955282
+ },
+ {
+  "coin": "LINK",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "Fidelity files for spot Chainlink ETF with planned Nasdaq listing",
+  "link": "https://www.theblock.co/news/business/2026-11-25-fidelity-chainlink-etf-nasdaq-listing-446735",
+  "timestamp": 1795636941.6454406
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Bitcoin ETF Outflows Hit Record $6.4B as BTC Drops 17% - CoinMarketCap",
-  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOczFtTzFvT2VLUHk5RVo2NVhYNXdldnYyeWFiZGRwZEJ4d1JBcG12Z1E0QVhULXVtMDNnZ05kN0wwZjBUQ0JQb1hkWDNRazg5cmVETThhUHIzbi1mdURCRU1YTEZOVU9FV01URURkUmVJUGJrZGRVNlpNekl5TjMtYXEtdmZNT19uWFktWHA2YjJrU1BQSENic2NURDhvUVhCSW1OOFdyX01zUQ?oc=5",
-  "timestamp": 1795424548.1131756
+  "title": "Bitcoin ETF Outflows Near $5 Billion As Tariffs Hit, What To Do Now - Forbes",
+  "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeW9JNWgwclFQZi13MFhFaUFreWtidThycGsxc25OQXFhMk9SZHBEa1lEd1pWNkhZVEtRWE56bE05eWVQQmREWFFnX3hpWGwxUGhmSnVJdFhqQjhKYlN4V2ZRenlqMXhRal9Da2FzVHJjZnNHOHIwV3ZQOURnTTVjMnVaaVRPdVNoenhqeEJrMDJvdzZaSXVPSnViRlliMmVYZFdSWmNBSGFHU3RSd3p6LUZMN1UtMV9sR3pkVFQ0bnQ?oc=5",
+  "timestamp": 1795636942.9196649
+ },
+ {
+  "coin": "LINK",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "Fidelity files for spot Chainlink ETF with planned Nasdaq listing - The Block",
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQW13TS03NWRDWS1LUDU2dWlFMmNmR3F3cW9xMVNkZFhLNUhYQ2o2WmVMVjZNZVZISXVyNk9xQV9oTHVpa3Y0cWtrek9SOEhkVk1GcUtRdzdzQ3VkeGNfcExROFNHMWlvV0pRY3kxc1piNGMwNUM4RG8tRFlrUlBtR2NjOVMxeXlXMlplbGU2VTlNdmJSanlTdA?oc=5",
+  "timestamp": 1795636943.4578507
+ },
+ {
+  "coin": "BTC",
+  "category": "Hack / Exploit",
+  "impact": "Bearish",
+  "title": "Another Bitcoin Mining Firm Flags 'Hashrate Hijacking' Attacks That Reroute Rewards",
+  "link": "https://decrypt.co/383999/another-bitcoin-mining-firm-hashrate-hijacking-attacks",
+  "timestamp": 1795640538.0240126
+ },
+ {
+  "coin": "LINK",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Fidelity Files for a Spot Chainlink ETF - Yahoo Finance",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZlFCUmFaR1hHU2d4MG96NGZDd0ktYmQxUXM1bE1VN1dlNE54ajRUVjFkNk1ZZGhET3VXTVlEVjYyU0VPQll5Q3J4UmtzVm5ySWIzRmZnMDhLX1RnLWZMVGFER1FwUlJ4VzVqY3k0cFhuNmZoVjA0QjJzLXJ4ZXVsWjlzYUpDNk1JYndoTTNEZnNnMVFFTkNQMUZvaHlEdnM?oc=5",
+  "timestamp": 1795640539.1874826
+ },
+ {
+  "coin": "LINK",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Fidelity files for Chainlink ETF as LINK trades below $9 - Crypto News",
+  "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZWnBfaHRvMnA4RnZoNE9abUZmazgzZDg4LUdYRmtqSDc2U2N0bzZOcUx6cE82NVlVN1JEOWJoZ0IwN0V6ckxXMEIzOUt6Rjk1LVdKOUJua1dvdkZKYlBtQ0RwTnQxbHgxNlNueDJB?oc=5",
+  "timestamp": 1795644141.5086432
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "BlackRock\u00ae Canada Announces Estimated 2026 Annual Reinvested Capital Gains Distributions for the iShares\u00ae ETFs - Yahoo Finance Australia",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYXh3bXgwaXlFdEtMM1FQb21vRW1hbHFqb2hOMVYxUXlUVEJmRjJDV24wUUQ5a0l6Q1lseWNESjYtbDIxTmZfanZfUkk0XzJRNHZSSXpWRFk4NkhDNEN0ZG5NX0NlSWQxT0h1d3daUVFZdGJzNDZMRXdJbEhjc2hKNlgwT200M0dwN2xPZ205U1ZzTXBT?oc=5",
+  "timestamp": 1795647737.666825
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Bitcoin ETF Outflows Hit Highest Since June as Token Posts Seventh Weekly Drop - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPanRQRG5DWl9pQ3V1VkpmSE96aGROVmFfcmxtTjNYNi1qNE4zYUMwbGpCRVJSMDJhWU5KR2dRMUdua0lKaWczVk5IN2ZzQndtandvdXFEZ2VxS3ZtbnM4QmNONEVmb1FrUV9OUmhpNnVjcHdsQUVlZHpLb0VWWVlLSWFQLWZfZHBranJwemlDbVBLOWgwV3ZvdmhvVUV2UkZUVURQV21PdEFUZUcwTTlWUV9TelFXRERxM1EzQTh1NXlKa0RpYXh0dDVCRS1VNXpEMDFVeEltX3k?oc=5",
-  "timestamp": 1795424548.5632834
+  "title": "Bitcoin recovers after hit from ETF outflows, AI rout, and hot U.S. economic data - Investing.com",
+  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSTBkMG93STB0WlRoTFVSa0dNSGltWXg4OWxUa2pXYVREaElrMmRXSlJUUnlJMkZKR2djT0UzRVNLT3ZJb3dCbzUxcFdZTGt6bTVySmt4bGdfelV5N1FWZGllNUNNMFVYUkdhelNsRWZDWUZyUlB2Qlg1VERWMHNpaDN0Z0lfbFE0ZW0zS0czbG9TOXBMalB5OVg5dzZnaEoyekRhUlJRVDZIdnhXdWtDVFZFVXUzZw?oc=5",
+  "timestamp": 1795654941.0893033
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Bitcoin Price Forecast: BTC recovery remains fragile as $1.78 billion ETF outflows offset easing Fed fears - FXStreet",
-  "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNGhfWmNEb3VjWmRLa1FEdFRLdVJ4a0stX2wyT1VqSVZfdVo0dHI5TWxubFF5NjZwZTdWdURIejRIUHFvcHVJQjVqeEdnc3BMWk9VOWVYbXl3bkNZdldtZnpJRkhBMTVuNnFickZ3c21uNGJwU2RHcE4yaTFBODV4TjdVQVg2OTR3QXN2dTVzeDNTWElpaVVKWWVMYk5QRFFTSFdXcmtOTi1Za2F4SEctbGxwcWx6UGVXT2YtbG4yZ3YwS3ljV3hCQXZlNEpsMjZYcDFJRmJ0UGJDc2tsWEhYMFoyTzNCbmN6UU9SQlBBc1VEX0VYQnc?oc=5",
-  "timestamp": 1795424548.9662805
+  "title": "Bitcoin Hovers Near $60,000 as Inflation and ETF Outflows Raise Further-Loss Risks - Businesskorea",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52RXd3OUhLSldqQTJQOFNHN0lSUUR3Xzg0LTU3cGpZX2JsQVhHQjhUemFrN3B1NUgwdWFJWlBHNVlndTJjeGNDQi15VTZkVldoM1VKdUlWMUQzQXN6NWNURnE0ejNvejYxaU5xV0RlYVRLOWg4?oc=5",
+  "timestamp": 1795654941.7649689
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Price Could Crash to $39K Despite Slowing ETF Outflows: Is Worst Yet to Come? - Yahoo Finance",
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMDJveWdVWVhYRjRDUXZ4Z3NWazBxS2E1ZExRaGNvYi0xVXY2ZjZfMUxDdVVsZmVlN0tQX2ExRlVVVGJtMFdKdUo2QmF1OGprblJRN0hHa0dTZ2hsUUhQNm9QQnJQU2VwNDE1WExrT2JGcHY0X2xzSDRiSUNrSklaNVB3WUFtOFFuXzdzMnZ0cEhJWTBVVVRmWFNn?oc=5",
+  "timestamp": 1795656906.3878484
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "On the Chain: Bitcoin rebounds above US$60,000 as record ETF outflows and US inflation keep crypto markets on edge - Proactive financial news",
+  "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNUHMtTi1KZk9NQzJ0b29QYW9vWGtnOVBMdzJsLUxPMmRFdGYwNFVlOGwtbU55S2MxcUpwX2x0bjdSQ0o4eVhnWmxrZXhKQ3loVEdISVNGV3ZEZ09VczZWd1AzRFRSQXA2bmEtSFd1eGwxOE5LOFFRaTc4TXQtbU5QY1VWaW5VdGNWQ0Y0alZCNXNGZTBsSjc2RG5razFNMm0zRmZVWXhyN3pILWxVWkVjM3NuYlVaS2xPRklPdXJNajhJZVlhbFZyR0ZORXBDclZEemVBU19PQk9ZMXNDM1Q1MHRRMm9kYXN5WklRdnhuNE9tdUVXc1VXbjl2U1ZSd2RFazhWOVN4TE5Vb3g2RGZ3a1Vn?oc=5",
+  "timestamp": 1795669340.243788
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin stress deepens as ETF outflows hit USD $3 billion - CFOtech Asia",
+  "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNemdXMXp1Y0VNNy1yV0ZjOVZrZmpEZVpEdEhGclp1eFlTRl9hT1JoWHdzd1ZkTHBqU0FwN09XbXVsT1J0VV9SNE50TXJSSFNsNUQ0WVdhLUFoM3hJbUxZX2U5dmJiM05KSlNjVjVSQnhyMWpQRVBVMW5KVURySGh6eWY5S2RRUUhyZmd3?oc=5",
+  "timestamp": 1795669340.98882
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "On the Chain: Bitcoin rebounds above US$60,000 as record ETF outflows and US inflation keep crypto markets on edge - Yahoo Finance Australia",
+  "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYkpOWGVocVNsZVZEbno2VHROLXNhenNxeEFPYVNTb3pKLUFKVVF1U0FCeGJKWVVBSWVxdk9oaVBSV3J0N2w2MGRKTWdncFJ1cWR0SDhjVjRDNXROTXpLUUVwQWN2NDQ1NDJtVkZKZnM1Q1QweUlfYXN3LWFTNUZ2SmxTaEJrUFk?oc=5",
+  "timestamp": 1795672941.3563063
+ },
+ {
+  "coin": "LINK",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Fidelity Wants a Chainlink ETF. Who Is Actually Buying One? - BeInCrypto",
+  "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5iUWlXMEF0Z3JVTHJoQzVWdVJLcVU2X1FadThJbzAxaWY2QkE0Nkd4LW5vSkotVUF4VjJhUEQ0TjM2YjNKb01rcnBaWFdGcWhGQ0VRRG5yTXRYSFRNWjVEaGd2WFQzV0tyY0hqWWtUZw?oc=5",
+  "timestamp": 1795672941.8935177
+ },
+ {
+  "coin": "LINK",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Fidelity Files for Chainlink ETF. What Does It Mean for LINK? - TradingView",
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcWU5NGlQdTQxQi1UYkh6Skl3eEdxajNwc2V0UnBJYUpOUkxLZ3RzLURXTVBUeV8wVjZVU05wOXoxaTFDaGtjSFlyNkZ1WUtOYmJvQkEyRXgxZ3FoanBNbUZmS0tvNTJNamxsQmhaSU5qZ2hCWTlURmZaMF9ScXFXRjNDNUV4ejg2TFpGNHl6aWFndHhqM1U4MlE4SzZmNG5FYWdtel9TdHVxUHFjdHllVmtRdHdqWUNC?oc=5",
+  "timestamp": 1795672942.4210014
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Fidelity files for Chainlink ETF, Musk\u2019s X wins ruling in alleged bitcoin content-farm case, and more",
+  "link": "https://www.theblock.co/newsletters/the-daily/2026-11-26-fidelity-chainlink-etf-musk-x-ruling-alleged-bitcoin-content-farm-case-more-crypto-news-446755",
+  "timestamp": 1795676537.9968204
+ },
+ {
+  "coin": "BTC",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "SIX welcomes listing of Bitcoin Fund ETF - FX News Group",
+  "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQXdfQ0xpeGUwS24xd3BUZlNEV0hWYlMyaWVqamRiNm01T0d5dWtCSHBRSzdOdWdNOEdJRHFNOThxeFJidFhNWHJFcDVFTEhwRFhtTUV3aWxlS2dxNEUyMlRheS1tSURFNVJULUhDdVBXZ1lyRFRNUFdDZFpsRWM4MWZ4WVZmYk1NbkptRW8wRQ?oc=5",
+  "timestamp": 1795676539.1397052
+ },
+ {
+  "coin": "ETH",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Ethereum Stalls as ETF Outflows, Hot Inflation Weigh - TradingPedia",
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLXZESElWY1lpSWlDUDV6Z1FvSnpRaS1rQlI5WWYyWU1uZFhsUVBjbE1OVG9JYmEyckFmcGFYYWFBREhVLVhhNlppY2M0Uk5jOXVGRGRYMlQ0cDlqalUtNjE1anNMY2Zrd21lWS1MMUY2Rm9uUGNxLWJ1aVZlZ0lvYXpadGs4My0yWlhkdDV2TERJcDBzNGpR?oc=5",
+  "timestamp": 1795683739.8792613
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin\u2019s Recovery Faces a New Warning After $2 Billion in ETF Outflows - TradingView",
+  "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ0o2cEd2S0lfaDc3RmR1b3lvUGtzMWJlTTNIblJjQkIyWkE5M180MUdTOERDc2xjWk9md0c4TFYxRlJ2Mk1TUWRQQ2FYWEkxaTg5MHd3R25VdE1MMWxHS0wtdEJUaEV4LTgyR2dMem93bnNnN2U1TlFsdlJEZFdlU1VDNFM1WnJnN01ZeEhIMnp1VzNYSGx3ZnFFeVdkdEF4SXVnWjEwSmEyX1hlRmJGcHE5RWJ0R0ZLemdMN2tMdkNZMVBNdHY4?oc=5",
+  "timestamp": 1795683740.468174
+ },
+ {
+  "coin": "ETH",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Ethereum Price Forecast: ETH stays below $1,700 as ETF outflows top $1.2 Billion - FXStreet",
+  "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOOVZKSlRfVXRPWDJtT1VlWWtKbVJTcWh1Ul9FWjkycl81VEtYZDV1d01hdE9PYktFVnQxbjdWOHlPbnhJd01qdXU4VzBuM015Vno2bFBqVWVGaDZQdE9PcG5GM3N0OUhLYk9hQjRhTkhvWGJhNXF3SFpVUEFDUXBQYUN6QnpwRGhxMktMVHA0OWpFYlVKRXlDekc1eXhQdS00bXNKZ1hnZG9XMU5lWG5FNDNVZFYtakJESDZ3N1lfcThzbFd1YlpwZEoxQnpIRmNUU0E?oc=5",
+  "timestamp": 1795683741.1102357
+ },
+ {
+  "coin": "LINK",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "Fidelity Files for Chainlink ETF With Proposed Nasdaq Listing - Coinpedia",
+  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdV90M1B6cHdvMFRrVTAtUVJ3VFpVaWM5YVRBUVBKeUFVV2FRc0UtN293cnBRR1dvaTRHdVl0SjR6RGxtcFdRZUYwRFFPWGJoaGRBdDJPYi1kV1B2dXF1V0N2S3VoemVPVTNUYXd1ODBZRmxZUVRuUE96VEx1TnRlS1FTNjBieHJqS1pDbjhKRmxjRkZzZVEwd1pRSUdmYjd2eExZ0gGoAUFVX3lxTE1kc1JEb0xoYk1YZ3Rfb014bmp1R1dXMFBIZWVvTndnQkNrUXZwTWJZTUF2OGdESndzcHl6a1ZiODBEbXVJZ3Vja0xrLTF1cWJ4RTUxYmIxVi1TR2ViTGVaZ0VnVFBEWVRyOUlQMnRLcmpiQ2xhY1lpanZhMlgyQUFWcEUyNTBBU21KS25vVlY4SEh4RFFOakpJNEhIbF8yZmJwUG05MzZvcw?oc=5",
+  "timestamp": 1795683741.6699796
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "MILESTONE | BlackRock Leads as Bitcoin ETF Outflows Record the Worst Month Since Launch - BitKE",
+  "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBFS2pwQkY1a3VjTXlpc1VQR2lwaVNjZTRDdG10MDVwX3h5ckJOQWJwOVM5UWpZaEVwTnFoMjdORjNDdjBkWnRoZXd3QmlPal9INThSZ2owa2RtY01iNjNJdGZOdzlBX21rX2NmektRTlQ5THo3aG9meA?oc=5",
+  "timestamp": 1795687340.5947156
+ },
+ {
+  "coin": "LINK",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Fidelity Files for a Spot Chainlink ETF, Following Grayscale and Bitwise - unchainedcrypto.com",
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPejlRVW5UNDRFRThVdVoxYjBlWGZGZ1l3UzNZRHBYYlNPUTdpVDNqenBsN3hTcUJyX3pQaDN1RnNyR04xOGNDYzZtS01JN05DblVPcWFrTnRFbVRNblNzUHJrRVBVQXRRWDhhbXphTlJwdEFLUWRMN2RYNG83cjhob0EzczRNeXJMVjF0XzJfNWc4T1lIWUc2bGV5cVZRZHRHQkE?oc=5",
+  "timestamp": 1795688929.1059692
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Crypto ETF Outflows Hit $522M as BlackRock Leads - KuCoin",
+  "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdWVOTFNkNnhsUlE3MmFaMmJNeXktVTJTQ3BFQjFzWVlUYTc2YjFlOHgtcnBXamUzVWdRVW1PcFhYRUt0LWN2alQ5OGM4RkZDRklrajVDMl9JVFVNUnVfamp4WlVPcXNZU29xdDdJVjZJYWNIQ1lNWVl5N2N0aVQteXg5V1F5cVFO?oc=5",
+  "timestamp": 1795688929.5051203
+ },
+ {
+  "coin": "LINK",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Fidelity Files for a Spot Chainlink ETF, Following Grayscale and Bitwise - Yahoo Finance",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNjd3SkREVzV5N3NHS2cyek41ZEx4dVBDVDc2WnF5bTg3Yzd3QURKZVZGQjlwQ3piY3daZldZNk9vU3k2RFVxT1kwM3VCaXEwQV9rN1VJSzhMSXNCdU1VNGlVbWFRQjFELTh4S2s0OG1zYnFBWk16S2dNcGR0XzFJOHViMmsyenpaOFF3anlXdng0UHRpMzlIN0ltajhuREE?oc=5",
+  "timestamp": 1795690938.5307846
+ },
+ {
+  "coin": "ETH",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Ethereum Price Forecast: ETF outflows exceed $1.2 Billion as ETH holds below $1,700 - www.tmgm.com",
+  "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQkg5Q01xWDhVRWE5cC1ZOHZHUVFKYjRWb21TYlZPSTlRdkRpOTBQZ1BrQi1rREpZNXB5QzJJTWsxRFVrR2F1MERobUtjMkdxSE9NcmNSdG5kTnhIODlmTEEwRGM2VVVBWkFYeUJ4SkdHT3BCekw5cVJmVTZrMEpKc2RuUkFHNXZzdEVfczByNlFPZHpuQ3FrakM1dDM4enV4WklnRGNOR1picWp6TVdpR0ZDYjhYcmN6ci1QaWpaY2pycVV2a0lVekZtN1BINWdQRjllRnpiQVZJRl93ZGc?oc=5",
+  "timestamp": 1795690938.9886522
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Reclaims $60K as PIEVERSE Jumps 40% and ETF Outflows Hit Record - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oZ1lpdU9KcXQ2UGJEUnFaM2JabEV3anNSZ1dzclhEQjhSMllHSkY0QWpnZlRuVnNyck5wUHdsaV82bHBybDlfQnlGZElWaVZJMVFiM3J1WTNYc2M5emhaOFRoOXpsQko5YlJXeGpNNmxXWnNLZFE?oc=5",
+  "timestamp": 1795694542.125564
+ },
+ {
+  "coin": "BTC",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "SIX Lists Switzerland\u2019s First Spot Bitcoin ETF - The Defiant",
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOURKem1nWlRsMlI3R2poT3RaRFFJa2xKSDJCbGg4ZDVjVm5CTl9FMWZjRERzYU15OVRkZW1TWDk2Y3dQU3NwQnBhU09kcFhCMzM3Z0JzaEpSaUFuVHZsWGVHV2JGNE5KSm85ZWZFQlctVEZHRmV6dnJPa2ZGNFJUMklTaFFXTVN3d1V2S1FTS1hWMlYteEg2aThKaGY?oc=5",
+  "timestamp": 1795698146.6023955
+ },
+ {
+  "coin": "BTC",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "Switzerland's First Spot Bitcoin ETF Lists on SIX, Rises 0.6% in Early Trading - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GR2N2SWg0TGE0RDlHTjZRaVhQVFJEUVZzVTQzXzBlY0ktOXpqZTVDVnFhaHN1a01fdWZKdUdLRm0yaVNyNHJqSFRxM2RQdDMzakJFbi01dVJ0eFFXVlZyMUZKOTNyUnlPMGFaeFZOWXMwNFVYU3c?oc=5",
+  "timestamp": 1795698147.209257
+ },
+ {
+  "coin": "BTC",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "Switzerland Lists First Spot Bitcoin ETF as Shares Rise 0.6% Early - bloomingbit",
+  "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBGOTl4ZDhfSDRzUFI4OWNZU3k3NThZU2NEQThFR1BkSnY1dFdUcmRaYTkxOXR6dHM5MXlOaXA4bldOLTRNZjB2Ny1fRXdBczJpYzI3Ng?oc=5",
+  "timestamp": 1795698147.749883
+ },
+ {
+  "coin": "POL",
+  "category": "Partnership",
+  "impact": "Bullish",
+  "title": "Polygon Brings Its Cross-Border Payments Stack to Coinbase\u2019s Base",
+  "link": "https://decrypt.co/384023/polygon-cross-border-payments-stack-coinbase-base",
+  "timestamp": 1795701737.6600513
  },
  {
   "coin": "XRP",
   "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "XRP Faces Worst November On Record As ETF Outflows Top $30M, Breaking 7-Month Inflow Streak - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxORzFiYVY3TUkyVndDWjY4d3ZnQkFHdG44LWo4UENwdHVGZlZBdXlxMjJjUThIeXY2Qmg0LWRyMmwtbU9FeHpFeXhmMWQ5OHVLTDFrQ2xNV0xzTmVCOEtrbC1ia1VjeTBleXB0aDBIenZxUWl0c1ZRVXN4bjZycnEzMEtsYndmUFRHa2Ezc3BzN214X19DZDBFMWpwUmJlLTlKeXU0V3hoQWVQSFM5LXp3ampHd3RIVVZiVzJNaDVKODJKRGc2Z2JGcXNqNjlEUkIydUQyNWdDb3BVdGJ1eHBwSVE0d04?oc=5",
-  "timestamp": 1795428139.8744657
+  "impact": "Bullish",
+  "title": "What XRP Did After Its First ETF and What Chainlink Could Do After Fidelity\u2019s - 24/7 Wall St.",
+  "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSTRSZXkzWm1DZDRKRjNTQzZfYjBjZ2h3Rk1pUmdlckhkeDR5V1d2aVhCRUJXeWU4dWhOc0JoSjdCeVlIcW4xWkNnVEJSZG52d2RxQ001TmVlcF9ZanQ2SGhONkdwM0lmUU8xNnFYTzVzOVdLRmFHbjUwc2pNRy05NmExa2xiV05weC1XYXlqQWpUTUNILTJrazFMQktHR0lRZHhra2ZwRHZLdDRYS3hFUHV4NHhSNnZaUkZJREJTNVdvZGxsUS02QTdzdzdFLWhl?oc=5",
+  "timestamp": 1795705341.4600565
  },
  {
-  "coin": "BTC",
+  "coin": "XRP",
   "category": "ETF / Institutional Flow",
   "impact": "Bullish",
-  "title": "BlackRock's IBIT Drives $1.79 Billion Exodus From US Spot Bitcoin ETFs - BigGo Finance",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lcG5TTWNNVzJRYkJpMWtXSmdlUFlWRmxVSG1jWlh2dTZJdlJMUmhXWGdrU3dtVFcxZ3lPNW03X2xFX29mOHFQWVNVSlBBSTZCZEhldkdqWS1ES19XTXBHMDRmM2NIQU8wS0U5V1cza1lmd0xaNlE?oc=5",
-  "timestamp": 1795431744.0156975
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Rebounds to $61K After Weekend Plunge to Two-Year Low",
-  "link": "https://decrypt.co/383758/bitcoin-rebounds-to-61k-after-weekend-plunge-to-two-year-low",
-  "timestamp": 1795435340.2155151
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Bitcoin price recovery hinges on tech stocks and ETF inflows, QCP says - Crypto News",
-  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBsVXpqb3VjLXBnVHh6eDA1Y3RXS0hNZ0lMQ0Fub0phUHBoY0F6UzQ4N0E0QXF2XzlTeE55QTdSQ0VMeVh1QVVTT1A1d0FsRmpHM2tUVThFbl91SmJNYmQ0QUV5OXJRbXNVMzliTEhLR0pjVG1CekRycTRMMA?oc=5",
-  "timestamp": 1795435341.5052433
+  "title": "XRP Becomes the Only Crypto With ETF Inflows as Franklin Templeton Adds $4 Million - Coinpaper",
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNDF5M0hvZWVPYXdtbFhrUmpqSFNtVnVCUVBVd1dtTjJ4VGhHbFMzNmRlYzNDeDNaWmc3SXh4UFhXb0hjZEZtUWtUclZia0xRWWM1MzJURVJGUFprLTAzOGJaWVJWaFV5alJGdmIwUzVJcWZDSDJjcHB0aklyY0JUSDFXX1o5SFdpNHRMVTBDcVNGMTlVQzZHMFd6SXlqSHBIX2Z5VXBrZGZiZVByX3c?oc=5",
+  "timestamp": 1795705341.9890585
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Weekly Recap: Largest IBIT outflow and Mubadala holds 14.72 million shares - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjh2RkdpVmZ0WDZMcGZ5bWJjNnczN3RjRGhWWTdoNHZSSVB3bXBLazZKOUJrb2FzU1Fia0hmMDZmRnRHREpKSlVPeURnMVUtUW5nODhMWHpUOTFGS2x4dEdERkI0akZHZGN6cU91OEYzMmpMNE5NS3FoV2IzUDRJTy1kQlhRNDNhZ2dZMG4yQVRHZG5kU0VJNnNvZ2NZRVdubmtyMkN6R1VVRkxkbnphaUg0OWlQQzlHdVZHYlU4RmVoaXQ4Y1IyLXkxWWNfc25s?oc=5",
-  "timestamp": 1795435342.0017993
+  "title": "Bitcoin Price Analysis: Can BTC Hold $60K as Apparent Demand Plunges to Record Lows?",
+  "link": "https://cryptopotato.com/bitcoin-price-analysis-can-btc-hold-60k-as-apparent-demand-plunges-to-record-lows/",
+  "timestamp": 1795712541.679553
+ },
+ {
+  "coin": "BTC",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "SIX Swiss Exchange lists Switzerland's first spot Bitcoin ETF - Structured Retail Products",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQWtPa2RVRVdxRVhvUXRienloTGR6VE1FM0NoaWtMOG8zMDlXWDd6bnpvXzVZQUZ0WlhOSUljT3ZQZzI3OTkyRERHQWtpNmhUQUZxMnBhZTVBbUs1cU41R29Fd0hlSnZIeFZtcmEyWUZSb2hOLTI4eHB0eHpxUU4yZ1pwZEF6d3BubXNrZ3JTNFJ5ZGRYeHVUeFpxa2tqRl9ocWR0TmZYWEtDVE5zQlNaTkZHNzJnNTQ?oc=5",
+  "timestamp": 1795712542.701576
+ },
+ {
+  "coin": "LINK",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Fidelity Files For Spot Chainlink ETF On Nasdaq - Yahoo Finance",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNHlwTGJROGFxLWxjSllqclJaUy1OVWRQRDlWa3IyNjlvcFVXSUtYLUdNSjVsWm1JM3doTEdTbVIwcFB3WUVOOHA1c1hnLV9zLXZMd2ZCT2ZFXzdTc08tdHNPVUw4TVdsbHdsb1dnYklvSFFUTENSdFJNWDZaclBFdEVaeEdCS2pna1Qtb3NveFNrTzlyTENvcWhmaFlqMHc?oc=5",
+  "timestamp": 1795712543.3025322
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Key facts: Bitcoin Spot ETFs See $1.79B Weekly Outflows; BTC Falls - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOelZ4a3ZKbE9nLW0wUVk5bTZrenN4cUNUYjdhQ2VxQm1hLVZjNTFONGs5cms5cXFleF9wQzdNdm1fZUNaS05SZ25DQTc0U1ZoT1VIZzk3T1EzR1pTR1JjNkxZd2VvdGVFd1lsNXg3eHJpVlkyMkFiT3lHdGFKTW5jTGlZTzROLTRLLVQ4S0dwUldSVjBaa011cTJ0ZUpWN2hiV3AxWXBPeXNTc1ZCamd5R3VySGNmMzhCekxMRGV0NG5wQms?oc=5",
-  "timestamp": 1795438938.6048317
+  "title": "Bitcoin Clings to $60,000 as ETF Outflows Near $5 Billion and Fear Grips the Market - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qdjc0OEJZa2VydTVLNXMtdi1DLXYyandEZ0RKaFFBVmdVLWJNV3NiMm1tQ3lCbl9rcHZTeUJTS3J6clp5Mjg2ZXJrYlNhNkRqaldfMkRGTXdEeGpMZGh3d2lGcDdxTlNCeTZPNDZtVUFweFJLOWc?oc=5",
+  "timestamp": 1795716140.680239
+ },
+ {
+  "coin": "BTC",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "SIX Swiss Exchange Lists First Spot Bitcoin ETF - www.marketscreener.com",
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdHFmWDBRRDdaZFpaZzBXc3ZfQU9iVG9EQjVrWXJnQWp5U2hFeWQtUUs5Mi1VSTZTRUVrbEQxWXVGeEFBUHZQOUFHNmdpRzdteUVUQlVuOHN1czJBcnRvZkxpM3h5ckVzQmZRZmdGd3lSSzk2bmVTVmpHM0wtbEw5TkJ4R2FiUHRXb3BqOUVrN3NxNVJXdXZOY1V3cVRFaWpneVE?oc=5",
+  "timestamp": 1795719740.791808
+ },
+ {
+  "coin": "SOL",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Solana Nears Unwanted Milestone: 10 Down Months in One Year as ETF Outflows Reach $164 Million - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hbllnbHlQMzB6SU1qN0tGaHlvVnRvTXpuYi12RXlEcEh5SS1VVDJwb2dkaHZndk83UFhkSnR1aHRJeHVpQzF1Q0pYUmRSaFJzVFU3bnBjdHdlVm5HOHpKSjlnU1VmdS1Scnl6cUY4cXFkMkRocVE?oc=5",
+  "timestamp": 1795719741.3026688
+ },
+ {
+  "coin": "BTC",
+  "category": "Hack / Exploit",
+  "impact": "Bearish",
+  "title": "Crypto News Today: DOJ Scam Sweep Hits 800, Swiss BTC ETF Opens, Zodia Breached - CoinMarketCap",
+  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EaXl1ekJXOE81VVpKWTl1X1h3aTdwdHVJZmtvc3A0S2ljTXZwN2p0cFJwN1pFWEFaY0tic0czanJERmIyS2RiSktScGp4WWptRDkzOUFkOGl3c3lSTjJHYkxjdVdObVQ3SmREYUNCazdSTWxvaVE1MkFaRQ?oc=5",
+  "timestamp": 1795734139.10358
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Bitcoin extends weekly slide as ETF outflows deepen crypto market pressure - Traders Union",
-  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnNHTy11T0VET2phYkFwS1hRUEQzcmRmYUlxZGg4aEZHUWZHcnZJX0FxOWh0MnZCSm1JVWNOa3h2WEU5c09kNTIyb2pxWEJqRmhXM2d1SWNQYmwtTUYyZWZYcjZCTGFJejFodjc0UGh6djQ2dERXZlBZWXY5T1dqWmZMMlZOR2NYRXBkcTZrLVE5Ymtxd1I1WTlnR1ZUdw?oc=5",
-  "timestamp": 1795438939.0725157
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Fidelity Investments, Strive, Etoro join OKX-ICE tokenized securities venue",
-  "link": "https://www.coindesk.com/business/2026/11/23/fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue",
-  "timestamp": 1795442540.2901585
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Strategy buys 457 Bitcoin, spends $212M on preferred share buybacks",
-  "link": "https://cointelegraph.com/news/strategy-buy-457-bitcoin-btc-treasury-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-  "timestamp": 1795442540.988117
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Strategy Buys $30M in Bitcoin, Moves $1B From USD Reserve to Cash Pot",
-  "link": "https://decrypt.co/383779/strategy-buys-30m-in-bitcoin-moves-1b-from-usd-reserve-to-cash-pot",
-  "timestamp": 1795442541.7945433
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "OKXICE launches tokenized securities venue with 113 assets confirmed for 24/7 trading",
-  "link": "https://www.theblock.co/news/business/2026-11-23-okxice-launches-tokenized-securities-venue-444898",
-  "timestamp": 1795442542.4661133
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "\u2018The dots aren\u2019t done,\u2019 Michael Saylor says as Strategy buys another 457 BTC for $30 million",
-  "link": "https://www.theblock.co/news/business/2026-11-23-the-dots-arent-done-michael-saylor-bitcoin-444907",
-  "timestamp": 1795442542.955657
+  "title": "Bitcoin Rebounds Above $60,000 as Spot ETF Outflows Hit Record - Businesskorea",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Za0tFM1djcmcwd1V0b3VJR0xuZVZzYjVud2xZMjVVSHd1WVUzSXd0cmxBRHh2N0ZLVmczN1J1VG5Cc25QNnAtVGZTTGZIbXRNSlFia2J4NlE5YXZlS2FhVmRtaXZjSnRIM18xSFFMakRnYmVn?oc=5",
+  "timestamp": 1795741341.362577
  },
  {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
-  "title": "Weekly Bitcoin ETF Outflows Hit $1.8B as Ethereum Extends Eight-Week Retreat - Bitcoin Foundation",
-  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLW9xZ09ZekpRRkszRTNoZWVlVFRjR1NDQnh5ei1TdDBCejU4QlY1NUZwcEtENmdGODJPcnQxNEh6M21vNGdWdFp0cUg0aTJ1SzdoakxGY1dmMDJxNVR2dGNSdVpucHQ2NDlFcTRFMndhWEhtSGhVd0ZKVFVKUU4wTGNDWXJIQjBvLUE4Q0pZY1lZWFl1c1lWaUtwNmdWWjRsZ01RXzR3OVdzUDc5dnN1NFdDNE5MMXl3UmVz?oc=5",
-  "timestamp": 1795442544.0190117
+  "title": "MicroStrategy (MSTR.US) premium falls to 0.88x; U.S. spot Bitcoin ETFs see net outflows of $4.7 billion in a single month. - \u5bcc\u9014\u725b\u725b",
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM3hfcktUUTYxUmY0YkRheExBLUFPNVJlQUdUZTVFOUZEcWVWX254ZV9SQndoRW5PTjVhM3FyN1hKVTBhNlpyZlNfXzRaZmlqamJvWDZaSE1mZTQ1MTYyWWZuaVlrZE9rejNrbFhDS0l0dU1KU0t0TWphV2pEek56Z05UT3hMakhsSmRfN1pRQ3B5VkRMcGVrZzlnQnB4RkM5N2hzeA?oc=5",
+  "timestamp": 1795744937.219704
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Tudor Investment Nearly Doubles IBIT Stake to $64.6 Million as Bitcoin ETF Bet Revives - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5EWVN2Z3RzQmFZb0JxU2dYMWttSmtqeXBmWC1weGpVSTNEbk92X1hqdXlxNFRDSmJqeFZ0S09IWG9SY0xEUUEzOWdJNWJ5aVZSelh0Z05LYU1ONGNjaTh0ZEd6T1JNUXB2SHVDeFNCNXo0TEhzNlE?oc=5",
+  "timestamp": 1795747297.8128479
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "JPMorgan Spots a Record Bitcoin Signal Through MicroStrategy - BeInCrypto",
+  "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1VVk14STdOQUtkNXVoX3NhZ0xWbVZRVTlid2VKeHI4TnJjcHFON3U2ZTFjNXhCRDBEMW9YNFpEOF9zTmszb25NbjV5Z3RYd1M4d0lYSnIxbUZXU3pXdmd0bURPamhUSE5RRHhELUUyRGY1TnVZN2Rz?oc=5",
+  "timestamp": 1795747298.2607372
+ },
+ {
+  "coin": "UNI",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "UNI Surges 5.01% as Fidelity Adds Support, Multi-Chain Growth - CoinMarketCap",
+  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrUGdrUWJLTHpzY3hnUWFpUzdWUWMyelpjYk04LWdlb1hRLXZNVmFod0tNWV9HelBEUkdGbWprbTBXNno4SGh2MUViLUhaRDNObmh6TTlvTVIwaGdielNucUZPV3hZXzczOV9TZ0h3TWg?oc=5",
+  "timestamp": 1795752141.49573
+ },
+ {
+  "coin": "BTC",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "BIT AM Lists Switzerland\u2019s First Spot Bitcoin ETF - Markets Media",
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUHFpTlVWTVFyQVpLOUVoSHFmZVVJci1RNFRvQkRsQ1dDZDdjc1NnaFlKdFZFNVBNclRvUWxnRzJWRTYzYmdET3VmTDNYRVpvdUVIM0RUVS1YRWhkSUp4ZEE1ZkdKdFJ3LWhtMy1YREk4RXRqRi1kV2hpTk04R19TZVpYTXA?oc=5",
+  "timestamp": 1795766537.1991632
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "What Binance\u2019s BlackRock Bitcoin ETF token can do as collateral - Crypto News",
+  "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT3hGQlJtSmR5UDhlMGFiNmlIZzZ1VVdwMExRUDBzV0pSN1pTUUtNVjdQVk1qb3JXa1JfeWFuc2xHbFdCQXBtaG9FX0h4aUZtb1hkbFNPdDFLcnM5UHFsdUc0OWExUFdnbnVoMllhMklYSmlkdHZWSFFIRV8zS2UxWGM2ZDBiV2xDNzRn?oc=5",
+  "timestamp": 1795766537.6607752
+ },
+ {
+  "coin": "BTC",
+  "category": "Macro / Fed / CPI",
+  "impact": "Mixed",
+  "title": "US Treasury Yields Surpass Bitcoin Futures Yields as BTC Basis Trade Loses Appeal in November 2026 - KuCoin",
+  "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPd3pQbEpCVm15aDVfeDZoVEJ5ZFVfWG1VbFlMNDB1eGxXUmlKSGZiMzYwdnhicDBfc0dGa2lpbFFWSWU4eFhHUVpNa3F6bS1TVkt3OGdTZjNjMFhlUkVHcDdZTk5KRXlfRmFUd0tMbUdGeGFXNFNKMDBJX0I3S1lXOGZ5RDF4VHl2Z0hwTWhNZ2w1bDZhRWVvSkdPeUdyMWNsTTdDWm1uQjVzZmVRQXRVR0Q4cHZNS2FqZHo0OFRpS1cwQWlU?oc=5",
+  "timestamp": 1795766542.138107
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin ETF Outflows vs AI ETF Inflows: Where Is Crypto Liquidity Going? - KuCoin",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeGFNV292a3N4NmRsNUpHZ2lKN1A0Y2Q2MGNxWElkTVZSVXBiQVpaLUJGeUFRemNzSmh5WlBkc3RfUVFGcXhjWVczNjVRYVdtLTRxdXphNkdkc2NMaDJfWFZrcGVqS0p5NzVyNmVLaUlad2R6cDBoS3ZpN3F0RlVtZG1NU1I4NXlGUnRjT0x3NGJPOG9ZVTdDOTJMVkZEWGc?oc=5",
+  "timestamp": 1795777339.6395378
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Bitcoin ETFs Record $5.39 Billion Loss in November as BlackRock (BLK.US) Leads Sell-Off - Moomoo",
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcU1IcGN4a0ZHSHNvTWp1Z1YzdnZVZjB3U0lQZVFCeFYzSXhhRTZKbk1hMUQyT2hremgtMHZrUzZtZUhXNUdTLVVEYVd4TF91SU5jSmdZZGluR016am1LdzhqT0Nuc2I1MjljNTJnVnVvNk9HbDRJRUtyZERhOU02MlRydktqdGkyODFfU00wVFF4N1p6Q2hKR0pROHM?oc=5",
+  "timestamp": 1795777340.1282475
+ },
+ {
+  "coin": "BTC",
+  "category": "Macro / Fed / CPI",
+  "impact": "Bearish",
+  "title": "Kalshi Courts Small Businesses With 'Microinsurance' as State Crackdowns Bite",
+  "link": "https://decrypt.co/384118/kalshi-courts-small-businesses-with-microinsurance-as-state-crackdowns-bite",
+  "timestamp": 1795779985.2345715
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Crypto Market Outlook, 27 November 2026: Bitcoin Holds $61K After a Record ETF Outflow Month - Howl.Link",
+  "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1NREUtZy1JMjZ3MFA1VmwwVDhmN3dNVk94U0c0S3V5djUwQmlRanhsM2tKMmVYZ1pDSXBZ?oc=5",
+  "timestamp": 1795784541.4384797
+ },
+ {
+  "coin": "BTC",
+  "category": "Regulation",
+  "impact": "Mixed",
+  "title": "Binance to launch tokenized IPO program after regulatory approval: Yi He",
+  "link": "https://cointelegraph.com/news/binance-ipo-program-regulatory-approval-yi-he?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "timestamp": 1795788142.2116656
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Surpasses $61,000 Amid Record ETF Outflows - ForkLog",
+  "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yNGhBSjlOQ1d6Y2JKZHBBS2hfd0FiZ25WOF9LeFZvbi1sb0ZGaEQySmxLX1ZqNkwyRWtCSG1UZ0tjbG95VWV5RE0yZm9wZ2lPdU92SUIzZHh6Si16VGNzeFV4TlRoRkNVcHI1NkFaMGNKNlAxdDdDOXFmYzY?oc=5",
+  "timestamp": 1795788143.4879766
+ },
+ {
+  "coin": "LINK",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Fidelity Takes on Grayscale, Bitwise With New Chainlink ETF - Interlink Electronics (NASDAQ:LINK) - Benzinga",
+  "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMHY2NzdRQ000dmlfQmFVN0Y3MTk3TUdFaHhXTUdGcVcxZ2tHdmFOWm5MeVBSLWdPUFR5ZFlFX2podXFlRnU4TXBvQzFJRHBvX1RrVE9BR1RPanpreU84NFplLVRId3YxbmNYWkFXNE12NlBXQTU3UUIxdXE5MWsxblc2MUJ4azRlVWZWQ0FBQ091X2VRbUtJN3cxc2ZsMlFEY3l3ZllsN2k3LXczZzB2WkM0eGdSdXQwa2xqUHJuQ3RJdw?oc=5",
+  "timestamp": 1795791738.6061811
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Reserve bill advances; ETF outflows top $5.3B - Yahoo Finance",
+  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZHhMQlhyVHNFTGFRRHNBQUtSRENFeDJDdDBfaGFOd0k3WmI4ZEtZc2VwRmNEcHFqT2pLMzc5RW1NYUdPbUo4WnRJM1hyMVdpVXZMMzBKUTJ3WDk2azhLMkdKSHQ4ZWlIMDgzVVY5a1pNbEZ4VDItazhpS3hPSEdTRmxZVUVUVE1tYzgyVnZJWHRXWTA1UFVwSmF3LVBiQQ?oc=5",
+  "timestamp": 1795795340.2540746
+ },
+ {
+  "coin": "LINK",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "QUICK SPARK: Fidelity Takes on Grayscale, Bitwise With New Chainlink ETF - Benzinga",
+  "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMHY2NzdRQ000dmlfQmFVN0Y3MTk3TUdFaHhXTUdGcVcxZ2tHdmFOWm5MeVBSLWdPUFR5ZFlFX2podXFlRnU4TXBvQzFJRHBvX1RrVE9BR1RPanpreU84NFplLVRId3YxbmNYWkFXNE12NlBXQTU3UUIxdXE5MWsxblc2MUJ4azRlVWZWQ0FBQ091X2VRbUtJN3cxc2ZsMlFEY3l3ZllsN2k3LXczZzB2WkM0eGdSdXQwa2xqUHJuQ3RJdw?oc=5",
+  "timestamp": 1795795340.7145977
+ },
+ {
+  "coin": "ETH",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Ethereum slides below $1,650 as ETF outflows top $523M - Crypto News",
+  "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuR1JNRnVtbmhqNTNNclhKdmU1VXNsTEJDa2U3R1M3VGdwbEhOVjN1TTdOY25PRVgtU2FfZ2toMmFoNXFCRnA5RkJYWFBCc2h3bTdZUnYyMm5WUzh1Qlk3M0RFcGE2OVRydktj?oc=5",
+  "timestamp": 1795795341.1619
+ },
+ {
+  "coin": "LINK",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Chainlink Volatility Surges on Fidelity ETF Filing, Adoption News - CoinMarketCap",
+  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SMkVyWkJndjFDOUZfODBrRnR0NzY0NTNYYmd4UEl2UGtoZ2FOZ3RNSTctMlctMWh5U0ZBQXJ6SU40WjlzM3ViNG5sWnV3X3hHRnhZVlk3YjRXYURTaGlYdThVTzVyX0VJWjFQZlB1WW4?oc=5",
+  "timestamp": 1795795341.7915142
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "JPMorgan Calls Bitcoin Bottom as ETF Outflows Top $5 Billion and Strategy's Premium Breaks Down - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93OTFkR0Uwemkwc2ZEaTgtQVdieEswN0laYURLSWtWLWlKTzY5WDFZbDhTempWQ3hlRmtHRm9jd0I3c29sTVNicjRXQXpIQkpidV9mVEpSU1ZmU01sVUxTZC1xNU9yS203d0JuZFAtcjVlQThDYUE?oc=5",
+  "timestamp": 1795798952.2383895
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin Sinks Below $59,000 as ETF Outflows Hit $5.39 Billion and 63% of Liquidations Are Longs - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9paFBJc2pOM0kxdUxIZW0xR1ZHS3Z2NUNJYkJkNm5sY2ZRUHlha1dfM2dzTG9YYVVZbnFXSDkzemJVYlJrVGtpdkkya25TSDVrbkZZUk9oMGxlejNWLU9hSVZtcVNMTi0yWk50MFU1V05jVXEwc2c?oc=5",
+  "timestamp": 1795798952.765138
+ },
+ {
+  "coin": "BTC",
+  "category": "Regulation",
+  "impact": "Bearish",
+  "title": "Nvidia's Blackwell Chips Turn Up in China as Trump Floats Government Stake",
+  "link": "https://decrypt.co/384153/nvidias-blackwell-chips-turn-up-in-china-as-trump-floats-government-stake",
+  "timestamp": 1795802540.7669473
+ },
+ {
+  "coin": "ETH",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Ethereum ETF Outflows Hit Record 643,000 ETH as Analyst Sentiment Cools - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0yYVktUm5WZVdtMm5vbGRHTWZUbERWT1RBdlM3emRqcGg5Q2VwMzZDaXl4VjZ3YTJ3S0dzcXRmQXhMaVZabFZ6ZFZtSV9leDBGeXF4NkNQcFNOeThLQkRsd2VRUFpHNndUUzNGbXZONFg3Y2NlZWc?oc=5",
+  "timestamp": 1795802546.0166457
+ },
+ {
+  "coin": "BTC",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "Malaysia\u2019s first Bitcoin ETF to list on Bursa Dec. 2 - Crypto News",
+  "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91em1GZ2d0bWM4SkdOa3U1Ui00LXlUQVRKQWhSSEdpMy0zV2k2WUFCZmdqNjZSeEFsSDlzWGJZLWh5R0RsMERTSkFMWXRGcm55RGtCMFNPb1c3ZnpkX19qQ0Y2MUxLbFNGYWY4NGZB?oc=5",
+  "timestamp": 1795806148.9663897
+ },
+ {
+  "coin": "LINK",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "QUICK SPARK: Fidelity Takes on Grayscale, Bitwise With New Chainlink ETF - TradingView",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX3ktNG10cXdTR004V2x5QkpNZTBIbEVrdmU1UlE2VTdhdmJTbnFHMng2WjV6b3VramZSeXc4Rjl1Rl9keWJ0OVM2TERnOUtzbTM2SmJNMVNvblNLT1VSd1Vreml3aGJMRjNQTHBKazg3ZUVWaGtaZ0RrclNBdzJZVmFiUVVWajZ4bURQYnM1Z01zWXoybTd0cmpDbmd1VVpXd2tJcUdtbTRfTEdYZ3kzcHlLMl9sLVJCbFB0YjJ4WG93djB3MHNTdQ?oc=5",
+  "timestamp": 1795806150.4377477
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitunix Flags $76,300 as Key Bitcoin Support Amid ETF Outflows - The Fintech Times",
+  "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbXhqbTlSQmRyODViQm5OU3o4eE9fckpjay02VEsxSXpmUkUtbVowQU9fdWNiM2tTY1JNQWs5ekY2a2hOdXFQNG83a3lBdUFLVERMdk5acTlKODEtS1pvczBQTGhsLThnTlFDcnh5SVRMSW9tVlRtd2sweHYxQzRlWmhlYnFmLThDdENuLUc5eWVhZWs?oc=5",
+  "timestamp": 1795809739.216596
+ },
+ {
+  "coin": "XRP",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "XRP Ledger Tops 8.37 Million Accounts as ETF Inflows Hit $4.07 Million - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQZ0l0VnRZNFpScVNiSGk3WXM4a2NFV2FlTlE4MFpCMnJzbEg0dTZsQUZfUUhraUVZVXRTZUZmNjZ1SXp1ZTRHblloZnhrNWVPa1BnN3dYWEIwRTdVSWdyWEF6WVZKRm53WXVUNGpZeDdNZ2c5anc?oc=5",
+  "timestamp": 1795809739.78969
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin weakens as U.S. spot ETF outflows highlight institutional risk context - Traders Union",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWWFXV2JjTnpzTWlUNXpWdmRTZFVidlJLVnVZU1VHRTQxUDRWRUZQTWJnV1JaY3hXVm5GZDdReG5yazV2S29qWVRHcFMzajdlbEFSZGt0eEJoVHVPd2YzaTAtcjVVZjA1c0hBRFdmUnJSRWhSWmxyMVU2NnhCRjVKVnNodExQOEp2Q1dUTG0xVjd3amZi?oc=5",
+  "timestamp": 1795809740.2687814
  }
 ]
