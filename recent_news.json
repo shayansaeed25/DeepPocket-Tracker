@@ -1,14 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "Hack / Exploit",
-  "impact": "Bearish",
-  "title": "Coldcard Bitcoin Exploit, Revisited: How a Hidden Flaw Survived Years of Audits",
-  "link": "https://decrypt.co/383930/coldcard-bitcoin-exploit-how-hidden-flaw-survived-years-audits",
-  "timestamp": 1795557740.4769633
- },
- {
-  "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bullish",
   "title": "iShares Bitcoin Trust ETF (IBIT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
@@ -950,5 +942,21 @@
   "title": "Bitcoin weakens as U.S. spot ETF outflows highlight institutional risk context - Traders Union",
   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWWFXV2JjTnpzTWlUNXpWdmRTZFVidlJLVnVZU1VHRTQxUDRWRUZQTWJnV1JaY3hXVm5GZDdReG5yazV2S29qWVRHcFMzajdlbEFSZGt0eEJoVHVPd2YzaTAtcjVVZjA1c0hBRFdmUnJSRWhSWmxyMVU2NnhCRjVKVnNodExQOEp2Q1dUTG0xVjd3amZi?oc=5",
   "timestamp": 1795809740.2687814
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "JPMorgan Says Bitcoin Has Bottomed as ETF Outflows Hit Record $5 Billion and Strategy's Premium Collapses - BigGo Finance",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93OTFkR0Uwemkwc2ZEaTgtQVdieEswN0laYURLSWtWLWlKTzY5WDFZbDhTempWQ3hlRmtHRm9jd0I3c29sTVNicjRXQXpIQkpidV9mVEpSU1ZmU01sVUxTZC1xNU9yS203d0JuZFAtcjVlQThDYUE?oc=5",
+  "timestamp": 1795816940.7731187
+ },
+ {
+  "coin": "LINK",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Crypto News Today: Binance Ends Freeze, Fidelity Files LINK ETF - CoinMarketCap",
+  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5EZ19MRzdjZkRCenRzeDl3d29RNEpIQVRMVzFJWU41OVN6bmE1NnVxNW1jUmxwWUVKZklxT21pXzZXQXpDb28zM1BGTUxweTdqeEhSQi1WaVpHQWdxZTZnc2dNU2JfdXVNN3d3NlZ6R2plbDJqUkdSal9iaw?oc=5",
+  "timestamp": 1795816941.3155243
  }
 ]

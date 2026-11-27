@@ -1,22 +1,22 @@
 {
-  "computed_at": 1795813345.2269855,
-  "score": -35.6,
+  "computed_at": 1795816946.3497713,
+  "score": -37.3,
   "label": "BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -73.5,
-      "note": "1h ↓ RSI 37 · 4h ↓ RSI 44 · 1d ↓ RSI 26 · 7d -2.3%",
+      "score": -74.2,
+      "note": "1h ↓ RSI 36 · 4h ↓ RSI 43 · 1d ↓ RSI 26 · 7d -2.3%",
       "weight": 0.3
     },
     "news": {
-      "score": -15.3,
-      "note": "133 headlines · 12 bullish / 16 bearish",
+      "score": -22.0,
+      "note": "138 headlines · 11 bullish / 21 bearish",
       "weight": 0.2
     },
     "macro": {
-      "score": 19.8,
-      "note": "S&P +1.6% · DXY +0.4% · VIX 24",
+      "score": 20.2,
+      "note": "S&P +1.6% · DXY +0.3% · VIX 24",
       "weight": 0.1
     },
     "us10y": {
@@ -30,27 +30,27 @@
       "weight": 0.1
     },
     "global": {
-      "score": -56.6,
-      "note": "mcap -3.8% 24h · BTC dom 57.7%",
+      "score": -58.3,
+      "note": "mcap -3.9% 24h · BTC dom 57.7%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": 3.4,
-      "note": "funding +0.0013% · taker buy 50.1%",
+      "score": 3.2,
+      "note": "funding +0.0020% · taker buy 50.1%",
       "weight": 0.1
     }
   },
   "headlines": [
+    {
+      "title": "XRP ETF Price Forecast — XRP ($10.59) $12.27 Upside Target on First November Inflows and $1.13 Breakout",
+      "impact": "Bullish"
+    },
     {
       "title": "Bitcoin or XRP: Which Is Closer to Getting Back to Its All-Time High?",
       "impact": "Bullish"
     },
     {
       "title": "Tariff Risks vs Rate Hike Fears in the Latest U.S. Stock Selloff",
-      "impact": "Bearish"
-    },
-    {
-      "title": "Gold Rebounds Above $3,660: What Fed Rate Hike Bets Mean Next",
       "impact": "Bearish"
     }
   ],
