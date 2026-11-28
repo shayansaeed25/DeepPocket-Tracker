@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795827741.7255747,
-  "score": -34.9,
+  "computed_at": 1795831343.501244,
+  "score": -34.1,
   "label": "BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -64.2,
-      "note": "1h ↓ RSI 41 · 4h ↓ RSI 45 · 1d ↓ RSI 27 · 7d +1.6%",
+      "score": -61.8,
+      "note": "1h ↓ RSI 45 · 4h ↓ RSI 47 · 1d ↓ RSI 28 · 7d +1.6%",
       "weight": 0.3
     },
     "news": {
-      "score": -23.4,
-      "note": "132 headlines · 11 bullish / 19 bearish",
+      "score": -24.8,
+      "note": "129 headlines · 11 bullish / 17 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -30,17 +30,21 @@
       "weight": 0.1
     },
     "global": {
-      "score": -51.3,
-      "note": "mcap -3.4% 24h · BTC dom 57.8%",
+      "score": -49.2,
+      "note": "mcap -3.3% 24h · BTC dom 57.8%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": 1.3,
-      "note": "funding +0.0055% · taker buy 49.4%",
+      "score": 2.5,
+      "note": "funding +0.0056% · taker buy 49.8%",
       "weight": 0.1
     }
   },
   "headlines": [
+    {
+      "title": "Bitcoin Falls Below $60,000 Again; $228 Million Liquidated in a Single Hour, U.S. ETFs Post Record Monthly Outflows",
+      "impact": "Bearish"
+    },
     {
       "title": "Markets Bet on Fed, ECB and BOE Rate Hikes Over the Next 12 Months as High Rates Could Last Until 2031",
       "impact": "Bearish"
@@ -48,10 +52,6 @@
     {
       "title": "Bank Economist Warns Three Consecutive Interest Rate Hikes Could Begin Next Month",
       "impact": "Bearish"
-    },
-    {
-      "title": "Bitcoin or XRP: Which Is Closer to Getting Back to Its All-Time High?",
-      "impact": "Bullish"
     }
   ],
   "last_report_ts": 1795813347.8334599,
