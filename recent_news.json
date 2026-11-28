@@ -1,30 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin ETF outflows set a monthly record at $4.71B in November - CryptoRank",
-  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbG9NQW5fQ1gxY2JnMFhhZ1FWXy03TE9XLUJhTW1hel9JQWRDNkxaejd0QlNaMG00dGdHb1ozZjBRTWRnVlF5dm1ULTIxVWE4cHdZbVJfRnU0TTFwU1A0bzVFRUtBanpaamhEQkk1dnllZGxkeU9vOUlQWnYtQWlfQmRFTDBOdw?oc=5",
-  "timestamp": 1795579339.6931107
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Loss Ratio Hits FTX-Era High as ETF Outflows Reach $4.3B - Cryptonews.net",
-  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03TkFRclJYZTFnZG9UNS0wUkhOSjcwd05QeDVIWnBEbE9iVUkwTFoxeDIyRUhMQ0VtTExhYWlTWWpOVFo5RlE0czVwdEpqSFRBWmVSNlM1ZEE?oc=5",
-  "timestamp": 1795579340.2658846
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin loses the $60,000 mark; record $4.7 billion ETF outflows exacerbate selling pressure - \u5bcc\u9014\u725b\u725b",
-  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPX1NLM0ktbGg3V01FeHI1emtrbmdvVHR5aVpFdW5paWp6aDFUS2NrcTRUdjV2RURXcllrRGZwQ2g0aUMxS2JQTUtQOFVpckV2ME1oWVBUdHdXT2hEZlFHbDc1OW5jUkRJUnR4alVwLXdwemlqMWM0MmRyWGdXZExjeUYwZVFKbkdueGhWSGk4LVFXMWlFbGhTY2l3?oc=5",
-  "timestamp": 1795579340.845861
- },
- {
-  "coin": "BTC",
   "category": "Regulation",
   "impact": "Mixed",
   "title": "Bitcoin, ether get CFTC staff nod for expense requirements, Ethereum Foundation doubles security team, and more",
@@ -910,5 +886,21 @@
   "title": "Crypto Borrowers Cut Debt as ETF Outflows Mount - Korea IT Times",
   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tUExIOXpYanFET2xGbmZFeVRYcGFYa1hlTmpPQnZXLWZ3UWZBd0d2QmZNN3ZlWEEydXhJVkhzdjYzaGFIbnN6TWp6MXZZeG1ZM0lmTUFkb1dZdTluaVBGcl9VWEhab0VWTE9QakQ2bFk?oc=5",
   "timestamp": 1795834938.4131503
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "iShares Bitcoin Trust ETF (IBIT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+  "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zdVh2bVo0bDFzNGdLOUJkYVBxMW1Fa0pkcnZyTHktRnFaZ0hIWWFCdXR6cHlGZm9mOERJeG1vbU9HZmVqVE9hbmVXREZtQTUwOXc?oc=5",
+  "timestamp": 1795842142.3835037
+ },
+ {
+  "coin": "BTC",
+  "category": "Listing",
+  "impact": "Bullish",
+  "title": "Malaysia\u2019s First Shariah Bitcoin ETF Lists Dec. 2 at a 0.84% All-In Cost - Cryptonews.net",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OWkZYN3drMmpRWUl4aExOSkFLOVhaekVnam5SMVNka0FWcFpiY3l1bnc1RVNmYWtGM0NqakdqNU94NXB0cE9tRHZxbjhrNEhHM2RMRjBDOVY?oc=5",
+  "timestamp": 1795842142.872261
  }
 ]
