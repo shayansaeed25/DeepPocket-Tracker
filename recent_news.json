@@ -1,22 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin falls below $59,000 as November ETF outflows approach $5 billion - Investing.com",
-  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSTBkMG93STB0WlRoTFVSa0dNSGltWXg4OWxUa2pXYVREaElrMmRXSlJUUnlJMkZKR2djT0UzRVNLT3ZJb3dCbzUxcFdZTGt6bTVySmt4bGdfelV5N1FWZGllNUNNMFVYUkdhelNsRWZDWUZyUlB2Qlg1VERWMHNpaDN0Z0lfbFE0ZW0zS0czbG9TOXBMalB5OVg5dzZnaEoyekRhUlJRVDZIdnhXdWtDVFZFVXUzZw?oc=5",
-  "timestamp": 1795608153.0093634
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin holds up better than ether as stocks slide, ETF outflows hit sixth day - CoinDesk",
-  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUFhzaDdWajNwYTlhWGl6LVlQazYyckdleTJWYU5KNW9XdmdHTkJWODhNM1FtUlFGMmU3eUtMZmprRS0yTlR1U3hmbFFLdUd1TEoybXBnSUhHeVhNRDI4Q2VtTUlFYkFXcTh1UzdiZjNXZFNZRnNOZVFObVM1TWFFVVNQbktpRmdzVzQ0YzBSVFA3XzNuQXJGQktWLWFyWHdXZTh5cjJNR0FBc3I0RndWeWpB?oc=5",
-  "timestamp": 1795608154.0953732
- },
- {
-  "coin": "BTC",
   "category": "Regulation",
   "impact": "Bearish",
   "title": "\u2018Don\u2019t mess with X,\u2019 Elon Musk says after platform secures default judgment in alleged bitcoin content-farm case",
@@ -830,5 +814,13 @@
   "title": "Bitcoin price falls below $60,000 as whales buy dip, ETF outflows mount - Investing.com",
   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVG5RbV9WdldtMjdNQUg3YlpJeHNjYmEzeVFyLXVQV1NkSW84TFRKMXQ0LVM3cG42WkZsYWtpRHMxZ0lnQ2RnRFAwc0NuU01FZmdSZ2dhNklrQzNLMkFjM2dzTU94MGlOMnVXczl6SVBsU1hwZmpEZEJlVXk3ZzBDZXVkSFg4cXhLem9lNFBrRWtNR0x3Y3pTRzZGODdxQTFuWWZpVi1peEdGdGhQZy0zNVJOSmRtaGVhS21qNERFTlhESHNMc3lIZWowYw?oc=5",
   "timestamp": 1795863742.853205
+ },
+ {
+  "coin": "XRP",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bullish",
+  "title": "Key facts: XRP lending countdown; ETF inflows return; 31.1B burn urged - TradingView",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYjQxR0tSZnlCQ010RW14eTd3LUNNVEM1ZGhXeGhYeUhpVG9Xc29QakNadHVJbFlreTAyZFpBd3BEb1BJRHpMT1dnczcxN2FfUzhjZV9PdG9kVllyX1kySTZ3Ty1PVG5vb3FFZGU2MENQSjJIYW11elJJRUNva1FLZFVKWURMZGxTc2tqSzhlZ2hNM2szVk9DaDZwZXdsb0tqZjJGbkVMS3BCN0NpQ3FpWUhVWmhETmVBYjdQS2tjYThKTUZtblVvVA?oc=5",
+  "timestamp": 1795869815.2918584
  }
 ]
