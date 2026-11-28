@@ -1,53 +1,5 @@
 [
  {
-  "coin": "XRP",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Failed Recovery Leaves XRP Below $1 as ETF Outflows Hit Four Weeks - Bitcoin Foundation",
-  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ2NWbEwtMDgtdTNGYkcyMUt2OVdMR3k3akxIMm1QeEpiX2pZcUlfX2dTRkt1cVhnWk9IOFlvbE1tZEdhaGUtdjhhTzNDalBmRHhNQ0tsVjlsTjJoUDJ4Q1Y4aDB5ZXpoSVRRTHV3Yi15eEY1Mlg3V1M4N2NRSExyZ0lmOGlfNTBkSm1DQmpIZXZwZ2Q0bEdSdU11aWR0WlRfeHpZLThXM3FmZU1vc05z?oc=5",
-  "timestamp": 1795600944.743747
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Binance adds five tokenized securities for spot and margin trading, including BlackRock\u2019s Bitcoin ETF - Crypto News",
-  "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5yZElDQVVXM3ZXNGFmU1hmNmtsWjhKWkV1QUphZ1EtQTdDOG9Gc29WRGNKUTBnZk42Nlk5czF3cWx3NzEtUjRjZnJXN0Zhb2UtT3JUUE54M3NxdnJ1X1ppSFJZd01XOWF5UlpZYk1aY0RWS1FrM2ZoXzdR?oc=5",
-  "timestamp": 1795600945.6604843
- },
- {
-  "coin": "ETH",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Ethereum Price Prediction: Peter Brandt Warns of $500 Crash Amid Persistent ETF Outflows - CoinGape",
-  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNY1VNbU9Fd1FHb2JLYWp2UE5OOTBOY3A2Y2ktSlZVbWg5aDI0QW1WQXlPWDhBbHNNMk41T1pCOEZfc0ZjaUVpT3R1eDBtVkhLNVVfMmtJaHRNUFVqd1Npb19vbzRJYXdwV2ZHMFhyWVoxUUpKZEo4aUFKMEZyUlJrZi00aUM5M2RISlU2VTl3alBFTzkwNHRNYWl6U01OTVFEQlF3Ukk5eWE3b0FBUkU4VVRXenNQS1U?oc=5",
-  "timestamp": 1795600949.2237678
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin ETF Outflows Hit Record $4.94B in November - KuCoin",
-  "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOay1ncFAtamxIRGtZYU1DNndwN3l4WHd5UXdDZnFkcnRES0FfVlNzOTB6Y0FkWE1jWWRqVjJucUQ2b20zdDdNM0hCdVZzSmltbUR5eUlpTUFEYjI1MGlnckh1RXV6YnZGZDdQUDRaSHFSd1RzZ0RreEViNDhzbG5tU3JRU3BuRUNBdTYw?oc=5",
-  "timestamp": 1795600949.8323822
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "Fidelity Wise Origin Bitcoin Fund (FBTC) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-  "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBES1ZiSENsR0pyTnh6QU1GSGNnMFFkeEFQbDNjSGJxOFZXUWY4WDJzc19KVm5oMWx4YjFvSFVBc3Q3Mk54aEUyRDZjWU9ZcUJ3SXc?oc=5",
-  "timestamp": 1795604541.368031
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Price Risks $55K Crash After US Spot ETFs\u2019 Record Biggest Monthly Outflow Since Launch - CoinGape",
-  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSVNoQ3I1b1J5aGhWYV9KZlhvUWtVUXVfMXMtam12RnZ1SUZGWnMtM1F5U1ZPd3drV2dibkcwQ2tFV0Jubm83Q013ZjJjbzhlc3NpVmRYQVp4ZC1PQktkaDRULUpwSDRORFk4TDR2ZzNoV2pxekZGLVhjV28tLUp2RnNVd2Npd0N0SFBheG9YbVhrQlJURjRMNkN5YWVETXBST3FGaWVpVW5xR0FMUC1PRGVJUjhFX09JeklxYmh5NA?oc=5",
-  "timestamp": 1795604541.9478662
- },
- {
   "coin": "BTC",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
@@ -870,5 +822,13 @@
   "title": "BlackRock Bitcoin ETF Loses $2.8 Billion in Eight Consecutive Trading Sessions - TradingView",
   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVkk5cXI2b042dmVoanQ4a25WMDd4bjE0VHNKLWZUa2wyNHJyblotQlFwejJXUVN5QWozM3BpdUZ2NjZvV2xJbzRtU1NxNF9EMWdrNnd4XzlPZjV2N01TWkxuUk5HVGt2OWhNYmRGWUpQUWdoWVNNT2FXaXQ5MzdXM0ozcHBqLWw1Mm8tRlROdHhVZkEwTGFYOTNHa1BDM09hZXpvRG12UXhVRmY1NGhBellsU2dISzI3LXBFT3A3MUpkWU1BLXFuc0d1Skc0dTg2?oc=5",
   "timestamp": 1795860141.7523115
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin price falls below $60,000 as whales buy dip, ETF outflows mount - Investing.com",
+  "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVG5RbV9WdldtMjdNQUg3YlpJeHNjYmEzeVFyLXVQV1NkSW84TFRKMXQ0LVM3cG42WkZsYWtpRHMxZ0lnQ2RnRFAwc0NuU01FZmdSZ2dhNklrQzNLMkFjM2dzTU94MGlOMnVXczl6SVBsU1hwZmpEZEJlVXk3ZzBDZXVkSFg4cXhLem9lNFBrRWtNR0x3Y3pTRzZGODdxQTFuWWZpVi1peEdGdGhQZy0zNVJOSmRtaGVhS21qNERFTlhESHNMc3lIZWowYw?oc=5",
+  "timestamp": 1795863742.853205
  }
 ]

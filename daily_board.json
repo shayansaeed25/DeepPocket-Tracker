@@ -13,6 +13,32 @@
    "timeframe": "1h",
    "session": "LONDON_SESSION",
    "time": "08:03"
+  },
+  {
+   "key": "TAOUSDT|SHORT|STRATEGY",
+   "symbol": "TAOUSDT",
+   "direction": "SHORT",
+   "source": "Consensus: Elite Trend, Future Admiral, Apex Trend, Signal Edge",
+   "score": 93.2,
+   "tier": "A",
+   "price": 183.0,
+   "stop": 186.40354771,
+   "timeframe": "1h",
+   "session": "LONDON_SESSION",
+   "time": "11:04"
+  },
+  {
+   "key": "DOTUSDT|SHORT|STRATEGY",
+   "symbol": "DOTUSDT",
+   "direction": "SHORT",
+   "source": "Consensus: Future Admiral, Smart Vector, Apex Trend",
+   "score": 87.2,
+   "tier": "A",
+   "price": 0.649,
+   "stop": 0.6545165,
+   "timeframe": "1h",
+   "session": "LONDON_SESSION",
+   "time": "11:04"
   }
  ],
  "posted_slots": [
