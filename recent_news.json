@@ -3,22 +3,6 @@
   "coin": "BTC",
   "category": "Regulation",
   "impact": "Mixed",
-  "title": "Bitcoin, ether get CFTC staff nod for expense requirements, Ethereum Foundation doubles security team, and more",
-  "link": "https://www.theblock.co/newsletters/the-daily/2026-11-25-bitcoin-ether-cftc-staff-nod-ethereum-foundation-doubles-security-team-more-crypto-news-446074",
-  "timestamp": 1795586539.8154418
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "BlackRock Says Markets Overprice Fed Hikes: Will Bitcoin Catch a Break? - Yahoo Finance",
-  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUHVCSGt4cjhnQVNXUEZIQ3N6X2J2YVJ3NkRmRzQyZmgxd0pidWpzdmlMU0hKUDFXU1EyaFRfNGFtNWEtNHJraURIaVgtXzJmZ3FsbUh0Y2JWYXpCdHQ3MWR2Qkwxdk1xcThLcTUyQVh2M3VEUHoyWFZhNGpIMndPWDJ6SlBIRjlrSFowazdKdVdkeUFJeVJHc1hyUWxHd2JRWG1z?oc=5",
-  "timestamp": 1795586540.9623916
- },
- {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
   "title": "South Korea\u2019s crypto bill could move stablecoin race beyond token issuance",
   "link": "https://cointelegraph.com/news/south-korea-crypto-bill-stablecoin-race-beyond-issuance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
   "timestamp": 1795590143.6905105
@@ -910,5 +894,21 @@
   "title": "BlackRock leads $389M Bitcoin ETF exodus as November outflows hit a record - Crypto Briefing",
   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcHdrUHBDVkZzVkt3STVFQTV3OUtjWTRaeDYzLVFRaV9mYmpYLUpWR29sOHBQejdwMzRaRE5iU2dFdGZzbWNPMDRUcW16Yndsc19OdnJ6Sk5jSEpKNkxYVnZQMGRhbU5nQmoxbjdDZDVxYTZOU0ZQTHNxMC03ZUp0ZEZB?oc=5",
   "timestamp": 1795845739.1993124
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin price today falls below $60k as whales buy dip, ETF outflows mount - Investing.com",
+  "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVG5RbV9WdldtMjdNQUg3YlpJeHNjYmEzeVFyLXVQV1NkSW84TFRKMXQ0LVM3cG42WkZsYWtpRHMxZ0lnQ2RnRFAwc0NuU01FZmdSZ2dhNklrQzNLMkFjM2dzTU94MGlOMnVXczl6SVBsU1hwZmpEZEJlVXk3ZzBDZXVkSFg4cXhLem9lNFBrRWtNR0x3Y3pTRzZGODdxQTFuWWZpVi1peEdGdGhQZy0zNVJOSmRtaGVhS21qNERFTlhESHNMc3lIZWowYw?oc=5",
+  "timestamp": 1795849341.1322873
+ },
+ {
+  "coin": "XRP",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin ETF outflows hit $5.78B as XRP funds draw buyers - Crypto News",
+  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MVEU5SV9PV1k4cVRoSjA3WlV1MlhWcWs0SVFVQWlIXzVIYzYtM2FvVmVUaUdGQTZYb3JlYWctRVJOX3lfUTU0ZjZxekZPcTFlX2huTGNSZnNsTElpVzVCeFNBS0RUc3c4NWVWU0dyNDI?oc=5",
+  "timestamp": 1795849341.6088774
  }
 ]
