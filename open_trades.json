@@ -15,7 +15,7 @@
     "direction": "SHORT",
     "action": "SELL",
     "price": 0.3042,
-    "stop_loss": 0.3042,
+    "stop_loss": 0.3014622,
     "take_profit_1": 0.3014622,
     "take_profit_2": 0.2985723,
     "risk_pct": 1.3,
@@ -103,14 +103,15 @@
     "created_ts": 1795619016662.2224,
     "position_size_usd": 100.0,
     "quantity": 328.7310979618672,
-    "last_price": 0.3002,
-    "checked_through_ts": 1795842060000,
-    "last_checked_ts": 1795842060000,
-    "max_favorable_pct": 1.3149243918474718,
+    "last_price": 0.2992,
+    "checked_through_ts": 1795845660000,
+    "last_checked_ts": 1795845660000,
+    "max_favorable_pct": 1.643655489809337,
     "max_adverse_pct": -0.7560815253122799,
     "tp1_hit": true,
     "original_stop_loss": 0.308146,
     "break_even_activated": true,
-    "position_status": "TP1_HIT"
+    "position_status": "TP1_HIT",
+    "ratchet_locked_tp1": true
   }
 ]

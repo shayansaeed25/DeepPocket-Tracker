@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795842147.529959,
-  "score": -36.1,
+  "computed_at": 1795845744.6401,
+  "score": -38.8,
   "label": "BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -63.9,
-      "note": "1h ↓ RSI 42 · 4h ↓ RSI 45 · 1d ↓ RSI 27 · 7d +1.6%",
+      "score": -65.5,
+      "note": "1h ↓ RSI 39 · 4h ↓ RSI 43 · 1d ↓ RSI 26 · 7d +1.6%",
       "weight": 0.3
     },
     "news": {
-      "score": -19.0,
-      "note": "130 headlines · 13 bullish / 16 bearish",
+      "score": -26.9,
+      "note": "127 headlines · 11 bullish / 19 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -30,13 +30,13 @@
       "weight": 0.1
     },
     "global": {
-      "score": -70.5,
-      "note": "mcap -4.7% 24h · BTC dom 57.8%",
+      "score": -76.2,
+      "note": "mcap -5.1% 24h · BTC dom 57.8%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -1.3,
-      "note": "funding +0.0060% · taker buy 48.6%",
+      "score": -1.8,
+      "note": "funding +0.0053% · taker buy 48.4%",
       "weight": 0.1
     }
   },
@@ -50,7 +50,7 @@
       "impact": "Bearish"
     },
     {
-      "title": "Markets Bet on Fed, ECB and BOE Rate Hikes Over the Next 12 Months as High Rates Could Last Until 2031",
+      "title": "US Spot Bitcoin ETFs Bleed for Eighth Straight Session; November Outflows Hit Record $5.78 Billion",
       "impact": "Bearish"
     }
   ],

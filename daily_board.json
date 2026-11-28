@@ -1,62 +1,7 @@
 {
- "date": "2026-11-27",
- "entries": [
-  {
-   "key": "LINKUSDT|LONG|STRATEGY",
-   "symbol": "LINKUSDT",
-   "direction": "LONG",
-   "source": "Consensus: Alpha Prime, Elite Trend, Global Core, 9005",
-   "score": 63.1,
-   "tier": "B",
-   "price": 9.599,
-   "stop": 9.43131541,
-   "timeframe": "1h",
-   "session": "SESSION_TRANSITION",
-   "time": "05:04"
-  },
-  {
-   "key": "JUPUSDT|LONG|STRATEGY",
-   "symbol": "JUPUSDT",
-   "direction": "LONG",
-   "source": "Consensus: Alpha Prime, Elite Trend, Global Core, 9005",
-   "score": 67.1,
-   "tier": "B",
-   "price": 0.2533,
-   "stop": 0.24818315,
-   "timeframe": "1h",
-   "session": "LONDON_NY_OVERLAP",
-   "time": "13:03"
-  },
-  {
-   "key": "DOTUSDT|SHORT|STRATEGY",
-   "symbol": "DOTUSDT",
-   "direction": "SHORT",
-   "source": "Consensus: Prime Edge, Elite Trend, Apex Trend",
-   "score": 100.0,
-   "tier": "A",
-   "price": 0.657,
-   "stop": 0.6700849,
-   "timeframe": "1h",
-   "session": "LONDON_NY_OVERLAP",
-   "time": "15:03"
-  },
-  {
-   "key": "ETHUSDT|SHORT|STRATEGY",
-   "symbol": "ETHUSDT",
-   "direction": "SHORT",
-   "source": "Consensus: Elite Trend, Global Core, Quant Prime",
-   "score": 100.0,
-   "tier": "A",
-   "price": 1654.84,
-   "stop": 1684.63419991,
-   "timeframe": "1h",
-   "session": "LONDON_NY_OVERLAP",
-   "time": "15:03"
-  }
- ],
+ "date": "2026-11-28",
+ "entries": [],
  "posted_slots": [
-  6,
-  12,
-  18
+  6
  ]
 }
