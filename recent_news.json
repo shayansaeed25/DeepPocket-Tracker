@@ -1,45 +1,5 @@
 [
  {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
-  "title": "South Korea\u2019s crypto bill could move stablecoin race beyond token issuance",
-  "link": "https://cointelegraph.com/news/south-korea-crypto-bill-stablecoin-race-beyond-issuance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-  "timestamp": 1795590143.6905105
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin extends losses below $59,000 as ETF outflows weigh - Investing.com",
-  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSTBkMG93STB0WlRoTFVSa0dNSGltWXg4OWxUa2pXYVREaElrMmRXSlJUUnlJMkZKR2djT0UzRVNLT3ZJb3dCbzUxcFdZTGt6bTVySmt4bGdfelV5N1FWZGllNUNNMFVYUkdhelNsRWZDWUZyUlB2Qlg1VERWMHNpaDN0Z0lfbFE0ZW0zS0czbG9TOXBMalB5OVg5dzZnaEoyekRhUlJRVDZIdnhXdWtDVFZFVXUzZw?oc=5",
-  "timestamp": 1795590145.4009693
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin Breaks Below $60,000 Again as November ETF Outflows Top $4.7 Billion - Businesskorea",
-  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RMk5FYUNodGdNcmZKakFUNFc5cXNmZ1FvbGZUVWdOb1ZUcXB0Uk9yc3hjcThkQWQtaHZ3ZWltVG03YU01VXV3ZXFrM1V3RlI5QnJHOUxCSXYtZUh4WnBHVFRJTWFjc2ZFNVVheWZZcnduVkQ3?oc=5",
-  "timestamp": 1795590145.867664
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bullish",
-  "title": "BlackRock's Martin S. Small to Present at the 2026 Goldman Sachs US Financial Services Conference on December 8th - Finviz",
-  "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd3dGYmFEVmh1TEVlSzFuZUc3UEdaN0NUNWZrWmtmTDJQU05IcDE0LWxyOXJMTTVkRl9pMGUxVi02MUEybnhaNVh0bVdLYjBLTG5SWFVNUV80cmJYYlZzQWZ1TVFDZ05mNF9kRE5FZVF6SXc2ZTU0QWhmSFoweXU2cU42YzJra3NNaWoxRG5udTFOOVFTaHJQS0FaeXVtSG1rSF8tZXVXZndlNHZ1N2JxV211TXZlNUZuUkJidUZvazF0V1UxN2JETURXNGc2ZGF2MGRfRHhzbXhTUQ?oc=5",
-  "timestamp": 1795590146.361436
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin spot ETFs recorded a $232 million net outflow on November 24, marking the sixth consecutive day of outflows. - KuCoin",
-  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRm9KaVVBOVBlWEJralNBSUxKbEZKSTFEY19xZEg0czE5bE83R1c0dlZ4UWJVaHVnTTV5TFduMXlZbWJpbmFNaFBFQThBSlVFU29feTM4c0ZLamlLOEJNdW1tUVd5VlNkUFpTcXItMWJmTjNlV2k3b3JqeUFLeFJOcmxXZWg2dXJTSWdYdnJHajJUMTZzams0MjhOSWZ4Z1lrNGhXdW40b18zNDIyaHdRaEJNR1lHdEo2YkFZ?oc=5",
-  "timestamp": 1795593738.2193358
- },
- {
   "coin": "XRP",
   "category": "ETF / Institutional Flow",
   "impact": "Bearish",
@@ -910,5 +870,13 @@
   "title": "Bitcoin ETF outflows hit $5.78B as XRP funds draw buyers - Crypto News",
   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MVEU5SV9PV1k4cVRoSjA3WlV1MlhWcWs0SVFVQWlIXzVIYzYtM2FvVmVUaUdGQTZYb3JlYWctRVJOX3lfUTU0ZjZxekZPcTFlX2huTGNSZnNsTElpVzVCeFNBS0RUc3c4NWVWU0dyNDI?oc=5",
   "timestamp": 1795849341.6088774
+ },
+ {
+  "coin": "BTC",
+  "category": "ETF / Institutional Flow",
+  "impact": "Bearish",
+  "title": "Bitcoin falls 26% in a month as ETF outflows hit $5.78B - Crypto News",
+  "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UYTF4YVkyMnlHOHp2eWdBdVQyX0U5cjYyY21McWRveUlXbUNZekVxckY1UjFHWjd5TjdFTUhGSXFxOVAxUXRxVFcxc090dmNiRy1JZl9neWlHaXgtOFVmMVlNU2JmWWFGT2xKUzhZVDBvTVp3djNiVA?oc=5",
+  "timestamp": 1795852942.060483
  }
 ]

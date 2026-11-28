@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795849347.0503726,
-  "score": -40.0,
+  "computed_at": 1795852946.7011569,
+  "score": -40.7,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -65.7,
-      "note": "1h ↓ RSI 39 · 4h ↓ RSI 43 · 1d ↓ RSI 26 · 7d +1.6%",
+      "score": -65.0,
+      "note": "1h ↓ RSI 40 · 4h ↓ RSI 44 · 1d ↓ RSI 26 · 7d +1.6%",
       "weight": 0.3
     },
     "news": {
-      "score": -29.3,
-      "note": "127 headlines · 9 bullish / 20 bearish",
+      "score": -34.7,
+      "note": "128 headlines · 9 bullish / 22 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -30,13 +30,13 @@
       "weight": 0.1
     },
     "global": {
-      "score": -83.0,
-      "note": "mcap -5.5% 24h · BTC dom 57.8%",
+      "score": -80.2,
+      "note": "mcap -5.3% 24h · BTC dom 57.8%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -2.3,
-      "note": "funding +0.0050% · taker buy 48.2%",
+      "score": -2.6,
+      "note": "funding +0.0036% · taker buy 48.1%",
       "weight": 0.1
     }
   },
@@ -46,12 +46,12 @@
       "impact": "Bearish"
     },
     {
-      "title": "XRP ETF Price Forecast — XRP ($10.59) $12.27 Upside Target on First November Inflows and $1.13 Breakout",
-      "impact": "Bullish"
+      "title": "Bitcoin Price Forecast: BTC/USD 37% Crash Tests Yearly Low—Breakdown or Bounce?",
+      "impact": "Bearish"
     },
     {
-      "title": "Is Gold's Selloff Over? What Analysts Say Ahead of the Fed's December Decision",
-      "impact": "Bearish"
+      "title": "XRP ETF Price Forecast — XRP ($10.59) $12.27 Upside Target on First November Inflows and $1.13 Breakout",
+      "impact": "Bullish"
     }
   ],
   "last_report_ts": 1795849349.5183275,

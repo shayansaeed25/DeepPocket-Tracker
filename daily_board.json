@@ -1,6 +1,20 @@
 {
  "date": "2026-11-28",
- "entries": [],
+ "entries": [
+  {
+   "key": "ARBUSDT|SHORT|STRATEGY",
+   "symbol": "ARBUSDT",
+   "direction": "SHORT",
+   "source": "Consensus: Future Admiral, Smart Vector",
+   "score": 90.5,
+   "tier": "A",
+   "price": 0.113,
+   "stop": 0.1139605,
+   "timeframe": "1h",
+   "session": "LONDON_SESSION",
+   "time": "08:03"
+  }
+ ],
  "posted_slots": [
   6
  ]
