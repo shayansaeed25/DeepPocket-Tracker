@@ -1,30 +1,6 @@
 [
  {
   "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Bearish",
-  "title": "\u2018Don\u2019t mess with X,\u2019 Elon Musk says after platform secures default judgment in alleged bitcoin content-farm case",
-  "link": "https://www.theblock.co/news/regulation/2026-11-25-dont-mess-with-x-elon-musk-says-after-platform-secures-default-judgment-in-alleged-bitcoin-content-farm-case-446151",
-  "timestamp": 1795611741.6193435
- },
- {
-  "coin": "BTC",
-  "category": "Regulation",
-  "impact": "Mixed",
-  "title": "Key facts: CFTC Allows Bitcoin Reserves; U.S. Demand Firms; $1B Puts - TradingView",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcUladkk5dEFlZmFEQkx2ZXNNVkp5eFp6UHNSazdQdS1uUnZaVE9POG5RRGFaM0oxd0VGZmhjWXdoNlozUHREVTJmM3B6aXBGdTBMcHhkUkx4RkNkRlNObk03blVaV2FyS2hMNU9RQjNoWnJIQy12cEVxb3RPalpKRUJDbXdfdi1oeGY3aDRKX2tXZG1TX2QwaDZJTzdJaERGMEZoZUI0ZGx3NnlyQm91ZnpsdVY3OW9oTXlMeHBpbGVoZnc?oc=5",
-  "timestamp": 1795611742.9817657
- },
- {
-  "coin": "BTC",
-  "category": "ETF / Institutional Flow",
-  "impact": "Bearish",
-  "title": "Bitcoin steadies as U.S. ETF outflows extend and equity selloff deepens - Traders Union",
-  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOal8yWjNEY2pyRHVKV0p6bUJjMWsyV2IxQktTaWhYdlQtcmdma0JQWUY5WEtkb1ZodldCMEk4WWFCaGxDWnRtRkFDQjNLaXE2ZkNxRF9RdURDRVFsd0dCVWtEM012RVlSekxPQmpNRmRpbWg4SDV1VWdjUHBjNDhCTXUtZHc4V250empxTW83WjJhZ19ZNzBKRTFn?oc=5",
-  "timestamp": 1795611743.6120625
- },
- {
-  "coin": "BTC",
   "category": "Macro / Fed / CPI",
   "impact": "Bearish",
   "title": "BTC Price Slides Again as US PCE Inflation Posts Second-Highest Reading Since Early 2023",
@@ -822,5 +798,13 @@
   "title": "Key facts: XRP lending countdown; ETF inflows return; 31.1B burn urged - TradingView",
   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYjQxR0tSZnlCQ010RW14eTd3LUNNVEM1ZGhXeGhYeUhpVG9Xc29QakNadHVJbFlreTAyZFpBd3BEb1BJRHpMT1dnczcxN2FfUzhjZV9PdG9kVllyX1kySTZ3Ty1PVG5vb3FFZGU2MENQSjJIYW11elJJRUNva1FLZFVKWURMZGxTc2tqSzhlZ2hNM2szVk9DaDZwZXdsb0tqZjJGbkVMS3BCN0NpQ3FpWUhVWmhETmVBYjdQS2tjYThKTUZtblVvVA?oc=5",
   "timestamp": 1795869815.2918584
+ },
+ {
+  "coin": "WLFI",
+  "category": "Delisting",
+  "impact": "Bearish",
+  "title": "Justin Sun calls for Trump family-linked WLFI token to be delisted",
+  "link": "https://cointelegraph.com/news/justin-sun-calls-for-trump-family-linked-wlfi-token-to-be-delisted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "timestamp": 1795874536.8375764
  }
 ]

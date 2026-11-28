@@ -39,6 +39,19 @@
    "timeframe": "1h",
    "session": "LONDON_SESSION",
    "time": "11:04"
+  },
+  {
+   "key": "SUIUSDT|SHORT|STRATEGY",
+   "symbol": "SUIUSDT",
+   "direction": "SHORT",
+   "source": "Consensus: Smart Money CVD Breakdown, Smart Money EMA20 Pullback, Elite Trend, Smart Vector, Apex Trend",
+   "score": 100.0,
+   "tier": "A",
+   "price": 0.6585,
+   "stop": 0.66479676,
+   "timeframe": "1h",
+   "session": "LONDON_NY_OVERLAP",
+   "time": "14:03"
   }
  ],
  "posted_slots": [

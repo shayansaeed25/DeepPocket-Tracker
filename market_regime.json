@@ -1,17 +1,17 @@
 {
-  "computed_at": 1795869819.9017384,
-  "score": -43.6,
+  "computed_at": 1795874542.5243976,
+  "score": -44.7,
   "label": "STRONG BEARISH",
   "coverage": 1.0,
   "components": {
     "btc_momentum": {
-      "score": -69.4,
-      "note": "1h ↓ RSI 32 · 4h ↓ RSI 39 · 1d ↓ RSI 25 · 7d +1.6%",
+      "score": -69.3,
+      "note": "1h ↓ RSI 33 · 4h ↓ RSI 39 · 1d ↓ RSI 25 · 7d +1.6%",
       "weight": 0.3
     },
     "news": {
-      "score": -39.8,
-      "note": "123 headlines · 12 bullish / 25 bearish",
+      "score": -38.6,
+      "note": "121 headlines · 12 bullish / 25 bearish",
       "weight": 0.2
     },
     "macro": {
@@ -30,31 +30,31 @@
       "weight": 0.1
     },
     "global": {
-      "score": -87.1,
-      "note": "mcap -5.8% 24h · BTC dom 58.4%",
+      "score": -100.0,
+      "note": "mcap -7.3% 24h · BTC dom 58.4%",
       "weight": 0.1
     },
     "derivatives": {
-      "score": -2.0,
-      "note": "funding +0.0063% · taker buy 48.3%",
+      "score": -2.3,
+      "note": "funding +0.0062% · taker buy 48.2%",
       "weight": 0.1
     }
   },
   "headlines": [
     {
+      "title": "Donald Trump’s Crypto Empire Is Suddenly Crashing Down—Adding To Bitcoin Price Crash Panic",
+      "impact": "Bearish"
+    },
+    {
+      "title": "Fed December Rate Hike Looms as Core Inflation Climbs to 3.3%: The Numbers",
+      "impact": "Bearish"
+    },
+    {
       "title": "Former Goldman Sachs Strategist Warns: Fed's Hawkish Stance Could Trigger Risk-Asset Selloff That Forces a December Hold",
-      "impact": "Bearish"
-    },
-    {
-      "title": "Fed Rate Hike Odds Rise To Almost 100%: Can AI Selloff Force A Rethink? - TalkMarkets",
-      "impact": "Bearish"
-    },
-    {
-      "title": "Bitcoin Falls Below $60,000 Again; $228 Million Liquidated in a Single Hour, U.S. ETFs Post Record Monthly Outflows",
       "impact": "Bearish"
     }
   ],
-  "last_report_ts": 1795849349.5183275,
+  "last_report_ts": 1795874545.8967013,
   "last_report_label": "STRONG BEARISH",
   "us10y": {
     "level": 4.936,
